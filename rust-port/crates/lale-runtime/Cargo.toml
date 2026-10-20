@@ -1,0 +1,37 @@
+[package]
+name = "lale-runtime"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+lale-core = { path = "../lale-core" }
+lale-assets = { path = "../lale-assets" }
+
+[[bin]]
+name = "lale-inspect"
+path = "src/main.rs"
+
+[[bin]]
+name = "lale-menu-reference"
+path = "src/menu_reference.rs"
+
+[[bin]]
+name = "lale-seq-preview"
+path = "src/seq_preview_main.rs"
+
+[[bin]]
+name = "lale-otopark-background"
+path = "src/otopark_background_main.rs"
+
+[[bin]]
+name = "lale-generation-survey"
+path = "src/generation_survey.rs"
+
+[[bin]]
+name = "lale-map-inspect"
+path = "src/map_inspect.rs"
+
+[[bin]]
+name = "lale-otopark-room"
+path = "src/otopark_room_main.rs"

@@ -1,0 +1,86 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\"evidence_id\":\"ev_419123655e16fc3b99f265596b57447b295ceebbd9f07294504cfb8962f83249\",\"subject\":{\"name\":\"IST-overlay-1694-entry-6f5f.mz\",\"digest\":{\"sha256\":\"16d3fbb728390403d1fa1178833a514e5778f6489df637c15d89ce46cc399a53\"},\"format\":\"dos-mz\",\"architecture\":\"x86\",\"local_path\":\"/home/zabumafu/Projects/LALE DOS/analysis/phase-five/area-fields-20261015/attributes/derived/IST-overlay-1694-entry-6f5f.mz\"},\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"analysis_profile\":{\"provider\":{\"id\":\"ghidra\",\"name\":\"Ghidra\",\"version\":\"12.1.4\"},\"parameters\":{\"target_kind\":\"executable\",\"target_format\":\"dos-mz\",\"architecture\":\"x86\",\"available_architectures\":[\"x86\"],\"import_mode\":\"ephemeral-source-immutable\",\"annotation_policy\":\"atomic-function-entry-metadata-v1\",\"load_image_observations\":\"source-mappings-entry-context-v2\",\"function_body_evidence\":\"complete-inclusive-ranges-v1\",\"function_references\":\"complete-body-and-entry-reference-manager-v2\",\"string_inventory_evidence\":\"defined-data-coverage-v1\",\"location_resolution\":\"explicit-address-exact-entry-symbol-first-v3\",\"instruction_flow_evidence\":\"decoded-return-pcode-v1\",\"function_boundary_observations\":\"ghidra-terminal-call-limitations-v1\",\"no_return_repair\":\"returning-imports-decoded-return-v2\",\"process_launch\":\"inspected-jvm-launch-support-v1\",\"load_image_evidence\":\"independent-mz-mapping-relocations-v1\",\"jump_table_evidence\":\"typed-case-default-blocks-v1\",\"decompiler_jump_loads\":true,\"loader\":\"MzLoader\",\"language_id\":\"x86:LE:16:Real Mode\",\"compiler_spec_id\":\"default\",\"load_segment\":\"0x1000\",\"address_coordinates\":\"linear-byte-offset\",\"analyzer_preset\":\"ghidra-default\"},\"digest\":\"6e0cb3c497fe578b80b35148034b3990a830455505bec16289b3dec0d650396a\"},\"predicate_type\":\"rea.analysis\",\"operation\":\"procedure_pseudo_code\",\"parameters\":{\"procedure\":\"0x420e0\"},\"raw_result\":{\"value\":\"\\nbool __cdecl16far FUN_4000_20e0(int param_1,int param_2)\\n\\n{\\n  int local_4;\\n  \\n  local_4 = 1;\\n  while ((local_4 < 6 &&\\n         (*(int *)(param_1 * 0x28 + local_4 * 2 + -0x5f62) +\\n          (*(uint *)(param_1 * 0x28 + local_4 * 2 + -0x5f62) / 100) * -100 != param_2))) {\\n    local_4 = local_4 + 1;\\n  }\\n  return local_4 != 6;\\n}\\n\\n\",\"limitations\":[]},\"normalized_result\":\"\\nbool __cdecl16far FUN_4000_20e0(int param_1,int param_2)\\n\\n{\\n  int local_4;\\n  \\n  local_4 = 1;\\n  while ((local_4 < 6 &&\\n         (*(int *)(param_1 * 0x28 + local_4 * 2 + -0x5f62) +\\n          (*(uint *)(param_1 * 0x28 + local_4 * 2 + -0x5f62) / 100) * -100 != param_2))) {\\n    local_4 = local_4 + 1;\\n  }\\n  return local_4 != 6;\\n}\\n\\n\",\"confidence\":\"observed\",\"authority\":\"shipped-artifact\",\"environment\":null,\"limitations\":[\"The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.\",\"The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.\",\"Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.\",\"Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.\",\"Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.\",\"External functions and functions without an analyzable body return null; other decompiler failures remain explicit.\",\"DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.\",\"Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module.\"],\"locations\":[],\"evidence_links\":[]}"
+    }
+  ],
+  "structuredContent": {
+    "evidence_id": "ev_419123655e16fc3b99f265596b57447b295ceebbd9f07294504cfb8962f83249",
+    "subject": {
+      "name": "IST-overlay-1694-entry-6f5f.mz",
+      "digest": {
+        "sha256": "16d3fbb728390403d1fa1178833a514e5778f6489df637c15d89ce46cc399a53"
+      },
+      "format": "dos-mz",
+      "architecture": "x86",
+      "local_path": "/home/zabumafu/Projects/LALE DOS/analysis/phase-five/area-fields-20261015/attributes/derived/IST-overlay-1694-entry-6f5f.mz"
+    },
+    "provider": {
+      "id": "ghidra",
+      "name": "Ghidra",
+      "version": "12.1.4"
+    },
+    "analysis_profile": {
+      "provider": {
+        "id": "ghidra",
+        "name": "Ghidra",
+        "version": "12.1.4"
+      },
+      "parameters": {
+        "target_kind": "executable",
+        "target_format": "dos-mz",
+        "architecture": "x86",
+        "available_architectures": [
+          "x86"
+        ],
+        "import_mode": "ephemeral-source-immutable",
+        "annotation_policy": "atomic-function-entry-metadata-v1",
+        "load_image_observations": "source-mappings-entry-context-v2",
+        "function_body_evidence": "complete-inclusive-ranges-v1",
+        "function_references": "complete-body-and-entry-reference-manager-v2",
+        "string_inventory_evidence": "defined-data-coverage-v1",
+        "location_resolution": "explicit-address-exact-entry-symbol-first-v3",
+        "instruction_flow_evidence": "decoded-return-pcode-v1",
+        "function_boundary_observations": "ghidra-terminal-call-limitations-v1",
+        "no_return_repair": "returning-imports-decoded-return-v2",
+        "process_launch": "inspected-jvm-launch-support-v1",
+        "load_image_evidence": "independent-mz-mapping-relocations-v1",
+        "jump_table_evidence": "typed-case-default-blocks-v1",
+        "decompiler_jump_loads": true,
+        "loader": "MzLoader",
+        "language_id": "x86:LE:16:Real Mode",
+        "compiler_spec_id": "default",
+        "load_segment": "0x1000",
+        "address_coordinates": "linear-byte-offset",
+        "analyzer_preset": "ghidra-default"
+      },
+      "digest": "6e0cb3c497fe578b80b35148034b3990a830455505bec16289b3dec0d650396a"
+    },
+    "predicate_type": "rea.analysis",
+    "operation": "procedure_pseudo_code",
+    "parameters": {
+      "procedure": "0x420e0"
+    },
+    "raw_result": {
+      "value": "\nbool __cdecl16far FUN_4000_20e0(int param_1,int param_2)\n\n{\n  int local_4;\n  \n  local_4 = 1;\n  while ((local_4 < 6 &&\n         (*(int *)(param_1 * 0x28 + local_4 * 2 + -0x5f62) +\n          (*(uint *)(param_1 * 0x28 + local_4 * 2 + -0x5f62) / 100) * -100 != param_2))) {\n    local_4 = local_4 + 1;\n  }\n  return local_4 != 6;\n}\n\n",
+      "limitations": []
+    },
+    "normalized_result": "\nbool __cdecl16far FUN_4000_20e0(int param_1,int param_2)\n\n{\n  int local_4;\n  \n  local_4 = 1;\n  while ((local_4 < 6 &&\n         (*(int *)(param_1 * 0x28 + local_4 * 2 + -0x5f62) +\n          (*(uint *)(param_1 * 0x28 + local_4 * 2 + -0x5f62) / 100) * -100 != param_2))) {\n    local_4 = local_4 + 1;\n  }\n  return local_4 != 6;\n}\n\n",
+    "confidence": "observed",
+    "authority": "shipped-artifact",
+    "environment": null,
+    "limitations": [
+      "The session serves operations only after Ghidra reports default auto-analysis complete; incomplete analysis does not expose partial results.",
+      "The imported Program and temporary project are ephemeral and deleted on close. Annotation operations edit session database metadata; original executable bytes are never written.",
+      "Cancelling an active Ghidra request terminates its ephemeral database and discards session annotations. The selected target remains open; the next provider query imports the original artifact again.",
+      "Default-space addresses use lowercase 0x-prefixed hexadecimal; other address spaces use <percent-encoded-space>:0x<hex>.",
+      "Pseudocode is Ghidra decompiler output, not original source and not text-equivalent to Hopper output.",
+      "External functions and functions without an analyzable body return null; other decompiler failures remain explicit.",
+      "DOS MZ uses 16-bit x86 real mode with the Ghidra load segment 0x1000. Returned addresses are linear byte coordinates; they do not identify a unique segment:offset alias.",
+      "Static DOS analysis does not emulate BIOS, DOS interrupts, device ports, or self-modifying unpacking code. Packed targets require a separately identified unpacked artifact for original-program analysis; appended overlays are not the initialized load module."
+    ],
+    "locations": [],
+    "evidence_links": []
+  }
+}

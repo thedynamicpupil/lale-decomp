@@ -1,0 +1,30 @@
+{
+  "original": "lale/IST.EXE",
+  "sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
+  "ranges": [
+    {
+      "file": "analysis/phase-five/character-ui-20261015/otopark/direction-vectors.original.bin",
+      "original_file_offset": 165477,
+      "end_exclusive": 165600,
+      "sha256": "32c7ebd56597d525630f831ff9aef04c8e42e1ad090e5e11fd7a741ec28c1fc5"
+    },
+    {
+      "file": "analysis/phase-five/character-ui-20261015/otopark/ufuk-draw.original.bin",
+      "original_file_offset": 181160,
+      "end_exclusive": 181681,
+      "sha256": "4943406b8fe86ac6730478afe508712a11e12238cc751f2d9ae3417dd86e5f06"
+    },
+    {
+      "file": "analysis/phase-five/character-ui-20261015/otopark/ufuk-load.original.bin",
+      "original_file_offset": 213558,
+      "end_exclusive": 213653,
+      "sha256": "6ea5989af6b1b1f9b45ad3652bf8a5c66f9e36c9dc911988638e7d981213b9cf"
+    },
+    {
+      "file": "analysis/phase-five/character-ui-20261015/otopark/world-palette-load.original.bin",
+      "original_file_offset": 214065,
+      "end_exclusive": 214115,
+      "sha256": "26976125634ba1e81f33f70d28f9c917cc885c6ed3075da6d6ecbe47581ffaba"
+    }
+  ]
+}

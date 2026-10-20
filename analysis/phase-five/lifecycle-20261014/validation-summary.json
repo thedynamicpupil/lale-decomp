@@ -1,0 +1,23 @@
+{
+  "cargo_test_workspace_offline": {
+    "exit_code": 0,
+    "passed": 38,
+    "failed": 0,
+    "assets_unit": 8,
+    "amf": 2,
+    "cmp": 1,
+    "original_assets": 2,
+    "core": 1,
+    "runtime": 24
+  },
+  "cargo_fmt_all_check": {
+    "exit_code": 0
+  },
+  "cargo_build_workspace_offline": {
+    "exit_code": 0,
+    "log": "build.log"
+  },
+  "new_desktop_acceptance": false,
+  "fresh_generation_enabled": false,
+  "controlled_DOS_scope": "menu initialization callback watchpoint only; not character generation/finalization validation"
+}

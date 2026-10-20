@@ -1,0 +1,17 @@
+{
+  "archive": "SAVAS.CKD",
+  "archive_sha256": "ccd592b5e681c2ebde6c8570163ac026ba2855db76e0b0a89c2c0e457fea6705",
+  "member": "YERICON.CMP",
+  "member_offset": 233594,
+  "member_sha256": "335e3320935628613d0d289a31caf6dfef988285700314cea439b4148ac48d8a",
+  "width": 650,
+  "height": 40,
+  "palette": "PALBAT.PAL",
+  "palette_offset": 207230,
+  "palette_sha256": "ee8bc32a4c6ac0c7707c29d00c55b7fc8c431cc8a2e7dd668bd609c00a9efce2",
+  "indices_sha256": "22888f3dabdcbc40d36b0448111efda90cbb36056be5daed380038fa5c58e225",
+  "rust_rgb_equal": true,
+  "palette_binding": "only archive PAL member; runtime association unverified",
+  "decoder": "decode_cmp.py; literal <=128, repeat control-128; exact dimensions required",
+  "preview": "Original size; six-bit RGB expansion (v<<2)|(v>>4); no transparency applied; no runtime calibration"
+}

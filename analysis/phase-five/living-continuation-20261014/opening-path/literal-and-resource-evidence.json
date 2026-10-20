@@ -1,0 +1,296 @@
+{
+  "original_IST_sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
+  "literal_hits": [
+    {
+      "label": "item",
+      "physical_offset": 106240,
+      "load_relative_offset": 97024,
+      "analysis_linear": 162560,
+      "original_DS_offset": 3328,
+      "hex": "73697672692064619f",
+      "cp857": "sivri daş",
+      "literal_only": true
+    },
+    {
+      "label": "nooluyor_distinct",
+      "physical_offset": 120206,
+      "load_relative_offset": 110990,
+      "analysis_linear": 176526,
+      "original_DS_offset": 17294,
+      "hex": "6e6f6f6c75796f72207961616875752121",
+      "cp857": "nooluyor yaahuu!!",
+      "literal_only": true
+    },
+    {
+      "label": "room_label",
+      "physical_offset": 115321,
+      "load_relative_offset": 106105,
+      "analysis_linear": 171641,
+      "original_DS_offset": 12409,
+      "hex": "6f746f7061726b496e",
+      "cp857": "otoparkIn",
+      "literal_only": true
+    },
+    {
+      "label": "area_name",
+      "physical_offset": 125797,
+      "load_relative_offset": 116581,
+      "analysis_linear": 182117,
+      "original_DS_offset": 22885,
+      "hex": "6f746f7061726b",
+      "cp857": "otopark",
+      "literal_only": true
+    },
+    {
+      "label": "narrative",
+      "physical_offset": 122721,
+      "load_relative_offset": 113505,
+      "analysis_linear": 179041,
+      "original_DS_offset": 19809,
+      "hex": "626f73666f72207361766153496e64616e20656c6c692062696c6c6168206b616461720a4f6e63657964692e206f207a616d616e6c61722072496476616e2076650a6164616d6c61724920697374616e62756c2761206b6f6c206b616e61742067657265722c0a53656869722068616c6b49206461206d6167616e646173492c20696e73616e492c0a6c6176754775796c61206261724953206943696e646520796153617264492e2062697a6c6572200a436f63756b6c7547756d757a7520624f796c652074656d697a2076652067557a656c206269720a697374616e62756c276461207961536164496b2e2e2e",
+      "cp857": "bosfor savaSIndan elli billah kadar\nOnceydi. o zamanlar rIdvan ve\nadamlarI istanbul'a kol kanat gerer,\nSehir halkI da magandasI, insanI,\nlavuGuyla barIS iCinde yaSardI. bizler \nCocukluGumuzu bOyle temiz ve gUzel bir\nistanbul'da yaSadIk...",
+      "literal_only": true
+    }
+  ],
+  "provisional_inventory_resource_leads": [
+    {
+      "container": "lale/0GFL.CKD",
+      "ordinal": 12,
+      "name": "INTRO.GFL",
+      "payload_offset": 48603765,
+      "size": 862364,
+      "sha256": "6f9c8c957619f4c884a3da52d375ccdfcee4e7cadab958cd59b8240e70244ed4"
+    },
+    {
+      "container": "lale/0GFL.CKD",
+      "ordinal": 41,
+      "name": "INTRO.GHD",
+      "payload_offset": 217590358,
+      "size": 23466,
+      "sha256": "43ad4f0fdfdd96b4ef5fd5b8b7464454703453f6a91c591912926e594b9cc99a"
+    },
+    {
+      "container": "lale/3D.CKD",
+      "ordinal": 60,
+      "name": "UFUK1.CMP",
+      "payload_offset": 1330446,
+      "size": 9968,
+      "sha256": "14f5c0b1a552f018269fee7f1aae5c09d7dae57dc023aee121d4bfc590988e84"
+    },
+    {
+      "container": "lale/FRPOS.CKD",
+      "ordinal": 18,
+      "name": "PC1",
+      "payload_offset": 85898,
+      "size": 1543,
+      "sha256": "54117d4f13362c882f0248a7170610e9884d592d19610a40c501addfc320fb5a"
+    }
+  ],
+  "bounded_CKD_phrase_search": [
+    {
+      "path": "lale/0GFL.CKD",
+      "hits": [
+        {
+          "needle_ascii": "bosfor sava",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "sivri da",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "nooluyo",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "neydi ",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "otopark",
+          "physical_offsets": []
+        }
+      ]
+    },
+    {
+      "path": "lale/3D.CKD",
+      "hits": [
+        {
+          "needle_ascii": "bosfor sava",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "sivri da",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "nooluyo",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "neydi ",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "otopark",
+          "physical_offsets": []
+        }
+      ]
+    },
+    {
+      "path": "lale/FRPOS.CKD",
+      "hits": [
+        {
+          "needle_ascii": "bosfor sava",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "sivri da",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "nooluyo",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "neydi ",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "otopark",
+          "physical_offsets": []
+        }
+      ]
+    },
+    {
+      "path": "lale/IKON.CKD",
+      "hits": [
+        {
+          "needle_ascii": "bosfor sava",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "sivri da",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "nooluyo",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "neydi ",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "otopark",
+          "physical_offsets": []
+        }
+      ]
+    },
+    {
+      "path": "lale/IVIR.CKD",
+      "hits": [
+        {
+          "needle_ascii": "bosfor sava",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "sivri da",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "nooluyo",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "neydi ",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "otopark",
+          "physical_offsets": []
+        }
+      ]
+    },
+    {
+      "path": "lale/MUZIK.CKD",
+      "hits": [
+        {
+          "needle_ascii": "bosfor sava",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "sivri da",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "nooluyo",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "neydi ",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "otopark",
+          "physical_offsets": []
+        }
+      ]
+    },
+    {
+      "path": "lale/SAVAS.CKD",
+      "hits": [
+        {
+          "needle_ascii": "bosfor sava",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "sivri da",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "nooluyo",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "neydi ",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "otopark",
+          "physical_offsets": []
+        }
+      ]
+    },
+    {
+      "path": "lale/SOUNDS.CKD",
+      "hits": [
+        {
+          "needle_ascii": "bosfor sava",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "sivri da",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "nooluyo",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "neydi ",
+          "physical_offsets": []
+        },
+        {
+          "needle_ascii": "otopark",
+          "physical_offsets": []
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Member identities are frozen-inventory leads, not runtime dependency proof",
+    "No entire post-creation call path established",
+    "Short nool byte matches in audio must not be interpreted as dialogue"
+  ]
+}

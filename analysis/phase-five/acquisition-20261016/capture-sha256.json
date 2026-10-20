@@ -1,0 +1,20 @@
+{
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-CA-STUB.BIN": "8d21fdc1ed057860719f83aea745623ba23c432043c61eee751e362a0ddbd33f",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-CORRECTED-SWAP-PARAMS.BIN": "90e63fe319a8782f619a1560266aa6890e4a9a318738ee5419346a1352d7a534",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-INITIAL-PANEL83.BIN": "46b5f17d0f29431ec812fee7ed6e61a8d3c29fdd75a7f3f4866c7837d3918ac7",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-INITIAL-POLL-DS.BIN": "0024bd4c211af89846b584b9bb47d3e01ae66707aadb72257cafc043d12e02ae",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-INITIAL-POLL-SS.BIN": "603edcef460551b4ea00cd7507791883efc08d87e4efe4763443cc1b2806811b",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-INITIAL-POLL-ST.BIN": "bc3b745667a76fd675be3d40ff259f51b4a50897bdf20a8f80e864c7b6bd272b",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-SWAP-LIVE-CODE.BIN": "6d5c32b25c09698767b6e2bc4360d7a76dddd83e7dd5b2b354e5f257d77c9317",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-SWAP-OP-CODE.BIN": "3bb48de4efada5b28b5e7e84b63850b5a88fabb66086d17406b09b1c56421b9c",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-SWAP-PARAMS.BIN": "d8f304e088a576fc3f03a6f4af3f168a796743ce6721986a3434d25f9a87d2a9",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-SWAP-PTR-CONTENT.BIN": "2cda0890ac34286afc0aa8dcbe393c3c1d313877d3612e87a83f80c025f6a97e",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-TO-PARTY-DS.BIN": "dd52eef3d41c32f9d8f6c17e9b9f710e6901e2006f08b0f6e2d72337ea3ae1f4",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-TO-PARTY-PANEL83.BIN": "46b5f17d0f29431ec812fee7ed6e61a8d3c29fdd75a7f3f4866c7837d3918ac7",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-TO-PARTY-SELECTION.BIN": "2f7124cc50e450d0fc84f9abef409cc57960e51e5e2fa9ac67dd80b26442e181",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-VALID-BACK-DS.BIN": "62c8b3b724613892f3eb21303267c4e752070d9ada16593153c28fd90a259a5e",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-VALID-BACK-PANEL83.BIN": "46b5f17d0f29431ec812fee7ed6e61a8d3c29fdd75a7f3f4866c7837d3918ac7",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-VALID-TO-PARTY-DS.BIN": "7ebf6bac073e88b80e10104460ef7dd51e7145c9f038b0ea1bf774c7659e3fd8",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-VALID-TO-PARTY-PANEL83.BIN": "6a066ed8337ffd93c8c3c67b1b9c9b455fe832a37c3937f2615309630b5baf30",
+  "analysis/phase-five/acquisition-20261016/capture/ACQ-VALID-TO-PARTY-SELECTION.BIN": "b0f66adc83641586656866813fd9dd0b8ebb63796075661ba45d1aa8089e1d44"
+}

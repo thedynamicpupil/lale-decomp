@@ -1,0 +1,17 @@
+{
+  "image_archive": "lale/IVIR.CKD",
+  "image_archive_sha256": "d2bc2ee0d4136bc10d37160a43b3f3d420562abd543b0f9e4127d3978d4edda8",
+  "member": "KARAKTER.CMP",
+  "member_offset": 493154,
+  "member_sha256": "535bf2f02b6755481612aaf486904109f840c6d49d9382bc8f27f96733924fcc",
+  "palette_archive": "lale/SAVAS.CKD",
+  "palette_archive_sha256": "ccd592b5e681c2ebde6c8570163ac026ba2855db76e0b0a89c2c0e457fea6705",
+  "palette_member": "PALBAT.PAL",
+  "palette_offset": 207230,
+  "palette_sha256": "ee8bc32a4c6ac0c7707c29d00c55b7fc8c431cc8a2e7dd668bd609c00a9efce2",
+  "width": 320,
+  "height": 200,
+  "indices_sha256": "a38ad6924308d1ece189ae4beaeca9b28739ad041ace14c3f22a4dd235b04535",
+  "palette_binding": "Parent original-assembly party-entry trace: original stub167c:0057 actual overlay code1aa2 physical3e6a2 loads DS4a62 PALBAT then DS4a6d SEMATIK slot45 and DS4a79 KARAKTER slot1; parent evidence retained separately",
+  "preview": "original size RGB six-bit expansion; opaque indexed pixels, no transparency assumption"
+}

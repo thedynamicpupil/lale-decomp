@@ -1,0 +1,3603 @@
+[
+  {
+    "path": "lale/0GFL.CKD",
+    "size": 218306786,
+    "sha256": "dd2a06e7f2d643e5bb229d43c7d5034a7abef4bc9344aea5cd3fcec600b2b2bc",
+    "file_identification": "data",
+    "head_hex": "464c6942460000001c07030d46694c45534f4e2e47464c00000000000000000000000000000000000000000000000000534f4e2e47464c000000000000000000004d000000b8a4a601b8a4a601000000000000000100000200000300000400000400000500000000000000000000000000010000000000000000000000000000",
+    "tail_hex": "694c454f52542d4e2d4f542e47484400000000000000000000000000000000000000004f52542d4e2d4f542e47484400000000005aab020dc25b0000c25b0000",
+    "entropy_bits_per_byte": 7.3656,
+    "ascii_runs_min5": 3666516,
+    "string_preview": [
+      {
+        "offset": 0,
+        "text": "FLiBF"
+      },
+      {
+        "offset": 12,
+        "text": "FiLESON.GFL"
+      },
+      {
+        "offset": 48,
+        "text": "SON.GFL"
+      },
+      {
+        "offset": 850,
+        "text": "~{yxvwwuy}"
+      },
+      {
+        "offset": 944,
+        "text": "~zxvvtrplhb^YWXVYWYYXVYWZ^cgmoqsvxxz{}"
+      },
+      {
+        "offset": 985,
+        "text": "{zxrpkidb^\\_aeghlrx~"
+      },
+      {
+        "offset": 1008,
+        "text": "~xrllnoorpjfa_[[]agmssssrrsuy{~"
+      },
+      {
+        "offset": 1080,
+        "text": "zxuutvvxzxrnkgdfkoswz|"
+      },
+      {
+        "offset": 1170,
+        "text": "}srvy}"
+      },
+      {
+        "offset": 1180,
+        "text": "}}zxywwwwvvusppppnpoollnnlhgc_]ckrz"
+      },
+      {
+        "offset": 1261,
+        "text": "~|ywu{"
+      },
+      {
+        "offset": 1280,
+        "text": "{xvuwwwz|"
+      },
+      {
+        "offset": 1318,
+        "text": "zsmlnnnnligea[[XXXVXXXZZ\\[_^`egikikjlmmmmppqqoof\\UMEAIQ[cmmlhgc_]WUSQQSVX\\`^^\\\\\\`ekqw|xvtqmlnsuw{||{{z|~"
+      },
+      {
+        "offset": 1432,
+        "text": "}|zyyvtpjfjpy"
+      },
+      {
+        "offset": 1456,
+        "text": "yspljfecb`\\\\[]acggkkkihfeebb```bbddfkoquywoibZSUZ^bflptxz|"
+      },
+      {
+        "offset": 1591,
+        "text": "}wqlhdfddhjkkjjmmrvz~"
+      },
+      {
+        "offset": 1614,
+        "text": "|zxtppppmmoqoquuvvwy{{~"
+      },
+      {
+        "offset": 1718,
+        "text": "yphb\\WYYYY[[]_afflptx|~"
+      },
+      {
+        "offset": 1749,
+        "text": "~~xrjda_dfjnttttoomiec_[XVQOLLOUX^^^^^`bdhlnpry{~"
+      },
+      {
+        "offset": 1839,
+        "text": "~|wwuusspnljd`][WUTTTTZ`djntttqqoqtvz|"
+      },
+      {
+        "offset": 1880,
+        "text": "}~|{{||zz}}~~~~"
+      },
+      {
+        "offset": 1949,
+        "text": "|xvomjlss}}"
+      },
+      {
+        "offset": 1979,
+        "text": "znh]]]_acgkmoossuwyyywuusuwwyxz"
+      },
+      {
+        "offset": 2025,
+        "text": "{{{xzzz}{"
+      },
+      {
+        "offset": 2114,
+        "text": "}yplc_YY\\Z][YYWURRMMHFDBA==;?GMS[a```becZRKEAEMSYab`]YXV\\`fhjnswxzywxvyw|"
+      },
+      {
+        "offset": 2202,
+        "text": "}~|xxvzx~}"
+      },
+      {
+        "offset": 2227,
+        "text": "tld`dfjlpruuvvtroonnpnomoonpsuzzwwxvwwvttrssssvvwwz|"
+      },
+      {
+        "offset": 2281,
+        "text": "|zywrtqsttxx|~"
+      },
+      {
+        "offset": 2444,
+        "text": "ysvz~"
+      },
+      {
+        "offset": 2483,
+        "text": "}zz{}~~||zz{{{yyyxzy{{}~|ywtpmkec^`bdegcecefhkihfcadfeggijlrt}{"
+      },
+      {
+        "offset": 2547,
+        "text": "}yyvtppqojfc_\\`o{"
+      },
+      {
+        "offset": 2621,
+        "text": "~|xuslllnoqqomkljms|"
+      },
+      {
+        "offset": 2646,
+        "text": "xrhd`^][Z\\bfjnoommjhhhkmpv~"
+      },
+      {
+        "offset": 2692,
+        "text": "ytvwyz|}"
+      },
+      {
+        "offset": 2706,
+        "text": "|vtooprtvyurnlhhlosw}"
+      },
+      {
+        "offset": 2735,
+        "text": "}yvx{}"
+      },
+      {
+        "offset": 2756,
+        "text": "{zvsqqqssuuuuuuz~"
+      },
+      {
+        "offset": 2790,
+        "text": "|vty{"
+      },
+      {
+        "offset": 2809,
+        "text": "~zxtqmprsuyytpjfcceehhkorvw{"
+      },
+      {
+        "offset": 2874,
+        "text": "xtvxz~"
+      }
+    ],
+    "flib": {
+      "count": 70,
+      "directory_offset": 218302236,
+      "record_bytes": 65,
+      "validation": "all records, duplicate headers, sizes and contiguous ranges pass",
+      "member_extensions": {
+        ".GFL": 35,
+        ".GHD": 35
+      },
+      "payload_bytes": 218297674
+    }
+  },
+  {
+    "path": "lale/3D.CKD",
+    "size": 1465361,
+    "sha256": "9c7a7f74a04265b04969503729e0d2b788e248adc04f2f97288d0f367b291e90",
+    "file_identification": "data",
+    "head_hex": "464c6942470000000a4a160046694c4533442e524553000000000000000000000000000000000000000000000000000033442e52455300000000000000000000004d0000001f0300001f03000033442e5245530d0a3344454d2e5245530d0a44495344554e59412e434d500d0a4455564152312e434d500d0a4455564152322e",
+    "tail_hex": "694c45594552362e434d50000000000000000000000000000000000000000000000000594552362e434d500000000000000000003d351600cd140000cd140000",
+    "entropy_bits_per_byte": 6.7622,
+    "ascii_runs_min5": 13364,
+    "string_preview": [
+      {
+        "offset": 0,
+        "text": "FLiBG"
+      },
+      {
+        "offset": 12,
+        "text": "FiLE3D.RES"
+      },
+      {
+        "offset": 48,
+        "text": "3D.RES"
+      },
+      {
+        "offset": 77,
+        "text": "3D.RES"
+      },
+      {
+        "offset": 85,
+        "text": "3DEM.RES"
+      },
+      {
+        "offset": 95,
+        "text": "DISDUNYA.CMP"
+      },
+      {
+        "offset": 109,
+        "text": "DUVAR1.CMP"
+      },
+      {
+        "offset": 121,
+        "text": "DUVAR2.CMP"
+      },
+      {
+        "offset": 133,
+        "text": "DUVAR3.CMP"
+      },
+      {
+        "offset": 145,
+        "text": "DUVAR4.CMP"
+      },
+      {
+        "offset": 157,
+        "text": "DUVAR4.KOR"
+      },
+      {
+        "offset": 169,
+        "text": "DUVAR5.CMP"
+      },
+      {
+        "offset": 181,
+        "text": "DUVAR6.CMP"
+      },
+      {
+        "offset": 193,
+        "text": "DUVAR7.CMP"
+      },
+      {
+        "offset": 205,
+        "text": "DUVAR8.CMP"
+      },
+      {
+        "offset": 217,
+        "text": "DUVAR8.KOR"
+      },
+      {
+        "offset": 229,
+        "text": "GOTY0.CMP"
+      },
+      {
+        "offset": 240,
+        "text": "GOTY1.CMP"
+      },
+      {
+        "offset": 251,
+        "text": "HAR10.CMP"
+      },
+      {
+        "offset": 262,
+        "text": "HAR10.PAL"
+      },
+      {
+        "offset": 273,
+        "text": "HAR12.CMP"
+      },
+      {
+        "offset": 284,
+        "text": "HAR12.PAL"
+      },
+      {
+        "offset": 295,
+        "text": "HAR2.CMP"
+      },
+      {
+        "offset": 305,
+        "text": "HAR2.PAL"
+      },
+      {
+        "offset": 315,
+        "text": "HAR3.CMP"
+      },
+      {
+        "offset": 325,
+        "text": "HAR3.PAL"
+      },
+      {
+        "offset": 335,
+        "text": "HAR4.CMP"
+      },
+      {
+        "offset": 345,
+        "text": "HAR4.PAL"
+      },
+      {
+        "offset": 355,
+        "text": "HAR7.CMP"
+      },
+      {
+        "offset": 365,
+        "text": "HAR7.PAL"
+      },
+      {
+        "offset": 375,
+        "text": "HAR8.CMP"
+      },
+      {
+        "offset": 385,
+        "text": "HAR8.PAL"
+      },
+      {
+        "offset": 395,
+        "text": "HAR9.CMP"
+      },
+      {
+        "offset": 405,
+        "text": "HAR9.PAL"
+      },
+      {
+        "offset": 415,
+        "text": "KAPI1.CMP"
+      },
+      {
+        "offset": 426,
+        "text": "KAPI2.CMP"
+      },
+      {
+        "offset": 437,
+        "text": "KAPI3.CMP"
+      },
+      {
+        "offset": 448,
+        "text": "KAPI4.CMP"
+      },
+      {
+        "offset": 459,
+        "text": "KAPI4.KOR"
+      },
+      {
+        "offset": 470,
+        "text": "KAPI5.CMP"
+      }
+    ],
+    "flib": {
+      "count": 71,
+      "directory_offset": 1460746,
+      "record_bytes": 65,
+      "validation": "all records, duplicate headers, sizes and contiguous ranges pass",
+      "member_extensions": {
+        ".RES": 2,
+        ".CMP": 54,
+        ".KOR": 6,
+        ".PAL": 9
+      },
+      "payload_bytes": 1456119
+    }
+  },
+  {
+    "path": "lale/BOSCH.KOR",
+    "size": 72,
+    "sha256": "834a709ba2534ebe3ee1397fd4f7bd288b2acc1d20a08d6c862dcd99b6f04400",
+    "file_identification": "data",
+    "head_hex": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "tail_hex": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "entropy_bits_per_byte": -0.0,
+    "ascii_runs_min5": 0,
+    "string_preview": [],
+    "small_data": {
+      "distinct_byte_values": 1,
+      "minimum": 0,
+      "maximum": 0,
+      "zero_bytes": 72
+    }
+  },
+  {
+    "path": "lale/FRPOS.CKD",
+    "size": 148452,
+    "sha256": "208125a05b46fd947efae3ae9c219625344f0eab35363333fb1c9a32ce7d1920",
+    "file_identification": "data",
+    "head_hex": "464c694224000000c03a020046694c45504353310000000000000000000000000000000000000000000000000000000050435331000000000000000000000000004d0000008a0700008a070000416d426b006400018000077e446174612020202000060136001600b8013201340d00010101010402475a3f4957683f5a576416",
+    "tail_hex": "694c4550433900000000000000000000000000000000000000000000000000000000005043390000000000000000000000000000bd300200030a0000030a0000",
+    "entropy_bits_per_byte": 4.597,
+    "ascii_runs_min5": 6978,
+    "string_preview": [
+      {
+        "offset": 0,
+        "text": "FLiB$"
+      },
+      {
+        "offset": 12,
+        "text": "FiLEPCS1"
+      },
+      {
+        "offset": 88,
+        "text": "~Data    "
+      },
+      {
+        "offset": 117,
+        "text": "GZ?IWh?ZWd"
+      },
+      {
+        "offset": 128,
+        "text": "]Wh_f"
+      },
+      {
+        "offset": 134,
+        "text": "^?h?bj?bWh"
+      },
+      {
+        "offset": 145,
+        "text": "][b_oeh$$$"
+      },
+      {
+        "offset": 156,
+        "text": "][h9[aj[d"
+      },
+      {
+        "offset": 166,
+        "text": "Z?IWh?"
+      },
+      {
+        "offset": 173,
+        "text": "9?aWYWa"
+      },
+      {
+        "offset": 181,
+        "text": "C?O?P"
+      },
+      {
+        "offset": 192,
+        "text": "[l[j^Wo?h"
+      },
+      {
+        "offset": 211,
+        "text": ">eeebkc"
+      },
+      {
+        "offset": 219,
+        "text": "Z?IWhZW"
+      },
+      {
+        "offset": 227,
+        "text": "X_I[o"
+      },
+      {
+        "offset": 233,
+        "text": "ebcWi?d5"
+      },
+      {
+        "offset": 246,
+        "text": "\\WbWd"
+      },
+      {
+        "offset": 259,
+        "text": "XkhWbWhZW"
+      },
+      {
+        "offset": 293,
+        "text": "XkhWZW"
+      },
+      {
+        "offset": 308,
+        "text": "aEf[a"
+      },
+      {
+        "offset": 314,
+        "text": "OWj?oeh$"
+      },
+      {
+        "offset": 327,
+        "text": "!^?h?bj?bWh"
+      },
+      {
+        "offset": 339,
+        "text": "8kdZWd"
+      },
+      {
+        "offset": 346,
+        "text": "][b_oehckI"
+      },
+      {
+        "offset": 375,
+        "text": "Z[bb[dc_I"
+      },
+      {
+        "offset": 391,
+        "text": "^WolWd"
+      },
+      {
+        "offset": 398,
+        "text": "oW^k5"
+      },
+      {
+        "offset": 438,
+        "text": "^[h_\\"
+      },
+      {
+        "offset": 449,
+        "text": "Wo?bcWc?I"
+      },
+      {
+        "offset": 467,
+        "text": "4XkhWZW"
+      },
+      {
+        "offset": 475,
+        "text": "XWo]?D"
+      },
+      {
+        "offset": 491,
+        "text": "oWj?oeh$"
+      },
+      {
+        "offset": 500,
+        "text": "KijKdK"
+      },
+      {
+        "offset": 507,
+        "text": "WhWoWb?c"
+      },
+      {
+        "offset": 523,
+        "text": "[l[j^Wo?h"
+      },
+      {
+        "offset": 554,
+        "text": "#X[ob[h\""
+      },
+      {
+        "offset": 563,
+        "text": "XkhWZW"
+      },
+      {
+        "offset": 574,
+        "text": "WdW^jWh"
+      },
+      {
+        "offset": 582,
+        "text": "XkbZkc"
+      },
+      {
+        "offset": 614,
+        "text": ")ejefWhajWd"
+      }
+    ],
+    "flib": {
+      "count": 36,
+      "directory_offset": 146112,
+      "record_bytes": 65,
+      "validation": "all records, duplicate headers, sizes and contiguous ranges pass",
+      "member_extensions": {
+        "(none)": 36
+      },
+      "payload_bytes": 143760
+    }
+  },
+  {
+    "path": "lale/GRP.DAT",
+    "size": 664,
+    "sha256": "5ee3bcd856dad1fab12d186da5d15f45caa809b52a39a9c936be3dbb72a6302f",
+    "file_identification": "data",
+    "head_hex": "63617968616e0000000000000000000000000000000000000000000000000000000000000031303030303030303030303030303030303030303030303030303030303030303030303000616c65796e61000000000000000000000000000000000000000000000000000000000000003130303030303030303030303030303030",
+    "tail_hex": "48007400b9005800a7003d00140000001700000000000000000000004f0008000000000000000100000000000000000000000000000000000000000000000000",
+    "entropy_bits_per_byte": 2.3111,
+    "ascii_runs_min5": 8,
+    "string_preview": [
+      {
+        "offset": 0,
+        "text": "cayhan"
+      },
+      {
+        "offset": 37,
+        "text": "100000000000000000000000000000000000"
+      },
+      {
+        "offset": 74,
+        "text": "aleyna"
+      },
+      {
+        "offset": 111,
+        "text": "100000000000000000000000000000000000"
+      },
+      {
+        "offset": 148,
+        "text": "berkan"
+      },
+      {
+        "offset": 185,
+        "text": "100000000000000000000000000000000000"
+      },
+      {
+        "offset": 222,
+        "text": "egemen"
+      },
+      {
+        "offset": 259,
+        "text": "100000000000000000000000000000000000"
+      }
+    ],
+    "small_data": {
+      "distinct_byte_values": 57,
+      "minimum": 0,
+      "maximum": 230,
+      "zero_bytes": 400
+    }
+  },
+  {
+    "path": "lale/GRPHAZIR.DAT",
+    "size": 664,
+    "sha256": "4e71c963855298d7bb80155271a606c72e52c0a897ff1e55f7b1e575fa632d83",
+    "file_identification": "data",
+    "head_hex": "67817263616e6900000000000000000000000000000000000000000000000000000000000031303030303030303030303030303030303030303030303030303030303030303030303000616c70657200000000000000000000000000000000000000000000000000000000000000003130303030303030303030303030303030",
+    "tail_hex": "32003200320084009a00390012000000150000000000000000000000c40003000000000000000800000000000000000000000000000000000000000000000000",
+    "entropy_bits_per_byte": 2.4521,
+    "ascii_runs_min5": 7,
+    "string_preview": [
+      {
+        "offset": 2,
+        "text": "rcani"
+      },
+      {
+        "offset": 37,
+        "text": "100000000000000000000000000000000000"
+      },
+      {
+        "offset": 74,
+        "text": "alper"
+      },
+      {
+        "offset": 111,
+        "text": "100000000000000000000000000000000000"
+      },
+      {
+        "offset": 185,
+        "text": "100000000000000000000000000000000000"
+      },
+      {
+        "offset": 222,
+        "text": "nizamettin abi"
+      },
+      {
+        "offset": 259,
+        "text": "100000000000000000000000000000000000"
+      }
+    ],
+    "small_data": {
+      "distinct_byte_values": 67,
+      "minimum": 0,
+      "maximum": 201,
+      "zero_bytes": 392
+    }
+  },
+  {
+    "path": "lale/IKON.CKD",
+    "size": 2038202,
+    "sha256": "30bcbbeaddf302d6dc60bcc4a95716ddf5f108e51a30a154b1f3044c72b66ab7",
+    "file_identification": "data",
+    "head_hex": "464c6942bc000000fee91e0046694c45494b4f4e302e50414c0000000000000000000000000000000000000000000000494b4f4e302e50414c00000000000000004d000000000300000003000000000000002a002a00002a2a2a00002a002a2a15002a2a2a15151515153f153f15153f3f3f15153f153f3f3f153f3f3f3b3b3b",
+    "tail_hex": "694c45494b4f4e39392e434d5000000000000000000000000000000000000000000000494b4f4e39392e434d500000000000000019b71e00e5320000e5320000",
+    "entropy_bits_per_byte": 7.0647,
+    "ascii_runs_min5": 70976,
+    "string_preview": [
+      {
+        "offset": 12,
+        "text": "FiLEIKON0.PAL"
+      },
+      {
+        "offset": 48,
+        "text": "IKON0.PAL"
+      },
+      {
+        "offset": 122,
+        "text": "???;;;777444000---***&&&###"
+      },
+      {
+        "offset": 221,
+        "text": "?66?..?''?"
+      },
+      {
+        "offset": 269,
+        "text": "??6??.??'??"
+      },
+      {
+        "offset": 341,
+        "text": "6?6/?.'?' ?"
+      },
+      {
+        "offset": 413,
+        "text": "6??.??'??"
+      },
+      {
+        "offset": 484,
+        "text": "'66?./?''?"
+      },
+      {
+        "offset": 557,
+        "text": "<6?9.?6'?4"
+      },
+      {
+        "offset": 605,
+        "text": "?6??.??'??"
+      },
+      {
+        "offset": 653,
+        "text": "?:7?84?61?5/?3,?1)?/'?.$?, ?)"
+      },
+      {
+        "offset": 842,
+        "text": "???FiLEIKON0.CMP"
+      },
+      {
+        "offset": 881,
+        "text": "IKON0.CMP"
+      },
+      {
+        "offset": 1544,
+        "text": "FiLEIKON1.PAL"
+      },
+      {
+        "offset": 1580,
+        "text": "IKON1.PAL"
+      },
+      {
+        "offset": 1630,
+        "text": "!!!###---311755+)))''!"
+      },
+      {
+        "offset": 1657,
+        "text": "5111--"
+      },
+      {
+        "offset": 1672,
+        "text": "/))-''"
+      },
+      {
+        "offset": 1690,
+        "text": "3'%1#!1'%)"
+      },
+      {
+        "offset": 1720,
+        "text": "5/-3-+"
+      },
+      {
+        "offset": 1801,
+        "text": "1+!1'"
+      },
+      {
+        "offset": 1810,
+        "text": "-//!))"
+      },
+      {
+        "offset": 1863,
+        "text": "!++-%%'!!#"
+      },
+      {
+        "offset": 2373,
+        "text": "????FiLEIKON1.CMP"
+      },
+      {
+        "offset": 2413,
+        "text": "IKON1.CMP"
+      },
+      {
+        "offset": 2671,
+        "text": "5>4==>,"
+      },
+      {
+        "offset": 2708,
+        "text": "=@5544$>?B5"
+      },
+      {
+        "offset": 2720,
+        "text": ">?!%@4"
+      },
+      {
+        "offset": 2749,
+        "text": "%=>183/31<?B4519<=@=!"
+      },
+      {
+        "offset": 2774,
+        "text": ">?B@=!"
+      },
+      {
+        "offset": 2801,
+        "text": "7314=B>39'<4@"
+      },
+      {
+        "offset": 2846,
+        "text": "157214@>,.87>?B@!%%=>?B?B?4&"
+      },
+      {
+        "offset": 2898,
+        "text": "1@B33'8776B=!%!A"
+      },
+      {
+        "offset": 2953,
+        "text": "5B@=!!B"
+      },
+      {
+        "offset": 2963,
+        "text": "B>7;!"
+      },
+      {
+        "offset": 2991,
+        "text": "2 5B>"
+      },
+      {
+        "offset": 2997,
+        "text": "8'88'>B@!!B"
+      },
+      {
+        "offset": 3011,
+        "text": "6'-;@"
+      },
+      {
+        "offset": 3025,
+        "text": "iLGKN"
+      },
+      {
+        "offset": 3033,
+        "text": "NPMPOLL"
+      }
+    ],
+    "flib": {
+      "count": 188,
+      "directory_offset": 2025982,
+      "record_bytes": 65,
+      "validation": "all records, duplicate headers, sizes and contiguous ranges pass",
+      "member_extensions": {
+        ".PAL": 94,
+        ".CMP": 94
+      },
+      "payload_bytes": 2013750
+    }
+  },
+  {
+    "path": "lale/IST.EXE",
+    "size": 385328,
+    "sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
+    "file_identification": "MS-DOS executable, MZ for MS-DOS",
+    "head_hex": "4d5a100043010f0840020000ffff882580000000000000003e0000000100fb506a7200000000000000000000000000000000000000000000000000000000010000005b000000a00000004c0100007230e0165e30e0165a30e0165530e0164130e0163d30e0163830e0162430e0162030e0161b30e0160730e0160330e016fe2f",
+    "tail_hex": "260d1e0d0d0d050de10cd90c0d100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "entropy_bits_per_byte": 6.7955,
+    "ascii_runs_min5": 1905,
+    "string_preview": [
+      {
+        "offset": 9828,
+        "text": "Runtime overlay error"
+      },
+      {
+        "offset": 10134,
+        "text": "tdTY;"
+      },
+      {
+        "offset": 11172,
+        "text": "|h<+t"
+      },
+      {
+        "offset": 11239,
+        "text": "<.t2<9w+<0r',0"
+      },
+      {
+        "offset": 11473,
+        "text": "YY<+t"
+      },
+      {
+        "offset": 11503,
+        "text": "YY<9w"
+      },
+      {
+        "offset": 11728,
+        "text": "|s<Nuo"
+      },
+      {
+        "offset": 11751,
+        "text": "|\\<FuX"
+      },
+      {
+        "offset": 11794,
+        "text": "|1<Au-"
+      },
+      {
+        "offset": 15836,
+        "text": "u3SQR"
+      },
+      {
+        "offset": 17642,
+        "text": " . ) . . "
+      },
+      {
+        "offset": 20407,
+        "text": "ZY[DD"
+      },
+      {
+        "offset": 20499,
+        "text": "[YZ^_]"
+      },
+      {
+        "offset": 22944,
+        "text": "!r.RP"
+      },
+      {
+        "offset": 23138,
+        "text": "PPPP&"
+      },
+      {
+        "offset": 23272,
+        "text": "ub&9W"
+      },
+      {
+        "offset": 23313,
+        "text": "&)7P&"
+      },
+      {
+        "offset": 24160,
+        "text": "t4Ot1"
+      },
+      {
+        "offset": 29429,
+        "text": "YYPR3"
+      },
+      {
+        "offset": 31020,
+        "text": "h15j8"
+      },
+      {
+        "offset": 31522,
+        "text": "h/8jn"
+      },
+      {
+        "offset": 41209,
+        "text": "h8mh$"
+      },
+      {
+        "offset": 44832,
+        "text": "j j j"
+      },
+      {
+        "offset": 44865,
+        "text": "hbmh2"
+      },
+      {
+        "offset": 45316,
+        "text": "\"/(/\"/(/"
+      },
+      {
+        "offset": 45394,
+        "text": "h|mjRh"
+      },
+      {
+        "offset": 47869,
+        "text": "&+W R"
+      },
+      {
+        "offset": 47916,
+        "text": "&+W R"
+      },
+      {
+        "offset": 56745,
+        "text": "h%rh:"
+      },
+      {
+        "offset": 57358,
+        "text": "h:rh8"
+      },
+      {
+        "offset": 58476,
+        "text": "hOrhD"
+      },
+      {
+        "offset": 59201,
+        "text": "hyrh{"
+      },
+      {
+        "offset": 59902,
+        "text": "CGFIu"
+      },
+      {
+        "offset": 62816,
+        "text": "h;sh)"
+      },
+      {
+        "offset": 64119,
+        "text": "h0uj0j"
+      },
+      {
+        "offset": 65736,
+        "text": "uRPho"
+      },
+      {
+        "offset": 65791,
+        "text": "`<Su*"
+      },
+      {
+        "offset": 65922,
+        "text": "fX]_^"
+      },
+      {
+        "offset": 70506,
+        "text": "AMP 2.00 - (C) 1992,1994 Otto Chrons"
+      },
+      {
+        "offset": 70544,
+        "text": "MCPSampleRealAddress"
+      }
+    ],
+    "mz": {
+      "header": {
+        "magic": 23117,
+        "cblp": 16,
+        "cp": 323,
+        "crlc": 2063,
+        "cparhdr": 576,
+        "minalloc": 0,
+        "maxalloc": 65535,
+        "ss": 9608,
+        "sp": 128,
+        "csum": 0,
+        "ip": 0,
+        "cs": 0,
+        "lfarlc": 62,
+        "ovno": 0
+      },
+      "header_bytes": 9216,
+      "declared_file_bytes": 164880,
+      "declared_load_image_bytes": 155664,
+      "trailing_bytes": 220448,
+      "relative_entry": "0000:0000",
+      "entry_file_offset": 9216,
+      "relocations_fit_header": true,
+      "relocation_targets_fit_image": true,
+      "declared_boundary_hex": "46424f56105d0300008801003d00000000000000000000000000000000000000558bec83ec02b888018ec026f7065e3d20007503e98f00c746fe4400eb77837efe247c36837efe407d308b5efe6bdb0db888018ec0268a874429980bc0751b8b5efec1e303b888018ec026c787a1e2000026c7879fe20000eb388b5efec1e303"
+    }
+  },
+  {
+    "path": "lale/IVIR.CKD",
+    "size": 1416520,
+    "sha256": "d2bc2ee0d4136bc10d37160a43b3f3d420562abd543b0f9e4127d3978d4edda8",
+    "file_identification": "data",
+    "head_hex": "464c694251000000b788150046694c454143494c4953412e434d500000000000000000000000000000000000000000004143494c4953412e434d500000000000004d000000fdab0000fdab00004001c80002f0ed8cf504e9f6f5f289f519ededf5e6ededf5f3f3e6f5f3e6f3e6f3e6e6f5e6f5e5f5f5e683f302f5e587f501e6",
+    "tail_hex": "694c455a4f4e50414c2e50414c000000000000000000000000000000000000000000005a4f4e50414c2e50414c00000000000000b78515000003000000030000",
+    "entropy_bits_per_byte": 7.5263,
+    "ascii_runs_min5": 12659,
+    "string_preview": [
+      {
+        "offset": 0,
+        "text": "FLiBQ"
+      },
+      {
+        "offset": 12,
+        "text": "FiLEACILISA.CMP"
+      },
+      {
+        "offset": 48,
+        "text": "ACILISA.CMP"
+      },
+      {
+        "offset": 3851,
+        "text": "44:4(4"
+      },
+      {
+        "offset": 4149,
+        "text": "0/()6:6"
+      },
+      {
+        "offset": 4445,
+        "text": "{$622626))$44(+)+-- "
+      },
+      {
+        "offset": 4751,
+        "text": "{2?=/(12"
+      },
+      {
+        "offset": 5062,
+        "text": "44:)-"
+      },
+      {
+        "offset": 5417,
+        "text": "\"(0>'!"
+      },
+      {
+        "offset": 5922,
+        "text": "uQC{r"
+      },
+      {
+        "offset": 6217,
+        "text": "Dv\\r[ri"
+      },
+      {
+        "offset": 6520,
+        "text": "Zmv]c"
+      },
+      {
+        "offset": 6543,
+        "text": "0:44::44"
+      },
+      {
+        "offset": 6855,
+        "text": "/:44:44"
+      },
+      {
+        "offset": 6912,
+        "text": "5<//'"
+      },
+      {
+        "offset": 6918,
+        "text": "\"!!''"
+      },
+      {
+        "offset": 7217,
+        "text": "50/0'3./;/.>"
+      },
+      {
+        "offset": 7440,
+        "text": "qr]pi"
+      },
+      {
+        "offset": 7468,
+        "text": "17:44:--"
+      },
+      {
+        "offset": 7533,
+        "text": ";;(;>.."
+      },
+      {
+        "offset": 7836,
+        "text": ";:.\"<4;"
+      },
+      {
+        "offset": 7859,
+        "text": "03'!\""
+      },
+      {
+        "offset": 7866,
+        "text": "31&.3"
+      },
+      {
+        "offset": 8086,
+        "text": ")::4:4"
+      },
+      {
+        "offset": 8158,
+        "text": "!\",3;#.33\""
+      },
+      {
+        "offset": 8170,
+        "text": "?/./0"
+      },
+      {
+        "offset": 8468,
+        "text": "0'93500/305/"
+      },
+      {
+        "offset": 8691,
+        "text": "+00::4"
+      },
+      {
+        "offset": 8698,
+        "text": "4:+  "
+      },
+      {
+        "offset": 8764,
+        "text": ";;3.'*/5&50./;.*?)<?0"
+      },
+      {
+        "offset": 8960,
+        "text": "~}qti"
+      },
+      {
+        "offset": 9074,
+        "text": "300'0<.3;5;35"
+      },
+      {
+        "offset": 9088,
+        "text": "/;0/$/"
+      },
+      {
+        "offset": 9381,
+        "text": "3.0/<00*/,;;"
+      },
+      {
+        "offset": 9394,
+        "text": "/#5//.!9"
+      },
+      {
+        "offset": 9686,
+        "text": "\"35//"
+      },
+      {
+        "offset": 9696,
+        "text": "0.\"(;/;50;3,"
+      },
+      {
+        "offset": 9991,
+        "text": "\";55/#0;/;&"
+      },
+      {
+        "offset": 10003,
+        "text": "\"9>\"!,*!*3>"
+      },
+      {
+        "offset": 10224,
+        "text": "0$)4(("
+      }
+    ],
+    "flib": {
+      "count": 81,
+      "directory_offset": 1411255,
+      "record_bytes": 65,
+      "validation": "all records, duplicate headers, sizes and contiguous ranges pass",
+      "member_extensions": {
+        ".CMP": 48,
+        ".PAL": 25,
+        ".LOG": 1,
+        ".RES": 2,
+        ".DOC": 1,
+        ".RIX": 4
+      },
+      "payload_bytes": 1405978
+    }
+  },
+  {
+    "path": "lale/KUR.EXE",
+    "size": 45974,
+    "sha256": "021e3372d02bd79846c6e120668e7aaa6da149fedb9cce73c2aeafdb375101c9",
+    "file_identification": "MS-DOS executable, MZ for MS-DOS",
+    "head_hex": "4d5a96015a000c02c0007800ffffe90a80000000000000003e0000000100fb506a7200000000000000000000000000000000000000000000000000000000010000005b000000a00000004c01000007046004f0036004dc0360048e0360045603600421036004ff026004d2026004c4026004b00260049a026004540260044e02",
+    "tail_hex": "000000000000000000000000000000000000000000000d000000000079167e167e167e160002e80a00000010f61400000110b316000000101c24000000105d25",
+    "entropy_bits_per_byte": 6.7595,
+    "ascii_runs_min5": 224,
+    "string_preview": [
+      {
+        "offset": 5473,
+        "text": "|c<+t"
+      },
+      {
+        "offset": 5526,
+        "text": "r.<0ux"
+      },
+      {
+        "offset": 5554,
+        "text": "YY<xtZ<XtV"
+      },
+      {
+        "offset": 6208,
+        "text": "u3SQR"
+      },
+      {
+        "offset": 8234,
+        "text": "+YYP3"
+      },
+      {
+        "offset": 13017,
+        "text": "!r.RP"
+      },
+      {
+        "offset": 13211,
+        "text": "PPPP&"
+      },
+      {
+        "offset": 13345,
+        "text": "ub&9W"
+      },
+      {
+        "offset": 13386,
+        "text": "&)7P&"
+      },
+      {
+        "offset": 13489,
+        "text": "t4O~1"
+      },
+      {
+        "offset": 14389,
+        "text": "t4Ot1"
+      },
+      {
+        "offset": 18546,
+        "text": "]<]<S<]<U"
+      },
+      {
+        "offset": 20834,
+        "text": "fj fj"
+      },
+      {
+        "offset": 20935,
+        "text": "fj fj"
+      },
+      {
+        "offset": 31140,
+        "text": "&b&w&"
+      },
+      {
+        "offset": 38560,
+        "text": "Timer Service v2.0 - (C) 1993-1995 Otto Chrons"
+      },
+      {
+        "offset": 38844,
+        "text": "uOfk^"
+      },
+      {
+        "offset": 39508,
+        "text": "Borland C++ - Copyright 1991 Borland Intl."
+      },
+      {
+        "offset": 39551,
+        "text": "Divide error"
+      },
+      {
+        "offset": 39565,
+        "text": "Abnormal program termination"
+      },
+      {
+        "offset": 40046,
+        "text": "GetEnvString"
+      },
+      {
+        "offset": 40059,
+        "text": "MCPSampleRealAddress"
+      },
+      {
+        "offset": 40080,
+        "text": "MCPEnableVirtualSamples"
+      },
+      {
+        "offset": 40104,
+        "text": "MCPDisableVirtualSamples"
+      },
+      {
+        "offset": 40131,
+        "text": "~stanbul ~E~fsaneleri - ~K~urulum, ~M~"
+      },
+      {
+        "offset": 40170,
+        "text": "zik ve ~S~es ~A~yarlar"
+      },
+      {
+        "offset": 40197,
+        "text": "ka:      "
+      },
+      {
+        "offset": 40207,
+        "text": " Yard"
+      },
+      {
+        "offset": 40216,
+        "text": "~ENTER~=se"
+      },
+      {
+        "offset": 40227,
+        "text": "  ~ESC~=vazge"
+      },
+      {
+        "offset": 40241,
+        "text": "  ~<-~="
+      },
+      {
+        "offset": 40249,
+        "text": "nceki"
+      },
+      {
+        "offset": 40255,
+        "text": "~ENTER~=se"
+      },
+      {
+        "offset": 40266,
+        "text": "  ~ESC~=geri"
+      },
+      {
+        "offset": 40286,
+        "text": "SDIQueryDevice"
+      },
+      {
+        "offset": 40301,
+        "text": "SDIQueryDeviceCount"
+      },
+      {
+        "offset": 40321,
+        "text": "Ses kart"
+      },
+      {
+        "offset": 40339,
+        "text": "Ses Kart"
+      },
+      {
+        "offset": 40348,
+        "text": " Ayarla"
+      },
+      {
+        "offset": 40356,
+        "text": "CD-ROM Ayarlamalar"
+      }
+    ],
+    "mz": {
+      "header": {
+        "magic": 23117,
+        "cblp": 406,
+        "cp": 90,
+        "crlc": 524,
+        "cparhdr": 192,
+        "minalloc": 120,
+        "maxalloc": 65535,
+        "ss": 2793,
+        "sp": 128,
+        "csum": 0,
+        "ip": 0,
+        "cs": 0,
+        "lfarlc": 62,
+        "ovno": 0
+      },
+      "header_bytes": 3072,
+      "declared_file_bytes": 45974,
+      "declared_load_image_bytes": 42902,
+      "trailing_bytes": 0,
+      "relative_entry": "0000:0000",
+      "entry_file_offset": 3072,
+      "relocations_fit_header": true,
+      "relocation_targets_fit_image": true,
+      "declared_boundary_hex": ""
+    }
+  },
+  {
+    "path": "lale/MUZIK.CKD",
+    "size": 1224475,
+    "sha256": "1d5fa392a7c98f7779507ff0c9520e329deec6f1a08924d122bbf0df2f259511",
+    "file_identification": "GLS_BINARY_LSB_FIRST",
+    "head_hex": "464c6942100000000bab120046694c45332e414d46000000000000000000000000000000000000000000000000000000332e414d460000000000000000000000004d000000d1c60000d1c60000414d460e3379656e690000000000000000000000000000000000000000000000000000001f05180006c13f3fc1c13f00000000",
+    "tail_hex": "694c45554e492e414d4600000000000000000000000000000000000000000000000000554e492e414d460000000000000000000005e80e0006c3030006c30300",
+    "entropy_bits_per_byte": 7.2115,
+    "ascii_runs_min5": 26443,
+    "string_preview": [
+      {
+        "offset": 12,
+        "text": "FiLE3.AMF"
+      },
+      {
+        "offset": 48,
+        "text": "3.AMF"
+      },
+      {
+        "offset": 81,
+        "text": "3yeni"
+      },
+      {
+        "offset": 223,
+        "text": "gitar1"
+      },
+      {
+        "offset": 255,
+        "text": "gitar1"
+      },
+      {
+        "offset": 2313,
+        "text": "L@ D@$L"
+      },
+      {
+        "offset": 2321,
+        "text": "(D@,L@0D"
+      },
+      {
+        "offset": 2339,
+        "text": "<D@=9@>G@"
+      },
+      {
+        "offset": 2379,
+        "text": "H@\"G@&G"
+      },
+      {
+        "offset": 2387,
+        "text": "*G@.G@0G"
+      },
+      {
+        "offset": 2405,
+        "text": ";@@<8@=E@>;@"
+      },
+      {
+        "offset": 2521,
+        "text": "  P !"
+      },
+      {
+        "offset": 2533,
+        "text": " $L %"
+      },
+      {
+        "offset": 2545,
+        "text": " (P )"
+      },
+      {
+        "offset": 2557,
+        "text": " ,X -"
+      },
+      {
+        "offset": 2569,
+        "text": " 08 1"
+      },
+      {
+        "offset": 2581,
+        "text": " 48 5"
+      },
+      {
+        "offset": 2587,
+        "text": " 68 7"
+      },
+      {
+        "offset": 2593,
+        "text": " 89 9"
+      },
+      {
+        "offset": 2605,
+        "text": " <P =E >S ?"
+      },
+      {
+        "offset": 2628,
+        "text": "E@0D@4D@6D@8E@;@@<D@>G@"
+      },
+      {
+        "offset": 2817,
+        "text": "L@ D@$L"
+      },
+      {
+        "offset": 2825,
+        "text": "(D@,L@0D"
+      },
+      {
+        "offset": 2843,
+        "text": "<D@=9@>G@"
+      },
+      {
+        "offset": 2883,
+        "text": "H@\"G@&G"
+      },
+      {
+        "offset": 2891,
+        "text": "*G@.G@0G"
+      },
+      {
+        "offset": 2909,
+        "text": ";@@<8@=E@>;@"
+      },
+      {
+        "offset": 3025,
+        "text": "  P !"
+      },
+      {
+        "offset": 3037,
+        "text": " $L %"
+      },
+      {
+        "offset": 3049,
+        "text": " (P )"
+      },
+      {
+        "offset": 3061,
+        "text": " ,X -"
+      },
+      {
+        "offset": 3073,
+        "text": " 08 1"
+      },
+      {
+        "offset": 3085,
+        "text": " 48 5"
+      },
+      {
+        "offset": 3091,
+        "text": " 68 7"
+      },
+      {
+        "offset": 3097,
+        "text": " 89 9"
+      },
+      {
+        "offset": 3109,
+        "text": " <P =E >S ?"
+      },
+      {
+        "offset": 3153,
+        "text": "H@ D@&G@(D@.G@0D@4D@6D@8E@<D@>G@"
+      },
+      {
+        "offset": 3357,
+        "text": "C@ D@,G@0D@4P@6P@8Q@<I@>M@"
+      },
+      {
+        "offset": 3414,
+        "text": "L@ D@$L"
+      },
+      {
+        "offset": 3422,
+        "text": "(D@,L@0D"
+      }
+    ],
+    "flib": {
+      "count": 16,
+      "directory_offset": 1223435,
+      "record_bytes": 65,
+      "validation": "all records, duplicate headers, sizes and contiguous ranges pass",
+      "member_extensions": {
+        ".AMF": 15,
+        ".RES": 1
+      },
+      "payload_bytes": 1222383
+    }
+  },
+  {
+    "path": "lale/SAVAS.CKD",
+    "size": 254629,
+    "sha256": "ccd592b5e681c2ebde6c8570163ac026ba2855db76e0b0a89c2c0e457fea6705",
+    "file_identification": "data",
+    "head_hex": "464c69427a000000abc3030046694c454146414b414e2e434d50000000000000000000000000000000000000000000004146414b414e2e434d50000000000000004d0000007503000075030000560013004800009300f500fa008c00f700f70093008e00fa008300f700e60093000c00fa000700f7000d0093009a0081001300",
+    "tail_hex": "694c4559455249434f4e2e434d5000000000000000000000000000000000000000000059455249434f4e2e434d500000000000007a9003003133000031330000",
+    "entropy_bits_per_byte": 6.0691,
+    "ascii_runs_min5": 1065,
+    "string_preview": [
+      {
+        "offset": 0,
+        "text": "FLiBz"
+      },
+      {
+        "offset": 12,
+        "text": "FiLEAFAKAN.CMP"
+      },
+      {
+        "offset": 48,
+        "text": "AFAKAN.CMP"
+      },
+      {
+        "offset": 647,
+        "text": "zYzzY"
+      },
+      {
+        "offset": 669,
+        "text": "YzzYz"
+      },
+      {
+        "offset": 820,
+        "text": "zYzzY"
+      },
+      {
+        "offset": 962,
+        "text": "FiLEAFAKAN.KOR"
+      },
+      {
+        "offset": 998,
+        "text": "AFAKAN.KOR"
+      },
+      {
+        "offset": 1099,
+        "text": "FiLEANAKES.CMP"
+      },
+      {
+        "offset": 1135,
+        "text": "ANAKES.CMP"
+      },
+      {
+        "offset": 28736,
+        "text": "Z323Z"
+      },
+      {
+        "offset": 30345,
+        "text": "Z[[Z3"
+      },
+      {
+        "offset": 37855,
+        "text": "FiLEAYI.CMP"
+      },
+      {
+        "offset": 37891,
+        "text": "AYI.CMP"
+      },
+      {
+        "offset": 38051,
+        "text": "xyxyx"
+      },
+      {
+        "offset": 38102,
+        "text": "xyxxu"
+      },
+      {
+        "offset": 38128,
+        "text": "xyxxux"
+      },
+      {
+        "offset": 38149,
+        "text": "xuyxu"
+      },
+      {
+        "offset": 38253,
+        "text": "vyxuu"
+      },
+      {
+        "offset": 38380,
+        "text": "vvxxwv"
+      },
+      {
+        "offset": 38459,
+        "text": "vyxyvuux"
+      },
+      {
+        "offset": 38473,
+        "text": "vuuvwvx"
+      },
+      {
+        "offset": 38499,
+        "text": "vxxyvu"
+      },
+      {
+        "offset": 38512,
+        "text": "vvuuvwv"
+      },
+      {
+        "offset": 38535,
+        "text": "wvvxywv"
+      },
+      {
+        "offset": 38549,
+        "text": "vwwuwwx"
+      },
+      {
+        "offset": 38575,
+        "text": "vvyxywv"
+      },
+      {
+        "offset": 38589,
+        "text": "vwwuwwxx"
+      },
+      {
+        "offset": 38620,
+        "text": "wvxxwv"
+      },
+      {
+        "offset": 38633,
+        "text": "vywu;v"
+      },
+      {
+        "offset": 38659,
+        "text": "vvxxwwvjj"
+      },
+      {
+        "offset": 38674,
+        "text": "vywu;v"
+      },
+      {
+        "offset": 38683,
+        "text": "vwuwxv"
+      },
+      {
+        "offset": 38740,
+        "text": "wvwwvxx"
+      },
+      {
+        "offset": 38752,
+        "text": "yxuvxxv"
+      },
+      {
+        "offset": 38798,
+        "text": "uuvux"
+      },
+      {
+        "offset": 38828,
+        "text": "wuuwy"
+      },
+      {
+        "offset": 38852,
+        "text": "xyuvxy"
+      },
+      {
+        "offset": 38877,
+        "text": "vuuxxuu"
+      },
+      {
+        "offset": 38895,
+        "text": "xuwvxy"
+      }
+    ],
+    "flib": {
+      "count": 122,
+      "directory_offset": 246699,
+      "record_bytes": 65,
+      "validation": "all records, duplicate headers, sizes and contiguous ranges pass",
+      "member_extensions": {
+        ".CMP": 66,
+        ".KOR": 52,
+        ".PAL": 1,
+        ".RES": 2,
+        ".BAK": 1
+      },
+      "payload_bytes": 238757
+    }
+  },
+  {
+    "path": "lale/SDIGUS16.DSD",
+    "size": 13147,
+    "sha256": "550fd7745ef935f9fbfc898bf8fdace2ab0d50768171d499452116b073470f12",
+    "file_identification": "data",
+    "head_hex": "44535b011a00ae002e002f00c800000000000001000000002000010000000000641e0000591e00007b1f0000781f0000d11f0000be1f00002b2000000d20000001200000ee1f000087200000bb210000b82100009b2100008d2100007f2100007121000063210000552100004721000037210000342100002e2100005e048c02",
+    "tail_hex": "53746172744f75747075740069534449476574427566666572506f736974696f6e004453444953746f704f757470757400534449436c6f736544657669636500",
+    "entropy_bits_per_byte": 6.7481,
+    "ascii_runs_min5": 107,
+    "string_preview": [
+      {
+        "offset": 753,
+        "text": "gf1Delay"
+      },
+      {
+        "offset": 826,
+        "text": "selectChannel"
+      },
+      {
+        "offset": 855,
+        "text": "gusCmd"
+      },
+      {
+        "offset": 894,
+        "text": "gusCmd2"
+      },
+      {
+        "offset": 954,
+        "text": "gusCmdW"
+      },
+      {
+        "offset": 995,
+        "text": "gusCmdW2"
+      },
+      {
+        "offset": 1056,
+        "text": "gusRead"
+      },
+      {
+        "offset": 1101,
+        "text": "gusReadW"
+      },
+      {
+        "offset": 1144,
+        "text": "gusPoke"
+      },
+      {
+        "offset": 1214,
+        "text": "gusPeek"
+      },
+      {
+        "offset": 1283,
+        "text": "rampVolume"
+      },
+      {
+        "offset": 1491,
+        "text": "waitRamp"
+      },
+      {
+        "offset": 1549,
+        "text": "findHandle"
+      },
+      {
+        "offset": 1627,
+        "text": "createHandle"
+      },
+      {
+        "offset": 1864,
+        "text": "destroyHandle"
+      },
+      {
+        "offset": 1896,
+        "text": "gushmInit"
+      },
+      {
+        "offset": 1906,
+        "text": "SQRVW"
+      },
+      {
+        "offset": 2268,
+        "text": "_^ZY["
+      },
+      {
+        "offset": 2275,
+        "text": "gushmClose"
+      },
+      {
+        "offset": 2327,
+        "text": "gushmFreeAll"
+      },
+      {
+        "offset": 2447,
+        "text": "gushmAlloc"
+      },
+      {
+        "offset": 3004,
+        "text": "gushmFree"
+      },
+      {
+        "offset": 3231,
+        "text": "findSample"
+      },
+      {
+        "offset": 3313,
+        "text": "gusSetSample"
+      },
+      {
+        "offset": 3868,
+        "text": "gusPlaySample"
+      },
+      {
+        "offset": 4209,
+        "text": "gusSetVolume"
+      },
+      {
+        "offset": 4297,
+        "text": "gusSetRate"
+      },
+      {
+        "offset": 4463,
+        "text": "gusSetLinearRate"
+      },
+      {
+        "offset": 4493,
+        "text": "gusSetPosition"
+      },
+      {
+        "offset": 4734,
+        "text": "gusSetPanning"
+      },
+      {
+        "offset": 4871,
+        "text": "gusSetMasterVolume"
+      },
+      {
+        "offset": 4979,
+        "text": "gusMuteChannel"
+      },
+      {
+        "offset": 5051,
+        "text": "gusUnmuteChannel"
+      },
+      {
+        "offset": 5121,
+        "text": "gusStopChannel"
+      },
+      {
+        "offset": 5253,
+        "text": "gusMuteAll"
+      },
+      {
+        "offset": 5331,
+        "text": "gusUnmuteAll"
+      },
+      {
+        "offset": 5386,
+        "text": "DMADownload"
+      },
+      {
+        "offset": 5852,
+        "text": "gusDownload"
+      },
+      {
+        "offset": 6042,
+        "text": "gusUnload"
+      },
+      {
+        "offset": 6155,
+        "text": "gusUnloadAll"
+      }
+    ]
+  },
+  {
+    "path": "lale/SDIPAS16.DSD",
+    "size": 21341,
+    "sha256": "6deb517026a275808d5af4aa6c2747b81a677d83642b3257e6c76f529f42ba94",
+    "file_identification": "data",
+    "head_hex": "44535d012a008800240011006600000000000001000000002000010000000000f02a0000852b0000d32b0000ab2c0000342e0000272e0000082e0000fb2d0000030000001e00f0021a00f0021200f0020e00f0025f00f002b800f002b400f002a800f002a400f0024e01f0024a01f0024601f0024201f0023e01f0023201f002",
+    "tail_hex": "6963650065534449496e69744465766963650053444953746172744f7574707574006553444953746f704f757470757400534449436c6f736544657669636500",
+    "entropy_bits_per_byte": 5.4372,
+    "ascii_runs_min5": 122,
+    "string_preview": [
+      {
+        "offset": 593,
+        "text": "mcpOpenDDS"
+      },
+      {
+        "offset": 716,
+        "text": "mcpCloseDDS"
+      },
+      {
+        "offset": 754,
+        "text": "detectDevices"
+      },
+      {
+        "offset": 771,
+        "text": "queryDeviceCount"
+      },
+      {
+        "offset": 792,
+        "text": "queryDevice"
+      },
+      {
+        "offset": 853,
+        "text": "outPAS"
+      },
+      {
+        "offset": 882,
+        "text": "inPAS"
+      },
+      {
+        "offset": 927,
+        "text": "initDevice"
+      },
+      {
+        "offset": 1956,
+        "text": "startOutput"
+      },
+      {
+        "offset": 2044,
+        "text": "getBufPos"
+      },
+      {
+        "offset": 2073,
+        "text": "stopOutput"
+      },
+      {
+        "offset": 2160,
+        "text": "closeDevice"
+      },
+      {
+        "offset": 2179,
+        "text": "dsd_main"
+      },
+      {
+        "offset": 2694,
+        "text": "MCP v3.5 - (C) 1992,1995 Otto Chrons"
+      },
+      {
+        "offset": 5944,
+        "text": "t+QSWVf"
+      },
+      {
+        "offset": 6133,
+        "text": "fVSQf"
+      },
+      {
+        "offset": 7240,
+        "text": "fWfVfU"
+      },
+      {
+        "offset": 7430,
+        "text": "RQfSfP"
+      },
+      {
+        "offset": 7504,
+        "text": "RQfSfP"
+      },
+      {
+        "offset": 7525,
+        "text": "f]f^f_"
+      },
+      {
+        "offset": 9027,
+        "text": "QfRfR"
+      },
+      {
+        "offset": 9036,
+        "text": "fZfBY"
+      },
+      {
+        "offset": 9073,
+        "text": "QfRfR"
+      },
+      {
+        "offset": 9082,
+        "text": "fZfBY"
+      },
+      {
+        "offset": 9174,
+        "text": "&fWfV"
+      },
+      {
+        "offset": 11008,
+        "text": "DMAInit"
+      },
+      {
+        "offset": 11349,
+        "text": "DMAStart"
+      },
+      {
+        "offset": 11475,
+        "text": "DMAStartSingle"
+      },
+      {
+        "offset": 11678,
+        "text": "DMAStop"
+      },
+      {
+        "offset": 11742,
+        "text": "DMAPosition"
+      },
+      {
+        "offset": 11960,
+        "text": "DMAStatus"
+      },
+      {
+        "offset": 19522,
+        "text": "Pro Audio Spectrum 16"
+      },
+      {
+        "offset": 19544,
+        "text": "Pro Audio Spectrum 16 s"
+      },
+      {
+        "offset": 19572,
+        "text": ". PAS16 uyumlu ses kartlar"
+      },
+      {
+        "offset": 19599,
+        "text": "yla da "
+      },
+      {
+        "offset": 19612,
+        "text": "r.         "
+      },
+      {
+        "offset": 19624,
+        "text": "I/O port"
+      },
+      {
+        "offset": 19633,
+        "text": "-Kart i"
+      },
+      {
+        "offset": 19641,
+        "text": "in ana I/O adresini se"
+      },
+      {
+        "offset": 19664,
+        "text": "in.       "
+      }
+    ]
+  },
+  {
+    "path": "lale/SDISB16.DSD",
+    "size": 29581,
+    "sha256": "b0edd9431cc79baa371f018ceb78568da728626f77be09fda80373c102d605ac",
+    "file_identification": "data",
+    "head_hex": "44538d013a003a01510012006400000000000001000000002000010000000000692e0000402e0000ed2d0000352d00005133000080320000923100008d300000b736000090360000403600000a360000db350000923500005f3500002c35000005350000f6340000a634000037340000a8330000f508d303f108d303ed08d303",
+    "tail_hex": "6963650063534449496e69744465766963650053444953746172744f7574707574007653444953746f704f757470757400534449436c6f736544657669636500",
+    "entropy_bits_per_byte": 5.7279,
+    "ascii_runs_min5": 235,
+    "string_preview": [
+      {
+        "offset": 1313,
+        "text": "mcpOpenDDS"
+      },
+      {
+        "offset": 1436,
+        "text": "mcpCloseDDS"
+      },
+      {
+        "offset": 1475,
+        "text": "scanLong"
+      },
+      {
+        "offset": 1760,
+        "text": "detectDevices"
+      },
+      {
+        "offset": 1812,
+        "text": "tmPh*0"
+      },
+      {
+        "offset": 2293,
+        "text": "queryDeviceCount"
+      },
+      {
+        "offset": 2314,
+        "text": "queryDevice"
+      },
+      {
+        "offset": 2430,
+        "text": "cmdSB"
+      },
+      {
+        "offset": 2481,
+        "text": "readSB"
+      },
+      {
+        "offset": 2535,
+        "text": "resetDSP"
+      },
+      {
+        "offset": 2623,
+        "text": "dspVersion"
+      },
+      {
+        "offset": 2809,
+        "text": "IRQHandler"
+      },
+      {
+        "offset": 3007,
+        "text": "SBIRQHandler"
+      },
+      {
+        "offset": 3481,
+        "text": "SB16IRQHandler"
+      },
+      {
+        "offset": 3579,
+        "text": "initDevice"
+      },
+      {
+        "offset": 5472,
+        "text": "startOutput"
+      },
+      {
+        "offset": 6280,
+        "text": "getBufPos"
+      },
+      {
+        "offset": 6309,
+        "text": "stopOutput"
+      },
+      {
+        "offset": 6414,
+        "text": "closeDevice"
+      },
+      {
+        "offset": 6531,
+        "text": "dsd_main"
+      },
+      {
+        "offset": 7046,
+        "text": "MCP v3.5 - (C) 1992,1995 Otto Chrons"
+      },
+      {
+        "offset": 7385,
+        "text": "%~%s%>"
+      },
+      {
+        "offset": 7427,
+        "text": " x ^ D * "
+      },
+      {
+        "offset": 7443,
+        "text": "!x!^!D!*!"
+      },
+      {
+        "offset": 10296,
+        "text": "t+QSWVf"
+      },
+      {
+        "offset": 10485,
+        "text": "fVSQf"
+      },
+      {
+        "offset": 11592,
+        "text": "fWfVfU"
+      },
+      {
+        "offset": 11782,
+        "text": "RQfSfP"
+      },
+      {
+        "offset": 11856,
+        "text": "RQfSfP"
+      },
+      {
+        "offset": 11877,
+        "text": "f]f^f_"
+      },
+      {
+        "offset": 13379,
+        "text": "QfRfR"
+      },
+      {
+        "offset": 13388,
+        "text": "fZfBY"
+      },
+      {
+        "offset": 13425,
+        "text": "QfRfR"
+      },
+      {
+        "offset": 13434,
+        "text": "fZfBY"
+      },
+      {
+        "offset": 13526,
+        "text": "4fWfV"
+      },
+      {
+        "offset": 15360,
+        "text": "DMAInit"
+      },
+      {
+        "offset": 15701,
+        "text": "DMAStart"
+      },
+      {
+        "offset": 15827,
+        "text": "DMAStartSingle"
+      },
+      {
+        "offset": 16030,
+        "text": "DMAStop"
+      },
+      {
+        "offset": 16094,
+        "text": "DMAPosition"
+      }
+    ]
+  },
+  {
+    "path": "lale/SDIWSS16.DSD",
+    "size": 25107,
+    "sha256": "ab0fe16ed941f61691ce2382bb6e00d187ed96320aa306efbfa475fd4b7db9c7",
+    "file_identification": "data",
+    "head_hex": "445313003200bc00310012006500000000000001000000002000010000000000df250000a2250000652500003c250000e9240000312400004d2a00007c2900008e28000089270000b32d00008c2d00003c2d0000062d0000d72c00008e2c00005b2c0000282c0000012c0000f22b0000a22b0000332b0000a42a00007d064303",
+    "tail_hex": "6963650069534449496e69744465766963650053444953746172744f7574707574006953444953746f704f757470757400534449436c6f736544657669636500",
+    "entropy_bits_per_byte": 5.6262,
+    "ascii_runs_min5": 178,
+    "string_preview": [
+      {
+        "offset": 801,
+        "text": "mcpOpenDDS"
+      },
+      {
+        "offset": 820,
+        "text": "h6)hC"
+      },
+      {
+        "offset": 920,
+        "text": "mcpCloseDDS"
+      },
+      {
+        "offset": 959,
+        "text": "wr_wss"
+      },
+      {
+        "offset": 991,
+        "text": "scanLong"
+      },
+      {
+        "offset": 1258,
+        "text": "detectDevices"
+      },
+      {
+        "offset": 1893,
+        "text": "queryDeviceCount"
+      },
+      {
+        "offset": 1914,
+        "text": "queryDevice"
+      },
+      {
+        "offset": 2021,
+        "text": "initDevice"
+      },
+      {
+        "offset": 3422,
+        "text": "startOutput"
+      },
+      {
+        "offset": 3572,
+        "text": "getBufPos"
+      },
+      {
+        "offset": 3601,
+        "text": "stopOutput"
+      },
+      {
+        "offset": 3668,
+        "text": "closeDevice"
+      },
+      {
+        "offset": 3723,
+        "text": "dsd_main"
+      },
+      {
+        "offset": 4226,
+        "text": "MCP v3.5 - (C) 1992,1995 Otto Chrons"
+      },
+      {
+        "offset": 7476,
+        "text": "t+QSWVf"
+      },
+      {
+        "offset": 7665,
+        "text": "fVSQf"
+      },
+      {
+        "offset": 8772,
+        "text": "fWfVfU"
+      },
+      {
+        "offset": 8962,
+        "text": "RQfSfP"
+      },
+      {
+        "offset": 9036,
+        "text": "RQfSfP"
+      },
+      {
+        "offset": 9057,
+        "text": "f]f^f_"
+      },
+      {
+        "offset": 10559,
+        "text": "QfRfR"
+      },
+      {
+        "offset": 10568,
+        "text": "fZfBY"
+      },
+      {
+        "offset": 10605,
+        "text": "QfRfR"
+      },
+      {
+        "offset": 10614,
+        "text": "fZfBY"
+      },
+      {
+        "offset": 10706,
+        "text": "+fWfV"
+      },
+      {
+        "offset": 12544,
+        "text": "DMAInit"
+      },
+      {
+        "offset": 12885,
+        "text": "DMAStart"
+      },
+      {
+        "offset": 13011,
+        "text": "DMAStartSingle"
+      },
+      {
+        "offset": 13214,
+        "text": "DMAStop"
+      },
+      {
+        "offset": 13278,
+        "text": "DMAPosition"
+      },
+      {
+        "offset": 13496,
+        "text": "DMAStatus"
+      },
+      {
+        "offset": 15650,
+        "text": "0123456789ABCDEF"
+      },
+      {
+        "offset": 21868,
+        "text": "Windows Sound System s"
+      },
+      {
+        "offset": 21896,
+        "text": "Microsoft Windows Sound System ve uyumlular"
+      },
+      {
+        "offset": 21940,
+        "text": " AD1848 veya CS4231 CODECli kartlar bu s"
+      },
+      {
+        "offset": 21995,
+        "text": "rlar. "
+      },
+      {
+        "offset": 22006,
+        "text": "in Turtle Beach Tropez, AudioTrix Pro ve  Orchid SoundWave32.           "
+      },
+      {
+        "offset": 22079,
+        "text": "rI/O port"
+      },
+      {
+        "offset": 22089,
+        "text": "oKart i"
+      }
+    ]
+  },
+  {
+    "path": "lale/SES.CFG",
+    "size": 107,
+    "sha256": "5b1bc76037b624c5530f098180418c68f61395fba5d68ce12dcca23d67fab12b",
+    "file_identification": "data",
+    "head_hex": "534449534231362e445344000006000000cd000000200200000500000026223c1e070000008a243c1ec0293c1e842f3c1e00000000000000000000000001000000030000000100000003000000000000000000000002000000000000000000000000000000000000000200",
+    "tail_hex": "3c1e842f3c1e00000000000000000000000001000000030000000100000003000000000000000000000002000000000000000000000000000000000000000200",
+    "entropy_bits_per_byte": 2.5526,
+    "ascii_runs_min5": 1,
+    "string_preview": [
+      {
+        "offset": 0,
+        "text": "SDISB16.DSD"
+      }
+    ],
+    "small_data": {
+      "distinct_byte_values": 26,
+      "minimum": 0,
+      "maximum": 205,
+      "zero_bytes": 68
+    }
+  },
+  {
+    "path": "lale/SONPAL.PAL",
+    "size": 768,
+    "sha256": "268b076ec13244855629a5c9431902e8b8358c31f077c5547e4fb58efb3bff28",
+    "file_identification": "data",
+    "head_hex": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "tail_hex": "163f2323311e1e2b1c1c1c16163f35353535352d2d2d2929292525252121211c1c1c1a1a1a1818181414141212121010100c0c0c0a0a0a0808080000003f3f3f",
+    "entropy_bits_per_byte": 2.852,
+    "ascii_runs_min5": 2,
+    "string_preview": [
+      {
+        "offset": 495,
+        "text": "11/++)"
+      },
+      {
+        "offset": 717,
+        "text": "?55555---)))%%%!!!"
+      }
+    ],
+    "small_data": {
+      "distinct_byte_values": 30,
+      "minimum": 0,
+      "maximum": 63,
+      "zero_bytes": 452
+    }
+  },
+  {
+    "path": "lale/SOUNDS.CKD",
+    "size": 11772928,
+    "sha256": "1449bb3a0e29eba932e5da749561fb24fb4e01e072a7a658e39339efeb05ed1d",
+    "file_identification": "data",
+    "head_hex": "464c6942ce000000b26fb30046694c454144494d302e50555200000000000000000000000000000000000000000000004144494d302e50555200000000000000004d00000008030000080300007e7a6879868e97a79f968692877d66475479838b8ad7eff7ba2e4d557db98d8b665d6e8ed17e011e3f7d61979ad7d77e764f01",
+    "tail_hex": "694c455041524130392e534e44000000000000000000000000000000000000000000005041524130392e534e44000000000000000904ad00a96b0600a96b0600",
+    "entropy_bits_per_byte": 6.6585,
+    "ascii_runs_min5": 235042,
+    "string_preview": [
+      {
+        "offset": 12,
+        "text": "FiLEADIM0.PUR"
+      },
+      {
+        "offset": 48,
+        "text": "ADIM0.PUR"
+      },
+      {
+        "offset": 90,
+        "text": "}fGTy"
+      },
+      {
+        "offset": 140,
+        "text": "aMmuy"
+      },
+      {
+        "offset": 308,
+        "text": "yz~~z"
+      },
+      {
+        "offset": 593,
+        "text": "zlOWai"
+      },
+      {
+        "offset": 615,
+        "text": "wsiry"
+      },
+      {
+        "offset": 638,
+        "text": "~j~lj{}"
+      },
+      {
+        "offset": 684,
+        "text": "l`KUy}"
+      },
+      {
+        "offset": 722,
+        "text": "v{uyoyw"
+      },
+      {
+        "offset": 768,
+        "text": "{wymnv"
+      },
+      {
+        "offset": 853,
+        "text": "FiLEADIM1.PUR"
+      },
+      {
+        "offset": 889,
+        "text": "ADIM1.PUR"
+      },
+      {
+        "offset": 931,
+        "text": "wH&&o"
+      },
+      {
+        "offset": 955,
+        "text": "z&&&w<"
+      },
+      {
+        "offset": 965,
+        "text": "zi&&&z"
+      },
+      {
+        "offset": 981,
+        "text": "<&Vfo"
+      },
+      {
+        "offset": 1039,
+        "text": "P}afr"
+      },
+      {
+        "offset": 1072,
+        "text": "wo}lzz}"
+      },
+      {
+        "offset": 1149,
+        "text": "orzzr"
+      },
+      {
+        "offset": 1434,
+        "text": "rS''=N"
+      },
+      {
+        "offset": 1456,
+        "text": "ldNao}r"
+      },
+      {
+        "offset": 1478,
+        "text": "}zQzSQtw"
+      },
+      {
+        "offset": 1497,
+        "text": "gQKg}"
+      },
+      {
+        "offset": 1525,
+        "text": "S;''ow"
+      },
+      {
+        "offset": 1537,
+        "text": "}='5r"
+      },
+      {
+        "offset": 1563,
+        "text": "itgo\\ol"
+      },
+      {
+        "offset": 1609,
+        "text": "tloVYi"
+      },
+      {
+        "offset": 1686,
+        "text": "FiLEADIM2.PUR"
+      },
+      {
+        "offset": 1722,
+        "text": "ADIM2.PUR"
+      },
+      {
+        "offset": 1778,
+        "text": "5&&b3"
+      },
+      {
+        "offset": 1785,
+        "text": "{&1<*"
+      },
+      {
+        "offset": 1811,
+        "text": "&&*&&IM"
+      },
+      {
+        "offset": 1840,
+        "text": "eF48'&&&&&<L_t"
+      },
+      {
+        "offset": 1865,
+        "text": "wiO:BCQs"
+      },
+      {
+        "offset": 1894,
+        "text": "aH83&&&&L"
+      },
+      {
+        "offset": 1904,
+        "text": "bv{aT~"
+      },
+      {
+        "offset": 1929,
+        "text": "zfZMl"
+      },
+      {
+        "offset": 1953,
+        "text": "OQZWV"
+      },
+      {
+        "offset": 1959,
+        "text": "e&&&)5&7Qmt"
+      }
+    ],
+    "flib": {
+      "count": 206,
+      "directory_offset": 11759538,
+      "record_bytes": 65,
+      "validation": "all records, duplicate headers, sizes and contiguous ranges pass",
+      "member_extensions": {
+        ".PUR": 196,
+        ".SND": 10
+      },
+      "payload_bytes": 11746136
+    }
+  },
+  {
+    "path": "lale/TRDOS.DAT",
+    "size": 4096,
+    "sha256": "27133c2a816f1c1f2f893260f5f7e653e213975fd787d048e97576857f54a5d8",
+    "file_identification": "data",
+    "head_hex": "0000000000000000000000000000000000007e81a58181bd9981817e0000000000007effdbffffc3e7ffff7e00000000000000006cfefefefe7c3810000000000000000010387cfe7c38100000000000000000183c3ce7e7e718183c00000000000000183c7effff7e18183c00000000000000000000183c3c18000000000000",
+    "tail_hex": "00d86c6c6c6c6c0000000000000000000070d83060c8f8000000000000000000000000007c7c7c7c7c7c7c000000000000000000000000000000000000000000",
+    "entropy_bits_per_byte": 3.6805,
+    "ascii_runs_min5": 53,
+    "string_preview": [
+      {
+        "offset": 149,
+        "text": "<fBBf<"
+      },
+      {
+        "offset": 194,
+        "text": "<ffff<"
+      },
+      {
+        "offset": 210,
+        "text": "?3?0000p"
+      },
+      {
+        "offset": 229,
+        "text": "ccccg"
+      },
+      {
+        "offset": 306,
+        "text": "fffffff"
+      },
+      {
+        "offset": 610,
+        "text": "8ll8v"
+      },
+      {
+        "offset": 644,
+        "text": "000000"
+      },
+      {
+        "offset": 1059,
+        "text": "fff|ffff"
+      },
+      {
+        "offset": 1091,
+        "text": "lffffffl"
+      },
+      {
+        "offset": 1107,
+        "text": "fbhxh`bf"
+      },
+      {
+        "offset": 1123,
+        "text": "fbhxh```"
+      },
+      {
+        "offset": 1203,
+        "text": "fflxxlff"
+      },
+      {
+        "offset": 1219,
+        "text": "``````bf"
+      },
+      {
+        "offset": 1283,
+        "text": "fff|````"
+      },
+      {
+        "offset": 1315,
+        "text": "fff|lfff"
+      },
+      {
+        "offset": 1412,
+        "text": "l|88|l"
+      },
+      {
+        "offset": 1426,
+        "text": "ffff<"
+      },
+      {
+        "offset": 1458,
+        "text": "<00000000<"
+      },
+      {
+        "offset": 1571,
+        "text": "``xlffff|"
+      },
+      {
+        "offset": 1667,
+        "text": "``lvffff"
+      },
+      {
+        "offset": 1715,
+        "text": "``flxxlf"
+      },
+      {
+        "offset": 1766,
+        "text": "ffffff"
+      },
+      {
+        "offset": 1798,
+        "text": "fffff|``"
+      },
+      {
+        "offset": 1830,
+        "text": "vf```"
+      },
+      {
+        "offset": 1862,
+        "text": "00006"
+      },
+      {
+        "offset": 1893,
+        "text": "fffff<"
+      },
+      {
+        "offset": 1926,
+        "text": "l888l"
+      },
+      {
+        "offset": 2309,
+        "text": "f`|``f"
+      },
+      {
+        "offset": 2483,
+        "text": "<f```f<"
+      },
+      {
+        "offset": 2630,
+        "text": "ffffff"
+      },
+      {
+        "offset": 2912,
+        "text": "6666666"
+      },
+      {
+        "offset": 2920,
+        "text": "66666666"
+      },
+      {
+        "offset": 2936,
+        "text": "66666666"
+      },
+      {
+        "offset": 2960,
+        "text": "66666"
+      },
+      {
+        "offset": 2968,
+        "text": "666666666666666666666666"
+      },
+      {
+        "offset": 3000,
+        "text": "6666666666666"
+      },
+      {
+        "offset": 3024,
+        "text": "6666666"
+      },
+      {
+        "offset": 3184,
+        "text": "66666667666666666666670?"
+      },
+      {
+        "offset": 3221,
+        "text": "?076666666666666"
+      },
+      {
+        "offset": 3256,
+        "text": "666666666666670766666666"
+      }
+    ],
+    "small_data": {
+      "distinct_byte_values": 82,
+      "minimum": 0,
+      "maximum": 255,
+      "zero_bytes": 1757
+    }
+  },
+  {
+    "path": "LALE.BAT",
+    "size": 63,
+    "sha256": "59ad63d1abaca924e805a98e748f7baf43707e4f2d2da3bfce96eacf537b7823",
+    "file_identification": "ASCII text, with CRLF line terminators",
+    "head_hex": "446f73426f785c646f73626f782e657865202d636f6e6620646f73626f782e636f6e66202d6c616e6720446f73426f785c5475726b6973682e6c616e670d0a",
+    "tail_hex": "446f73426f785c646f73626f782e657865202d636f6e6620646f73626f782e636f6e66202d6c616e6720446f73426f785c5475726b6973682e6c616e670d0a",
+    "entropy_bits_per_byte": 4.371,
+    "ascii_runs_min5": 1,
+    "string_preview": [
+      {
+        "offset": 0,
+        "text": "DosBox\\dosbox.exe -conf dosbox.conf -lang DosBox\\Turkish.lang"
+      }
+    ]
+  },
+  {
+    "path": "OKUBENI.TXT",
+    "size": 6738,
+    "sha256": "84edac500ef4aab53574a74a46fb2a365264c2046e461c7dd6349cd3923f2ebe",
+    "file_identification": "Unicode text, UTF-8 text, with CRLF line terminators",
+    "head_hex": "5554462d3820444f530d0a0d0a3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d0d0a4c616c652053617661c59fc3a7c4b16c6172c4b120323030352053c3bc72c3bc6dc3bc0d0a3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3d0d0a0d0a4d6572686162612c0d0a0d0a4f79756e",
+    "tail_hex": "2e6e65742f0d0a2d2d2047c3b66b68616e2053616e2c20323030392f30362f32332c20687474703a2f2f7777772e7374696c6c70737963686f2e6e65742f0d0a",
+    "entropy_bits_per_byte": 5.3583,
+    "ascii_runs_min5": 292,
+    "string_preview": [
+      {
+        "offset": 0,
+        "text": "UTF-8 DOS"
+      },
+      {
+        "offset": 13,
+        "text": "============================"
+      },
+      {
+        "offset": 43,
+        "text": "Lale Sava"
+      },
+      {
+        "offset": 63,
+        "text": " 2005 S"
+      },
+      {
+        "offset": 80,
+        "text": "============================"
+      },
+      {
+        "offset": 112,
+        "text": "Merhaba,"
+      },
+      {
+        "offset": 124,
+        "text": "Oyunun CD gerektirmeyen ve modern i"
+      },
+      {
+        "offset": 161,
+        "text": "letim sistemlerinde nispeten rahat"
+      },
+      {
+        "offset": 205,
+        "text": "an bir versiyonunu paketledik. "
+      },
+      {
+        "offset": 238,
+        "text": "u an okudu"
+      },
+      {
+        "offset": 250,
+        "text": "unuz 'OKUBENI.TXT'"
+      },
+      {
+        "offset": 270,
+        "text": "dosyas"
+      },
+      {
+        "offset": 278,
+        "text": " elinizde bulunan bu s"
+      },
+      {
+        "offset": 305,
+        "text": "m ile ilgili bilgileri i"
+      },
+      {
+        "offset": 331,
+        "text": "eriyor."
+      },
+      {
+        "offset": 340,
+        "text": "Oyunun orijinal s"
+      },
+      {
+        "offset": 365,
+        "text": " ile ilgili eski teknik destek d"
+      },
+      {
+        "offset": 402,
+        "text": "manlar"
+      },
+      {
+        "offset": 418,
+        "text": "bet etmeyiniz."
+      },
+      {
+        "offset": 436,
+        "text": "Macerac"
+      },
+      {
+        "offset": 448,
+        "text": "n el kitab"
+      },
+      {
+        "offset": 460,
+        "text": " bu da"
+      },
+      {
+        "offset": 473,
+        "text": "mla birlikte 'lale.pdf' dosyas"
+      },
+      {
+        "offset": 510,
+        "text": "eriside geliyor, e"
+      },
+      {
+        "offset": 530,
+        "text": "er elinizde hakiki oyun bulunmuyorsa bu dosyadan"
+      },
+      {
+        "offset": 580,
+        "text": "yararlanabilirsiniz."
+      },
+      {
+        "offset": 604,
+        "text": "Bilgi i"
+      },
+      {
+        "offset": 613,
+        "text": "in ist@stillpsycho.net e-posta adresine ula"
+      },
+      {
+        "offset": 677,
+        "text": "lenceler..."
+      },
+      {
+        "offset": 692,
+        "text": "http://www.stillpsycho.net/ist"
+      },
+      {
+        "offset": 726,
+        "text": "(Bu arada DOSBox'a da te"
+      },
+      {
+        "offset": 757,
+        "text": "r etmeden ge"
+      },
+      {
+        "offset": 771,
+        "text": "meyelim: http://www.dosbox.com/)"
+      },
+      {
+        "offset": 809,
+        "text": "==================="
+      },
+      {
+        "offset": 830,
+        "text": "-1. H"
+      },
+      {
+        "offset": 856,
+        "text": "==================="
+      },
+      {
+        "offset": 879,
+        "text": "ALT-ENTER tu"
+      },
+      {
+        "offset": 898,
+        "text": " ile oyunu tam ekran moduna alabilirsiniz."
+      },
+      {
+        "offset": 944,
+        "text": "Oyunu "
+      },
+      {
+        "offset": 972,
+        "text": "zda bilgisayar"
+      }
+    ]
+  },
+  {
+    "path": "lale.pdf",
+    "size": 1862265,
+    "sha256": "c8668a2101b9f3e60bdc57583cc39345f007c6668bd1b1410a449f6d968c42af",
+    "file_identification": "PDF document, version 1.4, 31 page(s)",
+    "head_hex": "255044462d312e340a25e2e3cfd30a352030206f626a0a3c3c2f4e616d65202f52370a2f5452202f4964656e746974790a2f54797065202f4578744753746174650a2f4f504d20310a2f534d20302e30320a3e3e0a656e646f626a0a342030206f626a0a3c3c2f52372035203020520a3e3e0a656e646f626a0a372030206f62",
+    "tail_hex": "3e3c35393339613639353566656231646437363133663331633834356335316565373e5d0a3e3e0a7374617274787265660a313835353438340a2525454f460a",
+    "entropy_bits_per_byte": 7.9601,
+    "ascii_runs_min5": 12011,
+    "string_preview": [
+      {
+        "offset": 0,
+        "text": "%PDF-1.4"
+      },
+      {
+        "offset": 15,
+        "text": "5 0 obj"
+      },
+      {
+        "offset": 23,
+        "text": "<</Name /R7"
+      },
+      {
+        "offset": 35,
+        "text": "/TR /Identity"
+      },
+      {
+        "offset": 49,
+        "text": "/Type /ExtGState"
+      },
+      {
+        "offset": 66,
+        "text": "/OPM 1"
+      },
+      {
+        "offset": 73,
+        "text": "/SM 0.02"
+      },
+      {
+        "offset": 85,
+        "text": "endobj"
+      },
+      {
+        "offset": 92,
+        "text": "4 0 obj"
+      },
+      {
+        "offset": 100,
+        "text": "<</R7 5 0 R"
+      },
+      {
+        "offset": 115,
+        "text": "endobj"
+      },
+      {
+        "offset": 122,
+        "text": "7 0 obj"
+      },
+      {
+        "offset": 130,
+        "text": "<</ColorSpace /DeviceRGB"
+      },
+      {
+        "offset": 155,
+        "text": "/Subtype /Image"
+      },
+      {
+        "offset": 171,
+        "text": "/Filter /DCTDecode"
+      },
+      {
+        "offset": 190,
+        "text": "/Length 114876"
+      },
+      {
+        "offset": 205,
+        "text": "/Width 1628"
+      },
+      {
+        "offset": 217,
+        "text": "/BitsPerComponent 8"
+      },
+      {
+        "offset": 237,
+        "text": "/Height 1151"
+      },
+      {
+        "offset": 253,
+        "text": "stream"
+      },
+      {
+        "offset": 266,
+        "text": "Adobe"
+      },
+      {
+        "offset": 308,
+        "text": "$4.763.22:ASF:=N>22HbINVX]^]8EfmeZlS[]Y"
+      },
+      {
+        "offset": 361,
+        "text": "*Y;2;YYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY"
+      },
+      {
+        "offset": 533,
+        "text": "%&'()*456789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz"
+      },
+      {
+        "offset": 752,
+        "text": "&'()*56789:CDEFGHIJSTUVWXYZcdefghijstuvwxyz"
+      },
+      {
+        "offset": 2784,
+        "text": ")QJAS"
+      },
+      {
+        "offset": 3296,
+        "text": ".d>V`Q]"
+      },
+      {
+        "offset": 3442,
+        "text": "-9m-VktR"
+      },
+      {
+        "offset": 3495,
+        "text": "O^:RQ@"
+      },
+      {
+        "offset": 3856,
+        "text": "3Ik&F"
+      },
+      {
+        "offset": 3908,
+        "text": "x*hM%"
+      },
+      {
+        "offset": 4357,
+        "text": "+qef8"
+      },
+      {
+        "offset": 4426,
+        "text": "Wz2:SXn"
+      },
+      {
+        "offset": 4471,
+        "text": "Iam!bb"
+      },
+      {
+        "offset": 4592,
+        "text": "]\"W;_|"
+      },
+      {
+        "offset": 4615,
+        "text": "\"88<w"
+      },
+      {
+        "offset": 4831,
+        "text": "Q\\Hxw"
+      },
+      {
+        "offset": 5691,
+        "text": "ko3r#l"
+      },
+      {
+        "offset": 6503,
+        "text": "Vi&nX"
+      },
+      {
+        "offset": 6635,
+        "text": "sQF)[5"
+      }
+    ]
+  },
+  {
+    "path": "seyh48.ico",
+    "size": 7358,
+    "sha256": "adc7f799628cf79e8d86595c75f1f63de7698372ed94e58b49661d3af2f514a5",
+    "file_identification": "MS Windows icon resource - 1 icon, 48x48, 24 bits/pixel",
+    "head_hex": "0000010001003030000001001800a81c0000160000002800000030000000600000000100180000000000801c000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "tail_hex": "ffff0003ffff0000ffff8007ffff0000fffff00fffff0000fffff81fffff0000ffffffffffff0000ffffffffffff0000ffffffffffff0000ffffffffffff0000",
+    "entropy_bits_per_byte": 3.573,
+    "ascii_runs_min5": 75,
+    "string_preview": [
+      {
+        "offset": 404,
+        "text": "rvwHLM\"'("
+      },
+      {
+        "offset": 416,
+        "text": "\"%&=??nnm"
+      },
+      {
+        "offset": 725,
+        "text": "61&1/("
+      },
+      {
+        "offset": 1103,
+        "text": "+11-MM"
+      },
+      {
+        "offset": 1244,
+        "text": "AGG6ZZ!=>"
+      },
+      {
+        "offset": 1316,
+        "text": ">9+KF7&$ "
+      },
+      {
+        "offset": 1389,
+        "text": "133XY"
+      },
+      {
+        "offset": 1529,
+        "text": "PST8_`"
+      },
+      {
+        "offset": 1754,
+        "text": "FC663("
+      },
+      {
+        "offset": 1901,
+        "text": ">;/TVX"
+      },
+      {
+        "offset": 1994,
+        "text": "+aiJp{*p|(ivJp{*_i"
+      },
+      {
+        "offset": 2042,
+        "text": "KA4>:/nqr"
+      },
+      {
+        "offset": 2136,
+        "text": "%*)LFDk_4^T;eX\"MD"
+      },
+      {
+        "offset": 2180,
+        "text": "J@3RH:NF:52("
+      },
+      {
+        "offset": 2286,
+        "text": "-&0LA4MA"
+      },
+      {
+        "offset": 2324,
+        "text": "XN?bXI"
+      },
+      {
+        "offset": 2397,
+        "text": "l}:X["
+      },
+      {
+        "offset": 2424,
+        "text": " #%ISJp{"
+      },
+      {
+        "offset": 2433,
+        "text": "U^']dJp{"
+      },
+      {
+        "offset": 2474,
+        "text": "OLBcc`"
+      },
+      {
+        "offset": 2687,
+        "text": "7QU)DI"
+      },
+      {
+        "offset": 2753,
+        "text": "0)$:2,"
+      },
+      {
+        "offset": 2831,
+        "text": "9QT'>B"
+      },
+      {
+        "offset": 2897,
+        "text": "-&!WNE"
+      },
+      {
+        "offset": 3000,
+        "text": "0))aQ>"
+      },
+      {
+        "offset": 3014,
+        "text": "1yd0sa"
+      },
+      {
+        "offset": 3041,
+        "text": "7'!ri\\"
+      },
+      {
+        "offset": 3138,
+        "text": "H:#_L&]J0r\\8"
+      },
+      {
+        "offset": 3158,
+        "text": "-q]+jY%[L+mY*oZ WE"
+      },
+      {
+        "offset": 3185,
+        "text": "8(\"pgZ=92"
+      },
+      {
+        "offset": 3279,
+        "text": "QA$gT4"
+      },
+      {
+        "offset": 3302,
+        "text": "2wc9}jU"
+      },
+      {
+        "offset": 3313,
+        "text": "u0t\\'fQ"
+      },
+      {
+        "offset": 3423,
+        "text": "?2!YH3~jE"
+      },
+      {
+        "offset": 3448,
+        "text": "o=~iY"
+      },
+      {
+        "offset": 3457,
+        "text": "n/iR%P<"
+      },
+      {
+        "offset": 3567,
+        "text": "82,g`C"
+      },
+      {
+        "offset": 3575,
+        "text": "4mf2fQ-iVN"
+      },
+      {
+        "offset": 3590,
+        "text": ".xc3va:|m,eV$I<"
+      },
+      {
+        "offset": 3719,
+        "text": "1d_)WF)\\L<"
+      }
+    ]
+  },
+  {
+    "path": "Uninstall.exe",
+    "size": 68140,
+    "sha256": "1830800e37eb993c011b928b4330087fd765de356752fe59a94b4d7af8c47fe7",
+    "file_identification": "PE32 executable for MS Windows 5.00 (GUI), Intel i386, Nullsoft Installer self-extracting archive, 5 sections",
+    "head_hex": "4d5a90000300000004000000ffff0000b800000000000000400000000000000000000000000000000000000000000000000000000000000000000000e00000000e1fba0e00b409cd21b8014ccd21546869732070726f6772616d2063616e6e6f742062652072756e20696e20444f53206d6f64652e0d0d0a2400000000000000",
+    "tail_hex": "01efcdfb87abe9f7292c7bbff7948e8d99aee6dd1e7890e8622669e34205d4902d15d35d773e2dc3589c8404a3d095c6d60022a210ac002876ff8b8030eb3d93",
+    "entropy_bits_per_byte": 6.7524,
+    "ascii_runs_min5": 410,
+    "string_preview": [
+      {
+        "offset": 77,
+        "text": "!This program cannot be run in DOS mode."
+      },
+      {
+        "offset": 472,
+        "text": ".text"
+      },
+      {
+        "offset": 511,
+        "text": "`.rdata"
+      },
+      {
+        "offset": 551,
+        "text": "@.data"
+      },
+      {
+        "offset": 592,
+        "text": ".ndata"
+      },
+      {
+        "offset": 632,
+        "text": ".rsrc"
+      },
+      {
+        "offset": 1716,
+        "text": " s695"
+      },
+      {
+        "offset": 2881,
+        "text": "tCj\\V"
+      },
+      {
+        "offset": 6457,
+        "text": "RQQQPW"
+      },
+      {
+        "offset": 9212,
+        "text": "Yh8aB"
+      },
+      {
+        "offset": 9279,
+        "text": "tj;t$"
+      },
+      {
+        "offset": 9369,
+        "text": "_^][Y"
+      },
+      {
+        "offset": 9924,
+        "text": "Instu_"
+      },
+      {
+        "offset": 9933,
+        "text": "softuV"
+      },
+      {
+        "offset": 9942,
+        "text": "NulluM"
+      },
+      {
+        "offset": 10574,
+        "text": "SUVWj 3"
+      },
+      {
+        "offset": 10647,
+        "text": "D$8PUh"
+      },
+      {
+        "offset": 10753,
+        "text": "j [f;"
+      },
+      {
+        "offset": 10774,
+        "text": "Fj\"F[f"
+      },
+      {
+        "offset": 10781,
+        "text": ">/u[FFf"
+      },
+      {
+        "offset": 11024,
+        "text": "uu9-D"
+      },
+      {
+        "offset": 11469,
+        "text": "D$$Ph"
+      },
+      {
+        "offset": 11485,
+        "text": "D$,PU"
+      },
+      {
+        "offset": 12396,
+        "text": "VVVVj"
+      },
+      {
+        "offset": 12403,
+        "text": "t$$VV"
+      },
+      {
+        "offset": 12438,
+        "text": "t$(VV"
+      },
+      {
+        "offset": 14165,
+        "text": "KKj\\Xf"
+      },
+      {
+        "offset": 16410,
+        "text": "uDWWh"
+      },
+      {
+        "offset": 17069,
+        "text": "PhxL@"
+      },
+      {
+        "offset": 17486,
+        "text": "FFC;]"
+      },
+      {
+        "offset": 17574,
+        "text": "UUUUW"
+      },
+      {
+        "offset": 17690,
+        "text": "t$,VW"
+      },
+      {
+        "offset": 18187,
+        "text": "D$,9-"
+      },
+      {
+        "offset": 18773,
+        "text": "[j0Xjxf"
+      },
+      {
+        "offset": 19390,
+        "text": "ShuP@"
+      },
+      {
+        "offset": 19501,
+        "text": "PPPPPP"
+      },
+      {
+        "offset": 19817,
+        "text": "\\u f9O"
+      },
+      {
+        "offset": 19828,
+        "text": "^j\\PN"
+      },
+      {
+        "offset": 20310,
+        "text": "9-SVj"
+      },
+      {
+        "offset": 20337,
+        "text": "90u'AA"
+      }
+    ]
+  }
+]

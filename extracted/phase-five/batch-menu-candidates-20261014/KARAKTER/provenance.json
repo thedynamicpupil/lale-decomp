@@ -1,0 +1,14 @@
+{
+  "container": "lale/IVIR.CKD",
+  "container_sha256": "d2bc2ee0d4136bc10d37160a43b3f3d420562abd543b0f9e4127d3978d4edda8",
+  "member": "KARAKTER.CMP",
+  "member_offset": 493154,
+  "member_sha256": "535bf2f02b6755481612aaf486904109f840c6d49d9382bc8f27f96733924fcc",
+  "palette": "GRUP.PAL",
+  "palette_offset": 306715,
+  "width": 320,
+  "height": 200,
+  "indices_sha256": "a38ad6924308d1ece189ae4beaeca9b28739ad041ace14c3f22a4dd235b04535",
+  "preview": "RGB triplet interpretation, six-bit expansion (v<<2)|(v>>4). Palette association requires call-site verification.",
+  "decoder_source": "IST overlay 16b5 code 043b, original file 0x59d4b; REA ev_942d02e2ccc11b2c3ae591fbf0e7e44c898e27f5a3264b878ec791b53d019a54"
+}

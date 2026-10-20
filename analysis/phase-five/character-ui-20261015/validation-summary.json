@@ -1,0 +1,34 @@
+{
+  "test_executions_passed": 52,
+  "distinct_tests": 48,
+  "test_build_format_exit_codes": {
+    "tests": 0,
+    "build": 0,
+    "format": 0
+  },
+  "sdl_dummy_checks": {
+    "standard_character_presentations": 3,
+    "snapshot_character_presentations": 3,
+    "otopark_background_presentations": 3,
+    "silent_seq_records": 2433,
+    "pcm_seq_records": 2433
+  },
+  "new_user_acceptance": {
+    "silent_preview_standalone": true,
+    "F9_integration": true,
+    "five_stream_order_no_observed_problems": true
+  },
+  "new_desktop_acceptance_pending": [
+    "creation_snapshot_diagnostic",
+    "debug_pcm_audio",
+    "F10_background_inspection"
+  ],
+  "original_DOS_differential": [
+    "run6 complete first-slot28 draws and record/traits/RNG/phase",
+    "run7 original0437 initializer+26 numeric draws and full record/RNG"
+  ],
+  "standard_creation_finalization_enabled": false,
+  "party_file_io_enabled": false,
+  "interactive_otopark_enabled": false,
+  "faithful_audio_sync_enabled": false
+}

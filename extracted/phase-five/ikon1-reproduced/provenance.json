@@ -1,0 +1,14 @@
+{
+  "container": "lale/IKON.CKD",
+  "container_sha256": "30bcbbeaddf302d6dc60bcc4a95716ddf5f108e51a30a154b1f3044c72b66ab7",
+  "member": "IKON1.CMP",
+  "member_offset": 2442,
+  "member_sha256": "4d7973a6a798d7d02044b56dbacdefa1028c9d97df032be4f36978457685f4ab",
+  "palette": "IKON1.PAL",
+  "palette_offset": 1609,
+  "width": 200,
+  "height": 200,
+  "indices_sha256": "e813cc3210d6a8924c5f9086075845bcc7d2fe5417604651f6423450520c37f4",
+  "preview": "RGB triplet interpretation, six-bit expansion (v<<2)|(v>>4). Palette association requires call-site verification.",
+  "decoder_source": "IST overlay 16b5 code 043b, original file 0x59d4b; REA ev_942d02e2ccc11b2c3ae591fbf0e7e44c898e27f5a3264b878ec791b53d019a54"
+}

@@ -1,0 +1,84 @@
+{
+  "number": 3,
+  "source": "reference media/3 - Silikon Baba cutscene.mp4",
+  "sha256": "a2d0fa250e8fa06a48f10f8485804af20662ef4a41c2db34f80f82517989afb3",
+  "duration_seconds": 285.683333,
+  "interval_seconds": 20,
+  "timestamp_basis": "decoded source frame presentation timestamp; not gameplay/input time",
+  "samples": [
+    {
+      "seconds": 0.0,
+      "file": "sample-0001.jpg"
+    },
+    {
+      "seconds": 20.0,
+      "file": "sample-0002.jpg"
+    },
+    {
+      "seconds": 40.0,
+      "file": "sample-0003.jpg"
+    },
+    {
+      "seconds": 60.0,
+      "file": "sample-0004.jpg"
+    },
+    {
+      "seconds": 80.0,
+      "file": "sample-0005.jpg"
+    },
+    {
+      "seconds": 100.0,
+      "file": "sample-0006.jpg"
+    },
+    {
+      "seconds": 120.0,
+      "file": "sample-0007.jpg"
+    },
+    {
+      "seconds": 140.0,
+      "file": "sample-0008.jpg"
+    },
+    {
+      "seconds": 160.0,
+      "file": "sample-0009.jpg"
+    },
+    {
+      "seconds": 180.0,
+      "file": "sample-0010.jpg"
+    },
+    {
+      "seconds": 200.0,
+      "file": "sample-0011.jpg"
+    },
+    {
+      "seconds": 220.0,
+      "file": "sample-0012.jpg"
+    },
+    {
+      "seconds": 240.0,
+      "file": "sample-0013.jpg"
+    },
+    {
+      "seconds": 260.0,
+      "file": "sample-0014.jpg"
+    },
+    {
+      "seconds": 280.0,
+      "file": "sample-0015.jpg"
+    }
+  ],
+  "sheets": [
+    "contact-01.jpg"
+  ],
+  "targeted": [
+    {
+      "seconds": 20.0,
+      "file": "target-000020.000.png"
+    },
+    {
+      "seconds": 285.0,
+      "file": "target-000285.000.png"
+    }
+  ],
+  "format_version": 2
+}

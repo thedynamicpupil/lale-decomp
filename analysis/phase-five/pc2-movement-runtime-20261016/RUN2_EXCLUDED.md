@@ -1,0 +1,1 @@
+Run2 diagnostic only: vector setup wrote DS:00c4 instead of DS:b9c4. No same-run pre-typo snapshot exists; restoration from two previous runs does not certify acceptance. All run2 movement observations excluded from proof. Terminated at door entry. Run3 starts clean original state; initial launch before config creation terminated at command shell and no game ran.

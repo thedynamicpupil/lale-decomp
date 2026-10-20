@@ -1,0 +1,7 @@
+{
+  "run": "runtime/first-combat-20261020/run4",
+  "encounter_entry": "Original outer8524 detects conditioned world position2,0 and invokes mode2 through its own stack; no temporary combat call",
+  "position_condition": "World2,0,facing0; original direction-helper equivalent b9c4=-1,b9c6=0 set before battle entry; initial heading2 had vector+1",
+  "intended_actor_fixture": "At first battle input preserve current party actor as sole survivor at1 HP; set other three actor HP to0 and remove only their occupancy; leave numeric HP unchanged for8111 differential",
+  "bounds": "Not a naturally lost full starting party. Must observe real original dog attack kill survivor, scheduler result2 and original loss caller; never set632e or directly end battle."
+}

@@ -1,0 +1,54 @@
+{
+  "original": "lale/IST.EXE",
+  "sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
+  "source_evidence": [
+    {
+      "name": "modal-2198-original.bin",
+      "sha256": "77bf20777ad425c9a445a84b6122c5ad86b724550ae341091aff6a69d35babd3"
+    },
+    {
+      "name": "text-case-original.bin",
+      "sha256": "1d357eb29752bb706a92cccd901a871dfd585bbd64c77f674ff0c98f4e92cde5"
+    },
+    {
+      "name": "text-2948-original.bin",
+      "sha256": "7db7df572257843d9a723127e22c7b64f4bfe1ff6eac1722aea5436bd0a1734d"
+    },
+    {
+      "name": "case-helpers.bin",
+      "sha256": "f79426424ec13e2c0450a4355de7dc2c96099819a707c0f4155a6344ac4fbace"
+    },
+    {
+      "name": "line-wrap-25ec.bin",
+      "sha256": "3540f4b0baa83c556ff3c9db636d97956921bda18edd7d43a970572bc6e98689"
+    },
+    {
+      "name": "message-background-1f6a.bin",
+      "sha256": "d4745278aa5ee3f3aaf5d4210506bf03cd8e13331349aaf87f7a6be0a33e7ec8"
+    },
+    {
+      "name": "acquisition-boundary.bin",
+      "sha256": "18e5e966d1b4967673b0416db0e2869628a6bf98879bf5fbdb2e249201a903b7"
+    },
+    {
+      "name": "text-2948-tail.bin",
+      "sha256": "a6787217e1a424fe4cb3fcd28fd495d28ff929c44ea6d4179caab4be509ae9d0"
+    },
+    {
+      "name": "party-selector-46e3.bin",
+      "sha256": "d7062a5c6fdebdf9d4f52342930b16facd9364f2a8f8d5df3e491b0e9deb617a"
+    },
+    {
+      "name": "dialogue-full-2948.bin",
+      "sha256": "74de5b97008f98b3e2649e2b5a31880e0e4b6471da2ab99ea4735b987060455c"
+    },
+    {
+      "name": "text-background-restore-1eb9.bin",
+      "sha256": "c8db2840f04a94f1f70965a2df2c639f337cffdd409b9f0540b713fb5350e91b"
+    },
+    {
+      "name": "font-bindings-main.bin",
+      "sha256": "17529a8997242eda1bc141e3fad7e9a40c6eb7ff7102f9350f304638c97c56f6"
+    }
+  ]
+}

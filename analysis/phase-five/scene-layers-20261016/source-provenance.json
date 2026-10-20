@@ -1,0 +1,37 @@
+{
+  "source": "lale/IST.EXE",
+  "sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
+  "ranges": [
+    {
+      "path": "analysis/phase-five/scene-layers-20261016/far-layer-3cdd.bin",
+      "original_start": 180493,
+      "end_exclusive": 182255,
+      "sha256": "a5a7fdfe50d2feb87589aaacad36c4e095d0db73f5c0654ec30e0c176e777909"
+    },
+    {
+      "path": "analysis/phase-five/scene-layers-20261016/middle-layer-43c9.bin",
+      "original_start": 182265,
+      "end_exclusive": 185221,
+      "sha256": "4260a7033744ee4cf28114a7a38eb9d4057fa35d461bb2e76d5e5b7bedd52d38"
+    },
+    {
+      "path": "analysis/phase-five/scene-layers-20261016/current-layer-58e2.bin",
+      "original_start": 187666,
+      "end_exclusive": 189103,
+      "sha256": "2ae13330e2905c3780a9ee266eaf818d91b8aefdc11c8a9825780fb18d3b42e4"
+    },
+    {
+      "path": "analysis/phase-five/scene-layers-20261016/crop-callbacks-complete.bin",
+      "original_start": 57681,
+      "end_exclusive": 58453,
+      "sha256": "656c6dd0f1dcf3f6f53025890e98e6d8a228c89c31ac1cd05ac0641e82bfb84b"
+    },
+    {
+      "path": "analysis/phase-five/scene-layers-20261016/crop-wrapper.bin",
+      "original_start": 57217,
+      "end_exclusive": 57761,
+      "sha256": "5b44578012d6ea90ee0db8269f0ddb49d816256d955960fccb0fde29c0ac3a92",
+      "note": "initial bounded slice includes wrapper and part of following callback; complete callback in separate range"
+    }
+  ]
+}

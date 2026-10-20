@@ -1,0 +1,8 @@
+{
+  "commands": "",
+  "chunk_id": "cc95de",
+  "wall_time_seconds": 5.000366187,
+  "session_id": 83891,
+  "original_token_count": 138,
+  "output": "LOG: DEBUG: cpu log LOGCPU.TXT created\n\u001b[16;80H\r\u001b[18d\u001b[30m\u001b[42m14A3:000004A0 CB\u001b[18;35Hretf\u001b[K\r\u001b[19d\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m14A3:000004A1 55\u001b[19;40Hbp\r\u001b[20d14A3:000004A2 8BEC  \u001b[20;35Hmov  bp,sp\u001b[K\r\u001b[21d14A3:000004A4 FF5E06\u001b[21;35Hcall far word [bp+06]\u001b[21;68HB10]=0000\r\u001b[22d14A3:000004A7 50    \u001b[22;35Hpush ax\u001b[K\r\u001b[23d14A3:000004A8 0E      \u001b[23;35Hpush cs\u001b[K\u001b[80G\r\u001b[24d\u001b[30m\u001b[47mI-> _\u001b[K\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m\u001b[2;9H002D\u001b[2;42H2DAC\u001b[3;10HAFA\u001b[3;32H14A3\u001b[3;47H04A0\t1\u001b[3;66H1 P1\u001b[4;9H0001\u001b[4;24HB0A\u001b[5;11H00\u001b[5;24HB0\u001b[5;67H6259083\u001b[6;67H518.5354\r\u001b[7d"
+}

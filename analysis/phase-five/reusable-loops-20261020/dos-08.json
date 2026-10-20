@@ -1,0 +1,8 @@
+{
+  "commands": "",
+  "chunk_id": "6b3164",
+  "wall_time_seconds": 5.001996144,
+  "session_id": 79236,
+  "original_token_count": 134,
+  "output": "\u001b[16;80H\r\u001b[18d\u001b[30m\u001b[42m0D6A:0000063C 9A2500A61E \u001b[9bcall 1EA6:0025\u001b[K\u001b[19;11H\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m641 C746FE0100\u001b[19;35Hmov  word [bp-02],0001\u001b[63Gss:[0FE8]=0000\r\u001b[20d0D6A:00000646 EB27\u001b[16X\u001b[20;35Hjmp  short 0000066F ($+27)  (down)\u001b[K\u001b[21;11H648 8B5EFE\u001b[21;35Hmov  bx,[bp-02]      \u001b[63Gss:[0FE8]=0000\u001b[22;11H64B 6BDB06\u001b[22;35Himul bx,bx,06\u001b[23;11H64E B8041F\u001b[23;40Hax,1F04\u001b[80G\r\u001b[24d\u001b[30m\u001b[47mI-> _\u001b[K\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m\u001b[2d\bFFFF9EC0\u001b[3;10H17\u001b[3;43H0000063C\t0\u001b[3;66H0 P1\u001b[4;9H0000\r\u001b[5d\t1F04\u001b[5;66H64920363\u001b[6;66H9511.2269\r\u001b[7d"
+}

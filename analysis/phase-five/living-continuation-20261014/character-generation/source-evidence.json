@@ -1,0 +1,444 @@
+{
+  "source_sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
+  "logical_overlay": "167c",
+  "overlay_code_file_offset": 248832,
+  "ranges": [
+    {
+      "label": "trait-initializer",
+      "physical_start": 248832,
+      "physical_end_exclusive": 249119,
+      "bytes_hex": "558bec83ec02c746fe0100eb4cb888018ec0268b1e98286bdb5cb888018ec0268b9fa899c1e3058b46fed1e003d8b888018ec0268b877827ba88018ec2268b1e98286bdb248b56fed1e203daba88018ec2268987729bff46fe837efe0f7eaeb888018ec0268b1e98286bdb5cb888018ec0268b87a8996bc00b053826688801501e687cbb9aa349000083c408b888018ec0268b1e98286bdb5cb888018ec02683bfaa990175061e68f948eb041e680049688801680a9f9aa349000083c4086a006800809a7917000099505233d2b80500595b9a4212000052509adf120000d1e0ba88018ec2268b1e98286bdb5cba88018ec2268b9fa8996bdb0a03d8b888018ec0268b87e70fba88018ec2268b1e98286bdb24ba88018ec2268987909bc9cb",
+      "sha256": "cf93ae39641a8621e04f6a97186fd2901f6dfb472c1344ec6586a0ce6fa1cc5e",
+      "direct_rng_calls_static": [
+        {
+          "physical": 249027,
+          "logical_offset": 195,
+          "scaled_range_immediate": 5
+        }
+      ]
+    },
+    {
+      "label": "generator",
+      "physical_start": 249911,
+      "physical_end_exclusive": 252750,
+      "bytes_hex": "558bec83ec020ee8bffb6a006800809a7917000099505233d2b81900595b9a4212000052509adf120000506a006800809a7917000099505233d2b81900595b9a4212000052509adf1200005a03d0b888018ec0268b1e98286bdb24b888018ec0268b87749b6bc00a03d081c29600b888018ec0268b1e98286bdb5cb888018ec0268997ca996a006800809a7917000099505233d2b80500595b9a4212000052509adf120000506a006800809a7917000099505233d2b80500595b9a4212000052509adf1200005a03d0b888018ec0268b1e98286bdb5cb888018ec0260397ca99b888018ec0268b1e98286bdb24b888018ec0268b87769b6bc00a03d083c292b888018ec0268b1e98286bdb5cb888018ec0268b87aa99486bc00a2bd0b888018ec0268b1e98286bdb5cb888018ec0268997cc996a006800809a7917000099505233d2b89600595b9a4212000052509adf120000506a006800809a7917000099505233d2b89600595b9a4212000052509adf1200005a03d0b888018ec0268b1e98286bdb5cb888018ec0268b87aa99486bc01903d0b888018ec0268b1e98286bdb5cb888018ec0268b87ca99bb88018ec3268b1e98286bdb5cb988018ec1260387cc99bb05005299f7fb5a2bd0b888018ec0268b1e98286bdb24b888018ec0268b87789b6bc00a03d0b888018ec0268b1e98286bdb5cb888018ec0268997b4996a006800809a7917000099505233d2b83200595b9a4212000052509adf120000506a006800809a7917000099505233d2b83200595b9a4212000052509adf1200005a03d0b888018ec0268b1e98286bdb5cb888018ec0268b87aa996bc0192bd0b888018ec0268b1e98286bdb5cb888018ec0268b87ca99bb88018ec3268b1e98286bdb5cb988018ec1260387cc99bb03005299f7fb5a03d0b888018ec0268b1e98286bdb24b888018ec0268b877a9b6bc00a03d0b888018ec0268b1e98286bdb5cb888018ec0268997b6996a006800809a7917000099505233d2b86400595b9a4212000052509adf120000506a006800809a7917000099505233d2b86400595b9a4212000052509adf1200005a03d0b888018ec0268b1e98286bdb5cb888018ec0268b87b499bb04005299f7fb5a03d0b888018ec0268b1e98286bdb5cb888018ec0268b87b699bb04005299f7fb5a2bd0b888018ec0268b1e98286bdb24b888018ec0268b877c9b6bc00a03d0b888018ec0268b1e98286bdb5cb888018ec0268997b0996a006800809a7917000099505233d2b80600595b9a4212000052509adf120000ba88018ec2268b1e98286bdb5cba88018ec250268b87b699bb280099f7fb5a03d0b888018ec0268b1e98286bdb5cb888018ec0268b87b099bb1e005299f7fb5a2bd0b888018ec0268b1e98286bdb5cb888018ec0268b87cc99bb14005299f7fb5a03d0b888018ec0268b1e98286bdb24b888018ec0268b877e9bd1e003d0b888018ec0268b1e98286bdb5cb888018ec0268997b2996a006800809a7917000099505233d2b84600595b9a4212000052509adf120000506a006800809a7917000099505233d2b85000595b9a4212000052509adf1200005a03d0526a006800809a7917000099505233d2b86400595b9a4212000052509adf1200005a03d081c29600b888018ec0268b1e98286bdb5cb888018ec0268b87ca99bb88018ec3268b1e98286bdb5cb988018ec1260387cc992bd0b888018ec0268b1e98286bdb24b888018ec0268b87809b6bc00a03d0b888018ec0268b1e98286bdb5cb888018ec0268997ba996a006800809a7917000099505233d2b8c800595b9a4212000052509adf120000506a006800809a7917000099505233d2b8c800595b9a4212000052509adf1200005a03d0b888018ec0268b1e98286bdb5cb888018ec0268b87cc99bb88018ec3268b1e98286bdb5cb988018ec1260387ca992bd0b888018ec0268b1e98286bdb5cb888018ec0268b87b099bb04005299f7fb5a2bd0b888018ec0268b1e98286bdb5cb888018ec0268b87b699bb04005299f7fb5a03d0b888018ec0268b1e98286bdb24b888018ec0268b87829b6bc00a03d0b888018ec0268b1e98286bdb5cb888018ec0268997b8996a006800809a7917000099505233d2b89600595b9a4212000052509adf120000506a006800809a7917000099505233d2b89600595b9a4212000052509adf1200005a03d0b888018ec0268b1e98286bdb5cb888018ec0268b87b499bb02005299f7fb5a2bd0b888018ec0268b1e98286bdb24b888018ec0268b87849b6bc00a03d0b888018ec0268b1e98286bdb5cb888018ec0268997c0996a006800809a7917000099505233d2b89600595b9a4212000052509adf120000506a006800809a7917000099505233d2b89600595b9a4212000052509adf1200005a03d0b888018ec0268b1e98286bdb5cb888018ec0268b87aa996bc0322bd0b888018ec0268b1e98286bdb5cb888018ec0268b87c099bb04005299f7fb5a2bd0b888018ec0268b1e98286bdb24b888018ec0268b87869b6bc00a03d0b888018ec0268b1e98286bdb5cb888018ec0268997bc996a006800809a7917000099505233d2b89700595b9a4212000052509adf120000ba88018ec2268b1e98286bdb5cba88018ec250268b87b499bb040099f7fb5a03d0b888018ec0268b1e98286bdb24b888018ec0268b87889b6bc00a03d0b888018ec0268b1e98286bdb5cb888018ec0268997be996a006800809a7917000099505233d2b8c900595b9a4212000052509adf120000ba88018ec2268b1e98286bdb5cba88018ec250268b87b699bb040099f7fb5a03d0b888018ec0268b1e98286bdb5cb888018ec0268b87b899bb04005299f7fb5a03d0b888018ec0268b1e98286bdb5cb888018ec0268b87c099bb04005299f7fb5a2bd0b888018ec0268b1e98286bdb5cb888018ec0268b87b499bb04005299f7fb5a2bd0b888018ec0268b1e98286bdb24b888018ec0268b878a9b6bc00a03d0b888018ec0268b1e98286bdb5cb888018ec0268997c2996a006800809a7917000099505233d2b8c900595b9a4212000052509adf120000ba88018ec2268b1e98286bdb5cba88018ec2268b97aa994a6bd23203c2ba88018ec2268b1e98286bdb5cba88018ec2268b97cc99d1e22bc2ba88018ec2268b1e98286bdb5cba88018ec250268b87ca99bb040099f7fb5a03d0b888018ec0268b1e98286bdb24b888018ec0268b878c9b6bc01403d0b888018ec0268b1e98286bdb5cb888018ec0268997c4996a006800809a7917000099505233d2b8fb00595b9a4212000052509adf120000ba88018ec2268b1e98286bdb5cba88018ec250268b87c099bb040099f7fb5a2bd0b888018ec0268b1e98286bdb5cb888018ec0268b87b499bb04005299f7fb5a2bd0b888018ec0268b1e98286bdb24b888018ec0268b878e9b6bc00a03d0b888018ec0268b1e98286bdb5cb888018ec0268997c6996a006800809a7917000099505233d2b89700595b9a4212000052509adf120000053200ba88018ec2268b1e98286bdb5cba88018ec2268987c8996a006800809a7917000099505233d2b80600595b9a4212000052509adf120000050f00ba88018ec2268b1e98286bdb5cba88018ec2268987ce99b888018ec0268b1e98286bdb24b888018ec0268b87909bba88018ec2268b1e98286bdb5cba88018ec2268987d299c746fe0300e99500837efe06742ab888018ec0268b1e98286bdb5c8b46fed1e003d8b888018ec02683bfa699327d05b83200eb48eb28eb44b888018ec0268b1e98286bdb5c8b46fed1e003d8b888018ec02683bfa699037d05b80300ebd4b888018ec0268b1e98286bdb5c8b46fed1e003d8b888018ec0268b87a699ba88018ec2268b1e98286bdb5c8b56fed1e203daba88018ec2268987a699ff46fe837efe107f03e962ff900ee80200c9cb",
+      "sha256": "e9289ea4b38f940a802ace0d118422fda2c97ff4cdfe794fd8e7656e19d12871",
+      "direct_rng_calls_static": [
+        {
+          "physical": 249926,
+          "logical_offset": 1094,
+          "scaled_range_immediate": 25
+        },
+        {
+          "physical": 249959,
+          "logical_offset": 1127,
+          "scaled_range_immediate": 25
+        },
+        {
+          "physical": 250049,
+          "logical_offset": 1217,
+          "scaled_range_immediate": 5
+        },
+        {
+          "physical": 250082,
+          "logical_offset": 1250,
+          "scaled_range_immediate": 5
+        },
+        {
+          "physical": 250223,
+          "logical_offset": 1391,
+          "scaled_range_immediate": 150
+        },
+        {
+          "physical": 250256,
+          "logical_offset": 1424,
+          "scaled_range_immediate": 150
+        },
+        {
+          "physical": 250427,
+          "logical_offset": 1595,
+          "scaled_range_immediate": 50
+        },
+        {
+          "physical": 250460,
+          "logical_offset": 1628,
+          "scaled_range_immediate": 50
+        },
+        {
+          "physical": 250630,
+          "logical_offset": 1798,
+          "scaled_range_immediate": 100
+        },
+        {
+          "physical": 250663,
+          "logical_offset": 1831,
+          "scaled_range_immediate": 100
+        },
+        {
+          "physical": 250815,
+          "logical_offset": 1983,
+          "scaled_range_immediate": 6
+        },
+        {
+          "physical": 250996,
+          "logical_offset": 2164,
+          "scaled_range_immediate": 70
+        },
+        {
+          "physical": 251029,
+          "logical_offset": 2197,
+          "scaled_range_immediate": 80
+        },
+        {
+          "physical": 251065,
+          "logical_offset": 2233,
+          "scaled_range_immediate": 100
+        },
+        {
+          "physical": 251203,
+          "logical_offset": 2371,
+          "scaled_range_immediate": 200
+        },
+        {
+          "physical": 251236,
+          "logical_offset": 2404,
+          "scaled_range_immediate": 200
+        },
+        {
+          "physical": 251436,
+          "logical_offset": 2604,
+          "scaled_range_immediate": 150
+        },
+        {
+          "physical": 251469,
+          "logical_offset": 2637,
+          "scaled_range_immediate": 150
+        },
+        {
+          "physical": 251588,
+          "logical_offset": 2756,
+          "scaled_range_immediate": 150
+        },
+        {
+          "physical": 251621,
+          "logical_offset": 2789,
+          "scaled_range_immediate": 150
+        },
+        {
+          "physical": 251768,
+          "logical_offset": 2936,
+          "scaled_range_immediate": 151
+        },
+        {
+          "physical": 251884,
+          "logical_offset": 3052,
+          "scaled_range_immediate": 201
+        },
+        {
+          "physical": 252099,
+          "logical_offset": 3267,
+          "scaled_range_immediate": 201
+        },
+        {
+          "physical": 252271,
+          "logical_offset": 3439,
+          "scaled_range_immediate": 251
+        },
+        {
+          "physical": 252420,
+          "logical_offset": 3588,
+          "scaled_range_immediate": 151
+        },
+        {
+          "physical": 252478,
+          "logical_offset": 3646,
+          "scaled_range_immediate": 6
+        }
+      ]
+    },
+    {
+      "label": "party-confirm-cancel",
+      "physical_start": 257810,
+      "physical_end_exclusive": 258153,
+      "bytes_hex": "837efe39740c837efc087540837efa01753ab888018ec026a1982869c0940005269c688801509acc49000083c4040bc0741ab888018ec026833e9828047d0db888018ec026ff069828e99600837efe39740c837efc087561837efa01755bb888018ec026a1982869c0940005269c688801509acc49000083c4040bc0743bb888018ec026833e982804752eb888018ec026ff0698286a00b888018ec026a11873f7d85068800c9a3f07300083c4060ee86af40ee852f6e99400837efe01740c837efc077539837efa017533b888018ec026833e9828017e26b888018ec026ff0e98286a00b888018ec026a11873f7d8506820039a3f07300083c406e943f7837efe017412837efc077403e92cfa837efa017403e923fab888018ec026833e9828017403e913fa0ee8def56a00b888018ec026a11873f7d8506820039a3f07300083c406c746f60000eb03e9ecf99ab60630008b46f6c9cb",
+      "sha256": "fa98d863c8a22337fb3c8a75b9b263f7f72a824fe87fea18c83f103420ddcfdd",
+      "direct_rng_calls_static": []
+    },
+    {
+      "label": "party-write",
+      "physical_start": 255022,
+      "physical_end_exclusive": 255282,
+      "bytes_hex": "558bec83ec041e685b496a049a250070018946fc837efcff75156aff1e68754968de001e6863499a2a00580183c40cc746fe0100e991008b5efe6bdb5cb888018ec0268b87b0998b5efe6bdb5cba88018ec2268987de998b5efe6bdb5cb888018ec0268b87b2998b5efe6bdb5cba88018ec2268987e0991e689a498b46fe69c0940005959c688801509aa349000083c408ff76fc8b46fe69c0940005269c688801506a006a259a34007001ff76fc8b46fe69c0940005959c688801506a006a259a34007001ff46fe837efe047f03e966ffc746fe0100eb1cff76fc8b46fe6bc05c05a699688801506a006a5c9a34007001ff46fe837efe047edeff76fc9a2a007001c9cb",
+      "sha256": "3ca48e58cbf91af9959b221cbf80b2dca56455c33741eb0b0bf2af58636964db",
+      "direct_rng_calls_static": []
+    }
+  ],
+  "trait_race_rows_u16le": [
+    {
+      "race": 1,
+      "data_ds_offset": 10136,
+      "words": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "race": 2,
+      "data_ds_offset": 10168,
+      "words": [
+        0,
+        65535,
+        65534,
+        2,
+        65535,
+        0,
+        0,
+        2,
+        65535,
+        65535,
+        1,
+        1,
+        0,
+        65535,
+        65535,
+        0
+      ]
+    },
+    {
+      "race": 3,
+      "data_ds_offset": 10200,
+      "words": [
+        0,
+        0,
+        0,
+        1,
+        2,
+        0,
+        2,
+        65535,
+        0,
+        0,
+        65534,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "race": 4,
+      "data_ds_offset": 10232,
+      "words": [
+        0,
+        65535,
+        1,
+        65534,
+        65535,
+        3,
+        0,
+        65535,
+        0,
+        1,
+        65535,
+        1,
+        0,
+        65534,
+        65535,
+        0
+      ]
+    },
+    {
+      "race": 5,
+      "data_ds_offset": 10264,
+      "words": [
+        0,
+        1,
+        65535,
+        3,
+        65535,
+        65535,
+        0,
+        1,
+        0,
+        1,
+        3,
+        65535,
+        65535,
+        1,
+        65534,
+        0
+      ]
+    },
+    {
+      "race": 6,
+      "data_ds_offset": 10296,
+      "words": [
+        0,
+        0,
+        65534,
+        0,
+        65535,
+        0,
+        3,
+        0,
+        3,
+        0,
+        2,
+        0,
+        65534,
+        65534,
+        0,
+        0
+      ]
+    },
+    {
+      "race": 7,
+      "data_ds_offset": 10328,
+      "words": [
+        0,
+        0,
+        0,
+        65535,
+        0,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        2,
+        1,
+        2,
+        65534,
+        0
+      ]
+    },
+    {
+      "race": 8,
+      "data_ds_offset": 10360,
+      "words": [
+        0,
+        1,
+        65535,
+        2,
+        0,
+        1,
+        0,
+        3,
+        1,
+        65534,
+        0,
+        65535,
+        1,
+        0,
+        0,
+        22
+      ]
+    }
+  ],
+  "race_five_word_table": [
+    {
+      "race": 1,
+      "data_ds_offset": 4081,
+      "words": [
+        23,
+        1,
+        12,
+        15,
+        3
+      ]
+    },
+    {
+      "race": 2,
+      "data_ds_offset": 4091,
+      "words": [
+        8,
+        9,
+        9,
+        4,
+        12
+      ]
+    },
+    {
+      "race": 3,
+      "data_ds_offset": 4101,
+      "words": [
+        24,
+        8,
+        11,
+        3,
+        3
+      ]
+    },
+    {
+      "race": 4,
+      "data_ds_offset": 4111,
+      "words": [
+        5,
+        12,
+        14,
+        6,
+        11
+      ]
+    },
+    {
+      "race": 5,
+      "data_ds_offset": 4121,
+      "words": [
+        3,
+        10,
+        18,
+        23,
+        1
+      ]
+    },
+    {
+      "race": 6,
+      "data_ds_offset": 4131,
+      "words": [
+        7,
+        12,
+        8,
+        20,
+        3
+      ]
+    },
+    {
+      "race": 7,
+      "data_ds_offset": 4141,
+      "words": [
+        4,
+        2,
+        14,
+        20,
+        21
+      ]
+    },
+    {
+      "race": 8,
+      "data_ds_offset": 4151,
+      "words": [
+        22,
+        22,
+        22,
+        22,
+        22
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "archive": "SAVAS.CKD",
+  "archive_sha256": "ccd592b5e681c2ebde6c8570163ac026ba2855db76e0b0a89c2c0e457fea6705",
+  "member": "INSAN1.CMP",
+  "offset": 124354,
+  "member_sha256": "204c4a520f60335aaccd66d71ea85fb026f03828452a4a42475e647b2937507e",
+  "width": 149,
+  "height": 39,
+  "indices_sha256": "bc53377246ae9bc80402f8a08bd82827dfd1ad00046c58d16889a53264ecf73e",
+  "palette_archive": "SAVAS.CKD",
+  "palette": "PALBAT.PAL",
+  "palette_offset": 207230,
+  "palette_sha256": "ee8bc32a4c6ac0c7707c29d00c55b7fc8c431cc8a2e7dd668bd609c00a9efce2",
+  "binding": "parent original assembly party palette trace; helper167c:011f prefix lookup",
+  "preview": "Original size, opaque RGB preview with six-bit palette expansion; no scene compositing"
+}

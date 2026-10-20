@@ -1,0 +1,19 @@
+{
+  "test_executions_passed": 44,
+  "distinct_tests": 41,
+  "preview_tests_per_binary": 3,
+  "original_decoder_changed": false,
+  "dummy_seq_records": 2433,
+  "dummy_character_presentations": 3,
+  "desktop_acceptance": false,
+  "original_av_runtime_comparison": false,
+  "fresh_generation_enabled": false,
+  "party_finalization_enabled": false,
+  "otopark_gameplay_enabled": false,
+  "audio_enabled": false,
+  "cargo_format_check_exit": 0,
+  "cargo_build_workspace_offline_exit": 0,
+  "cargo_test_workspace_offline_exit": 0,
+  "seq_dummy_smoke_exit": 0,
+  "character_dummy_smoke_exit": 0
+}

@@ -1,0 +1,22 @@
+{
+  "session": {
+    "checked": 631,
+    "changed": [
+      "rust-port/README.md",
+      "rust-port/crates/lale-runtime/src/main.rs",
+      "rust-port/crates/lale-runtime/src/menu_reference.rs",
+      "rust-port/crates/lale-assets/src/lib.rs",
+      "docs/PROJECT_STATE.md",
+      "docs/ROADMAP.md",
+      "docs/FIRST_PLAYABLE_PATH.md"
+    ]
+  },
+  "frozen": {
+    "checked": 30,
+    "changed": []
+  },
+  "originals": {
+    "checked": 25,
+    "changed": []
+  }
+}

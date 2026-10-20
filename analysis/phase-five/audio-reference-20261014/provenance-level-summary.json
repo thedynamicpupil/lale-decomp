@@ -1,0 +1,96 @@
+{
+  "source_files": [
+    {
+      "path": "reference media/2026-10-14 02-39-52.mp4",
+      "size": 9303809,
+      "sha256": "aacd16169fe76c0e5caefadab3ec930381258a27a0702e7043e8d9b78b831fae"
+    },
+    {
+      "path": "analysis/phase-five/audio-reference-20261014/reference-audio-48000.wav",
+      "size": 14114894,
+      "sha256": "d7d09603c7c721339c0e20b881a6cd4803ba77d6e62fbc0afb2fdce5e61b1353"
+    },
+    {
+      "path": "analysis/phase-five/audio-reference-20261014/reference-mono-8000.f32",
+      "size": 2352472,
+      "sha256": "9eba5c425aa98c4e486ca1797e5cdf6d8b29a9aa7708047c5cbe308ffc9417ff"
+    }
+  ],
+  "five_second_mono_rms_blocks": [
+    {
+      "start_seconds": 0,
+      "rms": 0.07484577352427862,
+      "dbfs": -22.516654377202343
+    },
+    {
+      "start_seconds": 5,
+      "rms": 0.0451617362231787,
+      "dbfs": -26.904587403297704
+    },
+    {
+      "start_seconds": 10,
+      "rms": 0.11755150193864516,
+      "dbfs": -18.59543635170833
+    },
+    {
+      "start_seconds": 15,
+      "rms": 0.09095778200908479,
+      "dbfs": -20.823202767848773
+    },
+    {
+      "start_seconds": 20,
+      "rms": 0.10286234521418135,
+      "dbfs": -19.754871563750463
+    },
+    {
+      "start_seconds": 25,
+      "rms": 0.02323157933121821,
+      "dbfs": -32.678425299028994
+    },
+    {
+      "start_seconds": 30,
+      "rms": 0.00011045365833894748,
+      "dbfs": -79.13639790547406
+    },
+    {
+      "start_seconds": 35,
+      "rms": 8.63167442730628e-05,
+      "dbfs": -81.27809897792758
+    },
+    {
+      "start_seconds": 40,
+      "rms": 0.03642184744235828,
+      "dbfs": -28.772760581215767
+    },
+    {
+      "start_seconds": 45,
+      "rms": 0.05235121958340274,
+      "dbfs": -25.621463929302596
+    },
+    {
+      "start_seconds": 50,
+      "rms": 0.07581038062542769,
+      "dbfs": -22.40542645736597
+    },
+    {
+      "start_seconds": 55,
+      "rms": 0.07619138031697505,
+      "dbfs": -22.36188316966973
+    },
+    {
+      "start_seconds": 60,
+      "rms": 0.0781151461043378,
+      "dbfs": -22.14529501213687
+    },
+    {
+      "start_seconds": 65,
+      "rms": 0.08000153280786447,
+      "dbfs": -21.938033839256104
+    },
+    {
+      "start_seconds": 70,
+      "rms": 0.07679725908434853,
+      "dbfs": -22.293085595667876
+    }
+  ]
+}

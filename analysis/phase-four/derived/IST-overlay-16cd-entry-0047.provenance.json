@@ -1,0 +1,243 @@
+{
+  "classification": "synthetic-static-analysis-only-do-not-execute",
+  "path": "analysis/phase-four/derived/IST-overlay-16cd-entry-0047.mz",
+  "derived_sha256": "97334aaf237f9de386c836fce029bf844a1a19d6c7dc47244a67f6fa113f9842",
+  "source_path": "lale/IST.EXE",
+  "source_sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
+  "logical_overlay_segment": 5837,
+  "synthetic_analysis_segment": 16384,
+  "original_overlay_file_offset": 377088,
+  "overlay_size": 2481,
+  "derived_header_bytes": 8464,
+  "derived_overlay_file_offset": 205072,
+  "patches": [
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 197436,
+      "source_file_offset": 377916,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 197350,
+      "source_file_offset": 377830,
+      "before": 88,
+      "after": 3742
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 197303,
+      "source_file_offset": 377783,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 197288,
+      "source_file_offset": 377768,
+      "before": 88,
+      "after": 3742
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 196961,
+      "source_file_offset": 377441,
+      "before": 88,
+      "after": 3742
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 196946,
+      "source_file_offset": 377426,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 196878,
+      "source_file_offset": 377358,
+      "before": 88,
+      "after": 3742
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 196854,
+      "source_file_offset": 377334,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 196810,
+      "source_file_offset": 377290,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 196793,
+      "source_file_offset": 377273,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 196767,
+      "source_file_offset": 377247,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 198464,
+      "source_file_offset": 378944,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 198378,
+      "source_file_offset": 378858,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 198260,
+      "source_file_offset": 378740,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 198185,
+      "source_file_offset": 378665,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 198064,
+      "source_file_offset": 378544,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 197933,
+      "source_file_offset": 378413,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 197775,
+      "source_file_offset": 378255,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 199082,
+      "source_file_offset": 379562,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 198969,
+      "source_file_offset": 379449,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 198916,
+      "source_file_offset": 379396,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "overlay-segment-index-resolution",
+      "module_offset": 198827,
+      "source_file_offset": 379307,
+      "before": 360,
+      "after": 5832
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93424,
+      "source_file_offset": 102640,
+      "target_code_offset": 715
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93429,
+      "source_file_offset": 102645,
+      "target_code_offset": 834
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93434,
+      "source_file_offset": 102650,
+      "target_code_offset": 1226
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93439,
+      "source_file_offset": 102655,
+      "target_code_offset": 1340
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93444,
+      "source_file_offset": 102660,
+      "target_code_offset": 1783
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93449,
+      "source_file_offset": 102665,
+      "target_code_offset": 1870
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93454,
+      "source_file_offset": 102670,
+      "target_code_offset": 2226
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93459,
+      "source_file_offset": 102675,
+      "target_code_offset": 2314
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93464,
+      "source_file_offset": 102680,
+      "target_code_offset": 2367
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93469,
+      "source_file_offset": 102685,
+      "target_code_offset": 71
+    },
+    {
+      "kind": "synthetic-own-overlay-far-jump",
+      "module_offset": 93474,
+      "source_file_offset": 102690,
+      "target_code_offset": 614
+    }
+  ],
+  "trampoline_offset": 2496,
+  "entry_code_offset": 71,
+  "limitations": [
+    "Synthetic segment assignment, not observed DOS placement.",
+    "Only this overlay is materialized; other INT 3F dispatches remain unresolved.",
+    "Resident bytes contain historical file pointers that do not refer to this artifact.",
+    "Near calls retain original offsets; data/ABI/control-flow recovery remains fallible."
+  ]
+}

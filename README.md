@@ -10,17 +10,17 @@ and animated-door sequence. It stops at the first combat encounter. **Native
 combat, full exploration and complete game saves are not implemented.** Windows
 support is a future target.
 
-## What this repository contains
+## Repository contents and rights
 
-- Independently written Rust parsers, simulation modules, SDL2 presentation and
-  diagnostic tools, plus their test source.
-- Local build/debug scripts and independently authored development notes.
-- No original executable, artwork, fonts, dialogue database, music, manual,
-  emulator, save, recording, extracted resource, Ghidra database or memory dump.
+Rust code, tools, tests, reverse-engineering research, assembly analysis, maps,
+reports, manifests and historical checkpoints are included wherever feasible.
+Original game distribution files, copied/decoded game assets, development prompt
+TXT files and secrets stay outside Git. See [publication policy](docs/PUBLICATION_POLICY.md)
+for exact boundaries, technical omissions and the audit.
 
-Original game content belongs to its respective rights holders. This repository
-does not grant rights to that content. Supply your own legally obtained game
-distribution locally. No source-code license is assigned by this preparation.
+Original game content belongs to its rights holders. Supply your own legally
+obtained game distribution locally. No source-code license has yet been selected;
+public access alone does not grant unrestricted reuse rights.
 
 ## Build
 
@@ -58,17 +58,29 @@ primitives, and `lale-runtime` native presentation and input. Unknown mechanics
 remain explicit barriers. Original instructions and controlled DOS observations
 guide implementation; passing a unit test does not establish full game fidelity.
 
-See [architecture and research status](docs/ARCHITECTURE.md) for the verified
-boundary and [development](docs/DEVELOPMENT.md) for tests and contribution rules.
-Private research archives referenced by source comments are intentionally absent.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) for environment setup, evidence standards,
+DOS/Rust validation, tests, issues and pull requests. See also
+[architecture](docs/ARCHITECTURE.md), [development prerequisites](docs/DEVELOPMENT.md),
+[living project state](docs/PROJECT_STATE.md), [roadmap](docs/ROADMAP.md) and
+[first playable path](docs/FIRST_PLAYABLE_PATH.md). Some linked raw fixtures are
+intentionally private; historical checkpoint status is superseded by later notes.
 
-The root `.gitignore` uses an explicit file allowlist. New files stay ignored
-until reviewed and added to that list. Before any commit, run:
+## Roadmap and current limits
 
-```sh
-python3 tools/audit_staged.py
-git diff --cached --name-only
-```
+1. Recover reusable combat/world execution, actor scheduling, attack/AI,
+   equipment and genuine outcome/writeback before enabling native combat.
+2. Complete the first Otopark battle and authentic return to world state, then
+   earned-key/stair transitions and full Otopark/Mecidiyeköy navigation.
+3. Recover remaining systems, save/load, content progression, original audio and
+   timing behavior, then broaden platform support toward Windows.
 
-Do not force-add private resources or generated output. Keep original game files
-read-only and preserve local historical research and saves.
+Pure source-backed world clock/timer modules and combat-table readers exist;
+that does not mean a playable battle is implemented. Current room rendering
+requires private projection data whose original generator is still unrecovered.
+Asset-free contributions and all-test compilation are supported. Full tests need
+local original/evidence fixtures; see development setup.
+
+Before a commit, inspect `git diff --cached`, run `python3 tools/audit_staged.py`
+and `git diff --cached --check`. New research is included by default; review its
+provenance before staging. Keep original game files read-only and preserve saves
+and historical evidence. Use the GitHub issue/PR templates when contributing.

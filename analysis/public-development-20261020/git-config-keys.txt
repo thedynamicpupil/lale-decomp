@@ -1,0 +1,14 @@
+file:/home/zabumafu/.gitconfig	credential.https://github.com.helper
+file:/home/zabumafu/.gitconfig	credential.https://github.com.helper
+file:/home/zabumafu/.gitconfig	credential.https://gist.github.com.helper
+file:/home/zabumafu/.gitconfig	credential.https://gist.github.com.helper
+file:/home/zabumafu/.gitconfig	user.name
+file:/home/zabumafu/.gitconfig	user.email
+file:.git/config	core.repositoryformatversion
+file:.git/config	core.filemode
+file:.git/config	core.bare
+file:.git/config	core.logallrefupdates
+file:.git/config	remote.origin.url
+file:.git/config	remote.origin.fetch
+file:.git/config	branch.main.remote
+file:.git/config	branch.main.merge

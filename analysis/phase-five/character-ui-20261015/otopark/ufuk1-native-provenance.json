@@ -1,0 +1,24 @@
+{
+  "classification": "original-resource-debug-view-not-room-renderer",
+  "archive": "lale/3D.CKD",
+  "archive_sha256": "9c7a7f74a04265b04969503729e0d2b788e248adc04f2f97288d0f367b291e90",
+  "member": "UFUK1.CMP",
+  "member_offset": 1330446,
+  "member_sha256": "14f5c0b1a552f018269fee7f1aae5c09d7dae57dc023aee121d4bfc590988e84",
+  "palette": "PAL3D.PAL",
+  "palette_offset": 1266666,
+  "palette_sha256": "268b076ec13244855629a5c9431902e8b8358c31f077c5547e4fb58efb3bff28",
+  "dimensions": [
+    200,
+    200
+  ],
+  "indices_sha256": "424ffb125a2328bdb676d2b0a18607032a60479aa629fdda75ac6297cb0d1986",
+  "palette_evidence": "physical34452..34460 original1670 init",
+  "horizon_load": "physical34273..34292 slot79 from area0 table record+24",
+  "conditional_horizon_draw": "physical2c571..2c5ae original1662",
+  "preview_limits": [
+    "full image without original conditional crop or wall/floor composition",
+    "centered atx60 in320x200 is debug placement",
+    "six-bit RGB expansion convention not calibrated original VGA output"
+  ]
+}

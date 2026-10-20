@@ -1,0 +1,590 @@
+{
+  "sources": [
+    {
+      "path": "reference media/2026-10-14 02-39-52.mp4",
+      "size": 9303809,
+      "sha256": "aacd16169fe76c0e5caefadab3ec930381258a27a0702e7043e8d9b78b831fae"
+    },
+    {
+      "path": "reference media/menu_context.png",
+      "size": 121271,
+      "sha256": "315762b1c79e3bcc63cd6ab4fe853df47ebab115d05581795adb0fccf4c8e709"
+    }
+  ],
+  "media_metadata": "ffprobe.json",
+  "capture_only": {
+    "width": 640,
+    "height": 360,
+    "fps": 60,
+    "video_duration_s": 73.533333
+  },
+  "observations": [
+    {
+      "time_s": [
+        0,
+        6
+      ],
+      "observation": "Red animated RAKS emblem, then RAKS NEW MEDIA wordmark visible by 6s."
+    },
+    {
+      "time_s": [
+        9,
+        24
+      ],
+      "observation": "Blue 3D SILICON logo animation."
+    },
+    {
+      "time_s": [
+        27,
+        33
+      ],
+      "observation": "Compuphiliacs circular logo fades in and out."
+    },
+    {
+      "time_s": [
+        36,
+        39
+      ],
+      "observation": "Turkish fictional-events disclaimer, then dimming."
+    },
+    {
+      "time_s": [
+        40,
+        42
+      ],
+      "observation": "Black at40; background dark but visible40.25; fades toward full brightness by42."
+    },
+    {
+      "time_s": [
+        45,
+        45.75
+      ],
+      "observation": "Upper logo absent45.00, partial45.25, near full45.75."
+    },
+    {
+      "time_s": [
+        48,
+        48.75
+      ],
+      "observation": "Episode title absent48.00, partial48.25, near full48.75."
+    },
+    {
+      "time_s": [
+        49.5,
+        49.75
+      ],
+      "observation": "All four options absent49.50 and present49.75; no option fade visible in sampled frames."
+    },
+    {
+      "time_s": [
+        54,
+        57
+      ],
+      "observation": "DOS exit row white; others orange/red; white row persists with cursor outside row."
+    },
+    {
+      "time_s": [
+        62,
+        62.9
+      ],
+      "observation": "Options gone by62; menu artwork/logo/title progressively darken toward black."
+    },
+    {
+      "time_s": [
+        63,
+        63.2
+      ],
+      "observation": "Game area appears black."
+    },
+    {
+      "time_s": [
+        63.3,
+        64
+      ],
+      "observation": "Character creation becomes visible dimly then brightens."
+    },
+    {
+      "time_s": [
+        64,
+        72
+      ],
+      "observation": "Creation visible, character1 erkek insan; rotating/moving body poses and facial expression changes."
+    }
+  ],
+  "creation_values_64s": {
+    "Boy": 176,
+    "Kilo": 70,
+    "Zeka": 79,
+    "VurusGucu": 79,
+    "KelimeDagarcigi": 135,
+    "Guc": 3,
+    "Ceviklik": 86,
+    "Dayaniklilik": 50,
+    "BatilInanc": 176,
+    "Yuzsuzluk": 50,
+    "Istanbulluluk": 92,
+    "Cesaret": 50,
+    "Etkileyicilik": 50,
+    "Inanc": 123
+  },
+  "frames": [
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-000.00.png",
+      "requested_seek_s": 0.0,
+      "sha256": "00879f3e2675d65b3f7cd42b3b698abd62e3c887d2c9f78265b3ede970434b29"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-003.00.png",
+      "requested_seek_s": 3.0,
+      "sha256": "1764f9d0bb206657fabcf9a364868d51935304dd24a00ee3b93fa8662ce8a3ae"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-006.00.png",
+      "requested_seek_s": 6.0,
+      "sha256": "3323e804f711121bde01a329cf8a11d4de8ba1e637e7372590e6cc1f3ff1306b"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-009.00.png",
+      "requested_seek_s": 9.0,
+      "sha256": "968f13c99fa7993f638ada9dbfa18eb82a5b335b0ed573ef38f97737e0422440"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-012.00.png",
+      "requested_seek_s": 12.0,
+      "sha256": "38b5385313f5046f012e72f545f5747689a24ffbea18f9b6bd828d6f007b2a35"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-015.00.png",
+      "requested_seek_s": 15.0,
+      "sha256": "0bf4fbd028ebff6dc3bcbd3ebd41daad41fd0daabb3569fbbed8097560b9271f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-018.00.png",
+      "requested_seek_s": 18.0,
+      "sha256": "97af7954fa80258bf27777c0d62c5b9eafa0f51e60a7b0bd6a14a10ce27aa550"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-021.00.png",
+      "requested_seek_s": 21.0,
+      "sha256": "56ac2fadbbdc988fcb9f01c88bf2fb716fc0f167dd78b904fa6c67312cecd90e"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-024.00.png",
+      "requested_seek_s": 24.0,
+      "sha256": "a57b066dd05e3d5b38ea4c4487bcb6e6ca621a72a59ae0d6d606c22a465b77aa"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-027.00.png",
+      "requested_seek_s": 27.0,
+      "sha256": "bbb10f25a53fad3b5bed1eea40db80f0166834f10b42c12e77feeadd1bbb1550"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-030.00.png",
+      "requested_seek_s": 30.0,
+      "sha256": "61a01af69e7dd0c44cc5a44636ccd8c4e5dbaee2e062ab837ea63c0ecf58cf2b"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-033.00.png",
+      "requested_seek_s": 33.0,
+      "sha256": "8d4616949a2b238e1211d3381bef0852fc44f4ebfe3380b1cdc27095026d99fd"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-036.00.png",
+      "requested_seek_s": 36.0,
+      "sha256": "36234c5c90e70c7b60f6440b9a9230f0aa92be76cb63b1373eebdc1e9fb35c83"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-039.00.png",
+      "requested_seek_s": 39.0,
+      "sha256": "6b4d9da2d50583e37a2c73a86f89c6441a63a37e3a11785446bfa01945d8c970"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-040.00.png",
+      "requested_seek_s": 40.0,
+      "sha256": "ed289fbc4b0c876c771498951364a6158d4d2058c0c968ded877828fae735a07"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-040.25.png",
+      "requested_seek_s": 40.25,
+      "sha256": "3bf6042e857de90ace2ccffd511502c65827a48734103d48b0e22d04849b3e21"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-040.50.png",
+      "requested_seek_s": 40.5,
+      "sha256": "9e1499b597116e6e47a8b206ec483e42032efb29c2cee99b08364e0953ad985a"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-040.75.png",
+      "requested_seek_s": 40.75,
+      "sha256": "a426e4208c039fff6e689ef77d1068b12849b632e389dbef1792f8010e4fb35a"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-041.00.png",
+      "requested_seek_s": 41.0,
+      "sha256": "e8fdc791a28016337c38cf12b18560a562532d3edb7222012ee649b1aa47e9af"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-041.25.png",
+      "requested_seek_s": 41.25,
+      "sha256": "269fbfbb471340c75e89c308aded6efcaa73b8566ef0a4f6f4d943f449295e00"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-041.50.png",
+      "requested_seek_s": 41.5,
+      "sha256": "d52951d8833a85af4d328246b92b70732960261fc05d83e272b8450861d91f6f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-041.75.png",
+      "requested_seek_s": 41.75,
+      "sha256": "bf71541ab23bb32ec25b7e86807372d4beebed7ffa2a56418b2185da5645fd70"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-042.00.png",
+      "requested_seek_s": 42.0,
+      "sha256": "fdfb00c504002f569295c52d7d764285933115a9a0c92e211d54a28eb6c9d0f1"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-042.25.png",
+      "requested_seek_s": 42.25,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-042.50.png",
+      "requested_seek_s": 42.5,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-042.75.png",
+      "requested_seek_s": 42.75,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-043.00.png",
+      "requested_seek_s": 43.0,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-043.25.png",
+      "requested_seek_s": 43.25,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-043.50.png",
+      "requested_seek_s": 43.5,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-043.75.png",
+      "requested_seek_s": 43.75,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-044.00.png",
+      "requested_seek_s": 44.0,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-044.25.png",
+      "requested_seek_s": 44.25,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-044.50.png",
+      "requested_seek_s": 44.5,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-044.75.png",
+      "requested_seek_s": 44.75,
+      "sha256": "ca67d0eec2e4e1cea84bb613c055d1497d26bc980ede84e56e54704b33d7a731"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-045.00.png",
+      "requested_seek_s": 45.0,
+      "sha256": "64c155b9e5ccdb1c03a02627abc05338e36528af3253e71cb85fc139bdca1abf"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-045.25.png",
+      "requested_seek_s": 45.25,
+      "sha256": "c9e3785061e119e828424c203b9a25613653bfcde261596380fcac2eb7807af5"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-045.50.png",
+      "requested_seek_s": 45.5,
+      "sha256": "a1cab1aba90ce8a020422e2b74dc7cd8e804fb6b6615414fc07478bd62e19029"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-045.75.png",
+      "requested_seek_s": 45.75,
+      "sha256": "ad94bac86090f27289b05260c03bdaf2a1f14a810c600301022f107eefbdb827"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-046.00.png",
+      "requested_seek_s": 46.0,
+      "sha256": "4b7e4d1df996942f0467ad2a72b37eae7eb4b6b057b1d4d339c5e858c9df630f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-046.25.png",
+      "requested_seek_s": 46.25,
+      "sha256": "4b7e4d1df996942f0467ad2a72b37eae7eb4b6b057b1d4d339c5e858c9df630f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-046.50.png",
+      "requested_seek_s": 46.5,
+      "sha256": "4b7e4d1df996942f0467ad2a72b37eae7eb4b6b057b1d4d339c5e858c9df630f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-046.75.png",
+      "requested_seek_s": 46.75,
+      "sha256": "4b7e4d1df996942f0467ad2a72b37eae7eb4b6b057b1d4d339c5e858c9df630f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-047.00.png",
+      "requested_seek_s": 47.0,
+      "sha256": "4b7e4d1df996942f0467ad2a72b37eae7eb4b6b057b1d4d339c5e858c9df630f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-047.25.png",
+      "requested_seek_s": 47.25,
+      "sha256": "4b7e4d1df996942f0467ad2a72b37eae7eb4b6b057b1d4d339c5e858c9df630f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-047.50.png",
+      "requested_seek_s": 47.5,
+      "sha256": "4b7e4d1df996942f0467ad2a72b37eae7eb4b6b057b1d4d339c5e858c9df630f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-047.75.png",
+      "requested_seek_s": 47.75,
+      "sha256": "4b7e4d1df996942f0467ad2a72b37eae7eb4b6b057b1d4d339c5e858c9df630f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-048.00.png",
+      "requested_seek_s": 48.0,
+      "sha256": "2bf74a50e673c97c14e6be6fb52b2bc84dab822daf18ab6d6184ac449fa47fb1"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-048.25.png",
+      "requested_seek_s": 48.25,
+      "sha256": "b74f978c264f16eef2804a6f24d39a9b3083a11859884bf1d6b785165043ccf7"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-048.50.png",
+      "requested_seek_s": 48.5,
+      "sha256": "f3d9cadb58368eb4c1fbe6e777463b4c4704ee61986f5a02b2db60581cdb2449"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-048.75.png",
+      "requested_seek_s": 48.75,
+      "sha256": "f3bc9e08232b9823ca28dedf5e66ea04071fbca36d68af73e6b5e883b80c17ad"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-049.00.png",
+      "requested_seek_s": 49.0,
+      "sha256": "9f9825dad9eaf9f0dd2d74e37e1406edcdf1204de1c4fb2decc78de3d032e0da"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-049.25.png",
+      "requested_seek_s": 49.25,
+      "sha256": "9f9825dad9eaf9f0dd2d74e37e1406edcdf1204de1c4fb2decc78de3d032e0da"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-049.50.png",
+      "requested_seek_s": 49.5,
+      "sha256": "7fbbc49ee26470fb55c9c6e52f8cf3553dfca7bf2eb0f4fd0b8148443606aad4"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-049.75.png",
+      "requested_seek_s": 49.75,
+      "sha256": "f7684c5beac65f805f6af6cae84785d0d67673f15d4b3efec01a3d4f9ca6ed6d"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-050.00.png",
+      "requested_seek_s": 50.0,
+      "sha256": "63c1d6cd7a908a7d124b080ccd6c2bdd21d17d1ca462ec9fea0a6452ce3a8b4c"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-050.25.png",
+      "requested_seek_s": 50.25,
+      "sha256": "6461d87b7e855de7f3ddf488422b4a18b14a36764a968c9e000a6abe7c673a1b"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-050.50.png",
+      "requested_seek_s": 50.5,
+      "sha256": "6461d87b7e855de7f3ddf488422b4a18b14a36764a968c9e000a6abe7c673a1b"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-050.75.png",
+      "requested_seek_s": 50.75,
+      "sha256": "6461d87b7e855de7f3ddf488422b4a18b14a36764a968c9e000a6abe7c673a1b"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-051.00.png",
+      "requested_seek_s": 51.0,
+      "sha256": "6461d87b7e855de7f3ddf488422b4a18b14a36764a968c9e000a6abe7c673a1b"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-052.00.png",
+      "requested_seek_s": 52.0,
+      "sha256": "6461d87b7e855de7f3ddf488422b4a18b14a36764a968c9e000a6abe7c673a1b"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-054.00.png",
+      "requested_seek_s": 54.0,
+      "sha256": "e240e78146e68cb889d73926b62edf2902a62391305bccc4b23f1fcae5d3d5a4"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-057.00.png",
+      "requested_seek_s": 57.0,
+      "sha256": "7fde51b99dc07b0f83bce5ee04796bddd04c5965d11823085ed4935bee57a0d7"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-059.00.png",
+      "requested_seek_s": 59.0,
+      "sha256": "e740b825ce7b4d4e4639099221e7b9ea6c9818134143067f154ffb53ac180a75"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-060.00.png",
+      "requested_seek_s": 60.0,
+      "sha256": "a48ccee79e29d15ac0e02ef009d577e6acf7d17760aeab9342342c06a82c86f6"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-061.00.png",
+      "requested_seek_s": 61.0,
+      "sha256": "f7c54ed9bb708b53ee8834980762fe6c91bfbb790352466e74a28ba78bb52261"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-062.00.png",
+      "requested_seek_s": 62.0,
+      "sha256": "4df5a80bd93b00140d43c7eeee846c09bcfa726ce9915abd79e60318dcf97ce9"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-062.10.png",
+      "requested_seek_s": 62.1,
+      "sha256": "4484da18a77e870a5c02ec7db6bdc0d041cb9f60b56e8118d3a20972a2b6b0ba"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-062.20.png",
+      "requested_seek_s": 62.2,
+      "sha256": "ebcf83b9d20b5448eab438f84125a4797a095555a0339064c6a2195b50c5ba61"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-062.30.png",
+      "requested_seek_s": 62.3,
+      "sha256": "e4bb54879a51f55ca7f41155f551cbe01da299be89a142322ee2b9ebd0fe77dd"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-062.40.png",
+      "requested_seek_s": 62.4,
+      "sha256": "c1cf89345da6df35e173df89e30d205cee96a6c62d783a5ad2a3d17e2db1db50"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-062.50.png",
+      "requested_seek_s": 62.5,
+      "sha256": "6a26f0c306e7647e8a861c23123db9a8ecdd06503035083b2c8e0222d281e199"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-062.60.png",
+      "requested_seek_s": 62.6,
+      "sha256": "13306e351c79e7a36a30411a914550a21a85169f48c5af7096bbecb875dfd920"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-062.70.png",
+      "requested_seek_s": 62.7,
+      "sha256": "a80e2df85d719f2a45c98321534f0577b1d760c707be2b1a998182c6c9d057fe"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-062.80.png",
+      "requested_seek_s": 62.8,
+      "sha256": "03e28a1439cb6498d2f9e0f4d51d9cbbf54d680db6271d616d8990b081a66bce"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-062.90.png",
+      "requested_seek_s": 62.9,
+      "sha256": "4d4563b580996c21146a1c4b5ab711e9eb9de4371de8e621c55ec28639c54326"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-063.00.png",
+      "requested_seek_s": 63.0,
+      "sha256": "80c4cc80346ae6ad63c45f1f91eef7081ec2cd4cd076a90e75ec1ac505c3914f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-063.10.png",
+      "requested_seek_s": 63.1,
+      "sha256": "80c4cc80346ae6ad63c45f1f91eef7081ec2cd4cd076a90e75ec1ac505c3914f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-063.20.png",
+      "requested_seek_s": 63.2,
+      "sha256": "80c4cc80346ae6ad63c45f1f91eef7081ec2cd4cd076a90e75ec1ac505c3914f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-063.30.png",
+      "requested_seek_s": 63.3,
+      "sha256": "cb793da71bd8ba289b221b42f3b1cc21bf10b53d467bfd30480dfcf951fe6526"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-063.40.png",
+      "requested_seek_s": 63.4,
+      "sha256": "46b62b46ab68e1670568953c3b6d3bb005870bae0e3aaac5b2c243a27f1d2e99"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-063.50.png",
+      "requested_seek_s": 63.5,
+      "sha256": "36696b2dc7855a9e1f20fda4444ea23818730cd00b9aa5be03916f85ae7d5d6a"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-063.60.png",
+      "requested_seek_s": 63.6,
+      "sha256": "30856ecac7ead08338574bfb95e755e39dee5180414811a684ad828d0c20b276"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-063.70.png",
+      "requested_seek_s": 63.7,
+      "sha256": "08524773adff10bf2827ca6c8c4d13d7005287859080aafccdc3ec859e0f8de9"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-063.80.png",
+      "requested_seek_s": 63.8,
+      "sha256": "46095d39e35cfe14be781a876714aaff9be08795ce3a5eca2229d78aa65283ff"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-063.90.png",
+      "requested_seek_s": 63.9,
+      "sha256": "aace6651c63e7322ff554136105ab15387c68aae316a72bf93ce1d8eaeffe8dd"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-064.00.png",
+      "requested_seek_s": 64.0,
+      "sha256": "816dd5de980160a4f4f2321427894b1e70224d4992ef316107ce8820bd60099d"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-065.00.png",
+      "requested_seek_s": 65.0,
+      "sha256": "8752a9f9a065b0054cc8b1c6a3f9e8fb0ee3528abcabe645204968ce5852901f"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-066.00.png",
+      "requested_seek_s": 66.0,
+      "sha256": "35a1ec36d4487e3e715fd1d71f6e3eea923dc5158b563b18841a41087257cc20"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-069.00.png",
+      "requested_seek_s": 69.0,
+      "sha256": "78a2ba6e82d934050d1f7e69df149ad30ccee0c6d3faedb2cb02963c31876602"
+    },
+    {
+      "path": "analysis/phase-five/reference-validation-20261014/frame-072.00.png",
+      "requested_seek_s": 72.0,
+      "sha256": "eca2f0bfb2319c032225dee37731c8bc6b04047b66b353ec296438fe84ca91f8"
+    }
+  ],
+  "limits": [
+    "No separate unannotated still image present; unannotated video frames used.",
+    "H264 yuv420p limited-range BT709 captures are not palette-exact reference pixels.",
+    "Timestamps are requested video seek positions and visual sample brackets, not internal game timing.",
+    "Contact sheets are resized inspection aids; standalone frames retain capture dimensions.",
+    "No exact original graphics mode or game FPS inferred.",
+    "No executable session accessed."
+  ]
+}

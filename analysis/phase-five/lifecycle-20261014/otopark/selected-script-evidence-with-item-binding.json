@@ -1,0 +1,346 @@
+{
+  "FRPOS_sha256": "208125a05b46fd947efae3ae9c219625344f0eab35363333fb1c9a32ce7d1920",
+  "PCS1_payload_offset": 77,
+  "PCS1_sha256": "2d36d0bfb28d717ec1689e12324066b4c85bf29af3300e99b23388970a2eba11",
+  "PC1_payload_offset": 85898,
+  "groups": [
+    {
+      "index": 0,
+      "length_word_offset": 22,
+      "start": 24,
+      "end_exclusive": 334,
+      "length": 310,
+      "header_hex": "001600b801320134",
+      "raw_hex": "001600b8013201340d00010101010402475a3f4957683f5a5764165d57685f66165e3f683f626a3f625768165d5b625f6f6568242424ac5d5b68395b616a5b64165a3f4957683f16393f615759576116433f4f3f501635ac0504055b6c5b6a5e576f3f68010201011017010f11053e656565626b63165a3f4957685a5716585f495b6f1665626357693f6435165a5749ac5c57625764166f656116636b16586b68576257685a57166f576c24ac09000000000200000000040e0001010102021e586b68575a571645624b16585f68166145665b61164f576a3f6f656824ac04030d02215e3f683f626a3f62576816386b645a5764165d5b625f6f6568636b4916171717ac08000d0100000000110020645b165a5b62625b64635f4916615f16586b165e576f6c5764166f575e6b35ac0701040f000400"
+    },
+    {
+      "index": 1,
+      "length_word_offset": 334,
+      "start": 336,
+      "end_exclusive": 520,
+      "length": 184,
+      "header_hex": "0013000b00b400b6",
+      "raw_hex": "0013000b00b400b60d00040e0001010203032011001c586b165e5b685f5c165e57625716576f3f626357633f4916633f35ac0403200234586b68575a571658576f5d3f4416585f6816575a5763166f576a3f6f656824ac4b696a4b644b165768576f57623f6316633f35ac0504055b6c5b6a5e576f3f680102010104090500010003000000000101020104110023585b6f625b682216586b68575a5716585f68165764575e6a576816586b625a6b6317ac0702040f000400"
+    },
+    {
+      "index": 2,
+      "length_word_offset": 520,
+      "start": 522,
+      "end_exclusive": 1075,
+      "length": 553,
+      "header_hex": "0015022102240227",
+      "raw_hex": "00150221022402270d00010102050229656a65665768616a576416393f61635761165f696a5b5a5f3d5f645bac5b635f6416635f695f6435ac0504055b6c5b6a5e576f3f6801020101100b020298030101f00211042a6f575e6b22165e57625716496b165764575e6a57683f16586b625763575a3f61ac5d5f6a6a5f242424ac1011017f5e5b6f163965596b6162576816586b16635b685a5f6c5b64165e5f39166a5b615f64ac5d5b62635b5a5f16585764572416585f70165f645b68615b64165e5f39165a5bac58456f625b165d45704b61635b635f496a5f16585764572416495f635a5f16695764615fac495b6f165d5f585f22166f57645f16495b6f242424ac1104674a57635763166a5763576322165a5b685a5f645f16576462575a3f6324165b64ac5f6f5f695f16585b641645645a5b64165d5f5a5f6616585f166165646a686562ac5b5a5f6f5f632416695f70165a5b1657686157635a5764165d5b625f68695f645f702424ac110325465b615f2216585b61625f6f65686b7016695b645f2216576357163957586b6116656224ac021c613f695716585f6816694b685b1669656468572424242424242424ac1104685f496a5b165d5b625a5f63242424166f6b6157683f5a5716635b685a5f6c5b645f64ac6965646b645a5716585f68166157663f166c5768166c5b165a5b16615f625f6a625f24ac6f65625a57165e5f39165764575e6a5768165d45685b641665625a6b16636b35ac07f0100e00040f00040400"
+    },
+    {
+      "index": 3,
+      "length_word_offset": 1075,
+      "start": 1077,
+      "end_exclusive": 1127,
+      "length": 50,
+      "header_hex": "0006000b002e0030",
+      "raw_hex": "0006000b002e00300d00040e0011031d586b6857693f165763635716665f69166165616b6f6516585b5b1617ac040f000400"
+    },
+    {
+      "index": 4,
+      "length_word_offset": 1127,
+      "start": 1129,
+      "end_exclusive": 1257,
+      "length": 128,
+      "header_hex": "0010005a007c007e",
+      "raw_hex": "0010005a007c007e0d0001015101040221393f61635761165f696a5b5a5f3d5f645a5b64165b635f6416635f695f641635ac0506075b635f645f635a5b3d5f625f63010201011002105f6f5f16456f625b166562696b6424ac040e0001015101040216393f616a3f61165f496a5b16641d6562595b611635ac0751040f000400"
+    },
+    {
+      "index": 5,
+      "length_word_offset": 1257,
+      "start": 1259,
+      "end_exclusive": 1930,
+      "length": 671,
+      "header_hex": "0012000b029b029d",
+      "raw_hex": "0012000b029b029d0d00040e000101f9010411011a646565626b6f65166f575735166516645b6f5a5f16456f625bac110287645b16585f625f6f5f6316585b17165b62625b635b6f5b595b616a5f61ac6516495b6f5b24165e575a5f1658576157623f632416495f635a5f16615b695f64ac6357646f576116585f68165e5f61576f5b645f64166a57631665686a57693f6457ac5a4b49634b494b705a4b6824165f495f64166f65616957166b3d685749165a6b68242424ac11013b645b1662576424165f6f5f16615f165d57685f6616585f6816495b6f5bac5a656157645a3f6124165e5b635b64166b3916695b64165a5b242424ac1102446565626b631658576122165b635f645f63165d57685f6616585f6816495b6fac65625a6b24242416585b62615f165a5b166b70576f623f625768165d5b625f66242424ac11036662576416696b6917166957396357625763576f3f6416585b17166a656616645b685a5bac57693f6235166f5b645f625f6f655a6b646b70166a57585f22166f5f645bac61576a57616b62625f6f5b165d5b6a5f685f6f6568696b646b7016585f705f242424ac11014e615f63166b625764166f5b645f625f6f65685a6b3516615b695f64165d65625a4bac6c6b685a6b3d6b6316496b6a24242416695b64166157625b6f5f166f576457ac656f64576a6a3f64242424ac11030a5e575a5f1662576417ac1104645b5b5b221668575e576a693f70165b5a5f595b631657635722165e57645fac5a5f6f65686b6316615f22165b641657703f645a5764165a3f4957683f16393f61695761ac5a5716635739571665685a57165a5b6c5763165b6a695b645f7022165e5735ac11010f5a6565686b166c57626257242424ac1103175a653d686b242424165e575a5f1658576157623f6324ac07f9040f000400"
+    }
+  ],
+  "group5_commands": [
+    {
+      "payload_offset": 1267,
+      "archive_offset": 1344,
+      "opcode": 13,
+      "argument": 0,
+      "end_exclusive": 1269,
+      "raw_hex": "0d00"
+    },
+    {
+      "payload_offset": 1269,
+      "archive_offset": 1346,
+      "opcode": 4,
+      "meaning": "stop current script execution",
+      "end_exclusive": 1270,
+      "raw_hex": "04"
+    },
+    {
+      "payload_offset": 1270,
+      "archive_offset": 1347,
+      "opcode": 14,
+      "argument": 0,
+      "end_exclusive": 1272,
+      "raw_hex": "0e00"
+    },
+    {
+      "payload_offset": 1272,
+      "archive_offset": 1349,
+      "opcode": 1,
+      "kind": 1,
+      "flag": 249,
+      "skip_commands_if_false": 1,
+      "end_exclusive": 1276,
+      "raw_hex": "0101f901"
+    },
+    {
+      "payload_offset": 1276,
+      "archive_offset": 1353,
+      "opcode": 4,
+      "meaning": "stop current script execution",
+      "end_exclusive": 1277,
+      "raw_hex": "04"
+    },
+    {
+      "payload_offset": 1277,
+      "archive_offset": 1354,
+      "opcode": 17,
+      "speaker_selector": 1,
+      "text_payload_offset": 1280,
+      "text_archive_offset": 1357,
+      "length": 26,
+      "encoded_hex": "646565626b6f65166f575735166516645b6f5a5f16456f625bac",
+      "decoded_hex": "6e6f6f6c75796f207961613f206f206e65796469204f796c65b6",
+      "byte_display": "nooluyo yaa? o neydi Oyle<B6>",
+      "end_exclusive": 1306,
+      "raw_hex": "11011a646565626b6f65166f575735166516645b6f5a5f16456f625bac"
+    },
+    {
+      "payload_offset": 1306,
+      "archive_offset": 1383,
+      "opcode": 17,
+      "speaker_selector": 2,
+      "text_payload_offset": 1309,
+      "text_archive_offset": 1386,
+      "length": 135,
+      "encoded_hex": "645b16585f625f6f5f6316585b17165b62625b635b6f5b595b616a5f61ac6516495b6f5b24165e575a5f1658576157623f632416495f635a5f16615b695f64ac6357646f576116585f68165e5f61576f5b645f64166a57631665686a57693f6457ac5a4b49634b494b705a4b6824165f495f64166f65616957166b3d685749165a6b68242424ac",
+      "decoded_hex": "6e652062696c6979696d2062652120656c6c656d65796563656b74696bb66f20536579652e20686164692062616b616c496d2e2053696d6469206b6573696eb66d616e79616b206269722068696b6179656e696e2074616d206f72746173496e61b66455536d5553557a6455722e206953696e20796f6b7361207547726153206475722e2e2eb6",
+      "byte_display": "ne biliyim be! ellemeyecektik<B6>o Seye. hadi bakalIm. Simdi kesin<B6>manyak bir hikayenin tam ortasIna<B6>dUSmUSUzdUr. iSin yoksa uGraS dur...<B6>",
+      "end_exclusive": 1444,
+      "raw_hex": "110287645b16585f625f6f5f6316585b17165b62625b635b6f5b595b616a5f61ac6516495b6f5b24165e575a5f1658576157623f632416495f635a5f16615b695f64ac6357646f576116585f68165e5f61576f5b645f64166a57631665686a57693f6457ac5a4b49634b494b705a4b6824165f495f64166f65616957166b3d685749165a6b68242424ac"
+    },
+    {
+      "payload_offset": 1444,
+      "archive_offset": 1521,
+      "opcode": 17,
+      "speaker_selector": 1,
+      "text_payload_offset": 1447,
+      "text_archive_offset": 1524,
+      "length": 59,
+      "encoded_hex": "645b1662576424165f6f5f16615f165d57685f6616585f6816495b6f5bac5a656157645a3f6124165e5b635b64166b3916695b64165a5b242424ac",
+      "decoded_hex": "6e65206c616e2e20697969206b69206761726970206269722053657965b6646f6b616e64496b2e2068656d656e2075432073656e2064652e2e2eb6",
+      "byte_display": "ne lan. iyi ki garip bir Seye<B6>dokandIk. hemen uC sen de...<B6>",
+      "end_exclusive": 1506,
+      "raw_hex": "11013b645b1662576424165f6f5f16615f165d57685f6616585f6816495b6f5bac5a656157645a3f6124165e5b635b64166b3916695b64165a5b242424ac"
+    },
+    {
+      "payload_offset": 1506,
+      "archive_offset": 1583,
+      "opcode": 17,
+      "speaker_selector": 2,
+      "text_payload_offset": 1509,
+      "text_archive_offset": 1586,
+      "length": 68,
+      "encoded_hex": "6565626b631658576122165b635f645f63165d57685f6616585f6816495b6fac65625a6b24242416585b62615f165a5b166b70576f623f625768165d5b625f66242424ac",
+      "decoded_hex": "6f6f6c756d2062616b2c20656d696e696d2067617269702062697220536579b66f6c64752e2e2e2062656c6b6920646520757a61796c496c61722067656c69702e2e2eb6",
+      "byte_display": "oolum bak, eminim garip bir Sey<B6>oldu... belki de uzaylIlar gelip...<B6>",
+      "end_exclusive": 1577,
+      "raw_hex": "1102446565626b631658576122165b635f645f63165d57685f6616585f6816495b6fac65625a6b24242416585b62615f165a5b166b70576f623f625768165d5b625f66242424ac"
+    },
+    {
+      "payload_offset": 1577,
+      "archive_offset": 1654,
+      "opcode": 17,
+      "speaker_selector": 3,
+      "text_payload_offset": 1580,
+      "text_archive_offset": 1657,
+      "length": 102,
+      "encoded_hex": "62576416696b6917166957396357625763576f3f6416585b17166a656616645b685a5bac57693f6235166f5b645f625f6f655a6b646b70166a57585f22166f5f645bac61576a57616b62625f6f5b165d5b6a5f685f6f6568696b646b7016585f705f242424ac",
+      "decoded_hex": "6c616e2073757321207361436d616c616d6179496e2062652120746f70206e65726465b66173496c3f2079656e696c69796f64756e757a20746162692c2079696e65b66b6174616b756c6c69796520676574697269796f7273756e757a2062697a692e2e2eb6",
+      "byte_display": "lan sus! saCmalamayIn be! top nerde<B6>asIl? yeniliyodunuz tabi, yine<B6>katakulliye getiriyorsunuz bizi...<B6>",
+      "end_exclusive": 1682,
+      "raw_hex": "11036662576416696b6917166957396357625763576f3f6416585b17166a656616645b685a5bac57693f6235166f5b645f625f6f655a6b646b70166a57585f22166f5f645bac61576a57616b62625f6f5b165d5b6a5f685f6f6568696b646b7016585f705f242424ac"
+    },
+    {
+      "payload_offset": 1682,
+      "archive_offset": 1759,
+      "opcode": 17,
+      "speaker_selector": 1,
+      "text_payload_offset": 1685,
+      "text_archive_offset": 1762,
+      "length": 78,
+      "encoded_hex": "615f63166b625764166f5b645f625f6f65685a6b3516615b695f64165d65625a4bac6c6b685a6b3d6b6316496b6a24242416695b64166157625b6f5f166f576457ac656f64576a6a3f64242424ac",
+      "decoded_hex": "6b696d20756c616e2079656e696c69796f7264753f206b6573696e20676f6c6455b6767572647547756d205375742e2e2e2073656e206b616c6579692079616e61b66f796e617474496e2e2e2eb6",
+      "byte_display": "kim ulan yeniliyordu? kesin goldU<B6>vurduGum Sut... sen kaleyi yana<B6>oynattIn...<B6>",
+      "end_exclusive": 1763,
+      "raw_hex": "11014e615f63166b625764166f5b645f625f6f65685a6b3516615b695f64165d65625a4bac6c6b685a6b3d6b6316496b6a24242416695b64166157625b6f5f166f576457ac656f64576a6a3f64242424ac"
+    },
+    {
+      "payload_offset": 1763,
+      "archive_offset": 1840,
+      "opcode": 17,
+      "speaker_selector": 3,
+      "text_payload_offset": 1766,
+      "text_archive_offset": 1843,
+      "length": 10,
+      "encoded_hex": "5e575a5f1662576417ac",
+      "decoded_hex": "68616469206c616e21b6",
+      "byte_display": "hadi lan!<B6>",
+      "end_exclusive": 1776,
+      "raw_hex": "11030a5e575a5f1662576417ac"
+    },
+    {
+      "payload_offset": 1776,
+      "archive_offset": 1853,
+      "opcode": 17,
+      "speaker_selector": 4,
+      "text_payload_offset": 1779,
+      "text_archive_offset": 1856,
+      "length": 100,
+      "encoded_hex": "5b5b5b221668575e576a693f70165b5a5f595b631657635722165e57645fac5a5f6f65686b6316615f22165b641657703f645a5764165a3f4957683f16393f61695761ac5a5716635739571665685a57165a5b6c5763165b6a695b645f7022165e5735ac",
+      "decoded_hex": "6565652c20726168617473497a2065646963656d20616d612c2068616e69b66469796f72756d206b692c20656e20617a496e64616e206449536172492043496b73616bb66461206d614361206f72646120646576616d20657473656e697a2c2068613fb6",
+      "byte_display": "eee, rahatsIz edicem ama, hani<B6>diyorum ki, en azIndan dISarI CIksak<B6>da maCa orda devam etseniz, ha?<B6>",
+      "end_exclusive": 1879,
+      "raw_hex": "1104645b5b5b221668575e576a693f70165b5a5f595b631657635722165e57645fac5a5f6f65686b6316615f22165b641657703f645a5764165a3f4957683f16393f61695761ac5a5716635739571665685a57165a5b6c5763165b6a695b645f7022165e5735ac"
+    },
+    {
+      "payload_offset": 1879,
+      "archive_offset": 1956,
+      "opcode": 17,
+      "speaker_selector": 1,
+      "text_payload_offset": 1882,
+      "text_archive_offset": 1959,
+      "length": 15,
+      "encoded_hex": "5a6565686b166c57626257242424ac",
+      "decoded_hex": "646f6f72752076616c6c612e2e2eb6",
+      "byte_display": "dooru valla...<B6>",
+      "end_exclusive": 1897,
+      "raw_hex": "11010f5a6565686b166c57626257242424ac"
+    },
+    {
+      "payload_offset": 1897,
+      "archive_offset": 1974,
+      "opcode": 17,
+      "speaker_selector": 3,
+      "text_payload_offset": 1900,
+      "text_archive_offset": 1977,
+      "length": 23,
+      "encoded_hex": "5a653d686b242424165e575a5f1658576157623f6324ac",
+      "decoded_hex": "646f4772752e2e2e20686164692062616b616c496d2eb6",
+      "byte_display": "doGru... hadi bakalIm.<B6>",
+      "end_exclusive": 1923,
+      "raw_hex": "1103175a653d686b242424165e575a5f1658576157623f6324ac"
+    },
+    {
+      "payload_offset": 1923,
+      "archive_offset": 2000,
+      "opcode": 7,
+      "set_flag": 249,
+      "end_exclusive": 1925,
+      "raw_hex": "07f9"
+    },
+    {
+      "payload_offset": 1925,
+      "archive_offset": 2002,
+      "opcode": 4,
+      "meaning": "stop current script execution",
+      "end_exclusive": 1926,
+      "raw_hex": "04"
+    },
+    {
+      "payload_offset": 1926,
+      "archive_offset": 2003,
+      "opcode": 15,
+      "argument": 0,
+      "end_exclusive": 1928,
+      "raw_hex": "0f00"
+    },
+    {
+      "payload_offset": 1928,
+      "archive_offset": 2005,
+      "opcode": 4,
+      "meaning": "stop current script execution",
+      "end_exclusive": 1929,
+      "raw_hex": "04"
+    },
+    {
+      "payload_offset": 1929,
+      "archive_offset": 2006,
+      "opcode": 0,
+      "classification": "trailing zero after terminating section"
+    }
+  ],
+  "group5_mode2_start": 1270,
+  "group0_stone_suggestion": {
+    "speaker_selector": 5,
+    "text_payload_offset": 135,
+    "text_archive_offset": 212,
+    "length": 62,
+    "encoded_hex": "656565626b63165a3f4957685a5716585f495b6f1665626357693f6435165a5749ac5c57625764166f656116636b16586b68576257685a57166f576c24ac",
+    "decoded_hex": "6f6f6f6c756d2064495361726461206269536579206f6c6d6173496e3f20646153b666616c616e20796f6b206d7520627572616c61726461207961762eb6",
+    "byte_display": "ooolum dISarda biSey olmasIn? daS<B6>falan yok mu buralarda yav.<B6>"
+  },
+  "group0_acquisition": {
+    "opcode_offset": 197,
+    "archive_offset": 274,
+    "opcode": 9,
+    "raw_parameters_hex": "000000000200000000",
+    "three_resource_additions": [
+      0,
+      0,
+      0
+    ],
+    "three_pool_words": [
+      2,
+      0,
+      0
+    ],
+    "called_mode": 0,
+    "handler_physical": 288145
+  },
+  "matching_cells": {
+    "0": [
+      {
+        "x": 2,
+        "y": 0,
+        "cell_payload_offset": 73,
+        "cell_archive_offset": 85971,
+        "raw_hex": "020102010302000002040001010101"
+      }
+    ],
+    "5": [
+      {
+        "x": 2,
+        "y": 1,
+        "cell_payload_offset": 223,
+        "cell_archive_offset": 86121,
+        "raw_hex": "030202010201020102020001010106"
+      }
+    ]
+  },
+  "item_name_binding": {
+    "index": 2,
+    "original_name_base_DS": 3298,
+    "stride": 15,
+    "name_DS": 3328,
+    "file_offset": 106240,
+    "fixed_cell_hex": "73697672692064619f000000000000",
+    "name_hex": "73697672692064619f",
+    "classification": "binary indexed name confirmed independently of manual order",
+    "consumer_physical": [
+      228345,
+      334847
+    ]
+  }
+}

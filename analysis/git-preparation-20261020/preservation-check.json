@@ -1,0 +1,14 @@
+[
+  {
+    "manifest": "analysis/phase-five/navigation-20261015/baseline.json",
+    "checked": 233,
+    "mismatches": [
+      "UpdateablePrompt.txt"
+    ]
+  },
+  {
+    "manifest": "analysis/phase-four/prior-output-preservation.json",
+    "checked": 30,
+    "mismatches": []
+  }
+]

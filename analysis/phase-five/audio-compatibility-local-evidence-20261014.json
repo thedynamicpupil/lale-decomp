@@ -1,0 +1,1201 @@
+{
+  "basis": "Original payload bytes indexed by earlier structural offsets; no playback",
+  "modules": [
+    {
+      "name": "3.AMF",
+      "payload_offset": 77,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x37": 4,
+        "0x38": 25,
+        "0x39": 18,
+        "0x3b": 17,
+        "0x3c": 9,
+        "0x3e": 1,
+        "0x40": 4,
+        "0x43": 17,
+        "0x44": 51,
+        "0x45": 42,
+        "0x47": 48,
+        "0x48": 49,
+        "0x49": 1,
+        "0x4a": 1,
+        "0x4c": 29,
+        "0x4d": 1,
+        "0x4f": 8,
+        "0x50": 16,
+        "0x51": 10,
+        "0x53": 4,
+        "0x58": 20,
+        "0x80": 24,
+        "0x82": 101,
+        "0x83": 183,
+        "0xff": 24
+      },
+      "selected_opcode_values": {
+        "0x83": [
+          0,
+          32
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        64
+      ],
+      "nonzero_sample_indices": 4,
+      "loop_candidates": [
+        {
+          "ordinal": 2,
+          "index": 3,
+          "length": 9078,
+          "dword57": 5386,
+          "dword61": 8960
+        },
+        {
+          "ordinal": 3,
+          "index": 4,
+          "length": 9900,
+          "dword57": 5230,
+          "dword61": 9900
+        }
+      ]
+    },
+    {
+      "name": "3D.AMF",
+      "payload_offset": 51039,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x30": 1,
+        "0x32": 6,
+        "0x34": 2,
+        "0x35": 2,
+        "0x37": 6,
+        "0x39": 66,
+        "0x3b": 25,
+        "0x3c": 37,
+        "0x3e": 24,
+        "0x40": 24,
+        "0x41": 3,
+        "0x43": 10,
+        "0x45": 26,
+        "0x47": 16,
+        "0x48": 328,
+        "0x4a": 115,
+        "0x4c": 17,
+        "0x4d": 3,
+        "0x80": 176,
+        "0x84": 15,
+        "0xff": 48
+      },
+      "selected_opcode_values": {},
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        64
+      ],
+      "nonzero_sample_indices": 6,
+      "loop_candidates": [
+        {
+          "ordinal": 1,
+          "index": 2,
+          "length": 15142,
+          "dword57": 7714,
+          "dword61": 14302
+        },
+        {
+          "ordinal": 5,
+          "index": 6,
+          "length": 9900,
+          "dword57": 3460,
+          "dword61": 9616
+        }
+      ]
+    },
+    {
+      "name": "4.AMF",
+      "payload_offset": 109250,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x30": 1,
+        "0x32": 1,
+        "0x34": 8,
+        "0x37": 5,
+        "0x38": 2,
+        "0x39": 19,
+        "0x3b": 19,
+        "0x3c": 60,
+        "0x3e": 30,
+        "0x40": 20,
+        "0x41": 6,
+        "0x42": 1,
+        "0x43": 14,
+        "0x44": 2,
+        "0x45": 13,
+        "0x46": 1,
+        "0x47": 32,
+        "0x48": 31,
+        "0x49": 1,
+        "0x4a": 13,
+        "0x4c": 4,
+        "0x4d": 1,
+        "0x4e": 3,
+        "0x4f": 3,
+        "0x53": 1,
+        "0x80": 62,
+        "0x81": 1,
+        "0x82": 21,
+        "0x83": 44,
+        "0x84": 63,
+        "0xff": 18
+      },
+      "selected_opcode_values": {
+        "0x81": [
+          8
+        ],
+        "0x83": [
+          0,
+          2,
+          4,
+          6,
+          7,
+          8,
+          9,
+          17,
+          18,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          32,
+          34,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          48
+        ]
+      },
+      "sample_word54_values": [
+        8252,
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        16,
+        53,
+        64
+      ],
+      "nonzero_sample_indices": 7,
+      "loop_candidates": [
+        {
+          "ordinal": 0,
+          "index": 1,
+          "length": 8562,
+          "dword57": 24,
+          "dword61": 8562
+        },
+        {
+          "ordinal": 4,
+          "index": 5,
+          "length": 6004,
+          "dword57": 3892,
+          "dword61": 5870
+        },
+        {
+          "ordinal": 6,
+          "index": 6,
+          "length": 18470,
+          "dword57": 7376,
+          "dword61": 17740
+        },
+        {
+          "ordinal": 8,
+          "index": 7,
+          "length": 18470,
+          "dword57": 9158,
+          "dword61": 17740
+        }
+      ]
+    },
+    {
+      "name": "5.AMF",
+      "payload_offset": 196894,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x39": 32,
+        "0x3c": 17,
+        "0x3e": 25,
+        "0x40": 44,
+        "0x41": 16,
+        "0x43": 7,
+        "0x45": 32,
+        "0x47": 20,
+        "0x48": 51,
+        "0x4a": 40,
+        "0x4c": 33,
+        "0x4d": 10,
+        "0x51": 64,
+        "0x80": 74,
+        "0x83": 98,
+        "0xff": 12
+      },
+      "selected_opcode_values": {
+        "0x83": [
+          32,
+          48,
+          64
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        37,
+        48,
+        64
+      ],
+      "nonzero_sample_indices": 7,
+      "loop_candidates": [
+        {
+          "ordinal": 0,
+          "index": 1,
+          "length": 9700,
+          "dword57": 2686,
+          "dword61": 8586
+        },
+        {
+          "ordinal": 2,
+          "index": 3,
+          "length": 12242,
+          "dword57": 7592,
+          "dword61": 12240
+        }
+      ]
+    },
+    {
+      "name": "6.AMF",
+      "payload_offset": 257660,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x37": 1,
+        "0x39": 11,
+        "0x3b": 2,
+        "0x3c": 7,
+        "0x3e": 8,
+        "0x40": 6,
+        "0x41": 5,
+        "0x42": 1,
+        "0x43": 5,
+        "0x45": 20,
+        "0x47": 12,
+        "0x48": 15,
+        "0x49": 1,
+        "0x4a": 14,
+        "0x4c": 12,
+        "0x4d": 4,
+        "0x51": 32,
+        "0x80": 37,
+        "0x83": 42,
+        "0xff": 6
+      },
+      "selected_opcode_values": {
+        "0x83": [
+          32
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        37,
+        48,
+        53,
+        64
+      ],
+      "nonzero_sample_indices": 6,
+      "loop_candidates": [
+        {
+          "ordinal": 0,
+          "index": 1,
+          "length": 17796,
+          "dword57": 14338,
+          "dword61": 17372
+        }
+      ]
+    },
+    {
+      "name": "7.AMF",
+      "payload_offset": 315134,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x32": 1,
+        "0x34": 4,
+        "0x35": 11,
+        "0x37": 9,
+        "0x39": 17,
+        "0x3a": 5,
+        "0x3b": 6,
+        "0x3c": 77,
+        "0x3e": 9,
+        "0x40": 3,
+        "0x45": 3,
+        "0x47": 6,
+        "0x48": 12,
+        "0x4a": 12,
+        "0x4c": 13,
+        "0x4d": 6,
+        "0x4f": 2,
+        "0x80": 13,
+        "0x81": 2,
+        "0x83": 86,
+        "0xff": 12
+      },
+      "selected_opcode_values": {
+        "0x81": [
+          8
+        ],
+        "0x83": [
+          32
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        64
+      ],
+      "nonzero_sample_indices": 4,
+      "loop_candidates": [
+        {
+          "ordinal": 0,
+          "index": 1,
+          "length": 9900,
+          "dword57": 5230,
+          "dword61": 9900
+        }
+      ]
+    },
+    {
+      "name": "8.AMF",
+      "payload_offset": 356442,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x34": 20,
+        "0x35": 14,
+        "0x38": 10,
+        "0x3c": 14,
+        "0x3e": 28,
+        "0x3f": 20,
+        "0x40": 48,
+        "0x41": 16,
+        "0x43": 36,
+        "0x44": 20,
+        "0x48": 1,
+        "0x4a": 3,
+        "0x4b": 3,
+        "0x4d": 3,
+        "0x4f": 5,
+        "0x50": 3,
+        "0x80": 12,
+        "0x81": 2,
+        "0x82": 2,
+        "0x83": 26,
+        "0x8c": 2,
+        "0xff": 12
+      },
+      "selected_opcode_values": {
+        "0x81": [
+          8
+        ],
+        "0x8c": [
+          0
+        ],
+        "0x83": [
+          32
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        64
+      ],
+      "nonzero_sample_indices": 4,
+      "loop_candidates": [
+        {
+          "ordinal": 1,
+          "index": 2,
+          "length": 13358,
+          "dword57": 5252,
+          "dword61": 13352
+        },
+        {
+          "ordinal": 9,
+          "index": 4,
+          "length": 18470,
+          "dword57": 7376,
+          "dword61": 17740
+        }
+      ]
+    },
+    {
+      "name": "9.AMF",
+      "payload_offset": 406915,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x30": 6,
+        "0x34": 1,
+        "0x35": 2,
+        "0x36": 10,
+        "0x38": 4,
+        "0x39": 4,
+        "0x3a": 3,
+        "0x3b": 2,
+        "0x3c": 8,
+        "0x3d": 12,
+        "0x40": 3,
+        "0x41": 6,
+        "0x42": 11,
+        "0x44": 2,
+        "0x45": 7,
+        "0x46": 5,
+        "0x47": 1,
+        "0x48": 2,
+        "0x4a": 1,
+        "0x4c": 1,
+        "0x4e": 1,
+        "0x80": 6,
+        "0x81": 1,
+        "0x84": 6,
+        "0xff": 6
+      },
+      "selected_opcode_values": {
+        "0x81": [
+          8
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        37,
+        64
+      ],
+      "nonzero_sample_indices": 5,
+      "loop_candidates": [
+        {
+          "ordinal": 6,
+          "index": 4,
+          "length": 15142,
+          "dword57": 7714,
+          "dword61": 15142
+        },
+        {
+          "ordinal": 8,
+          "index": 5,
+          "length": 18470,
+          "dword57": 7668,
+          "dword61": 17738
+        }
+      ]
+    },
+    {
+      "name": "DEMO.AMF",
+      "payload_offset": 476061,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x2d": 1,
+        "0x32": 2,
+        "0x34": 19,
+        "0x35": 20,
+        "0x37": 43,
+        "0x39": 78,
+        "0x3b": 9,
+        "0x3c": 11,
+        "0x3e": 58,
+        "0x40": 24,
+        "0x41": 139,
+        "0x42": 3,
+        "0x43": 99,
+        "0x45": 251,
+        "0x47": 106,
+        "0x48": 147,
+        "0x4a": 200,
+        "0x4c": 69,
+        "0x4d": 52,
+        "0x4f": 46,
+        "0x51": 85,
+        "0x53": 4,
+        "0x54": 9,
+        "0x56": 5,
+        "0x58": 3,
+        "0x59": 3,
+        "0x80": 86,
+        "0x81": 6,
+        "0x82": 179,
+        "0x83": 306,
+        "0x88": 18,
+        "0x89": 20,
+        "0xff": 72
+      },
+      "selected_opcode_values": {
+        "0x81": [
+          7
+        ],
+        "0x83": [
+          0,
+          5,
+          7,
+          16,
+          23,
+          32,
+          37,
+          39,
+          44,
+          48,
+          54,
+          55,
+          59
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        32,
+        64
+      ],
+      "nonzero_sample_indices": 4,
+      "loop_candidates": [
+        {
+          "ordinal": 2,
+          "index": 3,
+          "length": 17796,
+          "dword57": 14338,
+          "dword61": 17372
+        }
+      ]
+    },
+    {
+      "name": "ISTANBUL.AMF",
+      "payload_offset": 537495,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x34": 2,
+        "0x35": 12,
+        "0x37": 237,
+        "0x39": 180,
+        "0x3a": 22,
+        "0x3c": 11,
+        "0x3d": 4,
+        "0x3e": 4,
+        "0x40": 4,
+        "0x41": 36,
+        "0x42": 5,
+        "0x43": 166,
+        "0x45": 214,
+        "0x46": 56,
+        "0x48": 20,
+        "0x49": 8,
+        "0x4a": 19,
+        "0x4c": 2,
+        "0x4d": 55,
+        "0x4e": 2,
+        "0x4f": 101,
+        "0x51": 253,
+        "0x52": 33,
+        "0x54": 14,
+        "0x55": 10,
+        "0x59": 1,
+        "0x80": 390,
+        "0x81": 6,
+        "0x83": 583,
+        "0x84": 49,
+        "0x95": 6,
+        "0xff": 70
+      },
+      "selected_opcode_values": {
+        "0x81": [
+          4
+        ],
+        "0x95": [
+          144
+        ],
+        "0x83": [
+          0,
+          16,
+          17,
+          32,
+          48,
+          64
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        37,
+        64
+      ],
+      "nonzero_sample_indices": 10,
+      "loop_candidates": []
+    },
+    {
+      "name": "NIGHTMAR.AMF",
+      "payload_offset": 623413,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x32": 1,
+        "0x34": 2,
+        "0x37": 16,
+        "0x38": 1,
+        "0x39": 32,
+        "0x3a": 13,
+        "0x3b": 2,
+        "0x3c": 35,
+        "0x3d": 7,
+        "0x3e": 29,
+        "0x40": 4,
+        "0x45": 3,
+        "0x46": 2,
+        "0x48": 1,
+        "0x49": 3,
+        "0x4a": 1,
+        "0x80": 28,
+        "0x82": 153,
+        "0x83": 4,
+        "0x84": 318,
+        "0x88": 2,
+        "0xff": 32
+      },
+      "selected_opcode_values": {
+        "0x83": [
+          0,
+          64
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        53,
+        64
+      ],
+      "nonzero_sample_indices": 5,
+      "loop_candidates": [
+        {
+          "ordinal": 0,
+          "index": 1,
+          "length": 18470,
+          "dword57": 7172,
+          "dword61": 17886
+        },
+        {
+          "ordinal": 1,
+          "index": 2,
+          "length": 22242,
+          "dword57": 7542,
+          "dword61": 21820
+        },
+        {
+          "ordinal": 2,
+          "index": 3,
+          "length": 6650,
+          "dword57": 0,
+          "dword61": 6650
+        }
+      ]
+    },
+    {
+      "name": "PAIN.AMF",
+      "payload_offset": 689266,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x34": 2,
+        "0x35": 2,
+        "0x37": 2,
+        "0x38": 1,
+        "0x39": 3,
+        "0x3c": 1,
+        "0x40": 3,
+        "0x41": 3,
+        "0x43": 3,
+        "0x44": 2,
+        "0x45": 10,
+        "0x48": 3,
+        "0x4a": 16,
+        "0x4c": 8,
+        "0x4d": 18,
+        "0x4f": 2,
+        "0x50": 4,
+        "0x51": 4,
+        "0x80": 20,
+        "0x82": 174,
+        "0x88": 16,
+        "0x8c": 3,
+        "0xff": 18
+      },
+      "selected_opcode_values": {
+        "0x8c": [
+          0
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        32,
+        37,
+        64
+      ],
+      "nonzero_sample_indices": 4,
+      "loop_candidates": [
+        {
+          "ordinal": 2,
+          "index": 3,
+          "length": 17796,
+          "dword57": 9486,
+          "dword61": 17796
+        },
+        {
+          "ordinal": 3,
+          "index": 4,
+          "length": 18470,
+          "dword57": 7376,
+          "dword61": 17740
+        }
+      ]
+    },
+    {
+      "name": "SAVAS.AMF",
+      "payload_offset": 741453,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x29": 4,
+        "0x2b": 4,
+        "0x2d": 16,
+        "0x32": 14,
+        "0x34": 22,
+        "0x35": 77,
+        "0x37": 48,
+        "0x39": 187,
+        "0x3b": 85,
+        "0x3c": 17,
+        "0x3e": 14,
+        "0x40": 22,
+        "0x41": 68,
+        "0x43": 52,
+        "0x45": 541,
+        "0x47": 118,
+        "0x48": 40,
+        "0x4a": 37,
+        "0x4c": 25,
+        "0x4d": 6,
+        "0x4e": 2,
+        "0x4f": 39,
+        "0x51": 538,
+        "0x53": 2,
+        "0x54": 2,
+        "0x56": 2,
+        "0x80": 294,
+        "0x82": 208,
+        "0x83": 98,
+        "0x88": 3,
+        "0x8c": 2,
+        "0xff": 72
+      },
+      "selected_opcode_values": {
+        "0x83": [
+          0,
+          21,
+          32
+        ],
+        "0x8c": [
+          0
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        32,
+        53,
+        64
+      ],
+      "nonzero_sample_indices": 9,
+      "loop_candidates": [
+        {
+          "ordinal": 1,
+          "index": 2,
+          "length": 9900,
+          "dword57": 4840,
+          "dword61": 7078
+        }
+      ]
+    },
+    {
+      "name": "THEEND.AMF",
+      "payload_offset": 829311,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x3c": 2,
+        "0x3d": 1,
+        "0x40": 1,
+        "0x41": 1,
+        "0x42": 1,
+        "0x49": 1,
+        "0x4c": 2,
+        "0x80": 6,
+        "0x81": 1,
+        "0x82": 54,
+        "0x86": 1,
+        "0x94": 2,
+        "0xff": 6
+      },
+      "selected_opcode_values": {
+        "0x81": [
+          6
+        ]
+      },
+      "sample_word54_values": [
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        64
+      ],
+      "nonzero_sample_indices": 3,
+      "loop_candidates": [
+        {
+          "ordinal": 1,
+          "index": 2,
+          "length": 17636,
+          "dword57": 7264,
+          "dword61": 17634
+        }
+      ]
+    },
+    {
+      "name": "UNI.AMF",
+      "payload_offset": 976901,
+      "initial_byte73": 125,
+      "initial_byte74": 6,
+      "order_rows": [
+        64
+      ],
+      "event_opcode_counts": {
+        "0x35": 39,
+        "0x37": 44,
+        "0x38": 61,
+        "0x39": 1,
+        "0x3a": 11,
+        "0x3b": 4,
+        "0x3c": 4,
+        "0x3e": 4,
+        "0x3f": 3,
+        "0x41": 88,
+        "0x42": 12,
+        "0x43": 443,
+        "0x44": 249,
+        "0x45": 99,
+        "0x46": 213,
+        "0x47": 9,
+        "0x48": 26,
+        "0x49": 1,
+        "0x4a": 11,
+        "0x4b": 14,
+        "0x4c": 3,
+        "0x4d": 174,
+        "0x4f": 56,
+        "0x50": 38,
+        "0x51": 7,
+        "0x52": 12,
+        "0x53": 1,
+        "0x5b": 1,
+        "0x5c": 2,
+        "0x80": 171,
+        "0x81": 2,
+        "0x82": 425,
+        "0x83": 7,
+        "0x84": 34,
+        "0x8d": 1,
+        "0x95": 5,
+        "0xff": 88
+      },
+      "selected_opcode_values": {
+        "0x95": [
+          120
+        ],
+        "0x83": [
+          0
+        ],
+        "0x81": [
+          6
+        ],
+        "0x8d": [
+          2
+        ]
+      },
+      "sample_word54_values": [
+        8252,
+        8368
+      ],
+      "sample_byte56_values": [
+        0,
+        42,
+        51,
+        64
+      ],
+      "nonzero_sample_indices": 13,
+      "loop_candidates": [
+        {
+          "ordinal": 3,
+          "index": 4,
+          "length": 32990,
+          "dword57": 12816,
+          "dword61": 32990
+        },
+        {
+          "ordinal": 5,
+          "index": 6,
+          "length": 12130,
+          "dword57": 7100,
+          "dword61": 11918
+        }
+      ]
+    }
+  ],
+  "drivers": [
+    {
+      "path": "lale/SDIGUS16.DSD",
+      "sha256": "550fd7745ef935f9fbfc898bf8fdace2ab0d50768171d499452116b073470f12",
+      "size": 13147,
+      "api_literals": [
+        {
+          "ascii": "SDIDetectDevices",
+          "physical_offset": 13012
+        },
+        {
+          "ascii": "SDIQueryDeviceCount",
+          "physical_offset": 13030
+        },
+        {
+          "ascii": "SDIQueryDevice",
+          "physical_offset": 13030
+        },
+        {
+          "ascii": "SDIInitDevice",
+          "physical_offset": 13066
+        },
+        {
+          "ascii": "SDIStartOutput",
+          "physical_offset": 13080
+        },
+        {
+          "ascii": "SDIGetBufferPosition",
+          "physical_offset": 13096
+        },
+        {
+          "ascii": "SDIStopOutput",
+          "physical_offset": 13118
+        },
+        {
+          "ascii": "SDICloseDevice",
+          "physical_offset": 13132
+        }
+      ]
+    },
+    {
+      "path": "lale/SDIPAS16.DSD",
+      "sha256": "6deb517026a275808d5af4aa6c2747b81a677d83642b3257e6c76f529f42ba94",
+      "size": 21341,
+      "api_literals": [
+        {
+          "ascii": "SDIDetectDevices",
+          "physical_offset": 21228
+        },
+        {
+          "ascii": "SDIQueryDeviceCount",
+          "physical_offset": 21246
+        },
+        {
+          "ascii": "SDIQueryDevice",
+          "physical_offset": 21246
+        },
+        {
+          "ascii": "SDIInitDevice",
+          "physical_offset": 21282
+        },
+        {
+          "ascii": "SDIStartOutput",
+          "physical_offset": 21296
+        },
+        {
+          "ascii": "SDIGetBufferPosition",
+          "physical_offset": 21036
+        },
+        {
+          "ascii": "SDIStopOutput",
+          "physical_offset": 21312
+        },
+        {
+          "ascii": "SDICloseDevice",
+          "physical_offset": 21326
+        }
+      ]
+    },
+    {
+      "path": "lale/SDISB16.DSD",
+      "sha256": "b0edd9431cc79baa371f018ceb78568da728626f77be09fda80373c102d605ac",
+      "size": 29581,
+      "api_literals": [
+        {
+          "ascii": "SDIDetectDevices",
+          "physical_offset": 29468
+        },
+        {
+          "ascii": "SDIQueryDeviceCount",
+          "physical_offset": 29486
+        },
+        {
+          "ascii": "SDIQueryDevice",
+          "physical_offset": 29486
+        },
+        {
+          "ascii": "SDIInitDevice",
+          "physical_offset": 29522
+        },
+        {
+          "ascii": "SDIStartOutput",
+          "physical_offset": 29536
+        },
+        {
+          "ascii": "SDIGetBufferPosition",
+          "physical_offset": 29268
+        },
+        {
+          "ascii": "SDIStopOutput",
+          "physical_offset": 29552
+        },
+        {
+          "ascii": "SDICloseDevice",
+          "physical_offset": 29566
+        }
+      ]
+    },
+    {
+      "path": "lale/SDIWSS16.DSD",
+      "sha256": "ab0fe16ed941f61691ce2382bb6e00d187ed96320aa306efbfa475fd4b7db9c7",
+      "size": 25107,
+      "api_literals": [
+        {
+          "ascii": "SDIDetectDevices",
+          "physical_offset": 24994
+        },
+        {
+          "ascii": "SDIQueryDeviceCount",
+          "physical_offset": 25012
+        },
+        {
+          "ascii": "SDIQueryDevice",
+          "physical_offset": 25012
+        },
+        {
+          "ascii": "SDIInitDevice",
+          "physical_offset": 25048
+        },
+        {
+          "ascii": "SDIStartOutput",
+          "physical_offset": 25062
+        },
+        {
+          "ascii": "SDIGetBufferPosition",
+          "physical_offset": 24722
+        },
+        {
+          "ascii": "SDIStopOutput",
+          "physical_offset": 25078
+        },
+        {
+          "ascii": "SDICloseDevice",
+          "physical_offset": 25092
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "draws": [
+    {
+      "ordinal": 0,
+      "physical": 249926,
+      "range": 25
+    },
+    {
+      "ordinal": 1,
+      "physical": 249959,
+      "range": 25
+    },
+    {
+      "ordinal": 2,
+      "physical": 250049,
+      "range": 5
+    },
+    {
+      "ordinal": 3,
+      "physical": 250082,
+      "range": 5
+    },
+    {
+      "ordinal": 4,
+      "physical": 250223,
+      "range": 150
+    },
+    {
+      "ordinal": 5,
+      "physical": 250256,
+      "range": 150
+    },
+    {
+      "ordinal": 6,
+      "physical": 250427,
+      "range": 50
+    },
+    {
+      "ordinal": 7,
+      "physical": 250460,
+      "range": 50
+    },
+    {
+      "ordinal": 8,
+      "physical": 250630,
+      "range": 100
+    },
+    {
+      "ordinal": 9,
+      "physical": 250663,
+      "range": 100
+    },
+    {
+      "ordinal": 10,
+      "physical": 250815,
+      "range": 6
+    },
+    {
+      "ordinal": 11,
+      "physical": 250996,
+      "range": 70
+    },
+    {
+      "ordinal": 12,
+      "physical": 251029,
+      "range": 80
+    },
+    {
+      "ordinal": 13,
+      "physical": 251065,
+      "range": 100
+    },
+    {
+      "ordinal": 14,
+      "physical": 251203,
+      "range": 200
+    },
+    {
+      "ordinal": 15,
+      "physical": 251236,
+      "range": 200
+    },
+    {
+      "ordinal": 16,
+      "physical": 251436,
+      "range": 150
+    },
+    {
+      "ordinal": 17,
+      "physical": 251469,
+      "range": 150
+    },
+    {
+      "ordinal": 18,
+      "physical": 251588,
+      "range": 150
+    },
+    {
+      "ordinal": 19,
+      "physical": 251621,
+      "range": 150
+    },
+    {
+      "ordinal": 20,
+      "physical": 251768,
+      "range": 151
+    },
+    {
+      "ordinal": 21,
+      "physical": 251884,
+      "range": 201
+    },
+    {
+      "ordinal": 22,
+      "physical": 252099,
+      "range": 201
+    },
+    {
+      "ordinal": 23,
+      "physical": 252271,
+      "range": 251
+    },
+    {
+      "ordinal": 24,
+      "physical": 252420,
+      "range": 151
+    },
+    {
+      "ordinal": 25,
+      "physical": 252478,
+      "range": 6
+    }
+  ],
+  "writes": [
+    {
+      "physical": 250039,
+      "offset": 36,
+      "expression": [
+        "add",
+        [
+          "add",
+          [
+            "add",
+            "d0",
+            "d1"
+          ],
+          [
+            "mul",
+            "t1",
+            10
+          ]
+        ],
+        150
+      ]
+    },
+    {
+      "physical": 250213,
+      "offset": 38,
+      "expression": [
+        "sub",
+        [
+          "add",
+          [
+            "add",
+            [
+              "add",
+              [
+                "add",
+                "d2",
+                "d3"
+              ],
+              "v24"
+            ],
+            [
+              "mul",
+              "t2",
+              10
+            ]
+          ],
+          65426
+        ],
+        [
+          "mul",
+          [
+            "sub",
+            "sex",
+            1
+          ],
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 250417,
+      "offset": 14,
+      "expression": [
+        "add",
+        [
+          "sub",
+          [
+            "add",
+            [
+              "add",
+              "d4",
+              "d5"
+            ],
+            [
+              "mul",
+              [
+                "sub",
+                "sex",
+                1
+              ],
+              25
+            ]
+          ],
+          [
+            "div",
+            [
+              "add",
+              "v24",
+              "v26"
+            ],
+            5
+          ]
+        ],
+        [
+          "mul",
+          "t3",
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 250620,
+      "offset": 16,
+      "expression": [
+        "add",
+        [
+          "add",
+          [
+            "sub",
+            [
+              "add",
+              "d6",
+              "d7"
+            ],
+            [
+              "mul",
+              "sex",
+              25
+            ]
+          ],
+          [
+            "div",
+            [
+              "add",
+              "v24",
+              "v26"
+            ],
+            3
+          ]
+        ],
+        [
+          "mul",
+          "t4",
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 250805,
+      "offset": 10,
+      "expression": [
+        "add",
+        [
+          "sub",
+          [
+            "add",
+            [
+              "add",
+              "d8",
+              "d9"
+            ],
+            [
+              "div",
+              "v0e",
+              4
+            ]
+          ],
+          [
+            "div",
+            "v10",
+            4
+          ]
+        ],
+        [
+          "mul",
+          "t5",
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 250986,
+      "offset": 12,
+      "expression": [
+        "add",
+        [
+          "add",
+          [
+            "sub",
+            [
+              "add",
+              "d10",
+              [
+                "div",
+                "v10",
+                40
+              ]
+            ],
+            [
+              "div",
+              "v0a",
+              30
+            ]
+          ],
+          [
+            "div",
+            "v26",
+            20
+          ]
+        ],
+        [
+          "mul",
+          "t6",
+          2
+        ]
+      ]
+    },
+    {
+      "physical": 251193,
+      "offset": 20,
+      "expression": [
+        "add",
+        [
+          "sub",
+          [
+            "add",
+            [
+              "add",
+              [
+                "add",
+                "d11",
+                "d12"
+              ],
+              "d13"
+            ],
+            150
+          ],
+          [
+            "add",
+            "v24",
+            "v26"
+          ]
+        ],
+        [
+          "mul",
+          "t7",
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 251426,
+      "offset": 18,
+      "expression": [
+        "add",
+        [
+          "add",
+          [
+            "sub",
+            [
+              "sub",
+              [
+                "add",
+                "d14",
+                "d15"
+              ],
+              [
+                "add",
+                "v26",
+                "v24"
+              ]
+            ],
+            [
+              "div",
+              "v0a",
+              4
+            ]
+          ],
+          [
+            "div",
+            "v10",
+            4
+          ]
+        ],
+        [
+          "mul",
+          "t8",
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 251578,
+      "offset": 26,
+      "expression": [
+        "add",
+        [
+          "sub",
+          [
+            "add",
+            "d16",
+            "d17"
+          ],
+          [
+            "div",
+            "v0e",
+            2
+          ]
+        ],
+        [
+          "mul",
+          "t9",
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 251758,
+      "offset": 22,
+      "expression": [
+        "add",
+        [
+          "sub",
+          [
+            "sub",
+            [
+              "add",
+              "d18",
+              "d19"
+            ],
+            [
+              "mul",
+              "sex",
+              50
+            ]
+          ],
+          [
+            "div",
+            "v1a",
+            4
+          ]
+        ],
+        [
+          "mul",
+          "t10",
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 251874,
+      "offset": 24,
+      "expression": [
+        "add",
+        [
+          "add",
+          "d20",
+          [
+            "div",
+            "v0e",
+            4
+          ]
+        ],
+        [
+          "mul",
+          "t11",
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 252089,
+      "offset": 28,
+      "expression": [
+        "add",
+        [
+          "sub",
+          [
+            "sub",
+            [
+              "add",
+              [
+                "add",
+                "d21",
+                [
+                  "div",
+                  "v10",
+                  4
+                ]
+              ],
+              [
+                "div",
+                "v12",
+                4
+              ]
+            ],
+            [
+              "div",
+              "v1a",
+              4
+            ]
+          ],
+          [
+            "div",
+            "v0e",
+            4
+          ]
+        ],
+        [
+          "mul",
+          "t12",
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 252261,
+      "offset": 30,
+      "expression": [
+        "add",
+        [
+          "add",
+          [
+            "sub",
+            [
+              "add",
+              "d22",
+              [
+                "mul",
+                [
+                  "sub",
+                  "sex",
+                  1
+                ],
+                50
+              ]
+            ],
+            [
+              "mul",
+              "v26",
+              2
+            ]
+          ],
+          [
+            "div",
+            "v24",
+            4
+          ]
+        ],
+        [
+          "mul",
+          "t13",
+          20
+        ]
+      ]
+    },
+    {
+      "physical": 252410,
+      "offset": 32,
+      "expression": [
+        "add",
+        [
+          "sub",
+          [
+            "sub",
+            "d23",
+            [
+              "div",
+              "v1a",
+              4
+            ]
+          ],
+          [
+            "div",
+            "v0e",
+            4
+          ]
+        ],
+        [
+          "mul",
+          "t14",
+          10
+        ]
+      ]
+    },
+    {
+      "physical": 252468,
+      "offset": 34,
+      "expression": [
+        "add",
+        "d24",
+        50
+      ]
+    },
+    {
+      "physical": 252526,
+      "offset": 40,
+      "expression": [
+        "add",
+        "d25",
+        15
+      ]
+    },
+    {
+      "physical": 252572,
+      "offset": 44,
+      "expression": "t15"
+    }
+  ]
+}

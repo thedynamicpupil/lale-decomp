@@ -1,0 +1,130 @@
+{
+  "dos-run6": {
+    "BEFORE-MENU-ENTER-DS.BIN": {
+      "bytes": 65535,
+      "sha256": "ad20024145cf1a9116a4109b408420dff3d7760ff81c0379f929c9c8b229ff41",
+      "rng": "0xd1f0aee5",
+      "hook": "f608000e",
+      "selected": 1,
+      "body": 0,
+      "face_phase": 0,
+      "counter": 45950
+    },
+    "CHARACTER-STUB-BEFORE.BIN": {
+      "bytes": 256,
+      "sha256": "fdbd38492a3e92285ada3f9c38985a1f321efa864862a4979910680d4e65bcd2"
+    },
+    "CREATION-ENTRY-CODE.BIN": {
+      "bytes": 256,
+      "sha256": "006ac823d055403faf67b0361b6c7ea75c650915ba3cd07c2b517b376656f0a8"
+    },
+    "CREATION-MAIN-ENTRY-DS.BIN": {
+      "bytes": 65535,
+      "sha256": "1a53c30ee7f6a6368a6b539e64e2ceed91fdd2560d1fda504b317e5bfa65db3c",
+      "rng": "0xd1f0aee5",
+      "hook": "f608000e",
+      "selected": 1,
+      "body": 0,
+      "face_phase": 0,
+      "counter": 47490
+    },
+    "CREATION-MAIN-ENTRY-STACK.BIN": {
+      "bytes": 128,
+      "sha256": "7666ebc265010c3669aa9bb8f70f2a618d64bf45532f7619513148b664965a70"
+    },
+    "CREATION-OVERLAY-ENTRY-DS.BIN": {
+      "bytes": 65535,
+      "sha256": "92426118966d8772492157c0abc9321bce7335e86a4f22561f579182aa9bc491",
+      "rng": "0xd1f0aee5",
+      "hook": "f608000e",
+      "selected": 1,
+      "body": 0,
+      "face_phase": 0,
+      "counter": 47490
+    },
+    "FIRST-SETUP-AFTER-DS.BIN": {
+      "bytes": 65535,
+      "sha256": "278020aa7cdada1f2d8df571d6ef8c8f1eb44b8679627752d69bd0167db7197e",
+      "rng": "0xecd597d9",
+      "hook": "f608000e",
+      "selected": 1,
+      "body": 2,
+      "face_phase": 0,
+      "counter": 48380
+    },
+    "FIRST-SETUP-AFTER-STACK.BIN": {
+      "bytes": 128,
+      "sha256": "c07b3290be9a900dd9dbc991ec43410479f78cc55d3f1cb1b78dd39570fbb0ef"
+    },
+    "FIRST-SETUP-BEFORE-DS.BIN": {
+      "bytes": 65535,
+      "sha256": "d7d8cdc870bf8a384295e74a4d7dfddb8e159f818a62fe28903c571bbe7be9ae",
+      "rng": "0xd1f0aee5",
+      "hook": "f608000e",
+      "selected": 1,
+      "body": 0,
+      "face_phase": 0,
+      "counter": 47530
+    },
+    "FIRST-SETUP-BEFORE-FRAME.BIN": {
+      "bytes": 32,
+      "sha256": "be63881dbba244c662f4a54d5c3f15e75c3c073bcb43b0a52886daaf0cc0aaa1"
+    }
+  },
+  "dos-run7": {
+    "FIRST-IDLE-BEFORE-DS.BIN": {
+      "bytes": 65535,
+      "sha256": "3cd35c0352d4462d014d88b317aa4c106bd4e04eb769f9b66ba01062b111a74d",
+      "rng": "0x56b4b584",
+      "hook": "f608000e",
+      "selected": 1,
+      "body": 2,
+      "face_phase": 0,
+      "counter": 48340
+    },
+    "FIRST-IDLE-BEFORE-STACK.BIN": {
+      "bytes": 128,
+      "sha256": "06b824a5b22804996f167be175a2acd5365953387dd04eedc5c5477be94a8fec"
+    },
+    "FIRST-SETUP-BEFORE-DS.BIN": {
+      "bytes": 65535,
+      "sha256": "42e661476e67a5317e6d28288f5a5216ca4ebc055acbb1c0f391b5f07e2de723",
+      "rng": "0x301d0a20",
+      "hook": "f608000e",
+      "selected": 1,
+      "body": 0,
+      "face_phase": 0,
+      "counter": 47510
+    },
+    "MAIN-ENTRY-DS.BIN": {
+      "bytes": 65535,
+      "sha256": "03fa5ce3a9dd24614d8499b5740d097cee936a140f27253fa9345bfb5dcbe619",
+      "rng": "0x301d0a20",
+      "hook": "f608000e",
+      "selected": 1,
+      "body": 0,
+      "face_phase": 0,
+      "counter": 47470
+    },
+    "SETUP-GENERATOR-AFTER-DS.BIN": {
+      "bytes": 65535,
+      "sha256": "e4cd51fa3005634e18425cd4f047d2d1d882b53f4f028b4d228e6c6f89647d04",
+      "rng": "0x56b4b584",
+      "hook": "f608000e",
+      "selected": 1,
+      "body": 1,
+      "face_phase": 0,
+      "counter": 47520
+    },
+    "SETUP-GENERATOR-BEFORE-DS.BIN": {
+      "bytes": 65535,
+      "sha256": "44441840720b6f9e033197cadcff5809aff15c9f3616e263607ef0b5f441b81c",
+      "rng": "0x7e58d8a1",
+      "hook": "f608000e",
+      "selected": 1,
+      "body": 1,
+      "face_phase": 0,
+      "counter": 47520
+    }
+  }
+}

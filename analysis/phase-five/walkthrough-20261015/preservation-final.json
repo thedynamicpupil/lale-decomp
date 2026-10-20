@@ -1,0 +1,28 @@
+{
+  "baseline_files": 1228,
+  "unchanged_baseline_files": 1220,
+  "intentional_changed_baseline_files": [
+    "docs/PROJECT_STATE.md",
+    "docs/ROADMAP.md",
+    "docs/FIRST_PLAYABLE_PATH.md",
+    "rust-port/crates/lale-runtime/src/menu_reference.rs",
+    "rust-port/crates/lale-runtime/src/character_screen.rs",
+    "rust-port/crates/lale-runtime/src/character_creation.rs",
+    "rust-port/crates/lale-runtime/src/otopark_background.rs",
+    "rust-port/crates/lale-runtime/src/otopark_background_main.rs"
+  ],
+  "missing_baseline_files": [],
+  "protected_changes": [],
+  "protected_added_files": [],
+  "historical_analysis_changes": [],
+  "additional_intended_existing_guide_edits_outside_baseline_coverage": [
+    "rust-port/NATIVE_OTOPARK_RESOURCE.md",
+    "rust-port/NATIVE_CREATION_DIAGNOSTIC.md"
+  ],
+  "new_tool": "tools/extractors/index_walkthroughs.py",
+  "offline_test_executions_passed": 56,
+  "distinct_tests": 51,
+  "fmt_and_offline_workspace_build": "pass; retained logs",
+  "runtime_scope": "new disposable walkthrough-20261015-character runs only; baseline did not include runtime saves",
+  "phase_four_complete": false
+}

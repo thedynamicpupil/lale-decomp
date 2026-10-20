@@ -1,0 +1,79 @@
+[
+  {
+    "archive": "FRPOS.CKD",
+    "member": "PC1",
+    "offset": 85898,
+    "size": 1543,
+    "sha256": "54117d4f13362c882f0248a7170610e9884d592d19610a40c501addfc320fb5a"
+  },
+  {
+    "archive": "FRPOS.CKD",
+    "member": "PCS1",
+    "offset": 77,
+    "size": 1930,
+    "sha256": "2d36d0bfb28d717ec1689e12324066b4c85bf29af3300e99b23388970a2eba11"
+  },
+  {
+    "archive": "3D.CKD",
+    "member": "UFUK1.CMP",
+    "offset": 1330446,
+    "size": 9968,
+    "sha256": "14f5c0b1a552f018269fee7f1aae5c09d7dae57dc023aee121d4bfc590988e84"
+  },
+  {
+    "archive": "3D.CKD",
+    "member": "DUVAR2.CMP",
+    "offset": 41345,
+    "size": 30448,
+    "sha256": "6516cb1ad843914cee7d10d92e4a00c34422dc04b4fe3eafb1d97020e839e857"
+  },
+  {
+    "archive": "3D.CKD",
+    "member": "DUVAR3.CMP",
+    "offset": 71858,
+    "size": 28373,
+    "sha256": "40d5f628d767815fd425a734c72df434c5bad397498fbf45ca457362cc95ecbb"
+  },
+  {
+    "archive": "3D.CKD",
+    "member": "MERDUST.CMP",
+    "offset": 1234087,
+    "size": 32514,
+    "sha256": "c7d22cfb42ef21a2bdf2f25082293c74e6caaabaa4328f630e9269af1c3030d5"
+  },
+  {
+    "archive": "3D.CKD",
+    "member": "KAPI2.CMP",
+    "offset": 805405,
+    "size": 32195,
+    "sha256": "1c24793b1982ba942c05d4c8ae0c2f17eafaeb124a26d7ffd909b448c33de6a1"
+  },
+  {
+    "archive": "3D.CKD",
+    "member": "KAPI3.CMP",
+    "offset": 837665,
+    "size": 38660,
+    "sha256": "25d908fcecb1b61e0a0dbb780fc6a941e12eaa4f264f28e20cb0db5d0c08781f"
+  },
+  {
+    "archive": "3D.CKD",
+    "member": "MERDALT.CMP",
+    "offset": 1149397,
+    "size": 35634,
+    "sha256": "64e1662c920c632b7e01706ca4e681288aa48835db8d49eee3dc7c119f871c56"
+  },
+  {
+    "archive": "3D.CKD",
+    "member": "KAPIAN2.CMP",
+    "offset": 1038613,
+    "size": 11847,
+    "sha256": "0779ed3fd45eca7765a8d8465fa13f4d8bc077e2fe3d722ddd04386169772e8e"
+  },
+  {
+    "archive": "3D.CKD",
+    "member": "KAPIAN3.CMP",
+    "offset": 1050525,
+    "size": 21252,
+    "sha256": "f22098c6616c381a3bbd4232c4e1a461c8f95afa0386cc89dcf609d5f89c31b6"
+  }
+]

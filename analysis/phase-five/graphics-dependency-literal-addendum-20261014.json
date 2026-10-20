@@ -1,0 +1,1905 @@
+{
+  "SAVAS.RES": {
+    "payload_offset": 208063,
+    "sha256": "9ffd7cc2d6d3a334132c0963c97bce6c6b98da9ab46158b51cc2b98deff192cc",
+    "raw_hex": "4146414b414e2e434d500d0a4146414b414e2e4b4f520d0a414e414b45532e434d500d0a4159492e434d500d0a4159492e4b4f520d0a424148434956414e2e434d500d0a424148434956414e2e4b4f520d0a42414c47414d2e434d500d0a42414c47414d2e4b4f520d0a424553414d454c2e434d500d0a424553414d454c2e4b4f520d0a424f4c4f4e455a2e434d500d0a424f4c4f4e455a2e4b4f520d0a434548414c45542e434d500d0a434548414c45542e4b4f520d0a43454d4245522e434d500d0a43454d4245522e4b4f520d0a44414441532e434d500d0a44414441532e4b4f520d0a44454c4f4752454e2e434d500d0a44454c4f4752454e2e4b4f520d0a44454c4f475245542e434d500d0a44454c4f475245542e4b4f520d0a4445564f4d55522e434d500d0a4445564f4d55522e4b4f520d0a445241474f4e2e434d500d0a445241474f4e2e4b4f520d0a44555641524943312e434d500d0a44555641524943322e434d500d0a44555641524943332e434d500d0a44555641524943342e434d500d0a44555641524943352e434d500d0a44555641524943362e434d500d0a44555641524943372e434d500d0a44555641524943382e434d500d0a44555641524943392e434d500d0a44555641524943412e434d500d0a44555641524943422e434d500d0a46414e4154492e434d500d0a46414e4154492e4b4f520d0a464152452e434d500d0a464152452e4b4f520d0a4641595449522e434d500d0a4641595449522e4b4f520d0a47415247412e4b4f520d0a47415247412e434d500d0a4755532e434d500d0a4755532e4b4f520d0a4841534d45542e434d500d0a4841534d45542e4b4f520d0a48495247495a2e434d500d0a48495247495a2e4b4f520d0a485553414d2e434d500d0a485553414d2e4b4f520d0a494e53414e312e434d500d0a494e53414e312e4b4f520d0a494e53414e322e434d500d0a494e53414e322e4b4f520d0a49504e412e434d500d0a49504e412e4b4f520d0a49524f5350312e434d500d0a49524f5350312e4b4f520d0a49524f5350322e434d500d0a49524f5350322e4b4f520d0a49524f5350412e434d500d0a49524f5350412e4b4f520d0a4b41524146412e434d500d0a4b41524146412e4b4f520d0a4b454c502e434d500d0a4b454c502e4b4f520d0a4b494c4552494b2e434d500d0a4b494c4552494b2e4b4f520d0a4b4f50454b2e434d500d0a4b4f50454b2e4b4f520d0a4c414c452e434d500d0a4c414c452e4b4f520d0a4c4156554b2e434d500d0a4c4156554b2e4b4f520d0a4c4156554b312e434d500d0a4c4156554b312e4b4f520d0a4c4156554b322e434d500d0a4c4156554b322e4b4f520d0a4d414741312e434d500d0a4d414741312e4b4f520d0a4d414741322e434d500d0a4d414741322e4b4f520d0a4d4147414e44412e434d500d0a4d4147414e44412e4b4f520d0a4d454d5552312e434d500d0a4d454d5552312e4b4f520d0a4d454d5552322e434d500d0a4d454d5552322e4b4f520d0a4d455943494b2e434d500d0a4d455943494b2e4b4f520d0a4e41504f4c49542e434d500d0a4e41504f4c49542e4b4f520d0a4f47524154454e2e434d500d0a4f47524154454e2e4b4f520d0a4f4752454e312e434d500d0a4f4752454e312e4b4f520d0a4f4752454e322e434d500d0a4f4752454e322e4b4f520d0a4f47524554312e434d500d0a4f47524554312e4b4f520d0a4f47524554322e434d500d0a4f47524554322e4b4f520d0a4f4d555243454b2e434d500d0a4f4d555243454b2e4b4f520d0a50414c4241542e50414c0d0a53415641532e5245530d0a53415641532e42414b0d0a53415644454d2e5245530d0a53494c49312e434d500d0a53494c49312e4b4f520d0a53494c49322e434d500d0a53494c49322e4b4f520d0a5349544b492e434d500d0a5349544b492e4b4f520d0a5441424c455455522e434d500d0a5941524153412e434d500d0a5941524153412e4b4f520d0a59455249434f4e2e434d500d0a",
+    "lines": [
+      {
+        "line_number": 1,
+        "payload_offset": 0,
+        "source_offset": 208063,
+        "literal": "AFAKAN.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 2,
+        "payload_offset": 12,
+        "source_offset": 208075,
+        "literal": "AFAKAN.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 3,
+        "payload_offset": 24,
+        "source_offset": 208087,
+        "literal": "ANAKES.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 4,
+        "payload_offset": 36,
+        "source_offset": 208099,
+        "literal": "AYI.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 5,
+        "payload_offset": 45,
+        "source_offset": 208108,
+        "literal": "AYI.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 6,
+        "payload_offset": 54,
+        "source_offset": 208117,
+        "literal": "BAHCIVAN.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 7,
+        "payload_offset": 68,
+        "source_offset": 208131,
+        "literal": "BAHCIVAN.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 8,
+        "payload_offset": 82,
+        "source_offset": 208145,
+        "literal": "BALGAM.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 9,
+        "payload_offset": 94,
+        "source_offset": 208157,
+        "literal": "BALGAM.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 10,
+        "payload_offset": 106,
+        "source_offset": 208169,
+        "literal": "BESAMEL.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 11,
+        "payload_offset": 119,
+        "source_offset": 208182,
+        "literal": "BESAMEL.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 12,
+        "payload_offset": 132,
+        "source_offset": 208195,
+        "literal": "BOLONEZ.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 13,
+        "payload_offset": 145,
+        "source_offset": 208208,
+        "literal": "BOLONEZ.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 14,
+        "payload_offset": 158,
+        "source_offset": 208221,
+        "literal": "CEHALET.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 15,
+        "payload_offset": 171,
+        "source_offset": 208234,
+        "literal": "CEHALET.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 16,
+        "payload_offset": 184,
+        "source_offset": 208247,
+        "literal": "CEMBER.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 17,
+        "payload_offset": 196,
+        "source_offset": 208259,
+        "literal": "CEMBER.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 18,
+        "payload_offset": 208,
+        "source_offset": 208271,
+        "literal": "DADAS.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 19,
+        "payload_offset": 219,
+        "source_offset": 208282,
+        "literal": "DADAS.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 20,
+        "payload_offset": 230,
+        "source_offset": 208293,
+        "literal": "DELOGREN.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 21,
+        "payload_offset": 244,
+        "source_offset": 208307,
+        "literal": "DELOGREN.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 22,
+        "payload_offset": 258,
+        "source_offset": 208321,
+        "literal": "DELOGRET.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 23,
+        "payload_offset": 272,
+        "source_offset": 208335,
+        "literal": "DELOGRET.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 24,
+        "payload_offset": 286,
+        "source_offset": 208349,
+        "literal": "DEVOMUR.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 25,
+        "payload_offset": 299,
+        "source_offset": 208362,
+        "literal": "DEVOMUR.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 26,
+        "payload_offset": 312,
+        "source_offset": 208375,
+        "literal": "DRAGON.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 27,
+        "payload_offset": 324,
+        "source_offset": 208387,
+        "literal": "DRAGON.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 28,
+        "payload_offset": 336,
+        "source_offset": 208399,
+        "literal": "DUVARIC1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 29,
+        "payload_offset": 350,
+        "source_offset": 208413,
+        "literal": "DUVARIC2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 30,
+        "payload_offset": 364,
+        "source_offset": 208427,
+        "literal": "DUVARIC3.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 31,
+        "payload_offset": 378,
+        "source_offset": 208441,
+        "literal": "DUVARIC4.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 32,
+        "payload_offset": 392,
+        "source_offset": 208455,
+        "literal": "DUVARIC5.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 33,
+        "payload_offset": 406,
+        "source_offset": 208469,
+        "literal": "DUVARIC6.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 34,
+        "payload_offset": 420,
+        "source_offset": 208483,
+        "literal": "DUVARIC7.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 35,
+        "payload_offset": 434,
+        "source_offset": 208497,
+        "literal": "DUVARIC8.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 36,
+        "payload_offset": 448,
+        "source_offset": 208511,
+        "literal": "DUVARIC9.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 37,
+        "payload_offset": 462,
+        "source_offset": 208525,
+        "literal": "DUVARICA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 38,
+        "payload_offset": 476,
+        "source_offset": 208539,
+        "literal": "DUVARICB.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 39,
+        "payload_offset": 490,
+        "source_offset": 208553,
+        "literal": "FANATI.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 40,
+        "payload_offset": 502,
+        "source_offset": 208565,
+        "literal": "FANATI.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 41,
+        "payload_offset": 514,
+        "source_offset": 208577,
+        "literal": "FARE.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 42,
+        "payload_offset": 524,
+        "source_offset": 208587,
+        "literal": "FARE.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 43,
+        "payload_offset": 534,
+        "source_offset": 208597,
+        "literal": "FAYTIR.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 44,
+        "payload_offset": 546,
+        "source_offset": 208609,
+        "literal": "FAYTIR.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 45,
+        "payload_offset": 558,
+        "source_offset": 208621,
+        "literal": "GARGA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 46,
+        "payload_offset": 569,
+        "source_offset": 208632,
+        "literal": "GARGA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 47,
+        "payload_offset": 580,
+        "source_offset": 208643,
+        "literal": "GUS.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 48,
+        "payload_offset": 589,
+        "source_offset": 208652,
+        "literal": "GUS.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 49,
+        "payload_offset": 598,
+        "source_offset": 208661,
+        "literal": "HASMET.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 50,
+        "payload_offset": 610,
+        "source_offset": 208673,
+        "literal": "HASMET.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 51,
+        "payload_offset": 622,
+        "source_offset": 208685,
+        "literal": "HIRGIZ.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 52,
+        "payload_offset": 634,
+        "source_offset": 208697,
+        "literal": "HIRGIZ.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 53,
+        "payload_offset": 646,
+        "source_offset": 208709,
+        "literal": "HUSAM.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 54,
+        "payload_offset": 657,
+        "source_offset": 208720,
+        "literal": "HUSAM.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 55,
+        "payload_offset": 668,
+        "source_offset": 208731,
+        "literal": "INSAN1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 56,
+        "payload_offset": 680,
+        "source_offset": 208743,
+        "literal": "INSAN1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 57,
+        "payload_offset": 692,
+        "source_offset": 208755,
+        "literal": "INSAN2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 58,
+        "payload_offset": 704,
+        "source_offset": 208767,
+        "literal": "INSAN2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 59,
+        "payload_offset": 716,
+        "source_offset": 208779,
+        "literal": "IPNA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 60,
+        "payload_offset": 726,
+        "source_offset": 208789,
+        "literal": "IPNA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 61,
+        "payload_offset": 736,
+        "source_offset": 208799,
+        "literal": "IROSP1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 62,
+        "payload_offset": 748,
+        "source_offset": 208811,
+        "literal": "IROSP1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 63,
+        "payload_offset": 760,
+        "source_offset": 208823,
+        "literal": "IROSP2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 64,
+        "payload_offset": 772,
+        "source_offset": 208835,
+        "literal": "IROSP2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 65,
+        "payload_offset": 784,
+        "source_offset": 208847,
+        "literal": "IROSPA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 66,
+        "payload_offset": 796,
+        "source_offset": 208859,
+        "literal": "IROSPA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 67,
+        "payload_offset": 808,
+        "source_offset": 208871,
+        "literal": "KARAFA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 68,
+        "payload_offset": 820,
+        "source_offset": 208883,
+        "literal": "KARAFA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 69,
+        "payload_offset": 832,
+        "source_offset": 208895,
+        "literal": "KELP.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 70,
+        "payload_offset": 842,
+        "source_offset": 208905,
+        "literal": "KELP.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 71,
+        "payload_offset": 852,
+        "source_offset": 208915,
+        "literal": "KILERIK.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 72,
+        "payload_offset": 865,
+        "source_offset": 208928,
+        "literal": "KILERIK.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 73,
+        "payload_offset": 878,
+        "source_offset": 208941,
+        "literal": "KOPEK.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 74,
+        "payload_offset": 889,
+        "source_offset": 208952,
+        "literal": "KOPEK.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 75,
+        "payload_offset": 900,
+        "source_offset": 208963,
+        "literal": "LALE.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 76,
+        "payload_offset": 910,
+        "source_offset": 208973,
+        "literal": "LALE.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 77,
+        "payload_offset": 920,
+        "source_offset": 208983,
+        "literal": "LAVUK.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 78,
+        "payload_offset": 931,
+        "source_offset": 208994,
+        "literal": "LAVUK.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 79,
+        "payload_offset": 942,
+        "source_offset": 209005,
+        "literal": "LAVUK1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 80,
+        "payload_offset": 954,
+        "source_offset": 209017,
+        "literal": "LAVUK1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 81,
+        "payload_offset": 966,
+        "source_offset": 209029,
+        "literal": "LAVUK2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 82,
+        "payload_offset": 978,
+        "source_offset": 209041,
+        "literal": "LAVUK2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 83,
+        "payload_offset": 990,
+        "source_offset": 209053,
+        "literal": "MAGA1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 84,
+        "payload_offset": 1001,
+        "source_offset": 209064,
+        "literal": "MAGA1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 85,
+        "payload_offset": 1012,
+        "source_offset": 209075,
+        "literal": "MAGA2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 86,
+        "payload_offset": 1023,
+        "source_offset": 209086,
+        "literal": "MAGA2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 87,
+        "payload_offset": 1034,
+        "source_offset": 209097,
+        "literal": "MAGANDA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 88,
+        "payload_offset": 1047,
+        "source_offset": 209110,
+        "literal": "MAGANDA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 89,
+        "payload_offset": 1060,
+        "source_offset": 209123,
+        "literal": "MEMUR1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 90,
+        "payload_offset": 1072,
+        "source_offset": 209135,
+        "literal": "MEMUR1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 91,
+        "payload_offset": 1084,
+        "source_offset": 209147,
+        "literal": "MEMUR2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 92,
+        "payload_offset": 1096,
+        "source_offset": 209159,
+        "literal": "MEMUR2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 93,
+        "payload_offset": 1108,
+        "source_offset": 209171,
+        "literal": "MEYCIK.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 94,
+        "payload_offset": 1120,
+        "source_offset": 209183,
+        "literal": "MEYCIK.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 95,
+        "payload_offset": 1132,
+        "source_offset": 209195,
+        "literal": "NAPOLIT.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 96,
+        "payload_offset": 1145,
+        "source_offset": 209208,
+        "literal": "NAPOLIT.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 97,
+        "payload_offset": 1158,
+        "source_offset": 209221,
+        "literal": "OGRATEN.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 98,
+        "payload_offset": 1171,
+        "source_offset": 209234,
+        "literal": "OGRATEN.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 99,
+        "payload_offset": 1184,
+        "source_offset": 209247,
+        "literal": "OGREN1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 100,
+        "payload_offset": 1196,
+        "source_offset": 209259,
+        "literal": "OGREN1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 101,
+        "payload_offset": 1208,
+        "source_offset": 209271,
+        "literal": "OGREN2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 102,
+        "payload_offset": 1220,
+        "source_offset": 209283,
+        "literal": "OGREN2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 103,
+        "payload_offset": 1232,
+        "source_offset": 209295,
+        "literal": "OGRET1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 104,
+        "payload_offset": 1244,
+        "source_offset": 209307,
+        "literal": "OGRET1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 105,
+        "payload_offset": 1256,
+        "source_offset": 209319,
+        "literal": "OGRET2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 106,
+        "payload_offset": 1268,
+        "source_offset": 209331,
+        "literal": "OGRET2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 107,
+        "payload_offset": 1280,
+        "source_offset": 209343,
+        "literal": "OMURCEK.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 108,
+        "payload_offset": 1293,
+        "source_offset": 209356,
+        "literal": "OMURCEK.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 109,
+        "payload_offset": 1306,
+        "source_offset": 209369,
+        "literal": "PALBAT.PAL",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 110,
+        "payload_offset": 1318,
+        "source_offset": 209381,
+        "literal": "SAVAS.RES",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 111,
+        "payload_offset": 1329,
+        "source_offset": 209392,
+        "literal": "SAVAS.BAK",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 112,
+        "payload_offset": 1340,
+        "source_offset": 209403,
+        "literal": "SAVDEM.RES",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 113,
+        "payload_offset": 1352,
+        "source_offset": 209415,
+        "literal": "SILI1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 114,
+        "payload_offset": 1363,
+        "source_offset": 209426,
+        "literal": "SILI1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 115,
+        "payload_offset": 1374,
+        "source_offset": 209437,
+        "literal": "SILI2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 116,
+        "payload_offset": 1385,
+        "source_offset": 209448,
+        "literal": "SILI2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 117,
+        "payload_offset": 1396,
+        "source_offset": 209459,
+        "literal": "SITKI.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 118,
+        "payload_offset": 1407,
+        "source_offset": 209470,
+        "literal": "SITKI.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 119,
+        "payload_offset": 1418,
+        "source_offset": 209481,
+        "literal": "TABLETUR.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 120,
+        "payload_offset": 1432,
+        "source_offset": 209495,
+        "literal": "YARASA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 121,
+        "payload_offset": 1444,
+        "source_offset": 209507,
+        "literal": "YARASA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 122,
+        "payload_offset": 1456,
+        "source_offset": 209519,
+        "literal": "YERICON.CMP",
+        "present_literal_in_container": true
+      }
+    ]
+  },
+  "SAVAS.BAK": {
+    "payload_offset": 209597,
+    "sha256": "d537c7b20226e0dc51ca500c3a7686d51972e501933639fc8bb7709f00bd8835",
+    "raw_hex": "4146414b414e2e434d500d0a4146414b414e2e4b4f520d0a414e414b45532e434d500d0a4159492e434d500d0a4159492e4b4f520d0a424148434956414e2e434d500d0a424148434956414e2e4b4f520d0a42414c47414d2e434d500d0a42414c47414d2e4b4f520d0a424553414d454c2e434d500d0a424553414d454c2e4b4f520d0a424f4c4f4e455a2e434d500d0a424f4c4f4e455a2e4b4f520d0a434548414c45542e434d500d0a434548414c45542e4b4f520d0a43454d4245522e434d500d0a43454d4245522e4b4f520d0a44414441532e434d500d0a44414441532e4b4f520d0a44454c4f4752454e2e434d500d0a44454c4f4752454e2e4b4f520d0a44454c4f475245542e434d500d0a44454c4f475245542e4b4f520d0a4445564f4d55522e434d500d0a4445564f4d55522e4b4f520d0a445241474f4e2e434d500d0a445241474f4e2e4b4f520d0a44555641524943312e434d500d0a44555641524943322e434d500d0a44555641524943332e434d500d0a44555641524943342e434d500d0a44555641524943352e434d500d0a44555641524943362e434d500d0a44555641524943372e434d500d0a44555641524943382e434d500d0a44555641524943392e434d500d0a44555641524943412e434d500d0a44555641524943422e434d500d0a46414e4154492e434d500d0a46414e4154492e4b4f520d0a464152452e434d500d0a464152452e4b4f520d0a4641595449522e434d500d0a4641595449522e4b4f520d0a47415247412e4b4f520d0a47415247412e434d500d0a4755532e434d500d0a4755532e4b4f520d0a4841534d45542e434d500d0a4841534d45542e4b4f520d0a48495247495a2e434d500d0a48495247495a2e4b4f520d0a485553414d2e434d500d0a485553414d2e4b4f520d0a494e53414e312e434d500d0a494e53414e312e4b4f520d0a494e53414e322e434d500d0a494e53414e322e4b4f520d0a49504e412e434d500d0a49504e412e4b4f520d0a49524f5350312e434d500d0a49524f5350312e4b4f520d0a49524f5350322e434d500d0a49524f5350322e4b4f520d0a49524f5350412e434d500d0a49524f5350412e4b4f520d0a4b41524146412e434d500d0a4b41524146412e4b4f520d0a4b454c502e434d500d0a4b454c502e4b4f520d0a4b494c4552494b2e434d500d0a4b494c4552494b2e4b4f520d0a4b4f50454b2e434d500d0a4b4f50454b2e4b4f520d0a4c414c452e434d500d0a4c414c452e4b4f520d0a4c4156554b2e434d500d0a4c4156554b2e4b4f520d0a4c4156554b312e434d500d0a4c4156554b312e4b4f520d0a4c4156554b322e434d500d0a4c4156554b322e4b4f520d0a2d4d414741312e434d500d0a4d414741312e4b4f520d0a2d4d414741322e434d500d0a4d414741322e4b4f520d0a4d4147414e44412e434d500d0a4d4147414e44412e4b4f520d0a4d454d5552312e434d500d0a4d454d5552312e4b4f520d0a4d454d5552322e434d500d0a4d454d5552322e4b4f520d0a4d455943494b2e434d500d0a4d455943494b2e4b4f520d0a4e41504f4c49542e434d500d0a4e41504f4c49542e4b4f520d0a4f47524154454e2e434d500d0a4f47524154454e2e4b4f520d0a4f4752454e312e434d500d0a4f4752454e312e4b4f520d0a4f4752454e322e434d500d0a4f4752454e322e4b4f520d0a4f47524554312e434d500d0a4f47524554312e4b4f520d0a4f47524554322e434d500d0a4f47524554322e4b4f520d0a4f4d555243454b2e434d500d0a4f4d555243454b2e4b4f520d0a50414c4241542e50414c0d0a53415641532e5245530d0a53415641532e42414b0d0a53415644454d2e5245530d0a53494c49312e434d500d0a53494c49312e4b4f520d0a53494c49322e434d500d0a53494c49322e4b4f520d0a5349544b492e434d500d0a5349544b492e4b4f520d0a5441424c455455522e434d500d0a5941524153412e434d500d0a5941524153412e4b4f520d0a59455249434f4e2e434d500d0a",
+    "lines": [
+      {
+        "line_number": 1,
+        "payload_offset": 0,
+        "source_offset": 209597,
+        "literal": "AFAKAN.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 2,
+        "payload_offset": 12,
+        "source_offset": 209609,
+        "literal": "AFAKAN.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 3,
+        "payload_offset": 24,
+        "source_offset": 209621,
+        "literal": "ANAKES.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 4,
+        "payload_offset": 36,
+        "source_offset": 209633,
+        "literal": "AYI.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 5,
+        "payload_offset": 45,
+        "source_offset": 209642,
+        "literal": "AYI.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 6,
+        "payload_offset": 54,
+        "source_offset": 209651,
+        "literal": "BAHCIVAN.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 7,
+        "payload_offset": 68,
+        "source_offset": 209665,
+        "literal": "BAHCIVAN.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 8,
+        "payload_offset": 82,
+        "source_offset": 209679,
+        "literal": "BALGAM.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 9,
+        "payload_offset": 94,
+        "source_offset": 209691,
+        "literal": "BALGAM.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 10,
+        "payload_offset": 106,
+        "source_offset": 209703,
+        "literal": "BESAMEL.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 11,
+        "payload_offset": 119,
+        "source_offset": 209716,
+        "literal": "BESAMEL.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 12,
+        "payload_offset": 132,
+        "source_offset": 209729,
+        "literal": "BOLONEZ.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 13,
+        "payload_offset": 145,
+        "source_offset": 209742,
+        "literal": "BOLONEZ.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 14,
+        "payload_offset": 158,
+        "source_offset": 209755,
+        "literal": "CEHALET.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 15,
+        "payload_offset": 171,
+        "source_offset": 209768,
+        "literal": "CEHALET.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 16,
+        "payload_offset": 184,
+        "source_offset": 209781,
+        "literal": "CEMBER.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 17,
+        "payload_offset": 196,
+        "source_offset": 209793,
+        "literal": "CEMBER.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 18,
+        "payload_offset": 208,
+        "source_offset": 209805,
+        "literal": "DADAS.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 19,
+        "payload_offset": 219,
+        "source_offset": 209816,
+        "literal": "DADAS.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 20,
+        "payload_offset": 230,
+        "source_offset": 209827,
+        "literal": "DELOGREN.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 21,
+        "payload_offset": 244,
+        "source_offset": 209841,
+        "literal": "DELOGREN.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 22,
+        "payload_offset": 258,
+        "source_offset": 209855,
+        "literal": "DELOGRET.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 23,
+        "payload_offset": 272,
+        "source_offset": 209869,
+        "literal": "DELOGRET.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 24,
+        "payload_offset": 286,
+        "source_offset": 209883,
+        "literal": "DEVOMUR.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 25,
+        "payload_offset": 299,
+        "source_offset": 209896,
+        "literal": "DEVOMUR.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 26,
+        "payload_offset": 312,
+        "source_offset": 209909,
+        "literal": "DRAGON.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 27,
+        "payload_offset": 324,
+        "source_offset": 209921,
+        "literal": "DRAGON.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 28,
+        "payload_offset": 336,
+        "source_offset": 209933,
+        "literal": "DUVARIC1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 29,
+        "payload_offset": 350,
+        "source_offset": 209947,
+        "literal": "DUVARIC2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 30,
+        "payload_offset": 364,
+        "source_offset": 209961,
+        "literal": "DUVARIC3.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 31,
+        "payload_offset": 378,
+        "source_offset": 209975,
+        "literal": "DUVARIC4.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 32,
+        "payload_offset": 392,
+        "source_offset": 209989,
+        "literal": "DUVARIC5.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 33,
+        "payload_offset": 406,
+        "source_offset": 210003,
+        "literal": "DUVARIC6.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 34,
+        "payload_offset": 420,
+        "source_offset": 210017,
+        "literal": "DUVARIC7.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 35,
+        "payload_offset": 434,
+        "source_offset": 210031,
+        "literal": "DUVARIC8.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 36,
+        "payload_offset": 448,
+        "source_offset": 210045,
+        "literal": "DUVARIC9.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 37,
+        "payload_offset": 462,
+        "source_offset": 210059,
+        "literal": "DUVARICA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 38,
+        "payload_offset": 476,
+        "source_offset": 210073,
+        "literal": "DUVARICB.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 39,
+        "payload_offset": 490,
+        "source_offset": 210087,
+        "literal": "FANATI.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 40,
+        "payload_offset": 502,
+        "source_offset": 210099,
+        "literal": "FANATI.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 41,
+        "payload_offset": 514,
+        "source_offset": 210111,
+        "literal": "FARE.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 42,
+        "payload_offset": 524,
+        "source_offset": 210121,
+        "literal": "FARE.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 43,
+        "payload_offset": 534,
+        "source_offset": 210131,
+        "literal": "FAYTIR.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 44,
+        "payload_offset": 546,
+        "source_offset": 210143,
+        "literal": "FAYTIR.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 45,
+        "payload_offset": 558,
+        "source_offset": 210155,
+        "literal": "GARGA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 46,
+        "payload_offset": 569,
+        "source_offset": 210166,
+        "literal": "GARGA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 47,
+        "payload_offset": 580,
+        "source_offset": 210177,
+        "literal": "GUS.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 48,
+        "payload_offset": 589,
+        "source_offset": 210186,
+        "literal": "GUS.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 49,
+        "payload_offset": 598,
+        "source_offset": 210195,
+        "literal": "HASMET.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 50,
+        "payload_offset": 610,
+        "source_offset": 210207,
+        "literal": "HASMET.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 51,
+        "payload_offset": 622,
+        "source_offset": 210219,
+        "literal": "HIRGIZ.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 52,
+        "payload_offset": 634,
+        "source_offset": 210231,
+        "literal": "HIRGIZ.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 53,
+        "payload_offset": 646,
+        "source_offset": 210243,
+        "literal": "HUSAM.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 54,
+        "payload_offset": 657,
+        "source_offset": 210254,
+        "literal": "HUSAM.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 55,
+        "payload_offset": 668,
+        "source_offset": 210265,
+        "literal": "INSAN1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 56,
+        "payload_offset": 680,
+        "source_offset": 210277,
+        "literal": "INSAN1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 57,
+        "payload_offset": 692,
+        "source_offset": 210289,
+        "literal": "INSAN2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 58,
+        "payload_offset": 704,
+        "source_offset": 210301,
+        "literal": "INSAN2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 59,
+        "payload_offset": 716,
+        "source_offset": 210313,
+        "literal": "IPNA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 60,
+        "payload_offset": 726,
+        "source_offset": 210323,
+        "literal": "IPNA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 61,
+        "payload_offset": 736,
+        "source_offset": 210333,
+        "literal": "IROSP1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 62,
+        "payload_offset": 748,
+        "source_offset": 210345,
+        "literal": "IROSP1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 63,
+        "payload_offset": 760,
+        "source_offset": 210357,
+        "literal": "IROSP2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 64,
+        "payload_offset": 772,
+        "source_offset": 210369,
+        "literal": "IROSP2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 65,
+        "payload_offset": 784,
+        "source_offset": 210381,
+        "literal": "IROSPA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 66,
+        "payload_offset": 796,
+        "source_offset": 210393,
+        "literal": "IROSPA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 67,
+        "payload_offset": 808,
+        "source_offset": 210405,
+        "literal": "KARAFA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 68,
+        "payload_offset": 820,
+        "source_offset": 210417,
+        "literal": "KARAFA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 69,
+        "payload_offset": 832,
+        "source_offset": 210429,
+        "literal": "KELP.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 70,
+        "payload_offset": 842,
+        "source_offset": 210439,
+        "literal": "KELP.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 71,
+        "payload_offset": 852,
+        "source_offset": 210449,
+        "literal": "KILERIK.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 72,
+        "payload_offset": 865,
+        "source_offset": 210462,
+        "literal": "KILERIK.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 73,
+        "payload_offset": 878,
+        "source_offset": 210475,
+        "literal": "KOPEK.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 74,
+        "payload_offset": 889,
+        "source_offset": 210486,
+        "literal": "KOPEK.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 75,
+        "payload_offset": 900,
+        "source_offset": 210497,
+        "literal": "LALE.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 76,
+        "payload_offset": 910,
+        "source_offset": 210507,
+        "literal": "LALE.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 77,
+        "payload_offset": 920,
+        "source_offset": 210517,
+        "literal": "LAVUK.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 78,
+        "payload_offset": 931,
+        "source_offset": 210528,
+        "literal": "LAVUK.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 79,
+        "payload_offset": 942,
+        "source_offset": 210539,
+        "literal": "LAVUK1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 80,
+        "payload_offset": 954,
+        "source_offset": 210551,
+        "literal": "LAVUK1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 81,
+        "payload_offset": 966,
+        "source_offset": 210563,
+        "literal": "LAVUK2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 82,
+        "payload_offset": 978,
+        "source_offset": 210575,
+        "literal": "LAVUK2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 83,
+        "payload_offset": 990,
+        "source_offset": 210587,
+        "literal": "-MAGA1.CMP",
+        "present_literal_in_container": false
+      },
+      {
+        "line_number": 84,
+        "payload_offset": 1002,
+        "source_offset": 210599,
+        "literal": "MAGA1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 85,
+        "payload_offset": 1013,
+        "source_offset": 210610,
+        "literal": "-MAGA2.CMP",
+        "present_literal_in_container": false
+      },
+      {
+        "line_number": 86,
+        "payload_offset": 1025,
+        "source_offset": 210622,
+        "literal": "MAGA2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 87,
+        "payload_offset": 1036,
+        "source_offset": 210633,
+        "literal": "MAGANDA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 88,
+        "payload_offset": 1049,
+        "source_offset": 210646,
+        "literal": "MAGANDA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 89,
+        "payload_offset": 1062,
+        "source_offset": 210659,
+        "literal": "MEMUR1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 90,
+        "payload_offset": 1074,
+        "source_offset": 210671,
+        "literal": "MEMUR1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 91,
+        "payload_offset": 1086,
+        "source_offset": 210683,
+        "literal": "MEMUR2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 92,
+        "payload_offset": 1098,
+        "source_offset": 210695,
+        "literal": "MEMUR2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 93,
+        "payload_offset": 1110,
+        "source_offset": 210707,
+        "literal": "MEYCIK.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 94,
+        "payload_offset": 1122,
+        "source_offset": 210719,
+        "literal": "MEYCIK.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 95,
+        "payload_offset": 1134,
+        "source_offset": 210731,
+        "literal": "NAPOLIT.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 96,
+        "payload_offset": 1147,
+        "source_offset": 210744,
+        "literal": "NAPOLIT.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 97,
+        "payload_offset": 1160,
+        "source_offset": 210757,
+        "literal": "OGRATEN.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 98,
+        "payload_offset": 1173,
+        "source_offset": 210770,
+        "literal": "OGRATEN.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 99,
+        "payload_offset": 1186,
+        "source_offset": 210783,
+        "literal": "OGREN1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 100,
+        "payload_offset": 1198,
+        "source_offset": 210795,
+        "literal": "OGREN1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 101,
+        "payload_offset": 1210,
+        "source_offset": 210807,
+        "literal": "OGREN2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 102,
+        "payload_offset": 1222,
+        "source_offset": 210819,
+        "literal": "OGREN2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 103,
+        "payload_offset": 1234,
+        "source_offset": 210831,
+        "literal": "OGRET1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 104,
+        "payload_offset": 1246,
+        "source_offset": 210843,
+        "literal": "OGRET1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 105,
+        "payload_offset": 1258,
+        "source_offset": 210855,
+        "literal": "OGRET2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 106,
+        "payload_offset": 1270,
+        "source_offset": 210867,
+        "literal": "OGRET2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 107,
+        "payload_offset": 1282,
+        "source_offset": 210879,
+        "literal": "OMURCEK.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 108,
+        "payload_offset": 1295,
+        "source_offset": 210892,
+        "literal": "OMURCEK.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 109,
+        "payload_offset": 1308,
+        "source_offset": 210905,
+        "literal": "PALBAT.PAL",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 110,
+        "payload_offset": 1320,
+        "source_offset": 210917,
+        "literal": "SAVAS.RES",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 111,
+        "payload_offset": 1331,
+        "source_offset": 210928,
+        "literal": "SAVAS.BAK",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 112,
+        "payload_offset": 1342,
+        "source_offset": 210939,
+        "literal": "SAVDEM.RES",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 113,
+        "payload_offset": 1354,
+        "source_offset": 210951,
+        "literal": "SILI1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 114,
+        "payload_offset": 1365,
+        "source_offset": 210962,
+        "literal": "SILI1.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 115,
+        "payload_offset": 1376,
+        "source_offset": 210973,
+        "literal": "SILI2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 116,
+        "payload_offset": 1387,
+        "source_offset": 210984,
+        "literal": "SILI2.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 117,
+        "payload_offset": 1398,
+        "source_offset": 210995,
+        "literal": "SITKI.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 118,
+        "payload_offset": 1409,
+        "source_offset": 211006,
+        "literal": "SITKI.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 119,
+        "payload_offset": 1420,
+        "source_offset": 211017,
+        "literal": "TABLETUR.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 120,
+        "payload_offset": 1434,
+        "source_offset": 211031,
+        "literal": "YARASA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 121,
+        "payload_offset": 1446,
+        "source_offset": 211043,
+        "literal": "YARASA.KOR",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 122,
+        "payload_offset": 1458,
+        "source_offset": 211055,
+        "literal": "YERICON.CMP",
+        "present_literal_in_container": true
+      }
+    ]
+  },
+  "SAVDEM.RES": {
+    "payload_offset": 211133,
+    "sha256": "588793f8f8c6409458e6d90727b0ae505b42acdd4323f2a655bd4c7c3d7859b4",
+    "raw_hex": "414e414b45532e434d500d0a44555641524943302e434d500d0a44555641524943312e434d500d0a44555641524943322e434d500d0a44555641524943332e434d500d0a44555641524943342e434d500d0a44555641524943352e434d500d0a44555641524943362e434d500d0a44555641524943372e434d500d0a44555641524943382e434d500d0a44555641524943392e434d500d0a44555641524943412e434d500d0a44555641524943422e434d500d0a46414e4154492e434d500d0a485553414d2e434d500d0a4c4156554b322e434d500d0a4d414741322e434d500d0a4f4752454e312e434d500d0a53494c49312e434d500d0a59455249434f4e2e434d500d0a",
+    "lines": [
+      {
+        "line_number": 1,
+        "payload_offset": 0,
+        "source_offset": 211133,
+        "literal": "ANAKES.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 2,
+        "payload_offset": 12,
+        "source_offset": 211145,
+        "literal": "DUVARIC0.CMP",
+        "present_literal_in_container": false
+      },
+      {
+        "line_number": 3,
+        "payload_offset": 26,
+        "source_offset": 211159,
+        "literal": "DUVARIC1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 4,
+        "payload_offset": 40,
+        "source_offset": 211173,
+        "literal": "DUVARIC2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 5,
+        "payload_offset": 54,
+        "source_offset": 211187,
+        "literal": "DUVARIC3.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 6,
+        "payload_offset": 68,
+        "source_offset": 211201,
+        "literal": "DUVARIC4.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 7,
+        "payload_offset": 82,
+        "source_offset": 211215,
+        "literal": "DUVARIC5.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 8,
+        "payload_offset": 96,
+        "source_offset": 211229,
+        "literal": "DUVARIC6.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 9,
+        "payload_offset": 110,
+        "source_offset": 211243,
+        "literal": "DUVARIC7.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 10,
+        "payload_offset": 124,
+        "source_offset": 211257,
+        "literal": "DUVARIC8.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 11,
+        "payload_offset": 138,
+        "source_offset": 211271,
+        "literal": "DUVARIC9.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 12,
+        "payload_offset": 152,
+        "source_offset": 211285,
+        "literal": "DUVARICA.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 13,
+        "payload_offset": 166,
+        "source_offset": 211299,
+        "literal": "DUVARICB.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 14,
+        "payload_offset": 180,
+        "source_offset": 211313,
+        "literal": "FANATI.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 15,
+        "payload_offset": 192,
+        "source_offset": 211325,
+        "literal": "HUSAM.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 16,
+        "payload_offset": 203,
+        "source_offset": 211336,
+        "literal": "LAVUK2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 17,
+        "payload_offset": 215,
+        "source_offset": 211348,
+        "literal": "MAGA2.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 18,
+        "payload_offset": 226,
+        "source_offset": 211359,
+        "literal": "OGREN1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 19,
+        "payload_offset": 238,
+        "source_offset": 211371,
+        "literal": "SILI1.CMP",
+        "present_literal_in_container": true
+      },
+      {
+        "line_number": 20,
+        "payload_offset": 249,
+        "source_offset": 211382,
+        "literal": "YERICON.CMP",
+        "present_literal_in_container": true
+      }
+    ]
+  },
+  "differences": [
+    {
+      "RES": {
+        "line_number": 83,
+        "payload_offset": 990,
+        "source_offset": 209053,
+        "literal": "MAGA1.CMP",
+        "present_literal_in_container": true
+      },
+      "BAK": {
+        "line_number": 83,
+        "payload_offset": 990,
+        "source_offset": 210587,
+        "literal": "-MAGA1.CMP",
+        "present_literal_in_container": false
+      }
+    },
+    {
+      "RES": {
+        "line_number": 85,
+        "payload_offset": 1012,
+        "source_offset": 209075,
+        "literal": "MAGA2.CMP",
+        "present_literal_in_container": true
+      },
+      "BAK": {
+        "line_number": 85,
+        "payload_offset": 1013,
+        "source_offset": 210610,
+        "literal": "-MAGA2.CMP",
+        "present_literal_in_container": false
+      }
+    }
+  ]
+}

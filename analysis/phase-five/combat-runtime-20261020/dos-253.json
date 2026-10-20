@@ -1,0 +1,8 @@
+{
+  "commands": "",
+  "chunk_id": "0ea79a",
+  "wall_time_seconds": 5.001286429,
+  "session_id": 72866,
+  "original_token_count": 26,
+  "output": "LOG: pixratio 1.000, dw false, dh false\nLOG: menuScale=1\nLOG: surface consider=640x497 final=640x497\n"
+}

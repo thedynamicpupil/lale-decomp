@@ -1,0 +1,258 @@
+[
+  {
+    "prefixed": "SINSAN1.CMP",
+    "portrait_offset": 1094408,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "INSAN1.CMP",
+    "body_offset": 124354,
+    "body_dimensions": [
+      149,
+      39
+    ],
+    "kor": "INSAN1.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SINSAN2.CMP",
+    "portrait_offset": 1097909,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "INSAN2.CMP",
+    "body_offset": 127783,
+    "body_dimensions": [
+      130,
+      40
+    ],
+    "kor": "INSAN2.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SIROSP1.CMP",
+    "portrait_offset": 1101028,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "IROSP1.CMP",
+    "body_offset": 133728,
+    "body_dimensions": [
+      108,
+      37
+    ],
+    "kor": "IROSP1.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SIROSP2.CMP",
+    "portrait_offset": 1104615,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "IROSP2.CMP",
+    "body_offset": 136127,
+    "body_dimensions": [
+      99,
+      38
+    ],
+    "kor": "IROSP2.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SLAVUK1.CMP",
+    "portrait_offset": 1107510,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "LAVUK1.CMP",
+    "body_offset": 159463,
+    "body_dimensions": [
+      119,
+      37
+    ],
+    "kor": "LAVUK1.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SLAVUK2.CMP",
+    "portrait_offset": 1111011,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "LAVUK2.CMP",
+    "body_offset": 162392,
+    "body_dimensions": [
+      126,
+      35
+    ],
+    "kor": "LAVUK2.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SMAGA1.CMP",
+    "portrait_offset": 1113924,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "MAGA1.CMP",
+    "body_offset": 165271,
+    "body_dimensions": [
+      139,
+      46
+    ],
+    "kor": "MAGA1.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SMAGA2.CMP",
+    "portrait_offset": 1116736,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "MAGA2.CMP",
+    "body_offset": 169031,
+    "body_dimensions": [
+      161,
+      45
+    ],
+    "kor": "MAGA2.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SMEMUR1.CMP",
+    "portrait_offset": 1119839,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "MEMUR1.CMP",
+    "body_offset": 177020,
+    "body_dimensions": [
+      81,
+      34
+    ],
+    "kor": "MEMUR1.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SMEMUR2.CMP",
+    "portrait_offset": 1122812,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "MEMUR2.CMP",
+    "body_offset": 179215,
+    "body_dimensions": [
+      119,
+      35
+    ],
+    "kor": "MEMUR2.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SOGREN1.CMP",
+    "portrait_offset": 1125735,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "OGREN1.CMP",
+    "body_offset": 193537,
+    "body_dimensions": [
+      133,
+      39
+    ],
+    "kor": "OGREN1.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SOGREN2.CMP",
+    "portrait_offset": 1128963,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "OGREN2.CMP",
+    "body_offset": 196438,
+    "body_dimensions": [
+      127,
+      37
+    ],
+    "kor": "OGREN2.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SOGRET1.CMP",
+    "portrait_offset": 1132730,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "OGRET1.CMP",
+    "body_offset": 199127,
+    "body_dimensions": [
+      177,
+      60
+    ],
+    "kor": "OGRET1.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SOGRET2.CMP",
+    "portrait_offset": 1136436,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "OGRET2.CMP",
+    "body_offset": 203517,
+    "body_dimensions": [
+      145,
+      38
+    ],
+    "kor": "OGRET2.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SSILI1.CMP",
+    "portrait_offset": 1266878,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "SILI1.CMP",
+    "body_offset": 211460,
+    "body_dimensions": [
+      109,
+      33
+    ],
+    "kor": "SILI1.KOR",
+    "kor_present": true
+  },
+  {
+    "prefixed": "SSILI2.CMP",
+    "portrait_offset": 1271447,
+    "portrait_dimensions": [
+      160,
+      32
+    ],
+    "body": "SILI2.CMP",
+    "body_offset": 213749,
+    "body_dimensions": [
+      133,
+      33
+    ],
+    "kor": "SILI2.KOR",
+    "kor_present": true
+  }
+]

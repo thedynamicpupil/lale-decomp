@@ -1,0 +1,157 @@
+[
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/OTOPARK_DIALOGUE_AND_ACQUISITION.md",
+    "size": 7416,
+    "sha256": "de7088868a0ff9abf8fe514d7b0633b999bfaf9c2e1444c0fa033ec4e0d675e6"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/acquisition-mode0.asm",
+    "size": 3261,
+    "sha256": "ea6a6e0f5c2ae199da85e5fc5c2e652861c2d676fa69b802608c851ee2c582ed"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/acquisition-mode0.bin",
+    "size": 187,
+    "sha256": "a20934018427b332eb1781bd553c9069bff1f1c06dd92ac3125f70a3b099e4e8"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/acquisition-opcode9.asm",
+    "size": 3077,
+    "sha256": "2f957222a2864d2a3ce7bdb7f1d023b30c5778472c7abb1e667cc3c92a0d69a7"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/acquisition-opcode9.bin",
+    "size": 133,
+    "sha256": "00d0add52e173e8235e26d043c16ea00f29ac225d4dc4f09e84d9d8c8ec521bf"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/audit_selected_scripts.py",
+    "size": 3994,
+    "sha256": "bfe3b3b22c6ecf4ec6d9e4c6dfef98161b57ee9978be7d5504a526d187ef21e0"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/condition-and-control.asm",
+    "size": 5666,
+    "sha256": "5ea93219bd29ff583768d6da2878b7f0f40302f2f7cc57a48faf892ffe93bef5"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/condition-and-control.bin",
+    "size": 280,
+    "sha256": "6bad4f3cc28b922e24899985f59339b380f403095d0cc0f1e98579558902be69"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/decode-plus10.asm",
+    "size": 1270,
+    "sha256": "54eaa1252ecaa8247cd44c4b9fbc1621b395761d98135c83a9cb8bbcb6a98ec2"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/decode-plus10.bin",
+    "size": 57,
+    "sha256": "985fdc66449ddf4f90e85679aa7214af541156bb74e0adac378a06256fd1fce1"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/dialogue-opcode17.asm",
+    "size": 3381,
+    "sha256": "d3f28625cea5a4f15c6d3cd500336a81bc27154e09a3ddb34e799cc4d2da42a8"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/dialogue-opcode17.bin",
+    "size": 175,
+    "sha256": "73c8fd4df3556ee1f5e08479802a31363d240796a871b08870f2933acca80a9d"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/event-bit-storage.asm",
+    "size": 3139,
+    "sha256": "636a06cc2df8bb7e6ad788453879a4afc953e57f1e7bd33118be81f36653e2ad"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/event-bit-storage.bin",
+    "size": 133,
+    "sha256": "c375b35ce39ee553262bbbdfe4ecd3bc5434ea51d61f5d48e714503b7994e063"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/event-cell-dispatch.asm",
+    "size": 9652,
+    "sha256": "0c57769b47397767d5288d3b4fb44bde04af2243bc83de5bdabd8418862a7188"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/event-cell-dispatch.bin",
+    "size": 537,
+    "sha256": "6511400c63565fce69c4d7a1f06043a33fd0e3f53a421be5bfa2aaf59a75f07a"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/item-name-second-consumer.asm",
+    "size": 932,
+    "sha256": "00ff761d072d85e016b71aa6cbdd33f2b09af7c2c08ecc84f722a4ce11f4b50a"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/item-name-second-consumer.bin",
+    "size": 46,
+    "sha256": "0893a80ca78c99e59ad2439a4604a8d82e0a5acc34ecfb57aa72ed6ef916af44"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/item-name-stride-proof.asm",
+    "size": 900,
+    "sha256": "11ccde9de3fe86a148afefe481a5e55b0820fac42f655303651af63ec66ce76a"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/item-name-stride-proof.bin",
+    "size": 46,
+    "sha256": "6fe056012d65f317ce1ec4fbe36ebbaedc34b8ce283bfabe6dcf62d1320030d5"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/movement-event-dispatch.asm",
+    "size": 1134,
+    "sha256": "0f2178fb00a94e382ede5ec579ccc5893f6cc2a3379d985b4610791cdb96cdf1"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/movement-event-dispatch.bin",
+    "size": 54,
+    "sha256": "4f2b46d3962392e6e4227819a6f57a8fc216da9dc48dc81e42ccc842445d2cee"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/original-source-hashes.json",
+    "size": 241,
+    "sha256": "1f7df7dba1ca6c2c9b285aa794abe084c8626adec77f4ab7e9be948bfd509c66"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/pcs-byte-reader.asm",
+    "size": 2008,
+    "sha256": "29ac081c7a8940fa7b73f0a0cad42330553ad3c3c1e083b975cfbbd748781941"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/pcs-byte-reader.bin",
+    "size": 104,
+    "sha256": "c6f78fbfb187efd39269070da8908b696b43d78e4ddcb46efec77b7213c06cad"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/pcs-group-index.asm",
+    "size": 6604,
+    "sha256": "d6bdc6ec05010e5851b780b20b45c7d0e9b4b7199da216fee366674a3503bc9b"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/pcs-group-index.bin",
+    "size": 312,
+    "sha256": "f5939110965f709f3963c2c3614a5de88574b254a5fcf4e4959d0a620b8dfd56"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/selected-script-evidence-with-item-binding.json",
+    "size": 16546,
+    "sha256": "3cca9c44ab381f6890b932bc82c7baa48584c56e601d39491ac0e7213963b3ae"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/selected-script-evidence.json",
+    "size": 16160,
+    "sha256": "db5c48ef1e05233facebf4a813973e84c0da66eb37c7823f2e97b1e1df1febde"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/set-event-bit.asm",
+    "size": 1259,
+    "sha256": "9583f0fd556ea1c23a093944db7685dff112b63d078da3354ebd058e5ad977fe"
+  },
+  {
+    "path": "analysis/phase-five/lifecycle-20261014/otopark/set-event-bit.bin",
+    "size": 54,
+    "sha256": "4096105a3af8a246a254adc35d1612a508707a7a21fa2f7188fde29fb5d6bd9f"
+  }
+]

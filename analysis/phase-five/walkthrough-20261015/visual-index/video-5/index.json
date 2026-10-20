@@ -1,0 +1,76 @@
+{
+  "number": 5,
+  "source": "reference media/5 - Mecidiyeköy çıkış, travel harita, beşiktaş giriş.mp4",
+  "sha256": "4758d35bebce6d64c933a66fd94cd3ab8b44dff3d3816132d84cf0cafd07b8b6",
+  "duration_seconds": 248.416667,
+  "interval_seconds": 20,
+  "timestamp_basis": "decoded source frame presentation timestamp; not gameplay/input time",
+  "samples": [
+    {
+      "seconds": 0.0,
+      "file": "sample-0001.jpg"
+    },
+    {
+      "seconds": 20.0,
+      "file": "sample-0002.jpg"
+    },
+    {
+      "seconds": 40.0,
+      "file": "sample-0003.jpg"
+    },
+    {
+      "seconds": 60.0,
+      "file": "sample-0004.jpg"
+    },
+    {
+      "seconds": 80.0,
+      "file": "sample-0005.jpg"
+    },
+    {
+      "seconds": 100.0,
+      "file": "sample-0006.jpg"
+    },
+    {
+      "seconds": 120.0,
+      "file": "sample-0007.jpg"
+    },
+    {
+      "seconds": 140.0,
+      "file": "sample-0008.jpg"
+    },
+    {
+      "seconds": 160.0,
+      "file": "sample-0009.jpg"
+    },
+    {
+      "seconds": 180.0,
+      "file": "sample-0010.jpg"
+    },
+    {
+      "seconds": 200.0,
+      "file": "sample-0011.jpg"
+    },
+    {
+      "seconds": 220.0,
+      "file": "sample-0012.jpg"
+    },
+    {
+      "seconds": 240.0,
+      "file": "sample-0013.jpg"
+    }
+  ],
+  "sheets": [
+    "contact-01.jpg"
+  ],
+  "targeted": [
+    {
+      "seconds": 120.0,
+      "file": "target-000120.000.png"
+    },
+    {
+      "seconds": 248.0,
+      "file": "target-000248.000.png"
+    }
+  ],
+  "format_version": 2
+}

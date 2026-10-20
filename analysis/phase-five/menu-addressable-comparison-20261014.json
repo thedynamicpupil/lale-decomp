@@ -1,0 +1,1266 @@
+{
+  "images": [
+    {
+      "archive": "lale/IVIR.CKD",
+      "archive_sha256": "d2bc2ee0d4136bc10d37160a43b3f3d420562abd543b0f9e4127d3978d4edda8",
+      "member": "ACILISA.CMP",
+      "payload_offset": 77,
+      "payload_sha256": "5e18b61742a076cfe1624c6f0c4610784afb641b4a144fdc0d0acb9c20d9bbf0",
+      "header_width": 320,
+      "header_height": 200,
+      "full_decoded_count": 64001,
+      "full_decoded_sha256": "f3b925cc0fc84ac21fa26535ea2ae94fdf65ab7834bc74d2564a9349bfc29cf0",
+      "nominal_addressable_count": 64000,
+      "overflow": [
+        0
+      ],
+      "overflow_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "palette": "ACILISA.PAL",
+      "palette_offset": 44171,
+      "palette_sha256": "86d51abf3e8be637ea964a08e1b22f6d26c4c5feb482a78f03bc7aa1f8d5a1b7",
+      "view": "EXPLICIT ADDRESSABLE FRAMEBUFFER VIEW: rectangular source reads of original renderer nominal320x200 extents. Full64001stream and extraindex retained separately. Not strictCMPsuccess; not repairedasset; allocation/write safety unresolved.",
+      "render_extent_authority": "Parent original assembly: A loaded into320x200buffer, nominalwidth*height copies; B source two320x50 strips at byteoffset0and16000 thenfullnominaldestinationimage."
+    },
+    {
+      "archive": "lale/IVIR.CKD",
+      "archive_sha256": "d2bc2ee0d4136bc10d37160a43b3f3d420562abd543b0f9e4127d3978d4edda8",
+      "member": "ACILISB.CMP",
+      "payload_offset": 45004,
+      "payload_sha256": "8708a7569824376136773be08cef605635eb9ab717d47048e204f96774a54968",
+      "header_width": 320,
+      "header_height": 200,
+      "full_decoded_count": 64001,
+      "full_decoded_sha256": "71f40adaff491c151bf96045ef8f14bc1ef55af3e0180c3c1853139709e69ba0",
+      "nominal_addressable_count": 64000,
+      "overflow": [
+        0
+      ],
+      "overflow_sha256": "6e340b9cffb37a989ca544e6bb780a2c78901d3fb33738768511a30617afa01d",
+      "palette": "ACILISA.PAL",
+      "palette_offset": 44171,
+      "palette_sha256": "86d51abf3e8be637ea964a08e1b22f6d26c4c5feb482a78f03bc7aa1f8d5a1b7",
+      "view": "EXPLICIT ADDRESSABLE FRAMEBUFFER VIEW: rectangular source reads of original renderer nominal320x200 extents. Full64001stream and extraindex retained separately. Not strictCMPsuccess; not repairedasset; allocation/write safety unresolved.",
+      "render_extent_authority": "Parent original assembly: A loaded into320x200buffer, nominalwidth*height copies; B source two320x50 strips at byteoffset0and16000 thenfullnominaldestinationimage."
+    }
+  ],
+  "changed_total": 14442,
+  "row_differences": [
+    {
+      "y": 0,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 1,
+      "changed_indices": 5,
+      "x_min": 126,
+      "x_max": 303
+    },
+    {
+      "y": 2,
+      "changed_indices": 52,
+      "x_min": 13,
+      "x_max": 305
+    },
+    {
+      "y": 3,
+      "changed_indices": 127,
+      "x_min": 9,
+      "x_max": 307
+    },
+    {
+      "y": 4,
+      "changed_indices": 197,
+      "x_min": 7,
+      "x_max": 311
+    },
+    {
+      "y": 5,
+      "changed_indices": 242,
+      "x_min": 6,
+      "x_max": 312
+    },
+    {
+      "y": 6,
+      "changed_indices": 263,
+      "x_min": 5,
+      "x_max": 312
+    },
+    {
+      "y": 7,
+      "changed_indices": 277,
+      "x_min": 4,
+      "x_max": 314
+    },
+    {
+      "y": 8,
+      "changed_indices": 281,
+      "x_min": 4,
+      "x_max": 312
+    },
+    {
+      "y": 9,
+      "changed_indices": 289,
+      "x_min": 4,
+      "x_max": 312
+    },
+    {
+      "y": 10,
+      "changed_indices": 294,
+      "x_min": 5,
+      "x_max": 313
+    },
+    {
+      "y": 11,
+      "changed_indices": 285,
+      "x_min": 6,
+      "x_max": 310
+    },
+    {
+      "y": 12,
+      "changed_indices": 282,
+      "x_min": 7,
+      "x_max": 311
+    },
+    {
+      "y": 13,
+      "changed_indices": 273,
+      "x_min": 8,
+      "x_max": 307
+    },
+    {
+      "y": 14,
+      "changed_indices": 269,
+      "x_min": 11,
+      "x_max": 309
+    },
+    {
+      "y": 15,
+      "changed_indices": 267,
+      "x_min": 10,
+      "x_max": 310
+    },
+    {
+      "y": 16,
+      "changed_indices": 260,
+      "x_min": 9,
+      "x_max": 310
+    },
+    {
+      "y": 17,
+      "changed_indices": 261,
+      "x_min": 10,
+      "x_max": 309
+    },
+    {
+      "y": 18,
+      "changed_indices": 259,
+      "x_min": 9,
+      "x_max": 308
+    },
+    {
+      "y": 19,
+      "changed_indices": 261,
+      "x_min": 9,
+      "x_max": 310
+    },
+    {
+      "y": 20,
+      "changed_indices": 256,
+      "x_min": 9,
+      "x_max": 310
+    },
+    {
+      "y": 21,
+      "changed_indices": 260,
+      "x_min": 8,
+      "x_max": 311
+    },
+    {
+      "y": 22,
+      "changed_indices": 255,
+      "x_min": 8,
+      "x_max": 310
+    },
+    {
+      "y": 23,
+      "changed_indices": 244,
+      "x_min": 9,
+      "x_max": 309
+    },
+    {
+      "y": 24,
+      "changed_indices": 221,
+      "x_min": 10,
+      "x_max": 308
+    },
+    {
+      "y": 25,
+      "changed_indices": 211,
+      "x_min": 11,
+      "x_max": 308
+    },
+    {
+      "y": 26,
+      "changed_indices": 210,
+      "x_min": 8,
+      "x_max": 310
+    },
+    {
+      "y": 27,
+      "changed_indices": 215,
+      "x_min": 6,
+      "x_max": 311
+    },
+    {
+      "y": 28,
+      "changed_indices": 223,
+      "x_min": 5,
+      "x_max": 312
+    },
+    {
+      "y": 29,
+      "changed_indices": 227,
+      "x_min": 4,
+      "x_max": 313
+    },
+    {
+      "y": 30,
+      "changed_indices": 224,
+      "x_min": 5,
+      "x_max": 313
+    },
+    {
+      "y": 31,
+      "changed_indices": 229,
+      "x_min": 3,
+      "x_max": 313
+    },
+    {
+      "y": 32,
+      "changed_indices": 239,
+      "x_min": 3,
+      "x_max": 314
+    },
+    {
+      "y": 33,
+      "changed_indices": 260,
+      "x_min": 3,
+      "x_max": 314
+    },
+    {
+      "y": 34,
+      "changed_indices": 271,
+      "x_min": 3,
+      "x_max": 314
+    },
+    {
+      "y": 35,
+      "changed_indices": 272,
+      "x_min": 3,
+      "x_max": 314
+    },
+    {
+      "y": 36,
+      "changed_indices": 277,
+      "x_min": 4,
+      "x_max": 313
+    },
+    {
+      "y": 37,
+      "changed_indices": 286,
+      "x_min": 5,
+      "x_max": 314
+    },
+    {
+      "y": 38,
+      "changed_indices": 290,
+      "x_min": 4,
+      "x_max": 312
+    },
+    {
+      "y": 39,
+      "changed_indices": 282,
+      "x_min": 5,
+      "x_max": 312
+    },
+    {
+      "y": 40,
+      "changed_indices": 279,
+      "x_min": 6,
+      "x_max": 313
+    },
+    {
+      "y": 41,
+      "changed_indices": 259,
+      "x_min": 7,
+      "x_max": 311
+    },
+    {
+      "y": 42,
+      "changed_indices": 238,
+      "x_min": 8,
+      "x_max": 311
+    },
+    {
+      "y": 43,
+      "changed_indices": 189,
+      "x_min": 9,
+      "x_max": 309
+    },
+    {
+      "y": 44,
+      "changed_indices": 118,
+      "x_min": 10,
+      "x_max": 309
+    },
+    {
+      "y": 45,
+      "changed_indices": 38,
+      "x_min": 11,
+      "x_max": 307
+    },
+    {
+      "y": 46,
+      "changed_indices": 19,
+      "x_min": 13,
+      "x_max": 306
+    },
+    {
+      "y": 47,
+      "changed_indices": 9,
+      "x_min": 96,
+      "x_max": 104
+    },
+    {
+      "y": 48,
+      "changed_indices": 7,
+      "x_min": 97,
+      "x_max": 103
+    },
+    {
+      "y": 49,
+      "changed_indices": 4,
+      "x_min": 99,
+      "x_max": 102
+    },
+    {
+      "y": 50,
+      "changed_indices": 2,
+      "x_min": 100,
+      "x_max": 101
+    },
+    {
+      "y": 51,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 52,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 53,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 54,
+      "changed_indices": 7,
+      "x_min": 123,
+      "x_max": 179
+    },
+    {
+      "y": 55,
+      "changed_indices": 29,
+      "x_min": 111,
+      "x_max": 180
+    },
+    {
+      "y": 56,
+      "changed_indices": 41,
+      "x_min": 112,
+      "x_max": 187
+    },
+    {
+      "y": 57,
+      "changed_indices": 29,
+      "x_min": 112,
+      "x_max": 187
+    },
+    {
+      "y": 58,
+      "changed_indices": 55,
+      "x_min": 112,
+      "x_max": 198
+    },
+    {
+      "y": 59,
+      "changed_indices": 70,
+      "x_min": 112,
+      "x_max": 199
+    },
+    {
+      "y": 60,
+      "changed_indices": 62,
+      "x_min": 112,
+      "x_max": 199
+    },
+    {
+      "y": 61,
+      "changed_indices": 55,
+      "x_min": 112,
+      "x_max": 199
+    },
+    {
+      "y": 62,
+      "changed_indices": 54,
+      "x_min": 112,
+      "x_max": 199
+    },
+    {
+      "y": 63,
+      "changed_indices": 55,
+      "x_min": 112,
+      "x_max": 199
+    },
+    {
+      "y": 64,
+      "changed_indices": 63,
+      "x_min": 112,
+      "x_max": 199
+    },
+    {
+      "y": 65,
+      "changed_indices": 76,
+      "x_min": 111,
+      "x_max": 200
+    },
+    {
+      "y": 66,
+      "changed_indices": 63,
+      "x_min": 111,
+      "x_max": 200
+    },
+    {
+      "y": 67,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 68,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 69,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 70,
+      "changed_indices": 149,
+      "x_min": 8,
+      "x_max": 308
+    },
+    {
+      "y": 71,
+      "changed_indices": 166,
+      "x_min": 8,
+      "x_max": 308
+    },
+    {
+      "y": 72,
+      "changed_indices": 120,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 73,
+      "changed_indices": 106,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 74,
+      "changed_indices": 109,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 75,
+      "changed_indices": 110,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 76,
+      "changed_indices": 118,
+      "x_min": 10,
+      "x_max": 305
+    },
+    {
+      "y": 77,
+      "changed_indices": 126,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 78,
+      "changed_indices": 124,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 79,
+      "changed_indices": 131,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 80,
+      "changed_indices": 132,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 81,
+      "changed_indices": 138,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 82,
+      "changed_indices": 130,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 83,
+      "changed_indices": 123,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 84,
+      "changed_indices": 153,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 85,
+      "changed_indices": 153,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 86,
+      "changed_indices": 129,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 87,
+      "changed_indices": 130,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 88,
+      "changed_indices": 136,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 89,
+      "changed_indices": 159,
+      "x_min": 10,
+      "x_max": 306
+    },
+    {
+      "y": 90,
+      "changed_indices": 240,
+      "x_min": 8,
+      "x_max": 308
+    },
+    {
+      "y": 91,
+      "changed_indices": 233,
+      "x_min": 8,
+      "x_max": 308
+    },
+    {
+      "y": 92,
+      "changed_indices": 61,
+      "x_min": 8,
+      "x_max": 308
+    },
+    {
+      "y": 93,
+      "changed_indices": 10,
+      "x_min": 185,
+      "x_max": 210
+    },
+    {
+      "y": 94,
+      "changed_indices": 10,
+      "x_min": 185,
+      "x_max": 210
+    },
+    {
+      "y": 95,
+      "changed_indices": 8,
+      "x_min": 186,
+      "x_max": 210
+    },
+    {
+      "y": 96,
+      "changed_indices": 12,
+      "x_min": 184,
+      "x_max": 210
+    },
+    {
+      "y": 97,
+      "changed_indices": 9,
+      "x_min": 184,
+      "x_max": 208
+    },
+    {
+      "y": 98,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 99,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 100,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 101,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 102,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 103,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 104,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 105,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 106,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 107,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 108,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 109,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 110,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 111,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 112,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 113,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 114,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 115,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 116,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 117,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 118,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 119,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 120,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 121,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 122,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 123,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 124,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 125,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 126,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 127,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 128,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 129,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 130,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 131,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 132,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 133,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 134,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 135,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 136,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 137,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 138,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 139,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 140,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 141,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 142,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 143,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 144,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 145,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 146,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 147,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 148,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 149,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 150,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 151,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 152,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 153,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 154,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 155,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 156,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 157,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 158,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 159,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 160,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 161,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 162,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 163,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 164,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 165,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 166,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 167,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 168,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 169,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 170,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 171,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 172,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 173,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 174,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 175,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 176,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 177,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 178,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 179,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 180,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 181,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 182,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 183,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 184,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 185,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 186,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 187,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 188,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 189,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 190,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 191,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 192,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 193,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 194,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 195,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 196,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 197,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 198,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    },
+    {
+      "y": 199,
+      "changed_indices": 0,
+      "x_min": null,
+      "x_max": null
+    }
+  ],
+  "regions": [
+    {
+      "y_start": 0,
+      "y_end_exclusive": 50,
+      "changed_indices": 10556
+    },
+    {
+      "y_start": 50,
+      "y_end_exclusive": 100,
+      "changed_indices": 3886
+    },
+    {
+      "y_start": 100,
+      "y_end_exclusive": 200,
+      "changed_indices": 0
+    }
+  ]
+}

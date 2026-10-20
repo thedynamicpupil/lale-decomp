@@ -1,0 +1,21 @@
+{
+  "existing_files_in_start_manifest": 239,
+  "intentional_existing_Rust_changes": [
+    "rust-port/README.md",
+    "rust-port/crates/lale-runtime/Cargo.toml",
+    "rust-port/crates/lale-assets/src/lib.rs"
+  ],
+  "unexpected_existing_changes": [],
+  "frozen_phase_three_artifacts_checked": 30,
+  "changed_frozen_artifacts": [],
+  "original_distribution_files_checked": 25,
+  "changed_originals": [],
+  "reference_media_hashes": {
+    "reference media/2026-10-14 02-39-52.mp4": "aacd16169fe76c0e5caefadab3ec930381258a27a0702e7043e8d9b78b831fae",
+    "reference media/menu_context.png": "315762b1c79e3bcc63cd6ab4fe853df47ebab115d05581795adb0fccf4c8e709"
+  },
+  "new_analysis_and_generated_outputs": "new paths, earlier reports preserved",
+  "protected_Ghidra_GUI_project": "not opened or modified",
+  "emulator_launcher_and_config": "not modified; no new original-game launch",
+  "system_or_package_changes": "none"
+}

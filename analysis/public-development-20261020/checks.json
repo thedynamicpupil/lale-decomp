@@ -1,0 +1,21 @@
+{
+  "cargo_fmt": "PASS",
+  "cargo_check_offline_workspace": "PASS",
+  "cargo_test_offline_workspace": {
+    "passed_executions": 180,
+    "failed": 0,
+    "targets_including_doctests": 33
+  },
+  "cargo_build_offline_workspace": "PASS",
+  "python_tools_ast": "PASS",
+  "shell_syntax": "PASS",
+  "frozen_hashes_checked": 30,
+  "frozen_mismatches": [],
+  "new_desktop_acceptance": false,
+  "original_distribution_manifest_checked": 25,
+  "original_distribution_mismatches": [],
+  "authored_whitespace_check": "PASS",
+  "historical_whitespace": "retained; see whitespace-summary.json",
+  "ignore_positive_and_negative_probes": "PASS",
+  "credential_filter_positive_and_negative_probes": "PASS"
+}

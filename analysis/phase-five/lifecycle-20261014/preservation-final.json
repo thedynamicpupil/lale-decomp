@@ -1,0 +1,14 @@
+{
+  "baseline_count": 919,
+  "changed": [
+    "rust-port/crates/lale-assets/src/lib.rs",
+    "docs/PROJECT_STATE.md",
+    "docs/ROADMAP.md",
+    "docs/FIRST_PLAYABLE_PATH.md"
+  ],
+  "unexpected_changes": [],
+  "frozen_count": 30,
+  "frozen_mismatches": [],
+  "original_count": 25,
+  "original_mismatches": []
+}

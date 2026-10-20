@@ -1,0 +1,16 @@
+{
+  "source": "original loader33e7b..33e9d:slot32+i;DS2a7c+selector*13",
+  "i": 2,
+  "selector": 3,
+  "slot": 34,
+  "literal_file_offset": 113827,
+  "literal_hex": "6b617069616e332e636d700000",
+  "name": "KAPIAN3.CMP",
+  "archive_payload_offset": 1050525,
+  "dimensions": [
+    344,
+    119
+  ],
+  "indices_sha256": "0d54d18e96721f952d1cb30d56d9e22b1d62df67d3fefb9b4d77ed24dd5858c6",
+  "payload_sha256": "f22098c6616c381a3bbd4232c4e1a461c8f95afa0386cc89dcf609d5f89c31b6"
+}

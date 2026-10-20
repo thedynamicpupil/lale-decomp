@@ -1,0 +1,942 @@
+[
+  {
+    "offset": 1313,
+    "text": "mcpOpenDDS"
+  },
+  {
+    "offset": 1436,
+    "text": "mcpCloseDDS"
+  },
+  {
+    "offset": 1475,
+    "text": "scanLong"
+  },
+  {
+    "offset": 1760,
+    "text": "detectDevices"
+  },
+  {
+    "offset": 1812,
+    "text": "tmPh*0"
+  },
+  {
+    "offset": 2293,
+    "text": "queryDeviceCount"
+  },
+  {
+    "offset": 2314,
+    "text": "queryDevice"
+  },
+  {
+    "offset": 2430,
+    "text": "cmdSB"
+  },
+  {
+    "offset": 2481,
+    "text": "readSB"
+  },
+  {
+    "offset": 2535,
+    "text": "resetDSP"
+  },
+  {
+    "offset": 2623,
+    "text": "dspVersion"
+  },
+  {
+    "offset": 2809,
+    "text": "IRQHandler"
+  },
+  {
+    "offset": 3007,
+    "text": "SBIRQHandler"
+  },
+  {
+    "offset": 3481,
+    "text": "SB16IRQHandler"
+  },
+  {
+    "offset": 3579,
+    "text": "initDevice"
+  },
+  {
+    "offset": 5472,
+    "text": "startOutput"
+  },
+  {
+    "offset": 6280,
+    "text": "getBufPos"
+  },
+  {
+    "offset": 6309,
+    "text": "stopOutput"
+  },
+  {
+    "offset": 6414,
+    "text": "closeDevice"
+  },
+  {
+    "offset": 6531,
+    "text": "dsd_main"
+  },
+  {
+    "offset": 7046,
+    "text": "MCP v3.5 - (C) 1992,1995 Otto Chrons"
+  },
+  {
+    "offset": 7385,
+    "text": "%~%s%>"
+  },
+  {
+    "offset": 7427,
+    "text": " x ^ D * "
+  },
+  {
+    "offset": 7443,
+    "text": "!x!^!D!*!"
+  },
+  {
+    "offset": 10296,
+    "text": "t+QSWVf"
+  },
+  {
+    "offset": 10485,
+    "text": "fVSQf"
+  },
+  {
+    "offset": 11592,
+    "text": "fWfVfU"
+  },
+  {
+    "offset": 11782,
+    "text": "RQfSfP"
+  },
+  {
+    "offset": 11856,
+    "text": "RQfSfP"
+  },
+  {
+    "offset": 11877,
+    "text": "f]f^f_"
+  },
+  {
+    "offset": 13379,
+    "text": "QfRfR"
+  },
+  {
+    "offset": 13388,
+    "text": "fZfBY"
+  },
+  {
+    "offset": 13425,
+    "text": "QfRfR"
+  },
+  {
+    "offset": 13434,
+    "text": "fZfBY"
+  },
+  {
+    "offset": 13526,
+    "text": "4fWfV"
+  },
+  {
+    "offset": 15360,
+    "text": "DMAInit"
+  },
+  {
+    "offset": 15701,
+    "text": "DMAStart"
+  },
+  {
+    "offset": 15827,
+    "text": "DMAStartSingle"
+  },
+  {
+    "offset": 16030,
+    "text": "DMAStop"
+  },
+  {
+    "offset": 16094,
+    "text": "DMAPosition"
+  },
+  {
+    "offset": 16312,
+    "text": "DMAStatus"
+  },
+  {
+    "offset": 19098,
+    "text": "0123456789ABCDEF"
+  },
+  {
+    "offset": 25316,
+    "text": "Sound Blaster s"
+  },
+  {
+    "offset": 25337,
+    "text": "dSound Blaster s"
+  },
+  {
+    "offset": 25358,
+    "text": ". %100 SB uyumlu t"
+  },
+  {
+    "offset": 25377,
+    "text": "m kartlar"
+  },
+  {
+    "offset": 25387,
+    "text": " destekler"
+  },
+  {
+    "offset": 25398,
+    "text": "I/O port"
+  },
+  {
+    "offset": 25407,
+    "text": "iKart i"
+  },
+  {
+    "offset": 25415,
+    "text": "in ana I/O adresini se"
+  },
+  {
+    "offset": 25438,
+    "text": "in.       "
+  },
+  {
+    "offset": 25449,
+    "text": "dDMA kanal"
+  },
+  {
+    "offset": 25462,
+    "text": "IRQ kontroll"
+  },
+  {
+    "offset": 25486,
+    "text": "'E'vet se"
+  },
+  {
+    "offset": 25500,
+    "text": "ini sadece "
+  },
+  {
+    "offset": 25512,
+    "text": "ok eski bir SB'ye sahipseniz yahut sisteminiz autoinit DMA modunda "
+  },
+  {
+    "offset": 25584,
+    "text": "mazsa se"
+  },
+  {
+    "offset": 25593,
+    "text": "in. IRQ kontroll"
+  },
+  {
+    "offset": 25610,
+    "text": " DMA seslerde "
+  },
+  {
+    "offset": 25631,
+    "text": "lara sebep olabilir."
+  },
+  {
+    "offset": 25652,
+    "text": " the sound and should be avoided if possible."
+  },
+  {
+    "offset": 25705,
+    "text": "aIRQ say"
+  },
+  {
+    "offset": 25717,
+    "text": "BIRQ sadece 'IRQ kontroll"
+  },
+  {
+    "offset": 25743,
+    "text": " DMA' se"
+  },
+  {
+    "offset": 25756,
+    "text": "ine 'E'vet denmi"
+  },
+  {
+    "offset": 25773,
+    "text": "se gereklidir. Ama yine de do"
+  },
+  {
+    "offset": 25803,
+    "text": "ru IRQ numaras"
+  },
+  {
+    "offset": 25822,
+    "text": "ilmelidir.             "
+  },
+  {
+    "offset": 25846,
+    "text": "Amplifikasyon"
+  },
+  {
+    "offset": 25862,
+    "text": "er ses d"
+  },
+  {
+    "offset": 25871,
+    "text": "zeyi "
+  },
+  {
+    "offset": 25877,
+    "text": "ok az g"
+  },
+  {
+    "offset": 25889,
+    "text": "yorsa ve bunu d"
+  },
+  {
+    "offset": 25905,
+    "text": "zeltemiyorsan"
+  },
+  {
+    "offset": 25919,
+    "text": "z, bu amplifikasyon modlar"
+  },
+  {
+    "offset": 25946,
+    "text": "ndan birini deneyebilirsiniz. Auto modu amplifikasyonu ses kanallar"
+  },
+  {
+    "offset": 26016,
+    "text": "n say"
+  },
+  {
+    "offset": 26029,
+    "text": "re otomatik olarak ayarlar. Az amplifikasyon az bir CPU g"
+  },
+  {
+    "offset": 26089,
+    "text": " harcar fakat baz"
+  },
+  {
+    "offset": 26115,
+    "text": "lar duyabilirsiniz. Orta ve "
+  },
+  {
+    "offset": 26144,
+    "text": "ok amplifikasyon modlar"
+  },
+  {
+    "offset": 26180,
+    "text": " azalt"
+  },
+  {
+    "offset": 26187,
+    "text": "r fakat daha fazla CPU g"
+  },
+  {
+    "offset": 26214,
+    "text": "ne ihtiya"
+  },
+  {
+    "offset": 26224,
+    "text": " duyarlar.                                                                              "
+  },
+  {
+    "offset": 26313,
+    "text": "rYok "
+  },
+  {
+    "offset": 26319,
+    "text": "nAuto"
+  },
+  {
+    "offset": 26330,
+    "text": " Orta "
+  },
+  {
+    "offset": 26343,
+    "text": "iSes kalitesi "
+  },
+  {
+    "offset": 26358,
+    "text": "Bu se"
+  },
+  {
+    "offset": 26364,
+    "text": "enek sesin "
+  },
+  {
+    "offset": 26379,
+    "text": "nma duzeyini g"
+  },
+  {
+    "offset": 26394,
+    "text": "sterir. Oran ne kadar y"
+  },
+  {
+    "offset": 26418,
+    "text": "ksekse ses kalitesi o kadar iyi olur. Ama y"
+  },
+  {
+    "offset": 26462,
+    "text": "ksek oranlar daha "
+  },
+  {
+    "offset": 26481,
+    "text": "ok ses verisi i"
+  },
+  {
+    "offset": 26497,
+    "text": "lemi gerektirdi"
+  },
+  {
+    "offset": 26513,
+    "text": "inden daha "
+  },
+  {
+    "offset": 26525,
+    "text": "ok CPU g"
+  },
+  {
+    "offset": 26536,
+    "text": " ister.    "
+  },
+  {
+    "offset": 26549,
+    "text": "yi kalite  "
+  },
+  {
+    "offset": 26561,
+    "text": "   Orta kalite  "
+  },
+  {
+    "offset": 26582,
+    "text": " kalite"
+  },
+  {
+    "offset": 26590,
+    "text": "Sound Blaster Pro s"
+  },
+  {
+    "offset": 26615,
+    "text": "eSound Blaster Pro s"
+  },
+  {
+    "offset": 26640,
+    "text": ". %100 SB Pro uyumlu t"
+  },
+  {
+    "offset": 26663,
+    "text": "m kartlar"
+  },
+  {
+    "offset": 26673,
+    "text": " destekler. Fakat baz"
+  },
+  {
+    "offset": 26695,
+    "text": " uyumlu kartlar stereo modunda uyumsuzluk g"
+  },
+  {
+    "offset": 26739,
+    "text": "sterebilirler.   "
+  },
+  {
+    "offset": 26757,
+    "text": "eKart i"
+  },
+  {
+    "offset": 26765,
+    "text": "in ana I/O adresini se"
+  },
+  {
+    "offset": 26788,
+    "text": "in.       "
+  },
+  {
+    "offset": 26799,
+    "text": "i'E'vet se"
+  },
+  {
+    "offset": 26814,
+    "text": "ini sadece sisteminiz autoinit DMA modunda "
+  },
+  {
+    "offset": 26862,
+    "text": "mazsa se"
+  },
+  {
+    "offset": 26871,
+    "text": "in. IRQ kontroll"
+  },
+  {
+    "offset": 26888,
+    "text": " DMA seslerde "
+  },
+  {
+    "offset": 26909,
+    "text": "lara sebep olabilir.                                "
+  },
+  {
+    "offset": 26962,
+    "text": "IRQ sadece 'IRQ kontrollu DMA' se"
+  },
+  {
+    "offset": 26996,
+    "text": "enegi i"
+  },
+  {
+    "offset": 27004,
+    "text": "in gereklidir"
+  },
+  {
+    "offset": 27020,
+    "text": "er ses d"
+  },
+  {
+    "offset": 27029,
+    "text": "zeyi "
+  },
+  {
+    "offset": 27035,
+    "text": "ok az g"
+  },
+  {
+    "offset": 27047,
+    "text": "yorsa ve bunu d"
+  },
+  {
+    "offset": 27063,
+    "text": "zeltemiyorsan"
+  },
+  {
+    "offset": 27077,
+    "text": "z, bu amplifikasyon modlar"
+  },
+  {
+    "offset": 27104,
+    "text": "ndan birini deneyebilirsiniz. Auto modu amplifikasyonu ses kanallar"
+  },
+  {
+    "offset": 27174,
+    "text": "n say"
+  },
+  {
+    "offset": 27187,
+    "text": "re otomatik olarak ayarlar. Az amplifikasyon az bir CPU g"
+  },
+  {
+    "offset": 27247,
+    "text": " harcar fakat baz"
+  },
+  {
+    "offset": 27273,
+    "text": "lar duyabilirsiniz. Orta ve "
+  },
+  {
+    "offset": 27302,
+    "text": "ok amplifikasyon modlar"
+  },
+  {
+    "offset": 27338,
+    "text": " azalt"
+  },
+  {
+    "offset": 27345,
+    "text": "r fakat daha fazla CPU g"
+  },
+  {
+    "offset": 27372,
+    "text": "ne ihtiya"
+  },
+  {
+    "offset": 27382,
+    "text": " duyarlar.                                                                              "
+  },
+  {
+    "offset": 27471,
+    "text": "rSes tipi  "
+  },
+  {
+    "offset": 27483,
+    "text": "tStereo veya mono se"
+  },
+  {
+    "offset": 27504,
+    "text": "in. Mono ses daha iyi performans g"
+  },
+  {
+    "offset": 27539,
+    "text": "sterir fakat stereo ses efektleri veya 'surround' m"
+  },
+  {
+    "offset": 27594,
+    "text": "i dinleyemezsiniz.                                   "
+  },
+  {
+    "offset": 27648,
+    "text": "Stereo"
+  },
+  {
+    "offset": 27655,
+    "text": "wMono"
+  },
+  {
+    "offset": 27661,
+    "text": "SBu se"
+  },
+  {
+    "offset": 27668,
+    "text": "enek sesin "
+  },
+  {
+    "offset": 27683,
+    "text": "nma duzeyini g"
+  },
+  {
+    "offset": 27698,
+    "text": "sterir. Oran ne kadar y"
+  },
+  {
+    "offset": 27722,
+    "text": "ksekse ses kalitesi o kadar iyi olur. Ama y"
+  },
+  {
+    "offset": 27766,
+    "text": "ksek oranlar daha "
+  },
+  {
+    "offset": 27785,
+    "text": "ok ses verisi i"
+  },
+  {
+    "offset": 27801,
+    "text": "lemi gerektirdi"
+  },
+  {
+    "offset": 27817,
+    "text": "inden daha "
+  },
+  {
+    "offset": 27829,
+    "text": "ok CPU g"
+  },
+  {
+    "offset": 27840,
+    "text": " ister.    "
+  },
+  {
+    "offset": 27852,
+    "text": "Sound Blaster 16 s"
+  },
+  {
+    "offset": 27876,
+    "text": "Sound Blaster 16 s"
+  },
+  {
+    "offset": 27899,
+    "text": ". SB16 ve SB16 uyumlu kartlar"
+  },
+  {
+    "offset": 27929,
+    "text": " destekler.                                           "
+  },
+  {
+    "offset": 27984,
+    "text": "Kart i"
+  },
+  {
+    "offset": 27991,
+    "text": "in ana I/O adresini se"
+  },
+  {
+    "offset": 28014,
+    "text": "in.       "
+  },
+  {
+    "offset": 28025,
+    "text": "oBu SB16'n"
+  },
+  {
+    "offset": 28042,
+    "text": "ksek DMA kanal"
+  },
+  {
+    "offset": 28059,
+    "text": "r.       "
+  },
+  {
+    "offset": 28069,
+    "text": "d'E'vet se"
+  },
+  {
+    "offset": 28084,
+    "text": "ini sadece sisteminiz autoinit DMA modunda "
+  },
+  {
+    "offset": 28132,
+    "text": "mazsa se"
+  },
+  {
+    "offset": 28141,
+    "text": "in. IRQ kontroll"
+  },
+  {
+    "offset": 28158,
+    "text": " DMA seslerde "
+  },
+  {
+    "offset": 28179,
+    "text": "lara sebep olabilir.                                "
+  },
+  {
+    "offset": 28232,
+    "text": "IRQ SB16'da her zaman gereklidir"
+  },
+  {
+    "offset": 28268,
+    "text": "er ses d"
+  },
+  {
+    "offset": 28277,
+    "text": "zeyi "
+  },
+  {
+    "offset": 28283,
+    "text": "ok az g"
+  },
+  {
+    "offset": 28295,
+    "text": "yorsa ve bunu d"
+  },
+  {
+    "offset": 28311,
+    "text": "zeltemiyorsan"
+  },
+  {
+    "offset": 28325,
+    "text": "z, bu amplifikasyon modlar"
+  },
+  {
+    "offset": 28352,
+    "text": "ndan birini deneyebilirsiniz. Auto modu amplifikasyonu ses kanallar"
+  },
+  {
+    "offset": 28422,
+    "text": "n say"
+  },
+  {
+    "offset": 28435,
+    "text": "re otomatik olarak ayarlar. Az amplifikasyon az bir CPU g"
+  },
+  {
+    "offset": 28495,
+    "text": " harcar fakat baz"
+  },
+  {
+    "offset": 28521,
+    "text": "lar duyabilirsiniz. Orta ve "
+  },
+  {
+    "offset": 28550,
+    "text": "ok amplifikasyon modlar"
+  },
+  {
+    "offset": 28586,
+    "text": " azalt"
+  },
+  {
+    "offset": 28593,
+    "text": "r fakat daha fazla CPU g"
+  },
+  {
+    "offset": 28620,
+    "text": "ne ihtiya"
+  },
+  {
+    "offset": 28630,
+    "text": " duyarlar.                                                                              "
+  },
+  {
+    "offset": 28719,
+    "text": "rStereo veya mono se"
+  },
+  {
+    "offset": 28740,
+    "text": "in. Mono ses daha iyi performans g"
+  },
+  {
+    "offset": 28775,
+    "text": "sterir fakat stereo ses efektleri veya 'surround' m"
+  },
+  {
+    "offset": 28830,
+    "text": "i dinleyemezsiniz.                                   "
+  },
+  {
+    "offset": 28884,
+    "text": "Bu se"
+  },
+  {
+    "offset": 28890,
+    "text": "enek sesin "
+  },
+  {
+    "offset": 28905,
+    "text": "nma duzeyini g"
+  },
+  {
+    "offset": 28920,
+    "text": "sterir. Oran ne kadar y"
+  },
+  {
+    "offset": 28944,
+    "text": "ksekse ses kalitesi o kadar iyi olur. Ama y"
+  },
+  {
+    "offset": 28988,
+    "text": "ksek oranlar daha "
+  },
+  {
+    "offset": 29007,
+    "text": "ok ses verisi i"
+  },
+  {
+    "offset": 29023,
+    "text": "lemi gerektirdi"
+  },
+  {
+    "offset": 29039,
+    "text": "inden daha "
+  },
+  {
+    "offset": 29051,
+    "text": "ok CPU g"
+  },
+  {
+    "offset": 29062,
+    "text": " ister.    "
+  },
+  {
+    "offset": 29074,
+    "text": "Extra y"
+  },
+  {
+    "offset": 29082,
+    "text": "ksek kalite(44kHz)"
+  },
+  {
+    "offset": 29104,
+    "text": "ksek kalite(32kHz)"
+  },
+  {
+    "offset": 29123,
+    "text": "uOrtalama kalite (22kHz)"
+  },
+  {
+    "offset": 29152,
+    "text": "k kalite(16kHz)"
+  },
+  {
+    "offset": 29168,
+    "text": "MCPOutputBuffer"
+  },
+  {
+    "offset": 29184,
+    "text": "GetDSMITime"
+  },
+  {
+    "offset": 29196,
+    "text": "MCPSampleRealAddress"
+  },
+  {
+    "offset": 29217,
+    "text": "eMCPEnableVirtualSamples"
+  },
+  {
+    "offset": 29242,
+    "text": "MCPDisableVirtualSamples"
+  },
+  {
+    "offset": 29267,
+    "text": "aSDIGetBufferPosition"
+  },
+  {
+    "offset": 29290,
+    "text": "BLASTER"
+  },
+  {
+    "offset": 29298,
+    "text": "DDSAccessResource"
+  },
+  {
+    "offset": 29316,
+    "text": "DDSRegisterResource"
+  },
+  {
+    "offset": 29336,
+    "text": "DDSRegisterFunction"
+  },
+  {
+    "offset": 29356,
+    "text": "DDSRemoveFunction"
+  },
+  {
+    "offset": 29374,
+    "text": "DDSRemoveResource"
+  },
+  {
+    "offset": 29392,
+    "text": "MemAlloc"
+  },
+  {
+    "offset": 29401,
+    "text": "rMemCalloc"
+  },
+  {
+    "offset": 29412,
+    "text": "MemRealloc"
+  },
+  {
+    "offset": 29423,
+    "text": "SMemFree"
+  },
+  {
+    "offset": 29432,
+    "text": "cdiRegister"
+  },
+  {
+    "offset": 29444,
+    "text": "SetVector"
+  },
+  {
+    "offset": 29454,
+    "text": "GetEnvString"
+  },
+  {
+    "offset": 29468,
+    "text": "SDIDetectDevices"
+  },
+  {
+    "offset": 29486,
+    "text": "SDIQueryDeviceCount"
+  },
+  {
+    "offset": 29506,
+    "text": "SDIQueryDevice"
+  },
+  {
+    "offset": 29521,
+    "text": "cSDIInitDevice"
+  },
+  {
+    "offset": 29536,
+    "text": "SDIStartOutput"
+  },
+  {
+    "offset": 29551,
+    "text": "vSDIStopOutput"
+  },
+  {
+    "offset": 29566,
+    "text": "SDICloseDevice"
+  }
+]

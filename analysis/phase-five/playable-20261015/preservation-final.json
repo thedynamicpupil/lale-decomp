@@ -1,0 +1,30 @@
+{
+  "baseline_files": 1880,
+  "unchanged_baseline_files": 1866,
+  "intended_modified_files": [
+    "docs/PROJECT_STATE.md",
+    "docs/ROADMAP.md",
+    "docs/FIRST_PLAYABLE_PATH.md",
+    "docs/RESEARCH_INDEX.md",
+    "rust-port/README.md",
+    "rust-port/NATIVE_SEQ_PREVIEW.md",
+    "rust-port/NATIVE_CREATION_DIAGNOSTIC.md",
+    "rust-port/NATIVE_OTOPARK_RESOURCE.md",
+    "rust-port/crates/lale-runtime/Cargo.toml",
+    "rust-port/crates/lale-runtime/src/menu_reference.rs",
+    "rust-port/crates/lale-runtime/src/character_screen.rs",
+    "rust-port/crates/lale-runtime/src/character_creation.rs",
+    "rust-port/crates/lale-runtime/src/seq_preview.rs",
+    "rust-port/crates/lale-runtime/src/creation_session.rs"
+  ],
+  "missing_baseline_files": [],
+  "original_emulator_reference_save_changes": [],
+  "protected_added_files": [],
+  "historical_analysis_changes": [],
+  "offline_test_executions_passed": 81,
+  "new_source_guide_launcher_and_checkpoint_files": "additive under rust-port and analysis/phase-five/playable-20261015 plus the new checkpoint",
+  "new_native_party_policy": "new unique files only under runtime/native/parties; tests use owned /tmp root and confirm earlier bytes unchanged",
+  "phase_four_complete": false,
+  "full_playable_milestone_complete": false,
+  "no_packages_global_settings_changes": true
+}

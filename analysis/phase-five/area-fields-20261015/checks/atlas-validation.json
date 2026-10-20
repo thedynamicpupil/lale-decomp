@@ -1,0 +1,16 @@
+{
+  "row_counts": {
+    "areas": 20,
+    "cells": 3889,
+    "edges": 15556,
+    "event-groups": 1064,
+    "event-commands": 3670,
+    "transitions": 19,
+    "framing": 266,
+    "cell-event-references": 782
+  },
+  "all_command_groups_framed": true,
+  "all_cell_keys_classified_or_valid_group": true,
+  "all_associations_on_command_boundaries": true,
+  "existing_output_refused_without_changes": true
+}

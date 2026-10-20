@@ -1,0 +1,18 @@
+{
+  "baseline_count": 1080,
+  "changed": [
+    "docs/FIRST_PLAYABLE_PATH.md",
+    "docs/PROJECT_STATE.md",
+    "docs/ROADMAP.md",
+    "rust-port/crates/lale-assets/src/lib.rs",
+    "rust-port/crates/lale-runtime/Cargo.toml",
+    "rust-port/crates/lale-runtime/src/character_screen.rs",
+    "rust-port/crates/lale-runtime/src/menu_reference.rs",
+    "rust-port/crates/lale-runtime/src/seq_preview.rs",
+    "rust-port/crates/lale-runtime/src/seq_preview_main.rs"
+  ],
+  "unexpected_changes": [],
+  "frozen_count": 30,
+  "frozen_mismatches": [],
+  "protected_changed": []
+}

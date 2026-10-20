@@ -1,0 +1,82 @@
+   Compiling lale-runtime v0.1.0 (/home/zabumafu/Projects/LALE DOS/rust-port/crates/lale-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.57s
+     Running unittests src/lib.rs (rust-port/target/debug/deps/lale_assets-b8466c7f55e4a3a5)
+
+running 2 tests
+test tests::malformed_directories_fail_without_panicking ... ok
+test tests::packet_limits_and_malformed_inputs ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/amf_structures.rs (rust-port/target/debug/deps/amf_structures-4a5a848a912b701d)
+
+running 2 tests
+test rejects_truncation_unsupported_headers_ids_and_trailing_data ... ok
+test all_original_music_members_match_independent_structure_boundaries ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/cmp_corpus.rs (rust-port/target/debug/deps/cmp_corpus-609c45b52c184f25)
+
+running 1 test
+test original_cmp_corpus_preserves_all_known_size_discrepancies ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.06s
+
+     Running tests/original_assets.rs (rust-port/target/debug/deps/original_assets-e89cf50d94ce0caf)
+
+running 2 tests
+test known_dimension_discrepancy_is_explicitly_unsupported ... ok
+test authentic_assets_match_independent_reference_indices ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (rust-port/target/debug/deps/lale_core-aadfd6658fef9a50)
+
+running 1 test
+test tests::dimensions_are_bounded_without_u16_multiplication ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/main.rs (rust-port/target/debug/deps/lale_inspect-71abf493edf5c357)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/menu_reference.rs (rust-port/target/debug/deps/lale_menu_reference-c932893e07124543)
+
+running 18 tests
+test character_data::generation_minimum_tests::original_signed_minimum_boundaries_preserve_other_record_fields ... ok
+test character_data::tests::cyclic_limits_and_incomplete_generation ... ok
+test character_data::creation_preparation_tests::preparation_matches_original_copies_and_preserves_other_bytes ... ok
+test character_data::tests::rng_matches_original_transcription ... ok
+test character_data::tests::party_originals_roundtrip_and_field_mapping ... ok
+test character_generation::tests::signed_division_wrap_boundary ... ok
+test presentation::tests::exact_endpoints_integer_darkening_and_counter_quantization ... ok
+test presentation::tests::original_thirteen_holds_and_separate_options ... ok
+test presentation::tests::fade_wraps_but_original_blend_deadline_can_collapse ... ok
+test character_generation::tests::original_instruction_fixtures_match_wrapped_formulas ... ok
+test character_generation::tests::trait_initialization_uses_original_tables_one_draw_and_preserves_word_zero ... ok
+test character_data::tests::name_original_metrics_capacity_conversion_cancel ... ok
+test character_appearance::tests::original_kor_mirror_anchor_and_mask ... ok
+test character_appearance::tests::corpus_layers_and_explicit_discrepancy ... ok
+test tests::selection_retains_state_and_inclusive_overlap_uses_first_region ... ok
+test tests::integrated_name_navigation_keeps_generation_explicit ... ok
+test tests::original_party_numbers_change_only_numeric_destination_region ... ok
+test tests::reference_views_keep_terminal_output_and_independent_source_extents ... ok
+
+test result: ok. 18 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.03s
+
+   Doc-tests lale_assets
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests lale_core
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

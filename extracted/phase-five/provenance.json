@@ -1,0 +1,28 @@
+[
+  {
+    "container": "lale/IKON.CKD",
+    "member": "IKON1.CMP",
+    "payload_offset": 2442,
+    "payload_sha256": "4d7973a6a798d7d02044b56dbacdefa1028c9d97df032be4f36978457685f4ab",
+    "width": 200,
+    "height": 200,
+    "indices_sha256": "e813cc3210d6a8924c5f9086075845bcc7d2fe5417604651f6423450520c37f4",
+    "palette_member": "IKON1.PAL",
+    "palette_sha256": "f10a28b0382b1cb1d76b0350ac0624ad3e289f79efd871a5604c1f9fa17a1fa0",
+    "palette_binding": "same-basename candidate",
+    "preview": "Assumed RGB triplets, six-bit channels expanded with (v<<2)|(v>>4); not runtime-calibrated. Original indices and palette bytes preserved."
+  },
+  {
+    "container": "lale/SAVAS.CKD",
+    "member": "AFAKAN.CMP",
+    "payload_offset": 77,
+    "payload_sha256": "3faead51afb9f608a63869920606ce1d164f8e34c4766f07dd7de6fccff64ec7",
+    "width": 86,
+    "height": 19,
+    "indices_sha256": "e1c70930bc53ec5c6869199fb11587ee60d9013988ae5d7b7bdb51f15df34fba",
+    "palette_member": "PALBAT.PAL",
+    "palette_sha256": "ee8bc32a4c6ac0c7707c29d00c55b7fc8c431cc8a2e7dd668bd609c00a9efce2",
+    "palette_binding": "shared-combat-palette candidate",
+    "preview": "Assumed RGB triplets, six-bit channels expanded with (v<<2)|(v>>4); not runtime-calibrated. Original indices and palette bytes preserved."
+  }
+]

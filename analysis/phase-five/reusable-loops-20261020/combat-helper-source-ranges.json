@@ -1,0 +1,37 @@
+[
+  {
+    "name": "camera-pan-body",
+    "start": "0x4b13a",
+    "end_exclusive": "0x4b33b",
+    "sha256": "ddab7370da2f136c021d1416427b4c3ed4336150b009dd4e34609d481475e191",
+    "boundary": "Known next entry except turn-message includes unverified tail; do not infer all bytes are function body"
+  },
+  {
+    "name": "occupancy",
+    "start": "0x4a877",
+    "end_exclusive": "0x4a890",
+    "sha256": "20903c5ffd00bfa8818e18e279c5203d2381ab24528fe9738a4c93b2a571aab4",
+    "boundary": "Known next entry except turn-message includes unverified tail; do not infer all bytes are function body"
+  },
+  {
+    "name": "actor-effect",
+    "start": "0x4b71e",
+    "end_exclusive": "0x4b7bd",
+    "sha256": "be6d7d0f1f4ce30154bf4ba09ac9b935b5bddbf8beb1a6d264a5f43e1bbca5c1",
+    "boundary": "Known next entry except turn-message includes unverified tail; do not infer all bytes are function body"
+  },
+  {
+    "name": "effect-predicate",
+    "start": "0x4bd30",
+    "end_exclusive": "0x4bd9e",
+    "sha256": "d24950304d5238ddf0e393a9639936381333aa931de3952b235ebd6764f7dd6e",
+    "boundary": "Known next entry except turn-message includes unverified tail; do not infer all bytes are function body"
+  },
+  {
+    "name": "turn-message",
+    "start": "0x4bd9e",
+    "end_exclusive": "0x4c1ab",
+    "sha256": "864c662a9d94162113c3e090ef997fb73e91ecdce9cee8c2f82a18b9e188c952",
+    "boundary": "Known next entry except turn-message includes unverified tail; do not infer all bytes are function body"
+  }
+]

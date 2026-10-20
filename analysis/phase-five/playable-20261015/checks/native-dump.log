@@ -1,0 +1,5 @@
+ACILISA/B: all 64001 indices retained per stream; framebuffer reads 64000, extra index=0; original allocation issue remains open.
+Manual presentation study: character appearance/input subset (generation incomplete)
+Native new game: original generator, four named characters, safe party checkpoint, cinematic and source-composed starting view. Random face scheduling and room navigation remain incomplete.
+NATIVE CREATION: original generator and source150-unit body animation; native entry seed boundary. Automatic random face scheduling remains unresolved; CPU idle RNG gates are not fabricated.
+Wrote original-resource frames, complete streams and counter-timeline samples to ../analysis/phase-five/playable-20261015/checks/native-creation-frames

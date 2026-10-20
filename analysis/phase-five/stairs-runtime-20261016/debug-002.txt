@@ -1,0 +1,4 @@
+LOG: pixratio 1.000, dw false, dh false
+LOG: menuScale=1
+LOG: surface consider=640x497 final=640x497
+

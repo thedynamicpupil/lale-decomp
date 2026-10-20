@@ -1,0 +1,42 @@
+{
+  "original": "lale/IST.EXE",
+  "sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
+  "method": "Read-only original slices; objdump i8086 intel from confirmed entries. Segment relocation immediates remain encoded; relative nearcalls crossing IP wrap need modulo16 resolution.",
+  "ranges": [
+    {
+      "name": "world-outer-loop",
+      "physical_start": "0x3a434",
+      "physical_end_exclusive": "0x3b959",
+      "size": 5413,
+      "sha256": "a08f7ec9c62c6713b7ea130c39a4bf00f122765e8c086522d5803259c11f7947"
+    },
+    {
+      "name": "shared-world-combat-tick",
+      "physical_start": "0x3590d",
+      "physical_end_exclusive": "0x35b03",
+      "size": 502,
+      "sha256": "c41705dbe658ebbdd043fa6f45d284f57dd8fcd84128e7a5e94d87efec713dc5"
+    },
+    {
+      "name": "main-world-entry",
+      "physical_start": "0x7fe9",
+      "physical_end_exclusive": "0x7ff3",
+      "size": 10,
+      "sha256": "71eb2c6f32d4f4e3b98a48bce9c6e18485168211eb568476792a70e43b5cb685"
+    },
+    {
+      "name": "combat-round-shared-tick-call",
+      "physical_start": "0x4b88b",
+      "physical_end_exclusive": "0x4b8b2",
+      "size": 39,
+      "sha256": "af206e02728e00fedeec726bb5080ada5d58201ce90650cdc43054fe87c1ccba"
+    },
+    {
+      "name": "world-step-shared-tick-call",
+      "physical_start": "0x3a4ab",
+      "physical_end_exclusive": "0x3a4e4",
+      "size": 57,
+      "sha256": "3ab35faaec8dcaeba32fbdb5018c41fd658d2e5e93b90b6834fe2b8d3fb560e1"
+    }
+  ]
+}

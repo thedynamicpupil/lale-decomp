@@ -54,28 +54,17 @@ Captured render-command tests also read private `runtime/native-data/facing-N.ts
 files for facings 0–3. Each line contains a boolean scale flag followed by twelve
 tab-separated unsigned words. Their local copies preserve earlier captured
 arrays; they are test evidence, not production per-cell rendering instructions.
-Other comparison tests retain their original ignored `analysis/`/`extracted/`
+Other comparison tests retain their original `analysis/`/`extracted/`
 fixture paths and read them at runtime rather than embedding them in test binaries.
 
 ## Publication boundary
 
-The ignore policy denies every path unless explicitly reviewed and allowed.
-Only workspace manifests, audited Rust source/test files, selected native shell
-scripts, selected authored notes, and the staged-content checker are allowed.
+See [the current publication policy](PUBLICATION_POLICY.md) and
+[contribution guide](../CONTRIBUTING.md). Research, assembly, reports, maps and
+checkpoints are now included by default. Prior source-only exclusion statements
+are historical. Original assets/raw captures, development prompts and secrets
+remain private. The original/fixture prerequisites above still apply.
 
-Keep all originals, nested runtime copies, emulator binaries, manuals, recordings,
-screenshots, decoded fonts/images/audio, palettes, command/projection captures,
-saves, Ghidra projects, assembly/decompiler exports, logs, caches, build output,
-credentials and personal agent settings out of Git. Renaming a dump to `.rs`,
-`.txt` or `.json` does not make it source. Newly added files need content review,
-an explicit `.gitignore` entry and explicit staging; never use `git add -f` to
-work around the boundary.
-
-Run `python3 tools/audit_staged.py` after staging. It checks index blobs, allowed
-paths, file modes, size, text encoding and common credential patterns; it prints
-paths/categories only when it finds a problem. This supplements content review
-and cannot establish authorship or detect every possible secret.
-
-No remote, commit, release, license grant or publication is part of the initial
-Git preparation. The original private workspace and historical evidence remain
-on disk and excluded.
+Run `python3 tools/audit_staged.py` after staging and inspect the staged diff.
+No commit, push, history rewrite, license choice or visibility change is performed
+by repository preparation.

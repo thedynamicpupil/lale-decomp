@@ -1,0 +1,21 @@
+area_index	area_table_exe_offset	pc	area_literal	pc_archive_offset	width	height	entry_x	entry_y	pcs	pcs_archive_offset	groups	horizon_literal	status
+0	0x1c031	pc1	otoparkIn	0x14f8a	10	10	2	1	PCS1	0x4d	6	ufuk1.cmp	STRUCTURAL
+1	0x1c04e	pc2	mecidiyekOy'Un	0x1a3cc	30	30	23	0	PCS2	0x830c	34	ufuk1.cmp	STRUCTURAL
+2	0x1c06b	pc3	beSiktaS'In	0x1d8f4	20	18	6	0	PCS3	0xa670	23	ufuk1.cmp	STRUCTURAL
+3	0x1c088	pc4	eminOnU'nUn	0x1ee78	20	23	18	18	PCS4	0xc006	21	ufuk1.cmp	STRUCTURAL
+4	0x1c0a5	pc5	UskUdar'In	0x209d8	15	13	0	5	PCS5	0xe57d	10	ufuk1.cmp	STRUCTURAL
+5	0x1c0c2	pc6	Umraniye'nin	0x215b1	14	16	0	0	PCS6	0xf234	15	ufuk2.cmp	STRUCTURAL
+6	0x1c0df	pc7	kadIkOy'Un	0x2233d	10	12	5	0	PCS7	0x1137d	12	ufuk1.cmp	STRUCTURAL
+7	0x1c0fc	pc8	beyoGlu'nun	0x22ab1	8	12	3	11	PCS8	0x12106	18	ufuk1.cmp	STRUCTURAL
+8	0x1c119	pc9	ortakOy'Un	0x230bd	14	12	0	1	PCS9	0x13903	15	ufuk1.cmp	STRUCTURAL
+9	0x1c136	pc10	beyazIt'In	0x155d2	15	12	14	8	PCS10	0x818	21	ufuk1.cmp	STRUCTURAL
+10	0x1c153	pc11	fatih'in	0x160ca	11	16	5	11	PCS11	0x245a	16	ufuk1.cmp	STRUCTURAL
+11	0x1c170	pc12	sarIyer'in	0x16b86	10	11	0	5	PCS12	0x3840	11	ufuk1.cmp	STRUCTURAL
+12	0x1c18d	pc13	kadIkOy kanalizasyonlarInIn	0x17264	5	15	0	0	PCS13	0x4861	11	ufuk1.cmp	STRUCTURAL
+13	0x1c1aa	pc14	UskUdar kanalizasyonlarInIn	0x17735	20	5	19	1	PCS14	0x4fee	13	ufuk1.cmp	STRUCTURAL
+14	0x1c1c7	pc15	topkapI sarayI'nIn	0x17d7d	20	20	5	1	PCS15	0x54ab	20	ufuk1.cmp	STRUCTURAL
+15	0x1c1e4	pc16	sarIyer kanalizasyonlarInIn	0x19559	10	10	0	0	PCS16	0x6b7c	10	ufuk1.cmp	STRUCTURAL
+16	0x1c201	pc17	kIz kulesi'nin	0x19ba1	10	10	0	0	PCS17	0x77d0	4	ufuk1.cmp	STRUCTURAL
+17	0x1c21e	pc18	cehalet tapInaGInIn	0x1a1e9	5	5	0	0	PCS18	0x7c84	6	ufuk1.cmp	STRUCTURAL
+18	0x1c23b	pc19	pc19									ufuk1.cmp	missing original member
+19	0x1c258	pc20	pc20									ufuk1.cmp	missing original member

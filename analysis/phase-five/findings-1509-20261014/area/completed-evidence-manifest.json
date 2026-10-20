@@ -1,0 +1,62 @@
+[
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/AREA_LOADER_AND_PC1.md",
+    "size": 7805,
+    "sha256": "2b316d1d6aadf32499970414e51bc007879007877503ba33440bfd3398da9f14"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/PC1.original-member.bin",
+    "size": 1543,
+    "sha256": "54117d4f13362c882f0248a7170610e9884d592d19610a40c501addfc320fb5a"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/PCS1.original-member.bin",
+    "size": 1930,
+    "sha256": "2d36d0bfb28d717ec1689e12324066b4c85bf29af3300e99b23388970a2eba11"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/area-data-audit.json",
+    "size": 56009,
+    "sha256": "b085b45ff50acc4c7ea1aa352b1840e9d1b0fc82b7c8b6705be15b8459f02544"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/area-loader-1927-original.asm",
+    "size": 51394,
+    "sha256": "fa3982e4cc7f5811bdc99fbc1def20ae67a2e410a517c33a86f321ce173b7e58"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/audit_area_data.py",
+    "size": 2412,
+    "sha256": "64985e0f7c6eb21fc504aaea0fcde7b4311a0783f86a689a37920093a4a0fe92"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/bounded-resource-identities.json",
+    "size": 2016,
+    "sha256": "a20bcfca6591451886074727605b501381fdc7b251bbe2d9e1f4827b55a03552"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/intervening-call-original.bin",
+    "size": 80,
+    "sha256": "a67d9f92d23546500d77ac9ce114c09883cd6d07af0f75c89acc0fc1b29289b9"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/main-initial-area-call.asm",
+    "size": 651,
+    "sha256": "ca158f2b7c5c804c78f86afffde5e968c571eed1aced618cc2a3fa4b29e97dfe"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/main-initial-area-call.bin",
+    "size": 37,
+    "sha256": "66a1cc123590e36a4fab0ec615a68c48826d09e1e369924d2c240509936b4d25"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/original-overlay-1670.bin",
+    "size": 39497,
+    "sha256": "6ddc8d9f01dcd7d602e50f8b4f21c3e332b6f67cb80958291ea3feda797c3458"
+  },
+  {
+    "path": "analysis/phase-five/findings-1509-20261014/area/preceding-functions-original.asm",
+    "size": 112272,
+    "sha256": "d01d794202673ce88ebcbefdd4bfb9340a95a601c4502a6f60e838c538b6dc25"
+  }
+]

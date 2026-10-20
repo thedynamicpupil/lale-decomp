@@ -1,0 +1,17 @@
+{
+  "archive": "IKON.CKD",
+  "archive_sha256": "30bcbbeaddf302d6dc60bcc4a95716ddf5f108e51a30a154b1f3044c72b66ab7",
+  "member": "IKON10.CMP",
+  "member_offset": 19214,
+  "member_sha256": "b7b5a9a9cc7b41887a76a5ff7c8641512ace2338d701ab95da3fdda7d230a725",
+  "width": 200,
+  "height": 200,
+  "palette": "IKON10.PAL",
+  "palette_offset": 18381,
+  "palette_sha256": "6999b02ce31f074e2b7de2f1fc3e8e65381b48da5c6b86f301917254692d7e80",
+  "indices_sha256": "783df5e9ddb0fc06563ede9766157688b21a19739bdf9b5fa04b2205fa99e8ed",
+  "rust_rgb_equal": true,
+  "palette_binding": "same-basename candidate",
+  "decoder": "decode_cmp.py; literal <=128, repeat control-128; exact dimensions required",
+  "preview": "Original size; six-bit RGB expansion (v<<2)|(v>>4); no transparency applied; no runtime calibration"
+}

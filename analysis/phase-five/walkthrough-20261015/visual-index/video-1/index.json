@@ -1,0 +1,165 @@
+{
+  "number": 1,
+  "source": "reference media/1 - Giriş ve savaş ekranı.mp4",
+  "sha256": "f34bdc51c52b60127d0fa0ccb81a1c812e2db7fcf99cb409e911ae973263c509",
+  "duration_seconds": 276.816667,
+  "interval_seconds": 10,
+  "timestamp_basis": "decoded source frame presentation timestamp; not gameplay/input time",
+  "samples": [
+    {
+      "seconds": 0.0,
+      "file": "sample-0001.jpg"
+    },
+    {
+      "seconds": 10.0,
+      "file": "sample-0002.jpg"
+    },
+    {
+      "seconds": 20.0,
+      "file": "sample-0003.jpg"
+    },
+    {
+      "seconds": 30.0,
+      "file": "sample-0004.jpg"
+    },
+    {
+      "seconds": 40.0,
+      "file": "sample-0005.jpg"
+    },
+    {
+      "seconds": 50.0,
+      "file": "sample-0006.jpg"
+    },
+    {
+      "seconds": 60.0,
+      "file": "sample-0007.jpg"
+    },
+    {
+      "seconds": 70.0,
+      "file": "sample-0008.jpg"
+    },
+    {
+      "seconds": 80.0,
+      "file": "sample-0009.jpg"
+    },
+    {
+      "seconds": 90.0,
+      "file": "sample-0010.jpg"
+    },
+    {
+      "seconds": 100.0,
+      "file": "sample-0011.jpg"
+    },
+    {
+      "seconds": 110.0,
+      "file": "sample-0012.jpg"
+    },
+    {
+      "seconds": 120.0,
+      "file": "sample-0013.jpg"
+    },
+    {
+      "seconds": 130.0,
+      "file": "sample-0014.jpg"
+    },
+    {
+      "seconds": 140.0,
+      "file": "sample-0015.jpg"
+    },
+    {
+      "seconds": 150.0,
+      "file": "sample-0016.jpg"
+    },
+    {
+      "seconds": 160.0,
+      "file": "sample-0017.jpg"
+    },
+    {
+      "seconds": 170.0,
+      "file": "sample-0018.jpg"
+    },
+    {
+      "seconds": 180.0,
+      "file": "sample-0019.jpg"
+    },
+    {
+      "seconds": 190.0,
+      "file": "sample-0020.jpg"
+    },
+    {
+      "seconds": 200.0,
+      "file": "sample-0021.jpg"
+    },
+    {
+      "seconds": 210.0,
+      "file": "sample-0022.jpg"
+    },
+    {
+      "seconds": 220.0,
+      "file": "sample-0023.jpg"
+    },
+    {
+      "seconds": 230.0,
+      "file": "sample-0024.jpg"
+    },
+    {
+      "seconds": 240.0,
+      "file": "sample-0025.jpg"
+    },
+    {
+      "seconds": 250.0,
+      "file": "sample-0026.jpg"
+    },
+    {
+      "seconds": 260.0,
+      "file": "sample-0027.jpg"
+    },
+    {
+      "seconds": 270.0,
+      "file": "sample-0028.jpg"
+    }
+  ],
+  "sheets": [
+    "contact-01.jpg",
+    "contact-02.jpg"
+  ],
+  "targeted": [
+    {
+      "seconds": 15.0,
+      "file": "target-000015.000.png"
+    },
+    {
+      "seconds": 85.0,
+      "file": "target-000085.000.png"
+    },
+    {
+      "seconds": 95.0,
+      "file": "target-000095.000.png"
+    },
+    {
+      "seconds": 114.0,
+      "file": "target-000114.000.png"
+    },
+    {
+      "seconds": 117.0,
+      "file": "target-000117.000.png"
+    },
+    {
+      "seconds": 120.0,
+      "file": "target-000120.000.png"
+    },
+    {
+      "seconds": 125.0,
+      "file": "target-000125.000.png"
+    },
+    {
+      "seconds": 275.0,
+      "file": "target-000275.000.png"
+    },
+    {
+      "seconds": 12.0,
+      "file": "target-000012.000.png"
+    }
+  ],
+  "format_version": 2
+}

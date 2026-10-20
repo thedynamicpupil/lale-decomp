@@ -1,0 +1,13 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.00s
+     Running tests/movement.rs (rust-port/target/debug/deps/movement-b42269e8205e9ad9)
+
+running 6 tests
+test arithmetic_retains_original_low_words_and_signed_delta_bits ... ok
+test live_state_changes_survive_each_event_in_source_read_order ... ok
+test resumable_graphics9_dispatches_candidate_even_after_current_event_veto ... ok
+test ordinary_original_argument_order_and_both_veto_boundaries ... ok
+test unsupported_transitions_are_distinct_from_original_blocked_result ... ok
+test unimplemented_event_is_an_error_and_cannot_commit_movement ... ok
+
+test result: ok. 6 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

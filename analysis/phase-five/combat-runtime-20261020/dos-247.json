@@ -1,0 +1,8 @@
+{
+  "commands": "EV CS IP DS SS SP BP AX\rMEMDUMPBIN DS:0000 10000 WORLD-RESUMED-DS.BIN\r",
+  "chunk_id": "6126d3",
+  "wall_time_seconds": 1.001455889,
+  "session_id": 83891,
+  "original_token_count": 0,
+  "output": ""
+}

@@ -1,0 +1,73 @@
+[in#0 @ 0x5584911ec440] UDTA parsing failed retrying raw
+    Last message repeated 1 times
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/zabumafu/Projects/LALE DOS/reference media/3 - Silikon Baba cutscene.mp4':
+  Metadata:
+    major_brand     : iso4
+    minor_version   : 0
+    compatible_brands: iso4isomobs1iso2avc1mp41
+    creation_time   : 2026-10-15T01:42:59.000000Z
+    encoder         : OBS Studio (32.1.1)
+  Duration: 00:04:45.68, start: 0.000000, bitrate: 605 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 640x360 [SAR 1:1 DAR 16:9], 401 kb/s, 60 fps, 60 tbr, 60 tbn (default)
+    Metadata:
+      creation_time   : 2026-10-15T01:42:59.000000Z
+      handler_name    : OBS Video Handler
+      encoder         : obs_nvenc_h264_tex
+      name            : simple_video_recording
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 192 kb/s (default)
+    Metadata:
+      creation_time   : 2026-10-15T01:42:59.000000Z
+      handler_name    : OBS Audio Handler
+      name            : simple_aac_recording0
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> mjpeg (native))
+[Parsed_showinfo_2 @ 0x7ff5f0012280] config in time_base: 1/60, frame_rate: 60/1
+[Parsed_showinfo_2 @ 0x7ff5f0012280] config out time_base: 0/0, frame_rate: 0/0
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:   0 pts:      0 pts_time:0       duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:1 type:I checksum:FE295A8C plane_checksum:[3CBFFC18 AE002D00 B4493165] mean:[70 127 130] stdev:[64.6 4.1 8.3]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+Output #0, image2, to 'analysis/phase-five/walkthrough-20261015/visual-index/video-3/sample-%04d.jpg':
+  Metadata:
+    major_brand     : iso4
+    minor_version   : 0
+    compatible_brands: iso4isomobs1iso2avc1mp41
+    encoder         : Lavf62.12.103
+  Stream #0:0(und): Video: mjpeg, yuv420p(pc, bt709, progressive), 384x216 [SAR 1:1 DAR 16:9], q=2-31, 200 kb/s, 60 fps, 60 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.103 mjpeg
+      creation_time   : 2026-10-15T01:42:59.000000Z
+      handler_name    : OBS Video Handler
+      name            : simple_video_recording
+    Side data:
+      CPB properties: bitrate max/min/avg: 0/0/200000 buffer size: 0 vbv_delay: N/A
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:   1 pts:   1200 pts_time:20      duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:B checksum:195BF30F plane_checksum:[BECE7A61 33AF30A2 1209480C] mean:[79 118 134] stdev:[59.7 10.4 5.5]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:   2 pts:   2400 pts_time:40      duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:P checksum:33C1F30B plane_checksum:[017C7A53 575530AD 2775480B] mean:[79 118 134] stdev:[59.7 10.4 5.5]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:   3 pts:   3600 pts_time:60      duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:B checksum:80E179C6 plane_checksum:[FC087023 AE4327BF 5C26E1D5] mean:[68 111 142] stdev:[54.7 13.6 11.6]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:   4 pts:   4800 pts_time:80      duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:B checksum:EC2068B8 plane_checksum:[E185FFDC 24B58BB8 6161DD06] mean:[56 115 139] stdev:[55.9 12.6 11.0]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:   5 pts:   6000 pts_time:100     duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:1 type:I checksum:1E4D66B7 plane_checksum:[E1EE55B1 16E82D29 2670E3CE] mean:[87 117 136] stdev:[62.1 10.8 8.9]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+frame=    5 fps=0.0 q=3.0 size=N/A time=00:01:20.01 bitrate=N/A speed= 160x elapsed=0:00:00.50    
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:   6 pts:   7200 pts_time:120     duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:B checksum:1084BE6E plane_checksum:[57948D34 A85292CE 05059E5D] mean:[75 116 138] stdev:[60.2 12.6 10.9]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:   7 pts:   8400 pts_time:140     duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:P checksum:3A08CB10 plane_checksum:[6C7A8E51 D4239A06 AEF0A2AA] mean:[75 116 138] stdev:[60.3 12.5 10.9]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:   8 pts:   9600 pts_time:160     duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:B checksum:5380A9DC plane_checksum:[FD3A7741 31C3EA52 4BD8483A] mean:[79 117 137] stdev:[62.5 12.0 10.3]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:   9 pts:  10800 pts_time:180     duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:B checksum:0848E298 plane_checksum:[6634836A 876F7B20 BE5CE3FF] mean:[60 112 142] stdev:[53.1 13.3 11.5]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+frame=    9 fps=9.0 q=3.0 size=N/A time=00:02:40.01 bitrate=N/A speed= 160x elapsed=0:00:01.00    
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:  10 pts:  12000 pts_time:200     duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:1 type:I checksum:2C238817 plane_checksum:[C5D8508B D4B74437 F3E8F346] mean:[62 111 142] stdev:[53.4 13.6 11.4]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:  11 pts:  13200 pts_time:220     duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:B checksum:76EFA0C9 plane_checksum:[6E4CB669 DA7B0D09 E14FDD48] mean:[78 104 145] stdev:[57.9 17.3 12.5]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:  12 pts:  14400 pts_time:240     duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:P checksum:75705654 plane_checksum:[46AE5306 4118BC0B 15BA4734] mean:[82 107 143] stdev:[59.9 17.1 12.4]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:  13 pts:  15600 pts_time:260     duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:B checksum:F12B816F plane_checksum:[468343DA AB091F53 AFAC1E42] mean:[63 127 130] stdev:[46.8 4.4 8.0]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[Parsed_showinfo_2 @ 0x7ff5f0012280] n:  14 pts:  16800 pts_time:280     duration:      1 duration_time:0.0166667 fmt:yuv420p cl:unspecified sar:1/1 s:384x216 i:P iskey:0 type:B checksum:93C0753F plane_checksum:[891C3E32 D1F1DB13 33275BEB] mean:[61 126 131] stdev:[44.4 5.2 8.2]
+[Parsed_showinfo_2 @ 0x7ff5f0012280] color_range:pc color_space:bt709 color_primaries:bt709 color_trc:bt709
+[out#0/image2 @ 0x5584911f4480] video:423KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=   15 fps= 11 q=3.0 Lsize=N/A time=00:04:40.01 bitrate=N/A speed= 197x elapsed=0:00:01.42    

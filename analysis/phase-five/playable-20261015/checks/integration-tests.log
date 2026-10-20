@@ -1,0 +1,61 @@
+   Compiling lale-runtime v0.1.0 (/home/zabumafu/Projects/LALE DOS/rust-port/crates/lale-runtime)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.56s
+     Running unittests src/menu_reference.rs (target/debug/deps/lale_menu_reference-c932893e07124543)
+
+running 45 tests
+test character_creation::tests::explicit_idle_poll_reads_and_phase_persistence ... ok
+test character_data::tests::cyclic_limits_and_incomplete_generation ... ok
+test character_data::creation_preparation_tests::preparation_matches_original_copies_and_preserves_other_bytes ... ok
+test character_data::generation_minimum_tests::original_signed_minimum_boundaries_preserve_other_record_fields ... ok
+test character_data::tests::rng_matches_original_transcription ... ok
+test character_data::tests::party_originals_roundtrip_and_field_mapping ... ok
+test character_generation::tests::signed_division_wrap_boundary ... ok
+test character_runtime_snapshot::tests::original_one_based_strides_preserve_raw_state_and_gaps ... ok
+test character_creation::tests::original_dos_consecutive_idle_gate_survives_overlay_relocation ... ok
+test character_generation::tests::original_instruction_fixtures_match_wrapped_formulas ... ok
+test original_seed::tests::independent_calendar_fixtures_include_old_dst_and_late_unsigned_dates ... ok
+test original_seed::tests::epoch_and_hundredths_follow_original_words ... ok
+test character_creation::tests::named_original_party_keeps_numeric_values_but_consumes_entry_trait_draw ... ok
+test original_seed::tests::rejects_invalid_dates_without_silent_calendar_normalization ... ok
+test character_creation::tests::snapshot_setup_signed_lower_bounds_and_navigation_boundary ... ok
+test original_seed::tests::original_april_october_rules_are_not_modern_host_rules ... ok
+test character_creation::tests::original_dos_enter_reroll_matches_after_default_callback ... ok
+test party_workspace::tests::invalid_race_cannot_partially_modify_host_workspace ... ok
+test character_runtime_snapshot::tests::natural_dos_first_setup_matches_full_numeric_traits_rng_and_phase ... ok
+test character_generation::tests::trait_initialization_uses_original_tables_one_draw_and_preserves_word_zero ... ok
+test creation_session::tests::native_body_clock_preserves_rng_and_uses_one_wrapping_deadline ... ok
+test presentation::tests::exact_endpoints_integer_darkening_and_counter_quantization ... ok
+test character_creation::tests::original_static_call_and_instruction_fixtures ... ok
+test presentation::tests::fade_wraps_but_original_blend_deadline_can_collapse ... ok
+test character_runtime_snapshot::tests::original_dos_generator_call_matches_all_27_draws_and_record_bytes ... ok
+test seq_preview::tests::paused_and_stepped_host_clock_freezes_elapsed_time ... ok
+test presentation::tests::original_thirteen_holds_and_separate_options ... ok
+test native_party_store::tests::prepared_original_layout_roundtrips_and_rejects_unnamed_slots ... ok
+test creation_session::tests::fresh_native_matches_original_zero_workspace_and_prepares_four_slots ... ok
+test party_workspace::tests::supplied_and_prepared_parties_reread_exactly_without_clearing_workspace ... ok
+test otopark_room::tests::native_draw_trace_matches_original_call_sites_and_captured_arguments ... ok
+test character_data::tests::name_original_metrics_capacity_conversion_cancel ... ok
+test character_appearance::tests::original_kor_mirror_anchor_and_mask ... ok
+test character_appearance::tests::corpus_layers_and_explicit_discrepancy ... ok
+test otopark_background::tests::preview_preserves_all_source_rows_and_palette_indices ... ok
+test tests::selection_retains_state_and_inclusive_overlap_uses_first_region ... ok
+test tests::debug_creation_shows_dos_numbers_and_prepares_four_named_characters_without_io ... ok
+test tests::integrated_name_navigation_keeps_generation_explicit ... ok
+test tests::original_party_numbers_change_only_numeric_destination_region ... ok
+test otopark_room::tests::captured_original_view_has_fully_occluded_scales_and_only_three_border_unknowns ... ok
+test tests::reference_views_keep_terminal_output_and_independent_source_extents ... ok
+test tests::ordinary_creation_animates_names_four_slots_and_persists_without_replacing_files ... ok
+test otopark_background::tests::loader_linked_sheets_keep_original_indices_at_every_pan_boundary ... ok
+test seq_preview::tests::host_deadlines_hold_frames_and_catch_up_without_skipping_records ... ok
+test seq_preview::tests::preview_sequence_matches_independent_title_and_all_stream_boundaries ... ok
+
+test result: ok. 45 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.42s
+
+     Running unittests src/otopark_room_main.rs (target/debug/deps/lale_otopark_room-c373ba8ad4e6de2d)
+
+running 2 tests
+test otopark_room::tests::native_draw_trace_matches_original_call_sites_and_captured_arguments ... ok
+test otopark_room::tests::captured_original_view_has_fully_occluded_scales_and_only_three_border_unknowns ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.02s
+

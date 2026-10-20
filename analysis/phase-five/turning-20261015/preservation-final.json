@@ -1,0 +1,30 @@
+{
+  "baseline_files": 1936,
+  "unchanged_baseline_files": 1929,
+  "intended_modified_baseline_files": [
+    "docs/PROJECT_STATE.md",
+    "docs/ROADMAP.md",
+    "docs/FIRST_PLAYABLE_PATH.md",
+    "docs/RESEARCH_INDEX.md",
+    "rust-port/crates/lale-runtime/src/menu_reference.rs",
+    "rust-port/crates/lale-runtime/src/otopark_room.rs",
+    "rust-port/crates/lale-runtime/src/otopark_room_main.rs"
+  ],
+  "missing_baseline_files": [],
+  "protected_original_emulator_reference_or_historical_analysis_changes": [],
+  "preceding_baseline_root_and_runtime_save_files_unchanged": 38,
+  "new_source": "rust-port/crates/lale-runtime/src/otopark_turn_commands.rs",
+  "guide_updated_outside_source_baseline": "rust-port/NATIVE_PLAYABLE_INCREMENT.md",
+  "offline_test_executions_passed": 87,
+  "source_files_final_sha256": {
+    "rust-port/crates/lale-runtime/src/menu_reference.rs": "73a4b8d5a5aec9b6df52fd5f452428f481b98c6ffd3157522fd3134526a7f436",
+    "rust-port/crates/lale-runtime/src/otopark_room.rs": "0b070f5dd3da99ea0701d4a0308bceb7347d22e7ce2fe2527515f177a9843903",
+    "rust-port/crates/lale-runtime/src/otopark_room_main.rs": "797e79f21550bdf674549b92b98014f2537936221165569733139ca223f75436",
+    "rust-port/crates/lale-runtime/src/otopark_turn_commands.rs": "5fcde3a01e06ebd44b93880f0768997a97faa69de5c736255d6ed4dd2cf246ce"
+  },
+  "phase_four_complete": false,
+  "full_playable_milestone_complete": false,
+  "new_desktop_acceptance": "pending",
+  "old_starting_facing_acceptance": "user confirmed on Fedora",
+  "no_packages_or_global_settings_changes": true
+}

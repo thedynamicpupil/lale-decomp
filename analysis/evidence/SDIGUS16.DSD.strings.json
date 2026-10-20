@@ -1,0 +1,430 @@
+[
+  {
+    "offset": 753,
+    "text": "gf1Delay"
+  },
+  {
+    "offset": 826,
+    "text": "selectChannel"
+  },
+  {
+    "offset": 855,
+    "text": "gusCmd"
+  },
+  {
+    "offset": 894,
+    "text": "gusCmd2"
+  },
+  {
+    "offset": 954,
+    "text": "gusCmdW"
+  },
+  {
+    "offset": 995,
+    "text": "gusCmdW2"
+  },
+  {
+    "offset": 1056,
+    "text": "gusRead"
+  },
+  {
+    "offset": 1101,
+    "text": "gusReadW"
+  },
+  {
+    "offset": 1144,
+    "text": "gusPoke"
+  },
+  {
+    "offset": 1214,
+    "text": "gusPeek"
+  },
+  {
+    "offset": 1283,
+    "text": "rampVolume"
+  },
+  {
+    "offset": 1491,
+    "text": "waitRamp"
+  },
+  {
+    "offset": 1549,
+    "text": "findHandle"
+  },
+  {
+    "offset": 1627,
+    "text": "createHandle"
+  },
+  {
+    "offset": 1864,
+    "text": "destroyHandle"
+  },
+  {
+    "offset": 1896,
+    "text": "gushmInit"
+  },
+  {
+    "offset": 1906,
+    "text": "SQRVW"
+  },
+  {
+    "offset": 2268,
+    "text": "_^ZY["
+  },
+  {
+    "offset": 2275,
+    "text": "gushmClose"
+  },
+  {
+    "offset": 2327,
+    "text": "gushmFreeAll"
+  },
+  {
+    "offset": 2447,
+    "text": "gushmAlloc"
+  },
+  {
+    "offset": 3004,
+    "text": "gushmFree"
+  },
+  {
+    "offset": 3231,
+    "text": "findSample"
+  },
+  {
+    "offset": 3313,
+    "text": "gusSetSample"
+  },
+  {
+    "offset": 3868,
+    "text": "gusPlaySample"
+  },
+  {
+    "offset": 4209,
+    "text": "gusSetVolume"
+  },
+  {
+    "offset": 4297,
+    "text": "gusSetRate"
+  },
+  {
+    "offset": 4463,
+    "text": "gusSetLinearRate"
+  },
+  {
+    "offset": 4493,
+    "text": "gusSetPosition"
+  },
+  {
+    "offset": 4734,
+    "text": "gusSetPanning"
+  },
+  {
+    "offset": 4871,
+    "text": "gusSetMasterVolume"
+  },
+  {
+    "offset": 4979,
+    "text": "gusMuteChannel"
+  },
+  {
+    "offset": 5051,
+    "text": "gusUnmuteChannel"
+  },
+  {
+    "offset": 5121,
+    "text": "gusStopChannel"
+  },
+  {
+    "offset": 5253,
+    "text": "gusMuteAll"
+  },
+  {
+    "offset": 5331,
+    "text": "gusUnmuteAll"
+  },
+  {
+    "offset": 5386,
+    "text": "DMADownload"
+  },
+  {
+    "offset": 5852,
+    "text": "gusDownload"
+  },
+  {
+    "offset": 6042,
+    "text": "gusUnload"
+  },
+  {
+    "offset": 6155,
+    "text": "gusUnloadAll"
+  },
+  {
+    "offset": 6293,
+    "text": "gusGetVolume"
+  },
+  {
+    "offset": 6363,
+    "text": "gusGetRate"
+  },
+  {
+    "offset": 6431,
+    "text": "gusGetPosition"
+  },
+  {
+    "offset": 6550,
+    "text": "gusGetPanning"
+  },
+  {
+    "offset": 6671,
+    "text": "gusGetSample"
+  },
+  {
+    "offset": 6741,
+    "text": "resetChannel"
+  },
+  {
+    "offset": 6911,
+    "text": "gusSetupChannels"
+  },
+  {
+    "offset": 7062,
+    "text": "gusGetChannelStatus"
+  },
+  {
+    "offset": 7160,
+    "text": "gusPoll"
+  },
+  {
+    "offset": 7171,
+    "text": "gusSetEffect"
+  },
+  {
+    "offset": 7191,
+    "text": "gusGetStatus"
+  },
+  {
+    "offset": 7277,
+    "text": "scanLong"
+  },
+  {
+    "offset": 7542,
+    "text": "detectDevices"
+  },
+  {
+    "offset": 7957,
+    "text": "queryDeviceCount"
+  },
+  {
+    "offset": 7978,
+    "text": "queryDevice"
+  },
+  {
+    "offset": 8047,
+    "text": "resetGF1"
+  },
+  {
+    "offset": 8461,
+    "text": "initDevice"
+  },
+  {
+    "offset": 8818,
+    "text": "startOutput"
+  },
+  {
+    "offset": 8834,
+    "text": "getBufPos"
+  },
+  {
+    "offset": 8849,
+    "text": "stopOutput"
+  },
+  {
+    "offset": 8896,
+    "text": "closeDevice"
+  },
+  {
+    "offset": 9031,
+    "text": "dsd_main"
+  },
+  {
+    "offset": 9568,
+    "text": "DMAInit"
+  },
+  {
+    "offset": 9909,
+    "text": "DMAStart"
+  },
+  {
+    "offset": 10035,
+    "text": "DMAStartSingle"
+  },
+  {
+    "offset": 10238,
+    "text": "DMAStop"
+  },
+  {
+    "offset": 10302,
+    "text": "DMAPosition"
+  },
+  {
+    "offset": 10520,
+    "text": "DMAStatus"
+  },
+  {
+    "offset": 11384,
+    "text": "Gravis UltraSound GF1 sound driver 1.0 (C) 1995 Virtual Visions Finland Oy, Otto Chrons"
+  },
+  {
+    "offset": 12288,
+    "text": "0123456789ABCDEF"
+  },
+  {
+    "offset": 12482,
+    "text": "Gravis Ultrasound GF1 s"
+  },
+  {
+    "offset": 12511,
+    "text": "pBu s"
+  },
+  {
+    "offset": 12521,
+    "text": " sesleri GUS GF1 dalgatablosu sentezleyicisini kullanarak "
+  },
+  {
+    "offset": 12580,
+    "text": "alar. Sesler kart"
+  },
+  {
+    "offset": 12604,
+    "text": "ndeki haf"
+  },
+  {
+    "offset": 12614,
+    "text": "zada saklan"
+  },
+  {
+    "offset": 12631,
+    "text": "er GUS'unuzda az haf"
+  },
+  {
+    "offset": 12656,
+    "text": "z (256k) varsa ve seslerde problemle kar"
+  },
+  {
+    "offset": 12707,
+    "text": "z GUS DAC s"
+  },
+  {
+    "offset": 12727,
+    "text": " kullanmay"
+  },
+  {
+    "offset": 12738,
+    "text": " deneyin."
+  },
+  {
+    "offset": 12748,
+    "text": "GUS I/O adresi "
+  },
+  {
+    "offset": 12769,
+    "text": "alma DMA kanal"
+  },
+  {
+    "offset": 12785,
+    "text": "dUltraSound IRQ"
+  },
+  {
+    "offset": 12803,
+    "text": "rnek y"
+  },
+  {
+    "offset": 12810,
+    "text": "klemek i"
+  },
+  {
+    "offset": 12819,
+    "text": "in DMA kullan"
+  },
+  {
+    "offset": 12841,
+    "text": "lULTRASND"
+  },
+  {
+    "offset": 12851,
+    "text": " DDSAccessResource"
+  },
+  {
+    "offset": 12870,
+    "text": "DDSRegisterResource"
+  },
+  {
+    "offset": 12890,
+    "text": "DDSRegisterFunction"
+  },
+  {
+    "offset": 12910,
+    "text": "DDSRemoveFunction"
+  },
+  {
+    "offset": 12928,
+    "text": "DDSRemoveResource"
+  },
+  {
+    "offset": 12946,
+    "text": "MemAlloc"
+  },
+  {
+    "offset": 12955,
+    "text": "aMemCalloc"
+  },
+  {
+    "offset": 12966,
+    "text": "MemRealloc"
+  },
+  {
+    "offset": 12977,
+    "text": "tMemFree"
+  },
+  {
+    "offset": 12986,
+    "text": "cdiRegister"
+  },
+  {
+    "offset": 12998,
+    "text": "GetEnvString"
+  },
+  {
+    "offset": 13011,
+    "text": "oSDIDetectDevices"
+  },
+  {
+    "offset": 13030,
+    "text": "SDIQueryDeviceCount"
+  },
+  {
+    "offset": 13050,
+    "text": "SDIQueryDevice"
+  },
+  {
+    "offset": 13065,
+    "text": "iSDIInitDevice"
+  },
+  {
+    "offset": 13080,
+    "text": "SDIStartOutput"
+  },
+  {
+    "offset": 13095,
+    "text": "iSDIGetBufferPosition"
+  },
+  {
+    "offset": 13117,
+    "text": "DSDIStopOutput"
+  },
+  {
+    "offset": 13132,
+    "text": "SDICloseDevice"
+  }
+]

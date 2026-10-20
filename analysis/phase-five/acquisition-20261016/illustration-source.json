@@ -1,0 +1,9 @@
+{
+  "exe_sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
+  "original_physical_start": "0x481c7",
+  "end_exclusive": "0x484d3",
+  "body": "1689:4b57",
+  "synthetic_REA": "0x44b57",
+  "format_literal_DS6235": "696b6f6e25642e636d70",
+  "remarks": "Native illustration is not yet enabled; exact palette/display/restore need DOS comparison. Opcode3 argument13 in PC1 group0 mode2."
+}

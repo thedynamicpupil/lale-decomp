@@ -1,0 +1,92 @@
+[
+  {
+    "name": "3.AMF",
+    "best_rms_correlation": 0.4880103875694629,
+    "candidate_seconds_per_reference_second": 0.93,
+    "candidate_origin_parameter_seconds": -0.4
+  },
+  {
+    "name": "3D.AMF",
+    "best_rms_correlation": 0.21061423380265834,
+    "candidate_seconds_per_reference_second": 1.0,
+    "candidate_origin_parameter_seconds": 0.5
+  },
+  {
+    "name": "4.AMF",
+    "best_rms_correlation": 0.22468165650479446,
+    "candidate_seconds_per_reference_second": 1.05,
+    "candidate_origin_parameter_seconds": -4.0
+  },
+  {
+    "name": "5.AMF",
+    "best_rms_correlation": -2,
+    "candidate_seconds_per_reference_second": null,
+    "candidate_origin_parameter_seconds": null
+  },
+  {
+    "name": "6.AMF",
+    "best_rms_correlation": -2,
+    "candidate_seconds_per_reference_second": null,
+    "candidate_origin_parameter_seconds": null
+  },
+  {
+    "name": "7.AMF",
+    "best_rms_correlation": 0.17377503283772977,
+    "candidate_seconds_per_reference_second": 1.04,
+    "candidate_origin_parameter_seconds": -0.5
+  },
+  {
+    "name": "8.AMF",
+    "best_rms_correlation": 0.1667272180030162,
+    "candidate_seconds_per_reference_second": 1.0,
+    "candidate_origin_parameter_seconds": 17.2
+  },
+  {
+    "name": "9.AMF",
+    "best_rms_correlation": -2,
+    "candidate_seconds_per_reference_second": null,
+    "candidate_origin_parameter_seconds": null
+  },
+  {
+    "name": "DEMO.AMF",
+    "best_rms_correlation": 0.6350496457246212,
+    "candidate_seconds_per_reference_second": 0.92,
+    "candidate_origin_parameter_seconds": 2.2
+  },
+  {
+    "name": "ISTANBUL.AMF",
+    "best_rms_correlation": 0.1621437761895761,
+    "candidate_seconds_per_reference_second": 1.0,
+    "candidate_origin_parameter_seconds": 23.0
+  },
+  {
+    "name": "NIGHTMAR.AMF",
+    "best_rms_correlation": 0.31862876251988687,
+    "candidate_seconds_per_reference_second": 0.99,
+    "candidate_origin_parameter_seconds": 16.8
+  },
+  {
+    "name": "PAIN.AMF",
+    "best_rms_correlation": -2,
+    "candidate_seconds_per_reference_second": null,
+    "candidate_origin_parameter_seconds": null
+  },
+  {
+    "name": "SAVAS.AMF",
+    "best_rms_correlation": 0.236839492495195,
+    "candidate_seconds_per_reference_second": 0.93,
+    "candidate_origin_parameter_seconds": -3.6
+  },
+  {
+    "name": "THEEND.AMF",
+    "best_rms_correlation": -2,
+    "candidate_seconds_per_reference_second": null,
+    "candidate_origin_parameter_seconds": null
+  },
+  {
+    "name": "UNI.AMF",
+    "best_rms_correlation": 0.4618952153176598,
+    "candidate_seconds_per_reference_second": 1.0,
+    "candidate_origin_parameter_seconds": 8.0
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "source": "lale/IST.EXE",
+  "sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
+  "ranges": [
+    {
+      "path": "analysis/phase-five/door-20261015/static/guard-init.bin",
+      "original_start": 209264,
+      "original_end_exclusive": 209552,
+      "sha256": "04658e04447e4659ae305e100d333708d2dd911d8e708eb8928733c91eb6a347"
+    },
+    {
+      "path": "analysis/phase-five/door-20261015/static/guard-reset.bin",
+      "original_start": 214304,
+      "original_end_exclusive": 214528,
+      "sha256": "128bae26e2347064232181843b037075dde61ecb21cd5d134132fb773a796b18"
+    },
+    {
+      "path": "analysis/phase-five/door-20261015/static/event-guard.bin",
+      "original_start": 279200,
+      "original_end_exclusive": 279824,
+      "sha256": "096cfbe6d8bc69128e7206be7de1ff455db0263c10d79dbc0b663c8e27d4e281"
+    },
+    {
+      "path": "analysis/phase-five/door-20261015/static/door-dispatch.bin",
+      "original_start": 205280,
+      "original_end_exclusive": 205616,
+      "sha256": "137d6090e14d2530c836beee85bd2d00b7940e8097b8651128283555aee617ba"
+    },
+    {
+      "path": "analysis/phase-five/door-20261015/static/post-door.bin",
+      "original_start": 197857,
+      "original_end_exclusive": 198087,
+      "sha256": "8207a0358401b824c3007b6867a998c4c0bcd830c7244fc158f5d65f3366f605"
+    },
+    {
+      "path": "analysis/phase-five/door-20261015/static/input-dispatch.bin",
+      "original_start": 208652,
+      "original_end_exclusive": 210861,
+      "sha256": "38d1a787ffc8ffa5d6f5cc30a969165648d8dc83467d34d0cab45e0c4848a2e7"
+    },
+    {
+      "path": "analysis/phase-five/door-20261015/static/animation-loop.bin",
+      "original_start": 196858,
+      "original_end_exclusive": 197887,
+      "sha256": "287fbc837d503ef2a8f09caa9cc138049f3983ddc48ba018df307b98b6dbc402"
+    },
+    {
+      "path": "analysis/phase-five/door-20261015/static/special-guard-caller.bin",
+      "original_start": 204560,
+      "original_end_exclusive": 205004,
+      "sha256": "0d6343e25617da3475d8f0fee7d14ea8e6de74ca95bbf10066cc047c1e2cecea"
+    }
+  ],
+  "limitations": [
+    "Ranges may start/end inside instructions; entry-address claims require aligned existing full-overlay disassembly.",
+    "event-guard slice establishes queried raw 06 3b patterns there are imul/cmp adjacency, not DS3b06 references."
+  ]
+}

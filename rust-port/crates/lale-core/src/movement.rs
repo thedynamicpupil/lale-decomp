@@ -62,7 +62,12 @@ pub trait MovementEvents {
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]
 pub enum StepOutcome {
     Moved,
-    Vetoed { mode: u16 },
+    /// Graphics9 returns AL0, but its helper has changed the live coordinates.
+    /// The outer world loop detects that change independently of AL.
+    Transitioned,
+    Vetoed {
+        mode: u16,
+    },
     Blocked,
     RequiresOriginalTransition(MovementBranch),
 }
@@ -202,6 +207,17 @@ impl MovementCall {
             return Err("movement is not waiting for the door helper");
         }
         self.request = MovementRequest::Finished(StepOutcome::Moved);
+        Ok(())
+    }
+
+    /// Original320c9 ->32615 clears b9c8 and returns AL0 after80d0.
+    /// The host has already committed once through73d8; never add a delta here.
+    pub fn special_returned(&mut self, state: &mut MovementState) -> Result<(), &'static str> {
+        if !matches!(self.request, MovementRequest::SpecialForward { .. }) {
+            return Err("movement is not waiting for the graphics9 helper");
+        }
+        state.failed_step_word = 0;
+        self.request = MovementRequest::Finished(StepOutcome::Transitioned);
         Ok(())
     }
 }

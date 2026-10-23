@@ -7,9 +7,23 @@ use std::{collections::BTreeMap, error::Error, path::Path, time::Duration};
 mod gate;
 #[path = "world_debug.rs"]
 mod world_debug;
+#[path = "world_inventory.rs"]
+mod world_inventory;
+#[path = "world_rest.rs"]
+mod world_rest;
 #[allow(dead_code)]
 pub fn check_door_choice(root: &Path, window: &mut Window) -> Result<(), Box<dyn Error>> {
     gate::runtime_check(root, window)
+}
+#[allow(dead_code)]
+pub fn check_live_combat(
+    root: &Path,
+    window: &mut Window,
+    numeric: [[u8; 92]; 4],
+    traits: [[u16; 16]; 4],
+    rng: u32,
+) -> Result<(), Box<dyn Error>> {
+    gate::runtime_live_check(root, window, numeric, traits, rng)
 }
 #[cfg(test)]
 fn commands(facing: u8) -> Result<Vec<(bool, [u16; 12])>, Box<dyn Error>> {
@@ -302,7 +316,7 @@ pub fn run_facing(
     smoke_frames: Option<usize>,
     facing: u8,
 ) -> Result<bool, Box<dyn Error>> {
-    run_facing_party(root, window, smoke_frames, facing, None, None)
+    run_facing_party(root, window, smoke_frames, facing, None, None, None, None)
 }
 #[allow(dead_code)]
 pub fn run_with_party(
@@ -310,8 +324,19 @@ pub fn run_with_party(
     window: &mut Window,
     numeric: [[u8; 92]; 4],
     rng_state: u32,
+    traits: [[u16; 16]; 4],
+    text: [[u8; 74]; 4],
 ) -> Result<bool, Box<dyn Error>> {
-    run_facing_party(root, window, None, 2, Some(numeric), Some(rng_state))
+    run_facing_party(
+        root,
+        window,
+        None,
+        2,
+        Some(numeric),
+        Some(rng_state),
+        Some(traits),
+        Some(text),
+    )
 }
 fn run_facing_party(
     root: &Path,
@@ -320,7 +345,13 @@ fn run_facing_party(
     facing: u8,
     numeric: Option<[[u8; 92]; 4]>,
     rng_state: Option<u32>,
+    traits: Option<[[u16; 16]; 4]>,
+    text: Option<[[u8; 74]; 4]>,
 ) -> Result<bool, Box<dyn Error>> {
+    let audio = crate::native_audio::Audio::shared();
+    if let Err(e) = audio.music(root, "3d.amf") {
+        eprintln!("Otopark music: {e}");
+    }
     let mut cell = StartingCell::load_facing(root, facing)?;
     let event_bytes = std::fs::read(root.join("lale/FRPOS.CKD"))?;
     let mut gate = gate::Gate::new(root, &event_bytes)?;
@@ -330,11 +361,24 @@ fn run_facing_party(
     if let Some(state) = rng_state {
         gate.set_rng(state);
     }
+    gate.set_party_text(text);
+    if let Some(traits) = traits {
+        gate.set_combat_traits(traits);
+    }
+    let world_panel = if let (Some(numeric), Some(_)) = (numeric, text) {
+        let party = lale_core::combat_party::decode_numeric(&numeric);
+        Some(lale_assets::world_panel::WorldPanel::load(
+            root,
+            std::array::from_fn(|p| party[p][33] as usize),
+        )?)
+    } else {
+        None
+    };
     if numeric.is_some() && rng_state.is_some() {
         gate.arrive(cell.room())?;
     }
     eprintln!(
-        "Otopark: Left/Right turn; Up/Down attempt forward/backward steps through original collision and events. North door runs warning, dialogue, acquisition and animation. Encounter remains incomplete."
+        "Otopark: Left/Right turn; Up/Down attempt forward/backward steps through original collision and events. North door runs warning, dialogue, acquisition and animation. Combat: arrows/keypad move/attack, Tab next, supported voices finish automatically; Esc is an unsupported-voice fallback."
     );
     window.text_input(false);
     let mut frames = 0;
@@ -357,7 +401,14 @@ fn run_facing_party(
                 } // F5
                 Input::Key(1073741888) => {
                     // F7
-                    let (colors, indices) = if gate.active() {
+                    let composed = world_panel
+                        .as_ref()
+                        .map(|ui| gate.exploration_frame(ui, cell.room(), cell.facing))
+                        .transpose()?
+                        .flatten();
+                    let (colors, indices) = if let Some((colors, indices)) = &composed {
+                        (&colors[..], &indices[..])
+                    } else if gate.active() {
                         (gate.colors(), gate.indices())
                     } else {
                         (&cell.room().colors[..], &cell.room().indices[..])
@@ -380,6 +431,9 @@ fn run_facing_party(
                     debug.toggle_pause();
                 }
                 _ if debug.paused => {}
+                _ if gate.world_input(&event)? => {
+                    debug.suspended = gate.inventory_active();
+                }
                 Input::Key(27)
                     if gate.active()
                         && gate.pending.is_none()
@@ -418,9 +472,33 @@ fn run_facing_party(
         if !debug.paused {
             gate.poll(debug.counter())?;
         }
+        for (id, rate) in gate.take_audio_events() {
+            if let Err(e) = audio.effect(root, id, rate) {
+                eprintln!("World sound {id}: {e}");
+            }
+        }
+        if !debug.paused {
+            if let Some(battle) = gate.prepare_battle()? {
+                match crate::combat_play::run(root, window, battle)? {
+                    crate::combat_play::Exit::Quit => return Ok(true),
+                    crate::combat_play::Exit::Victory(battle) => gate.battle_return(battle)?,
+                    crate::combat_play::Exit::Defeat(battle) => gate.battle_return(battle)?,
+                }
+                if let Err(e) = audio.music(root, "3d.amf") {
+                    eprintln!("Otopark music return: {e}");
+                }
+                debug.exclude_until(world_clock.elapsed());
+            }
+        }
         cell.sync(root, &gate)?;
         let (area, x, y) = gate.location();
-        if let Some(reason) = &gate.navigation_pending {
+        if gate.rest_active() {
+            window.title(
+                "Kamp | Original illustration; timed automatic return | Esc/right click stops",
+            )?;
+        } else if gate.inventory_active() {
+            window.title("Şahsiyet bilgisi | F1-F4 select/transfer | I items | Enter equip | Q/W/E release | Esc back")?;
+        } else if let Some(reason) = &gate.navigation_pending {
             window.title(&format!("PC{area} ({x},{y}) | {reason} | Esc returns"))?;
         } else if let Some(opcode) = gate.pending {
             window.title(&format!(
@@ -445,7 +523,14 @@ fn run_facing_party(
         }
         let snapshot = gate.debug_snapshot(cell.facing);
         debug.observe(snapshot.clone());
-        let colors = if gate.active() {
+        let composed = world_panel
+            .as_ref()
+            .map(|ui| gate.exploration_frame(ui, cell.room(), cell.facing))
+            .transpose()?
+            .flatten();
+        let colors = if let Some((colors, _)) = &composed {
+            &colors[..]
+        } else if gate.active() {
             gate.colors()
         } else {
             &cell.room().colors

@@ -1,9 +1,0 @@
-{
-  "original_sha256": "9ba1640ae2ee33579cb1c914d0686346f53c4c7ef6520c7d92262b9c2f06b05e",
-  "logical_overlay": "167c:0ea1",
-  "physical_start": "0x3daa1",
-  "physical_end_exclusive": "0x3db47",
-  "bytes_hex": "c746fe0300e99500837efe06742ab888018ec0268b1e98286bdb5c8b46fed1e003d8b888018ec02683bfa699327d05b83200eb48eb28eb44b888018ec0268b1e98286bdb5c8b46fed1e003d8b888018ec02683bfa699037d05b80300ebd4b888018ec0268b1e98286bdb5c8b46fed1e003d8b888018ec0268b87a699ba88018ec2268b1e98286bdb5c8b56fed1e203daba88018ec2268987a699ff46fe837efe107f03e962ff",
-  "slice_sha256": "99ef992729f103df0fb82e19586a070b21bb1b725d8e9d9aa446eec2c346dfba",
-  "behavior": "signed i16 minimum; words3..16 inclusive; word6 minimum3, others50; no writes outside loop"
-}

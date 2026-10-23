@@ -6,9 +6,15 @@
 [Current optimized build, controls and limitations](NATIVE_BUILD.md).
 Run `./rust-port/play-native-release.sh` from the project root. The connected
 native route includes creation, films, opening dialogue, Sivri Daş acquisition,
-timed door and destination illustration. It stops at the unrecovered dog battle.
-Shared event-gated walking and PC1→PC2 area loading are implemented; full normal
-map progression is still incomplete. Original game files remain read-only.
+timed door, destination illustration and interactive physical combat. Read
+[NATIVE_FIRST_BATTLE.md](NATIVE_FIRST_BATTLE.md) for controls and remaining fidelity
+gaps. [Native audio and listening checklist](NATIVE_AUDIO.md) documents default
+menu/film/world/combat playback and automatic supported voice completion.
+Postbattle Otopark now has map-driven doors/stairs, the original fainted-man
+search and exit-key event, and a playable exit into Mecidiyeköy. See
+[exact navigation controls, route and current boundary](NATIVE_OTOPARK_NAVIGATION.md).
+Animated stair zoom and further Mecidiyeköy events remain incomplete. Original
+game files remain read-only.
 
 The older milestone notes below are retained as historical context.
 

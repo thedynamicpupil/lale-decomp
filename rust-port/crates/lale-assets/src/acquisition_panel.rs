@@ -1,5 +1,5 @@
 //! Original1689:23c0/296a/2d6f/51c7 acquisition panel composition.
-//! Mode0, living party, original320x62 panel. Transfer and outer input are separate.
+//! Mode0, original320x62 panel. Transfer and outer input are separate.
 use crate::{
     indexed_blit::rectangle,
     world_ui::{normalize, Font, TextRun},
@@ -11,6 +11,7 @@ pub struct PanelImages<'a> {
     pub icons: &'a IndexedImage,
     pub font: Font<'a>,
     pub portraits: &'a BTreeMap<u16, IndexedImage>,
+    pub blend: &'a [u8],
 }
 pub struct PanelState<'a> {
     pub pending_items: &'a [u16; 10],
@@ -120,11 +121,6 @@ pub fn render(
             "unsupported original acquisition panel geometry".into(),
         ));
     }
-    if state.party.iter().any(|r| word(r, 0x3a) as i16 <= 0) {
-        return Err(Error(
-            "original dead-party panel overlay is not yet implemented".into(),
-        ));
-    }
     let mut pixels = images.background.indices.clone();
     let boxes = |y: i16| {
         std::array::from_fn(|i| {
@@ -175,6 +171,22 @@ pub fn render(
             &mut pixels,
             [0, 0, 32, 32, (177 + i * 34) as u16, 27],
         )?;
+        // Original1689:23c0/file45a30: unlike the world row, this
+        // status rectangle covers all32 portrait rows. Selection outline follows.
+        let hp = word(record, 0x3a) as i16;
+        if hp <= 0 {
+            let rect = [177 + i * 34, 27, 32, 32];
+            if hp < -5 {
+                crate::indexed_blit::shade_rectangle(
+                    &mut pixels,
+                    [320, 62],
+                    rect,
+                    images.blend,
+                    253,
+                )?;
+            }
+            crate::indexed_blit::shade_rectangle(&mut pixels, [320, 62], rect, images.blend, 217)?;
+        }
     }
     outline(
         &mut pixels,

@@ -1,8 +1,0 @@
-{
-  "commands": "RUN\r",
-  "chunk_id": "cf5055",
-  "wall_time_seconds": 0.251084812,
-  "session_id": 72866,
-  "original_token_count": 106,
-  "output": "\u001b[16;80H\u001b[23d\u001b[24;5H\u001b[30m\u001b[47mR_\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m\r\u001b[7d\u001b[16;80H\u001b[23d\u001b[24;6H\u001b[30m\u001b[47mU_\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m\r\u001b[7d\u001b[16;80H\u001b[23d\u001b[24;7H\u001b[30m\u001b[47mN_\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m\r\u001b[7d\u001b[23;80H\r\u001b[24d\u001b[32m\u001b[40m(Running)\u001b[K\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m\u001b[16;80H\r\u001b[18d\u001b[30m\u001b[47m2EAF:0000482C CB\u001b[18X\u001b[18;35Hretf\u001b[K\u001b[23;80H\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m\u001b[24;10H\u001b[3;43H\u001b[33m\u001b[40m000038F2\u001b[5;19H00000E0E\u001b[73G\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m4\u001b[6d04\r\u001b[7d"
-}

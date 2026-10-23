@@ -1,1 +1,0 @@
-Prior 960x600 PNG equals nearest-neighbor 3x current 320x200 export, all RGB pixels.

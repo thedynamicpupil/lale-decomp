@@ -118,6 +118,9 @@ impl CharacterScreen {
     pub fn prepared_party(&self) -> Option<&Party> {
         self.session.as_ref().and_then(|s| s.completed.as_ref())
     }
+    pub fn working_traits(&self) -> Option<[[u16; 16]; 4]> {
+        self.session.as_ref().map(|s| s.caller.traits)
+    }
     pub fn rng_state(&self) -> Option<u32> {
         self.session.as_ref().map(CreationSession::rng_state)
     }

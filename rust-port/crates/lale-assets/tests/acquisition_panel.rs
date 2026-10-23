@@ -55,6 +55,7 @@ fn original_initial_acquisition_panel_pixels_and_hitboxes() {
                     uppercase: &upper,
                 },
                 portraits: &portraits,
+                blend: ivir.member("XD.RIX").unwrap().payload,
             },
             &exe,
             &PanelState {
@@ -81,6 +82,58 @@ fn original_initial_acquisition_panel_pixels_and_hitboxes() {
             differences.len(),
             &differences[..differences.len().min(24)]
         );
+        // Source1689:23c0 draws32x32, shades253 then217 for dead,
+        //217 only for unconscious; these are synthesized states, not a new
+        //DOS capture of a knockout. Existing living DOS parity remains above.
+        let mut wounded = party;
+        wounded[1][58..60].copy_from_slice(&(-1i16).to_le_bytes());
+        wounded[2][58..60].copy_from_slice(&(-6i16).to_le_bytes());
+        let before = wounded;
+        let shaded = render(
+            &PanelImages {
+                background: &background,
+                icons: &icons,
+                font: Font {
+                    proportional: &font,
+                    uppercase: &upper,
+                },
+                portraits: &portraits,
+                blend: ivir.member("XD.RIX").unwrap().payload,
+            },
+            &exe,
+            &PanelState {
+                pending_items: &items,
+                pending_resources: [word(0xbba2), word(0xbba4), word(0xbba6)],
+                party: &wounded,
+                selected_party: 1,
+                origin: [word(0x5bc0) as i16, word(0x5bbe) as i16],
+            },
+        )
+        .unwrap();
+        let table = ivir.member("XD.RIX").unwrap().payload;
+        let blend = |a: u8, b: u8| {
+            if a == b {
+                a
+            } else {
+                let lo = usize::from(a.min(b));
+                let hi = usize::from(a.max(b));
+                table[lo * (509 - lo) / 2 + hi - 1]
+            }
+        };
+        for (at, &pixel) in panel.pixels.iter().enumerate() {
+            let (x, y) = (at % 320, at / 320);
+            let expected = if (27..59).contains(&y) && (211..243).contains(&x) {
+                blend(pixel, 217)
+            } else if (27..59).contains(&y) && (245..277).contains(&x) {
+                blend(blend(pixel, 253), 217)
+            } else {
+                pixel
+            };
+            assert_eq!(shaded.pixels[at], expected, "{x},{y}");
+        }
+        assert_eq!(wounded, before);
+        assert_eq!(shaded.inventory_boxes, panel.inventory_boxes);
+        assert_eq!(shaded.party_boxes, panel.party_boxes);
         for i in 0..10 {
             for j in 0..4 {
                 assert_eq!(

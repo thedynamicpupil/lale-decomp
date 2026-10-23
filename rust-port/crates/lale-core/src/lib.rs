@@ -3,12 +3,19 @@
 
 pub mod acquisition;
 pub mod clock;
+pub mod combat;
+pub mod combat_entry;
+pub mod combat_equipment;
+pub mod combat_party;
+pub mod combat_writeback;
 pub mod door;
 pub mod events;
 pub mod modal_wait;
 pub mod movement;
+pub mod rest;
 pub mod rng;
 pub mod special_transition;
+pub mod world_inventory;
 pub mod world_tick;
 
 #[derive(Clone, Copy, Debug, PartialEq, Eq)]

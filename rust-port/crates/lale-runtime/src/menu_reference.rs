@@ -5,16 +5,19 @@ mod character_data;
 mod character_generation;
 mod character_runtime_snapshot;
 mod character_screen;
+mod combat_play;
+mod combat_session;
 mod creation_session;
 mod menu_study;
+mod native_audio;
 mod native_party_store;
 mod original_seed;
 mod otopark_background;
 mod otopark_room;
 mod party_workspace;
 mod presentation;
+mod quick_start;
 mod sdl_window;
-mod seq_debug_audio;
 mod seq_preview;
 use character_screen::CharacterScreen;
 use menu_study::{MenuStudy, CHARACTER, MENU};
@@ -91,13 +94,19 @@ fn dump(
     );
     Ok(())
 }
+#[derive(Debug, PartialEq, Eq)]
+enum MenuAction {
+    Stay,
+    QuickStart,
+    Quit,
+}
 fn activate(
     study: &MenuStudy,
     presentation: &mut Presentation,
     stage: &mut usize,
     manual: bool,
     now: u32,
-) -> bool {
+) -> MenuAction {
     match study.selected {
         0 => {
             if manual {
@@ -105,15 +114,16 @@ fn activate(
             } else {
                 presentation.to_character(now);
             }
-            false
+            MenuAction::Stay
         }
-        3 => true,
+        2 => MenuAction::QuickStart,
+        3 => MenuAction::Quit,
         i => {
             eprintln!(
-                "Menu choice{}: full save/quick-start gameplay is outside this milestone.",
+                "Menu choice{}: full game-save loading is not implemented.",
                 i + 1
             );
-            false
+            MenuAction::Stay
         }
     }
 }
@@ -123,6 +133,10 @@ fn main() -> Result<(), Box<dyn Error>> {
     let mut native_party: Option<PathBuf> = None;
     let mut opening_debug_audio = false;
     let mut door_sequence = false;
+    let mut combat_snapshot: Option<PathBuf> = None;
+    let mut check_combat = false;
+    let mut check_live_combat = false;
+    let mut check_quick_start = false;
     let mut stage = MENU;
     let mut manual = false;
     let mut frames = None;
@@ -142,7 +156,8 @@ fn main() -> Result<(), Box<dyn Error>> {
             | "--party-reference"
             | "--creation-snapshot"
             | "--creation-seed"
-            | "--native-party" => {
+            | "--native-party"
+            | "--combat-snapshot" => {
                 i += 1;
                 let value = args.get(i).ok_or("missing option value")?;
                 match arg {
@@ -151,6 +166,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                     "--party-reference" => reference = Some(PathBuf::from(value)),
                     "--creation-snapshot" => creation_snapshot = Some(PathBuf::from(value)),
                     "--native-party" => native_party = Some(PathBuf::from(value)),
+                    "--combat-snapshot" => combat_snapshot = Some(PathBuf::from(value)),
                     "--creation-seed" => {
                         explicit_seed = Some(value.to_str().ok_or("invalid seed")?.parse()?)
                     }
@@ -168,19 +184,74 @@ fn main() -> Result<(), Box<dyn Error>> {
                     }
                 }
             }
+            "--check-combat" => check_combat = true,
+            "--check-live-combat" => check_live_combat = true,
+            "--check-quick-start" => check_quick_start = true,
             "--debug-audio" => opening_debug_audio = true,
             "--door-sequence" => door_sequence = true,
             "--manual" => manual = true,
             "--vga-aspect" => square_pixels = false,
             "--help" => {
-                println!("lale-menu-reference --root PROJECT [--manual | --stage 0..31] [--party-reference PARTY.DAT | --creation-snapshot DS] [--dump NEW_DIR] [--frames N] [--vga-aspect]\nDefault: automatic source-counter startup, company logos excluded. F10: nine original PC1 loader-linked source sheets with PAL3D; arrows browse, WASD pan (not room gameplay). F9: silent SEQ1–5 debug preview from interactive menu/character screen (outside name editing);Esc returns without completing creation. Menu: Up/Down, mouse, Enter. Character: arrows/numpad4/6 appearance,8/2 race,C sex,Tab/name-button naming,Enter/dice rerolls original stats,Space/next-button advances named slots,Esc/upper-left previous or menu. Name: original width/casing;Enter accepts,Esc restores. Four nonempty slots persist a native party checkpoint, play the original film and open the source-composed starting view. Random face timing, encounters and full map progression remain incomplete.\nManual study: Space/Backspace step stages,R restarts. Q quits outside character editing; window-close always quits. Party reference loads verified original statistics for inspection; never new rolls or writes.");
-                println!("--creation-seed U16: reproducible native creation-entry seed override. Default uses source-calendar conversion of host civil time. --native-party FILE: validated creation checkpoint to starting view (not full game save). --debug-audio: opt-in PCM for completion film. F11: original room inspection; Left/Right turn, Up/Down attempt event-gated steps.");
+                println!("lale-menu-reference --root PROJECT [--manual | --stage 0..31] [--party-reference PARTY.DAT | --creation-snapshot DS] [--dump NEW_DIR] [--frames N] [--vga-aspect]\nDefault: automatic source-counter startup, company logos excluded. F10: nine original PC1 loader-linked source sheets with PAL3D; arrows browse, WASD pan (not room gameplay). F9: silent SEQ1–5 debug preview from interactive menu/character screen (outside name editing);Esc returns without completing creation. Menu: Up/Down, mouse, Enter. Quick Start loads the original ready-made party directly into Otopark. Character: arrows/numpad4/6 appearance,8/2 race,C sex,Tab/name-button naming,Enter/dice rerolls original stats,Space/next-button advances named slots,Esc/upper-left previous or menu. Name: original width/casing;Enter accepts,Esc restores. Four nonempty slots persist a native party checkpoint, play the original film and open the source-composed starting view. Combat: arrows/keypad and original direction buttons move/attack; Tab advances initiative; I opens carried inventory, Enter twice equips main hand, Q/W/E release equipment, Esc closes inventory or handles an unsupported voice wait. Original bottom panel is connected; native status prompts remain distinct. F12 toggles developer HP, F7 exports. Advanced equipment/actions, random face timing and map progression remain incomplete.\nManual study: Space/Backspace step stages,R restarts. Q quits outside character editing; window-close always quits. Party reference loads verified original statistics for inspection; never new rolls or writes.");
+                println!("--creation-seed U16: reproducible native creation-entry seed override. Default uses source-calendar conversion of host civil time. --native-party FILE: validated creation checkpoint to starting view (not full game save). Opening audio is enabled by default and sample-clock synchronized. LALE_AUDIO_VOLUME=0..100 and LALE_AUDIO_MUTE=1 control host output without changing RNG. --debug-audio: legacy opening flag (opening is now audible by default). Standalone film preview also accepts --debug-audio. F11: original room inspection; Left/Right turn, Up/Down attempt event-gated steps.");
                 println!("--creation-snapshot ORIGINAL_PRE_SETUP_DS: graphical diagnostic using captured original RNG/state. F8 executes one explicit150-unit idle poll; no automatic idle RNG, native seed, save writes or gameplay. Fourth named slot prepares original party bytes in memory only.");
+                println!("--check-quick-start: explicit original-ready-party SDL route through the first battle.\n--check-live-combat: explicit fresh-party SDL integration test; no DOS snapshot or normal-play automation.");
+                println!("--combat-snapshot DS: explicit prepared-state combat inspection; arrows/keypad and Tab stop at original presentation boundaries. F7 exports, Esc returns. Not a live-world battle or a game save. --check-combat runs its input/state/render smoke check.");
                 return Ok(());
             }
             _ => return Err(format!("unknown option {arg}").into()),
         }
         i += 1;
+    }
+    if check_quick_start {
+        let mut study = MenuStudy::load(&root)?;
+        study.selected = 2;
+        if activate(
+            &study,
+            &mut Presentation::immediate_menu(0),
+            &mut MENU.clone(),
+            false,
+            0,
+        ) != MenuAction::QuickStart
+        {
+            return Err("quick-start menu dispatch failed".into());
+        }
+        let quick = quick_start::QuickStart::load(&root, explicit_seed.unwrap_or(12345))?;
+        let mut window = Window::new("Quick-start live-party integration check", square_pixels)?;
+        return otopark_room::check_live_combat(
+            &root,
+            &mut window,
+            quick.party.characters.each_ref().map(|c| c.numeric_raw),
+            quick.traits,
+            quick.rng_state,
+        );
+    }
+    if check_live_combat {
+        let exe = std::fs::read(root.join("lale/IST.EXE"))?;
+        let mut creation = creation_session::CreationSession::fresh(&exe, 12345, 0)?;
+        for i in 0..4 {
+            creation.set_name(format!("tester{}", i + 1).as_bytes());
+            creation.action(character_creation::Action::Next)?;
+        }
+        let party = creation
+            .completed
+            .as_ref()
+            .ok_or("test creation incomplete")?;
+        let mut window = Window::new("Native live combat integration check", square_pixels)?;
+        return otopark_room::check_live_combat(
+            &root,
+            &mut window,
+            party.characters.each_ref().map(|c| c.numeric_raw),
+            creation.caller.traits,
+            creation.rng_state(),
+        );
+    }
+    if let Some(snapshot) = combat_snapshot {
+        let mut window = Window::new("Prepared-state combat inspection", square_pixels)?;
+        return combat_session::run(&root, &mut window, &snapshot, frames, check_combat);
+    }
+    if check_combat {
+        return Err("--check-combat requires an explicit --combat-snapshot".into());
     }
     if stage > CHARACTER {
         return Err("stage must be0..31".into());
@@ -208,7 +279,7 @@ fn main() -> Result<(), Box<dyn Error>> {
     if character.reference {
         eprintln!("REFERENCE PARTY INSPECTION: displayed values come from the supplied file, not newly generated characters.");
     } else if !character.debug_creation() {
-        eprintln!("Native new game: original generator, four named characters, safe party checkpoint, cinematic and source-composed starting view. Random face scheduling, combat and full map progression remain incomplete.");
+        eprintln!("Native new game: original generator, four named characters, safe party checkpoint, cinematic and source-composed starting view. Physical combat is interactive with original audio; supported voice waits finish automatically. Original combat panel and manual inventory/equipment are connected. Advanced actions/equipment, random face scheduling and map progression remain incomplete.");
     }
     if let Some(output) = output {
         if ordinary_creation && stage == CHARACTER {
@@ -221,6 +292,10 @@ fn main() -> Result<(), Box<dyn Error>> {
         return dump(&study, &mut character, &output);
     }
     let mut window = Window::new(character.window_title(), square_pixels)?;
+    let audio = native_audio::Audio::shared();
+    if let Err(e) = audio.music(&root, "demo.amf") {
+        eprintln!("Menu audio: {e}");
+    }
     if let Some(path) = native_party {
         let party = native_party_store::load(&root, &path)?;
         eprintln!("Loaded native creation checkpoint with{} named characters; this is not a general gameplay save.",party.characters.len());
@@ -237,6 +312,9 @@ fn main() -> Result<(), Box<dyn Error>> {
     let mut prior_character = false;
     let mut prior_character_interactive = false;
     loop {
+        if let Err(e) = audio.music(&root, "demo.amf") {
+            eprintln!("Menu audio: {e}");
+        }
         let now = dos_counter(clock.elapsed());
         let visual = if manual {
             presentation::Visual {
@@ -342,6 +420,14 @@ fn main() -> Result<(), Box<dyn Error>> {
                             character
                                 .rng_state()
                                 .ok_or("creation RNG boundary missing")?,
+                            character
+                                .working_traits()
+                                .ok_or("creation traits missing")?,
+                            std::array::from_fn(|i| {
+                                party.original_bytes()[i * 74..(i + 1) * 74]
+                                    .try_into()
+                                    .unwrap()
+                            }),
                         )? {
                             return Ok(());
                         }
@@ -359,6 +445,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                 window.title(character.window_title())?;
                 continue;
             }
+            let mut menu_action = MenuAction::Stay;
             match event {
                 Input::Key(113) => return Ok(()),
                 Input::Key(27) if manual || visual.interactive => {
@@ -379,9 +466,7 @@ fn main() -> Result<(), Box<dyn Error>> {
                     study.selected = (study.selected + 1) % 4
                 }
                 Input::Key(13) if visual.stage == MENU && visual.interactive => {
-                    if activate(&study, &mut timeline, &mut stage, manual, now) {
-                        return Ok(());
-                    }
+                    menu_action = activate(&study, &mut timeline, &mut stage, manual, now);
                 }
                 Input::Motion(x, y) if visual.stage == MENU && visual.interactive => {
                     study.hover(x, y);
@@ -389,12 +474,34 @@ fn main() -> Result<(), Box<dyn Error>> {
                 Input::Click(x, y) if visual.stage == MENU && visual.interactive => {
                     if (88..=226).contains(&x) && (127..=180).contains(&y) {
                         study.hover(x, y);
-                        if activate(&study, &mut timeline, &mut stage, manual, now) {
-                            return Ok(());
-                        }
+                        menu_action = activate(&study, &mut timeline, &mut stage, manual, now);
                     }
                 }
                 _ => {}
+            }
+            match menu_action {
+                MenuAction::Quit => return Ok(()),
+                MenuAction::QuickStart => {
+                    let seed = match explicit_seed {
+                        Some(seed) => seed,
+                        None => original_seed::host_local_seed()?,
+                    };
+                    let quick = quick_start::QuickStart::load(&root, seed)?;
+                    eprintln!("Quick Start: original GRPHAZIR.DAT party; native entry seed {seed:04x}; no party checkpoint overwritten.");
+                    window.text_input(false);
+                    let started = Instant::now();
+                    if quick.run(&root, &mut window)? {
+                        return Ok(());
+                    }
+                    clock += started.elapsed();
+                    study.reset_selection();
+                    stage = MENU;
+                    timeline = Presentation::immediate_menu(dos_counter(clock.elapsed()));
+                    prior_character = false;
+                    prior_character_interactive = false;
+                    break;
+                }
+                MenuAction::Stay => {}
             }
         }
         // Original editor blocks body-pose progression while editing.

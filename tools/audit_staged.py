@@ -62,7 +62,14 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--history", action="store_true", help="also scan every reachable commit tree")
     parser.add_argument("--report", type=Path, help="write index paths, sizes and blob IDs as JSON")
+    parser.add_argument("--staged-only", action="store_true",
+                        help="scan changed index entries only; retain unchanged historical paths")
     args = parser.parse_args()
+    if args.staged_only and args.history:
+        parser.error("--staged-only cannot be combined with --history")
+    changed = None
+    if args.staged_only:
+        changed = set(git("diff", "--cached", "--name-only", "--diff-filter=ACMR", "-z").decode().split("\0"))
     originals = original_hashes()
     errors, warnings, rows = [], [], []
     entries = []
@@ -70,6 +77,8 @@ def main():
         if entry:
             meta, path = entry.split(b"\t", 1)
             mode, oid, stage = meta.split()
+            if changed is not None and path.decode() not in changed:
+                continue
             entries.append((mode.decode(), oid.decode(), path.decode(), stage.decode(), "index"))
     if args.history:
         for commit in git("rev-list", "--all").decode().splitlines():

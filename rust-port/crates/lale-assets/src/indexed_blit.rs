@@ -4,6 +4,36 @@
 //! slot/bank resolution and wrapper clipping are separate responsibilities.
 use crate::{Error, IndexedImage};
 
+/// Original3599:0440 pair lookup used by1c7f:0a51. The table contains
+/// unordered unequal palette pairs; equal inputs bypass it.
+pub fn shade_rectangle(
+    destination: &mut [u8],
+    dimensions: [usize; 2],
+    rect: [usize; 4],
+    table: &[u8],
+    color: u8,
+) -> Result<(), Error> {
+    let [stride, height] = dimensions;
+    let [x, y, w, h] = rect;
+    if stride.checked_mul(height) != Some(destination.len())
+        || x.checked_add(w).is_none_or(|v| v > stride)
+        || y.checked_add(h).is_none_or(|v| v > height)
+        || table.len() != 32640
+    {
+        return Err(Error("invalid indexed shade rectangle/table".into()));
+    }
+    for row in y..y + h {
+        for pixel in &mut destination[row * stride + x..row * stride + x + w] {
+            if *pixel != color {
+                let lo = usize::from((*pixel).min(color));
+                let hi = usize::from((*pixel).max(color));
+                *pixel = table[lo * (509 - lo) / 2 + hi - 1];
+            }
+        }
+    }
+    Ok(())
+}
+
 pub fn rectangle(
     source: &IndexedImage,
     args: &[u16; 9],

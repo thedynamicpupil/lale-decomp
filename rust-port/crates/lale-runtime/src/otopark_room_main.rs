@@ -1,3 +1,7 @@
+mod combat_play;
+#[allow(dead_code)]
+mod combat_session;
+mod native_audio;
 mod otopark_room;
 mod sdl_window;
 use std::{error::Error, io::Write, path::PathBuf};

@@ -1,5 +1,16 @@
 # Native Rust build — 2026-10-19
 
+2026-10-23: playable post-dog Otopark navigation/search/key/exit now reaches
+Mecidiyeköy in both party modes. See [Fedora route and remaining boundary](NATIVE_OTOPARK_NAVIGATION.md).
+This continuation and the latest unconscious-panel fix await desktop acceptance.
+
+2026-10-21 update: the first battle/victory/world return is user-passed on Fedora
+KDE. Shared menu, film, world and combat audio is now enabled; see the
+[native audio listening checklist and limits](NATIVE_AUDIO.md). The development
+launch remains `./rust-port/play-native.sh`; release uses the command below.
+SDL2 and `libopenmpt.so.0` must be available. Older capability notes below
+are superseded by the current audio and battle checkpoints.
+
 For room state inspection, pause and snapshot export, see [native debugging](NATIVE_DEBUG.md).
 
 From the project root:

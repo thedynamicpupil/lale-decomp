@@ -125,6 +125,54 @@ impl TransitionClock {
 mod tests {
     use super::*;
     #[test]
+    fn disabled_animation_control_matches_original_dos_fragment() {
+        let b = std::fs::read(concat!(
+            env!("CARGO_MANIFEST_DIR"),
+            "/../../../analysis/phase-five/otopark-navigation-20261023/stairs-dos-results.bin"
+        ))
+        .unwrap();
+        let cases = [
+            (4, 0, 1, 0, 2),
+            (5, 0, -1, 0, 1),
+            (4, 5, 1, 0, 1),
+            (5, 5, -1, 0, 2),
+            (9, 4, 0, 1, 2),
+            (9, 5, 0, -1, 1),
+            (65535, 0, 1, -1, 2),
+        ];
+        assert_eq!(b.len(), cases.len() * 10);
+        for ((x, y, dx, dy, guard), raw) in cases.into_iter().zip(b.chunks_exact(10)) {
+            let mut state = MovementState {
+                x,
+                y,
+                width: 10,
+                event_veto: 0,
+                failed_step_word: 7,
+            };
+            let mut c = TransitionControl::new(guard).unwrap();
+            c.commit_first(&mut state, dx, dy).unwrap();
+            c.finish_first().unwrap();
+            c.finish_second().unwrap();
+            let observed: Vec<_> = raw
+                .chunks_exact(2)
+                .map(|w| u16::from_le_bytes([w[0], w[1]]))
+                .collect();
+            // Harness executes original80d0/73d8/6f18 with both animation
+            //settings off and replaces ONLY the renderer with a call counter.
+            // b9c8 is cleared later by the movement caller, not these helpers.
+            assert_eq!(
+                observed,
+                [
+                    state.x,
+                    state.y,
+                    u16::from(c.guard()),
+                    state.failed_step_word,
+                    1
+                ]
+            );
+        }
+    }
+    #[test]
     fn guard_lifetime_and_single_live_coordinate_commit() {
         assert_eq!(guard_for_paired_state(1), Some(2));
         assert_eq!(guard_for_paired_state(2), Some(1));

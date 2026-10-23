@@ -1,6 +1,6 @@
-//! Silent inspection playback, separate from original audio/PIT/refill scheduling.
-//! Pixels use the verified decoder unchanged. Host deadlines use GHD fps, all
-//! dependent records are decoded in order, and controls are debug-only.
+//! Original SEQ pixels and PCM. Normal opening visuals follow the shared audio
+//! sample cursor. Silent inspection retains the separate host-clock option.
+//! Dependent records decode in order; pause/step/restart are native debug aids.
 use crate::sdl_window::{Input, Window};
 use lale_assets::{seq::SeqHeader, Flib, Palette6};
 use std::{
@@ -133,6 +133,20 @@ impl Player<'_> {
     }
 }
 
+fn opening_pcm(player: &Player<'_>) -> Result<(Vec<u8>, u16), Box<dyn Error>> {
+    let rate = player.clips[0].header.sound_word6;
+    let mut joined = Vec::new();
+    for clip in &player.clips {
+        let pcm = lale_assets::seq_pcm::SeqPcm::extract(&clip.header, clip.stream)?;
+        if pcm.sample_rate != rate {
+            return Err("SEQ rates differ".into());
+        }
+        let count = clip.header.records.len() * usize::from(rate) / usize::from(clip.header.fps);
+        joined.extend_from_slice(pcm.samples.get(..count).ok_or("SEQ PCM ends before film")?);
+    }
+    Ok((joined, rate))
+}
+
 /// Host-only inspection clock; paused wall time never creates catch-up work.
 struct PreviewClock {
     elapsed: Duration,
@@ -190,17 +204,29 @@ pub fn run_with_audio(
     smoke_frames: Option<usize>,
     debug_audio: bool,
 ) -> Result<Exit, Box<dyn Error>> {
-    run_mode(root, window, smoke_frames, debug_audio, false)
+    run_mode(root, window, smoke_frames, debug_audio, false, None)
 }
-/// Creation-success playback keeps the accepted decoder/clock/audio path but
-/// returns after the last frame's full duration, instead of debug END hold.
+/// Normal creation-success playback uses original PCM by default and returns
+/// after the last frame's full duration, instead of the inspection END hold.
 #[allow(dead_code)]
 pub fn run_opening(
     root: &Path,
     window: &mut Window,
     debug_audio: bool,
 ) -> Result<Exit, Box<dyn Error>> {
-    run_mode(root, window, None, debug_audio, true)
+    run_mode(root, window, None, debug_audio, true, None)
+}
+/// Explicit bounded SDL integration check through the normal opening path.
+#[allow(dead_code)] // Standalone preview integration check.
+pub fn check_opening_audio(root: &Path, window: &mut Window) -> Result<Exit, Box<dyn Error>> {
+    run_mode(
+        root,
+        window,
+        None,
+        false,
+        true,
+        Some(Duration::from_millis(500)),
+    )
 }
 fn run_mode(
     root: &Path,
@@ -208,6 +234,7 @@ fn run_mode(
     smoke_frames: Option<usize>,
     debug_audio: bool,
     opening: bool,
+    audio_check: Option<Duration>,
 ) -> Result<Exit, Box<dyn Error>> {
     if smoke_frames == Some(0) {
         return Err("smoke frame count must be positive".into());
@@ -219,28 +246,35 @@ fn run_mode(
     let source = std::fs::read(path)?;
     let package = Flib::parse(&source)?;
     let mut player = Player::new(&package)?;
-    let mut pcm = Vec::new();
-    let mut audio = if debug_audio {
-        for clip in &player.clips {
-            pcm.push(lale_assets::seq_pcm::SeqPcm::extract(
-                &clip.header,
-                clip.stream,
-            )?);
-        }
-        if pcm.iter().any(|p| p.sample_rate != pcm[0].sample_rate) {
-            return Err("debug preview requires a common SEQ sound rate".into());
-        }
-        eprintln!("DEBUG AUDIO: source-verified unsigned8 mono PCM; host gain/queue and approximate host-clock alignment, NOT original MCP mixing/refill/synchronization. F9 remains silent.");
-        Some(crate::seq_debug_audio::DebugSeqAudio::new(
-            pcm[0].sample_rate,
-        )?)
+    // Trim the source ring-buffer prefetch at each film's stop, then join
+    // the five timelines. A single sample cursor drives all visual deadlines.
+    let audio = if (opening || debug_audio) && smoke_frames.is_none() {
+        let (samples, rate) = opening_pcm(&player)?;
+        let audio = crate::native_audio::Audio::shared();
+        audio.film(samples, u32::from(rate));
+        Some(audio)
     } else {
         None
     };
-    let mut audio_clip = None;
+    struct FilmGuard(Option<crate::native_audio::Audio>);
+    impl Drop for FilmGuard {
+        fn drop(&mut self) {
+            if let Some(a) = &self.0 {
+                a.end_film();
+            }
+        }
+    }
+    let _guard = FilmGuard(audio.clone());
     let mut clock = PreviewClock::new();
     window.text_input(false);
-    eprintln!("{}: original SEQ1–5 pixels at GHD frame rates; host clock, original fades and gameplay transition incomplete. Space pause/resume, Right step, R restart, Esc return, Q quit.", if debug_audio { "DEBUG PCM PREVIEW (HOST SYNC)" } else { "SILENT DEBUG PREVIEW" });
+    eprintln!(
+        "SEQ1–5: {}. Space pause/resume, Right step, R restart, Esc return, Q quit.",
+        if audio.is_some() {
+            "original PCM; sample-clock visuals"
+        } else {
+            "silent inspection clock"
+        }
+    );
     let mut status = String::new();
     loop {
         let mut reposition_audio = false;
@@ -248,7 +282,12 @@ fn run_mode(
             match input {
                 Input::Quit | Input::Key(113) => return Ok(Exit::Quit),
                 Input::Key(27) => return Ok(Exit::Back),
-                Input::Key(32) if !player.ended => clock.toggle(),
+                Input::Key(32) if !player.ended => {
+                    clock.toggle();
+                    if let Some(a) = &audio {
+                        a.film_pause(clock.paused);
+                    }
+                }
                 Input::Key(1073741903) if !player.ended => {
                     player.advance()?;
                     clock.step_to(player.frame_start);
@@ -257,7 +296,10 @@ fn run_mode(
                 Input::Key(114) => {
                     player.reset();
                     clock = PreviewClock::new();
-                    audio_clip = None;
+                    if let Some(a) = &audio {
+                        a.film_seek(Duration::ZERO);
+                        a.film_pause(false);
+                    }
                 }
                 _ => {}
             }
@@ -272,35 +314,37 @@ fn run_mode(
                 }
             }
         } else if !clock.paused {
-            player.update_until(clock.time(), 8)?;
+            player.update_until(
+                audio
+                    .as_ref()
+                    .map_or_else(|| clock.time(), |a| a.film_time()),
+                8,
+            )?;
+        }
+        if let Some(limit) = audio_check {
+            let time = audio
+                .as_ref()
+                .ok_or("opening check has no audio clock")?
+                .film_time();
+            if time >= limit && player.decoded >= 6 {
+                window.present(&player.colors)?;
+                println!("SDL normal opening audio: sample clock {:?}, {} chronological records decoded/uploaded, clip{}; all-five long timeline is tested separately",time,player.decoded,player.clip+1);
+                return Ok(Exit::Back);
+            }
         }
         if opening && player.ended {
             return Ok(Exit::Finished);
         }
         let next_status = player.status(clock.paused);
-        let next_status = if debug_audio {
-            next_status.replace("SILENT DEBUG SEQ", "DEBUG PCM SEQ (HOST SYNC)")
+        let next_status = if audio.is_some() {
+            next_status.replace("SILENT DEBUG SEQ", "ORIGINAL PCM SEQ (SAMPLE CLOCK)")
         } else {
             next_status
         };
-        if let Some(device) = &mut audio {
-            if player.ended {
-                device.clear();
-            } else {
-                if audio_clip != Some(player.clip) || reposition_audio {
-                    let sound = &pcm[player.clip];
-                    let frame = player.next.saturating_sub(1);
-                    let offset = frame * usize::from(sound.sample_rate)
-                        / usize::from(player.clips[player.clip].header.fps);
-                    device.replace(
-                        sound
-                            .samples
-                            .get(offset..)
-                            .ok_or("debug audio position outside source")?,
-                    )?;
-                    audio_clip = Some(player.clip);
-                }
-                device.pause(clock.paused);
+        if reposition_audio {
+            if let Some(a) = &audio {
+                a.film_seek(player.frame_start);
+                a.film_pause(true);
             }
         }
         if next_status != status {
@@ -322,6 +366,31 @@ fn run_mode(
 #[cfg(test)]
 mod tests {
     use super::*;
+    #[test]
+    fn all_five_films_trim_prefetch_and_follow_audio_sample_boundaries() {
+        let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("../../..");
+        let source = std::fs::read(root.join("lale/0GFL.CKD")).unwrap();
+        let package = Flib::parse(&source).unwrap();
+        let mut p = Player::new(&package).unwrap();
+        let (samples, rate) = opening_pcm(&p).unwrap();
+        assert_eq!(rate, 22050);
+        assert_eq!(samples.len(), 5_364_765);
+        let a = crate::native_audio::Audio::diagnostic();
+        a.film(samples, rate.into());
+        let mut rendered = 0;
+        for (frames, clip) in [(636, 1), (904, 2), (1526, 3), (1941, 4), (2433, 4)] {
+            let target = frames * 4800;
+            a.diagnostic_advance(target - rendered - 1);
+            p.update_until(a.film_time(), 2500).unwrap();
+            assert_eq!(p.decoded, frames);
+            assert!(!p.ended);
+            a.diagnostic_advance(1);
+            p.update_until(a.film_time(), 8).unwrap();
+            assert_eq!(p.clip, clip);
+            assert_eq!(p.ended, frames == 2433);
+            rendered = target;
+        }
+    }
     #[test]
     fn host_deadlines_hold_frames_and_catch_up_without_skipping_records() {
         let root = Path::new(env!("CARGO_MANIFEST_DIR")).join("../../..");

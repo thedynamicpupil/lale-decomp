@@ -1,8 +1,0 @@
-{
-  "commands": "",
-  "chunk_id": "76ab10",
-  "wall_time_seconds": 5.001397894,
-  "session_id": 79236,
-  "original_token_count": 63,
-  "output": "\u001b[16;80H\r\u001b[18d\u001b[30m\u001b[42m0D6A:00000706 83C404\u001b[14X\u001b[18;35Hadd  sp,0004\u001b[K\u001b[23;80H\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m\r\u001b[24d\u001b[30m\u001b[47mI-> _\u001b[K\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m\u001b[2;9H1F\u001b[2;52HE000\u001b[3;32H0D6A\tP=00000706\u001b[4;9H0000\u001b[5;26H4\u001b[5;64H2147579838\u001b[6;66H5718.80782\r\u001b[7d"
-}

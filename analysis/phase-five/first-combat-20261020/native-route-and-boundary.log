@@ -1,7 +1,0 @@
-Native door choice runtime: warning/choice presented; Hayır veto; Evet pending23; position(2,1)
-Native supplied-party runtime: speaker2 selected; dialogue17 pending; original numeric records unchanged
-Native dialogue runtime: four DOS-matched RNG frames; early Space ignored; fourth Space returns; mode0 acquisition displayed; position(2,1)
-Native acquisition/door runtime: DOS-exact initial+transferred panels; real four-stage door waits; automatic(2,0); illustration13 presented; 0.64s
-Native illustration runtime: keyed original13, low128 palette update;50x20-counter presentation wait; warning2 then encounter8 pending
-Native combat-boundary debug export: /home/zabumafu/Projects/LALE DOS/runtime/native/debug/snapshot-1792460967580924976-3 (opcode8/raw group pairs retained; no battle acknowledgement)
-Native opening runtime: ten original dialogues, real150-unit waits, flag249 only after completion; 6.28s

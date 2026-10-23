@@ -1,3 +1,0 @@
-DEBUG AUDIO: source-verified unsigned8 mono PCM; host gain/queue and approximate host-clock alignment, NOT original MCP mixing/refill/synchronization. F9 remains silent.
-DEBUG PCM PREVIEW (HOST SYNC): original SEQ1–5 pixels at GHD frame rates; host clock, original fades and gameplay transition incomplete. Space pause/resume, Right step, R restart, Esc return, Q quit.
-SEQ SDL smoke: decoded/uploaded through 2433 records; DEBUG PCM SEQ (HOST SYNC) — SEQ5 492/492 — END — Space pause | Right step | R restart | Esc return

@@ -1,8 +1,0 @@
-{
-  "commands": "",
-  "chunk_id": "6638b4",
-  "wall_time_seconds": 5.001192412,
-  "session_id": 83891,
-  "original_token_count": 150,
-  "output": "LOG: DEBUG: cpu log LOGCPU.TXT created\n\u001b[16;80H\r\u001b[18d\u001b[30m\u001b[42mF000:0000D10B E2FE  \u001b[18;35Hloop 0000D10B ($-2)\r\u001b[19d\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40mF000:0000D10D 59  \u001b[19;36Hop  cx\u001b[K\r\u001b[20dF000:0000D10E CF \u001b[7b\u001b[20;35Hiret\u001b[K\r\u001b[21dF000:0000D10F 0000  \u001b[21;40H[bx+si],al\u001b[21;63Hds:[FD32]=7508\r\u001b[22dF000:0000D111 0000  \u001b[22;35Hadd  [bx+si],al\u001b[22;63Hds:[FD32]=7508\r\u001b[23dF000:0000D113 000\u001b[23;35Hadd  [bx+si],al\u001b[23;63Hds:[FD32]=7508   \r\u001b[24d\u001b[30m\u001b[47mI-> _\u001b[K\u001b(B\u001b[m\u001b[39;49m\u001b[39m\u001b[40m\u001b[2d0000B00\r\u001b[3d\t1F04\u001b[3;32HF000\u001b[3;47HD10B\t1\u001b[3;69H1\u001b[4;9H00BF\u001b[4;24HB2A\u001b[5;11H00\u001b[5;24HB1A\u001b[5;67H8841993\u001b[6;67H771.56410\r\u001b[7d"
-}

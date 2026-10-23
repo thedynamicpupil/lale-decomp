@@ -1,6 +1,13 @@
-# Include project source, tools, tests, research and evidence by default.
-# See docs/PUBLICATION_POLICY.md and analysis/public-development-20261020/.
-# No blanket bans on analysis/, runtime/, extracted/, media, logs, TXT or BIN.
+# Current update policy: source, tests, build/run scripts and user documentation.
+# Keep new research, private fixtures, captures, saves and generated output local.
+# Untrack analysis/ in the current tree; retain local files and old commits.
+/analysis/
+/runtime/
+/extracted/
+/reconstruction/
+/reference media/
+/docs/CONTINUE_HERE.md
+
 
 # Original distribution and protected bundled distribution software.
 /lale/
@@ -11,6 +18,10 @@
 /dosbox.conf
 /lale.pdf
 /seyh48.ico
+
+# Original DOS memory/code captures from the conditioned defeat continuation.
+/analysis/phase-five/combat-defeat-20261020/run6/capture/
+/runtime/combat-defeat-20261020/run6/G-*.BIN
 # Original game copies, including future disposable runtime copies.
 **/game/
 **/lale/

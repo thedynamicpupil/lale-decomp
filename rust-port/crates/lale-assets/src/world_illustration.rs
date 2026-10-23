@@ -28,3 +28,24 @@ pub fn compose_200(view: &mut [u8], image: &IndexedImage) -> Result<(), Error> {
     }
     Ok(())
 }
+
+/// Original1689:4b57 uses matching IKON{id}.CMP/.PAL members in IKON.CKD.
+pub struct Illustration {
+    pub image: IndexedImage,
+    pub palette: Palette6,
+}
+impl Illustration {
+    pub fn load(root: &std::path::Path, id: u8) -> Result<Self, Error> {
+        let bytes = std::fs::read(root.join("lale/IKON.CKD")).map_err(|e| Error(e.to_string()))?;
+        let bank = crate::Flib::parse(&bytes)?;
+        let read = |suffix| {
+            bank.member(&format!("IKON{id}.{suffix}"))
+                .map(|member| member.payload)
+                .ok_or_else(|| Error(format!("missing original IKON{id}.{suffix}")))
+        };
+        Ok(Self {
+            image: crate::decode_cmp(read("CMP")?)?,
+            palette: Palette6::parse(read("PAL")?)?,
+        })
+    }
+}

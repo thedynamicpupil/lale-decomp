@@ -38,11 +38,16 @@ pub(super) struct Snapshot {
     pub resources: [u16; 3],
     pub pending_resources: [u16; 3],
     pub ui: [bool; 6], // active,dialogue,choice,acquisition,door,illustration
+    pub inventory: Option<[usize; 3]>,
+    pub world_clock: [i16; 3],
+    pub hunger_warned: u8,
+    pub rest: Option<[i16; 3]>,
 }
 
 pub(super) struct Debugger {
     pub visible: bool,
     pub paused: bool,
+    pub suspended: bool,
     elapsed: Duration,
     last_wall: Duration,
     previous: Option<Snapshot>,
@@ -54,6 +59,7 @@ impl Debugger {
         Self {
             visible,
             paused: false,
+            suspended: false,
             elapsed: Duration::ZERO,
             last_wall: Duration::ZERO,
             previous: None,
@@ -62,7 +68,7 @@ impl Debugger {
         }
     }
     pub fn tick(&mut self, wall: Duration) {
-        if !self.paused {
+        if !self.paused && !self.suspended {
             self.elapsed += wall.saturating_sub(self.last_wall);
         }
         self.last_wall = wall;
@@ -256,6 +262,18 @@ mod tests {
         assert_eq!(
             d.counter(),
             lale_core::clock::dos_counter(Duration::from_secs(3)) as u16
+        );
+        d.suspended = true;
+        d.tick(Duration::from_secs(61));
+        assert_eq!(
+            d.counter(),
+            lale_core::clock::dos_counter(Duration::from_secs(3)) as u16
+        );
+        d.suspended = false;
+        d.tick(Duration::from_secs(62));
+        assert_eq!(
+            d.counter(),
+            lale_core::clock::dos_counter(Duration::from_secs(4)) as u16
         );
     }
     #[test]

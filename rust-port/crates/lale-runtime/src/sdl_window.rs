@@ -156,6 +156,7 @@ const _: () = assert!(std::mem::size_of::<ButtonEvent>() == 28);
 #[link(name = "libSDL2-2.0.so.0", kind = "dylib", modifiers = "+verbatim")]
 extern "C" {
     fn SDL_InitSubSystem(flags: u32) -> c_int;
+    fn SDL_PushEvent(event: *mut Event) -> c_int;
     fn SDL_QuitSubSystem(flags: u32);
     fn SDL_GetError() -> *const c_char;
     fn SDL_CreateWindow(
@@ -385,6 +386,30 @@ impl Window {
         self.text_input_enabled = enabled;
     }
 
+    /// Explicit integration-test event; never called by ordinary gameplay.
+    #[allow(dead_code)]
+    pub fn diagnostic_key(&mut self, key: i32) -> Result<(), String> {
+        let mut event = Event { padding: [0; 56] };
+        event.key = KeyEvent {
+            kind: 0x300,
+            timestamp: 0,
+            window_id: self.id,
+            state: 1,
+            repeat: 0,
+            padding: [0; 2],
+            keysym: Keysym {
+                scancode: 0,
+                sym: key,
+                modifiers: 0,
+                unused: 0,
+            },
+        };
+        // SDL copies this fully initialized, correctly aligned event.
+        if unsafe { SDL_PushEvent(&mut event) } != 1 {
+            return Err("SDL test key rejected".into());
+        }
+        Ok(())
+    }
     pub fn poll(&mut self) -> Vec<Input> {
         let mut inputs = Vec::new();
         let mut event = Event { padding: [0; 56] };

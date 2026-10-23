@@ -1,86 +1,91 @@
 # İstanbul Efsaneleri — native Rust port
 
-An independent preservation and reverse-engineering project for *İstanbul
-Efsaneleri: Lale Savaşçıları*. The goal is a faithful native implementation of
-verified DOS behavior, starting with Linux/Fedora. This is a work in progress.
+A faithful native Rust port of *İstanbul Efsaneleri: Lale Savaşçıları*, based on
+original DOS behavior and assets. Linux/Fedora is the current target; Windows
+support is planned. This is a work in progress.
 
-The connected native prototype supports character creation, native party
-checkpoints, opening cinematics, and the opening Otopark dialogue, item-acquisition
-and animated-door sequence. It stops at the first combat encounter. **Native
-combat, full exploration and complete game saves are not implemented.** Windows
-support is a future target.
+The playable route includes normal party creation or **Çabuk Başla**, opening
+cinematics and audio, Otopark exploration, inventory/equipment, the first dog
+battle, victory return and short safe camping. Postbattle navigation now reaches
+the original fainted-man search, exit-key event and exit toward Mecidiyeköy.
+Stairs currently use the original animation-disabled transition. Further
+Mecidiyeköy events, risky/long camping, Afakan battles and general game save/load
+remain incomplete. Native creation-party checkpoints are not full game saves.
 
-## Repository contents and rights
+## Build and test
 
-Rust code, tools, tests, reverse-engineering research, assembly analysis, maps,
-reports, manifests and historical checkpoints are included wherever feasible.
-Original game distribution files, copied/decoded game assets, development prompt
-TXT files and secrets stay outside Git. See [publication policy](docs/PUBLICATION_POLICY.md)
-for exact boundaries, technical omissions and the audit.
-
-Original game content belongs to its rights holders. Supply your own legally
-obtained game distribution locally. No source-code license has yet been selected;
-public access alone does not grant unrestricted reuse rights.
-
-## Build
-
-Use a current stable Rust/Cargo toolchain and an existing
-SDL2 development/linker installation. The current platform backend targets
-64-bit Linux. Cargo dependencies are local workspace crates; these commands
-do not download dependencies or install system packages.
+Use stable Rust/Cargo with rustfmt, SDL2 development/linker libraries and
+`libopenmpt.so.0`. The platform backend currently targets 64-bit Linux. Cargo
+uses local workspace crates; these commands do not install or download packages.
 
 ```sh
+cargo fmt --all --manifest-path rust-port/Cargo.toml -- --check
+cargo check --offline --workspace --manifest-path rust-port/Cargo.toml
 cargo build --offline --workspace --manifest-path rust-port/Cargo.toml
 cargo test --offline --workspace --manifest-path rust-port/Cargo.toml --no-run
-cargo fmt --all --manifest-path rust-port/Cargo.toml -- --check
+cargo test --offline --manifest-path rust-port/Cargo.toml -p lale-core --test movement
 ```
 
-Source-only builds and test compilation require no game assets. Executing the
-native application requires private original resources under `lale/`. Room
-rendering additionally requires the privately retained projection records until
-their original generator is reconstructed. See [development and private data
-setup](docs/DEVELOPMENT.md) before running:
+Build and test compilation require no original game assets. The movement target
+above is asset-free. Running the full fidelity suite requires private original
+files and evidence fixtures; missing fixtures fail explicitly. With the complete
+preservation workspace available, run:
 
 ```sh
-./rust-port/play-native-release.sh
-./rust-port/debug-native.sh
+cargo test --offline --workspace --manifest-path rust-port/Cargo.toml
 ```
 
-In the room, F12 toggles the state overlay, F5 pauses, and F7 exports a diagnostic
-bundle under ignored `runtime/native/debug/`. These exports contain original
-resource data and must remain private. See [debug controls](rust-port/NATIVE_DEBUG.md)
-and [current native controls](rust-port/NATIVE_BUILD.md).
+## Run
 
-## Development
+Supply your own legally obtained game distribution under ignored `lale/`.
+Room rendering also requires the private 666-byte projection table until its
+original generator is reconstructed. See [setup and private fixture
+requirements](docs/DEVELOPMENT.md); neither assets nor that table are downloaded.
+The port parses `IST.EXE` data without executing the DOS binary.
 
-The workspace separates `lale-core` simulation, `lale-assets` parsers/render
-primitives, and `lale-runtime` native presentation and input. Unknown mechanics
-remain explicit barriers. Original instructions and controlled DOS observations
-guide implementation; passing a unit test does not establish full game fidelity.
+```sh
+./rust-port/play-native.sh
+# Optimized build:
+./rust-port/play-native-release.sh
+```
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md) for environment setup, evidence standards,
-DOS/Rust validation, tests, issues and pull requests. See also
-[architecture](docs/ARCHITECTURE.md), [development prerequisites](docs/DEVELOPMENT.md),
-[living project state](docs/PROJECT_STATE.md), [roadmap](docs/ROADMAP.md) and
-[first playable path](docs/FIRST_PLAYABLE_PATH.md). Some linked raw fixtures are
-intentionally private; historical checkpoint status is superseded by later notes.
+[Otopark navigation and exact test route](rust-port/NATIVE_OTOPARK_NAVIGATION.md) ·
+[First battle](rust-port/NATIVE_FIRST_BATTLE.md) ·
+[World inventory](rust-port/NATIVE_WORLD_INVENTORY.md) ·
+[Camping](rust-port/NATIVE_REST.md) · [Audio](rust-port/NATIVE_AUDIO.md).
 
-## Roadmap and current limits
+Left/Right turn; Up/Down move forward/backward. F1–F4 open character information;
+K camps where supported. See the linked control sheets for inventory, combat and
+original event choices. The latest postbattle panel and Otopark continuation have
+native automated validation and await Fedora desktop confirmation.
 
-1. Recover reusable combat/world execution, actor scheduling, attack/AI,
-   equipment and genuine outcome/writeback before enabling native combat.
-2. Complete the first Otopark battle and authentic return to world state, then
-   earned-key/stair transitions and full Otopark/Mecidiyeköy navigation.
-3. Recover remaining systems, save/load, content progression, original audio and
-   timing behavior, then broaden platform support toward Windows.
+Optional [debugging](rust-port/NATIVE_DEBUG.md): `./rust-port/debug-native.sh`,
+F12 overlay, F5 pause and F7 diagnostic export. Runtime exports and saves remain
+local. Never overwrite original game files to diagnose a native problem.
 
-Pure source-backed world clock/timer modules and combat-table readers exist;
-that does not mean a playable battle is implemented. Current room rendering
-requires private projection data whose original generator is still unrecovered.
-Asset-free contributions and all-test compilation are supported. Full tests need
-local original/evidence fixtures; see development setup.
+## Repository scope
 
-Before a commit, inspect `git diff --cached`, run `python3 tools/audit_staged.py`
-and `git diff --cached --check`. New research is included by default; review its
-provenance before staging. Keep original game files read-only and preserve saves
-and historical evidence. Use the GitHub issue/PR templates when contributing.
+New updates include reviewed source, tests, build/run scripts and relevant user
+documentation. New analysis, captures, runtime data, reference media, extracted
+assets and saves are ignored. Previously tracked `analysis/` files are removed from the current Git tree
+while remaining intact locally and in older commits. Original distribution files, copied/decoded game content,
+development prompts and credentials remain excluded. See the current
+[publication policy](docs/PUBLICATION_POLICY.md).
+
+Original game content belongs to its rights holders. No source-code license has
+yet been selected; public access alone does not grant unrestricted reuse rights.
+No game assets are distributed or replaced with generated artwork/audio.
+
+See [contribution guidelines](CONTRIBUTING.md), [architecture](docs/ARCHITECTURE.md)
+and [development setup](docs/DEVELOPMENT.md). Unknown mechanics remain explicit
+boundaries; passing tests is separate from original DOS runtime verification and
+human desktop acceptance. Some research links in older documents refer to private
+workspace evidence and are not available in a fresh checkout.
+
+Before publishing an update:
+
+```sh
+python3 tools/audit_staged.py --staged-only
+git diff --cached --check
+git diff --cached --name-status
+```

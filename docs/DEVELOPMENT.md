@@ -59,12 +59,20 @@ fixture paths and read them at runtime rather than embedding them in test binari
 
 ## Publication boundary
 
-See [the current publication policy](PUBLICATION_POLICY.md) and
-[contribution guide](../CONTRIBUTING.md). Research, assembly, reports, maps and
-checkpoints are now included by default. Prior source-only exclusion statements
-are historical. Original assets/raw captures, development prompts and secrets
-remain private. The original/fixture prerequisites above still apply.
+New updates include Rust source, tests, build/run scripts and relevant user/setup
+instructions. New `analysis/`, `runtime/`, `extracted/`, reconstruction and reference
+media files are ignored. Previously tracked `analysis/` files are removed from the current Git tree with
+`git rm --cached`; local files and older commits are preserved. Preserve local research,
+private fixtures and saves. See [publication policy](PUBLICATION_POLICY.md).
 
-Run `python3 tools/audit_staged.py` after staging and inspect the staged diff.
-No commit, push, history rewrite, license choice or visibility change is performed
-by repository preparation.
+The full fidelity tests still read private evidence files at runtime. Keeping their
+test source in Git does not publish the captured bytes. The build and test-compilation
+commands above work without those files; do not report unavailable comparisons as
+passing. New camping, combat, inventory and navigation comparisons have the same
+private-fixture requirement. For native SDL route controls see
+[Otopark navigation](../rust-port/NATIVE_OTOPARK_NAVIGATION.md).
+
+For a source-focused update, run `python3 tools/audit_staged.py --staged-only`
+after staging, then inspect `git diff --cached --check` and the staged file list.
+The full-index/history audit is still available; it can report previously tracked
+research paths now covered by the new ignore rules. No historical blobs are removed.

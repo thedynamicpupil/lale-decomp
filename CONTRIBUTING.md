@@ -19,7 +19,7 @@ cargo check --offline --workspace --manifest-path rust-port/Cargo.toml
 cargo build --offline --workspace --manifest-path rust-port/Cargo.toml
 cargo test --offline --workspace --manifest-path rust-port/Cargo.toml --no-run
 cargo test --offline --manifest-path rust-port/Cargo.toml -p lale-core --test movement
-python3 tools/audit_staged.py
+python3 tools/audit_staged.py --staged-only
 ```
 
 The full runtime test suite needs private originals and evidence fixtures. Missing
@@ -34,9 +34,9 @@ invented game data. See [development setup](docs/DEVELOPMENT.md).
 - `rust-port/crates/lale-assets/`: resource parsing and rendering primitives.
 - `rust-port/crates/lale-runtime/`: native SDL presentation, input and diagnostics.
 - `tools/`: inventory, extraction, analysis, Ghidra helpers and publication audits.
-- `analysis/`: assembly, pseudocode, experiments, reports and dated checkpoints.
-- `extracted/`: publishable extraction metadata; decoded game resources stay local.
-- `runtime/`: publishable run notes/configuration; game copies and raw captures stay local.
+- `analysis/`: private local research/evidence; removed from the current Git tree.
+- `extracted/`: local extraction output; new files are ignored.
+- `runtime/`: local captures, fixtures and saves; new files are ignored.
 - `docs/`: architecture, living state, roadmap, development and publication policy.
 - `.github/`: issue and pull request templates.
 
@@ -49,12 +49,12 @@ emulation copies for experiments. Never execute unknown DOS/Windows binaries on
 Linux directly. Never modify the bundled `DOSBox/`, `dosbox.conf`, protected
 original Ghidra GUI project, saves or reference recordings.
 
-The repository includes research, maps, manifests, assembly, checkpoints and tools
-by default. It excludes original distribution content and copies (including decoded
-assets/raw memory), development prompt TXT files, and secrets. Large lossless
-research traces can use compression or Git LFS after content review. Build/cache
-products are regenerated locally. Read [publication policy](docs/PUBLICATION_POLICY.md)
-and inspect both `git diff --cached` and `python3 tools/audit_staged.py` before a
+New updates contain reviewed source, tests, build/run scripts and relevant user
+instructions. New research, runtime exports, captures and saves are ignored;
+previously tracked `analysis/` files are untracked without deleting local files
+or rewriting older commits. Read
+[publication policy](docs/PUBLICATION_POLICY.md) and inspect both
+`git diff --cached` and `python3 tools/audit_staged.py --staged-only` before a
 commit. Never force-add original content. File extensions cannot prove provenance.
 
 No source license has yet been selected. Public availability alone is not an

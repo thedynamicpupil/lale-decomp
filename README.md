@@ -37,7 +37,7 @@ cargo test --offline --workspace --manifest-path rust-port/Cargo.toml
 
 ## Run
 
-Supply your own legally obtained game distribution under ignored `lale/`.
+Supply your own legally obtained game distribution (you can acquire your copy on Internet archive) under ignored `lale/`.
 Room rendering also requires the private 666-byte projection table until its
 original generator is reconstructed. See [setup and private fixture
 requirements](docs/DEVELOPMENT.md); neither assets nor that table are downloaded.
